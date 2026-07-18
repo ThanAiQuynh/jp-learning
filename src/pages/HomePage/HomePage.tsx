@@ -1,6 +1,4 @@
 import { type FC } from 'react';
-import { HeroWidget } from '@features/dashboard/components/HeroWidget/HeroWidget';
-import { ProgressWidget } from '@features/dashboard/components/ProgressWidget/ProgressWidget';
 import { QuickAccess } from '@features/dashboard/components/QuickAccess/QuickAccess';
 import styles from './HomePage.module.scss';
 
