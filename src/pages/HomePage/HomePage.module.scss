@@ -1,0 +1,21 @@
+@use '@styles/variables' as *;
+@use '@styles/mixins' as *;
+
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xl;
+  padding: 0 $spacing-md;
+  max-width: $content-max-width;
+  margin: 0 auto;
+}
+
+.topSection {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $spacing-xl;
+
+  @include respond-to('lg') {
+    grid-template-columns: 2fr 1fr;
+  }
+}

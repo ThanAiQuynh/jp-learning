@@ -1,0 +1,13 @@
+{
+  "title": "Kanji (Lesson {{lesson}})",
+  "subtitle": "Kanji list for this lesson.",
+  "detail": {
+    "title": "Kanji Details",
+    "stroke_count": "Strokes: {{count}}",
+    "readings": "Readings",
+    "on_reading": "ON:",
+    "kun_reading": "KUN:",
+    "radicals": "Radicals",
+    "compounds": "Compounds"
+  }
+}

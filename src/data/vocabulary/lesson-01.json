@@ -1,0 +1,532 @@
+[
+  {
+    "id": "v-01-001",
+    "lessonId": "lesson-01",
+    "kanji": "私",
+    "hiragana": "わたし",
+    "romaji": "watashi",
+    "meaning": {
+      "vi": "Tôi",
+      "en": "I, me"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "ja": "わたしは 学生です。",
+        "reading": "わたしは がくせいです。",
+        "translation": {
+          "vi": "Tôi là sinh viên.",
+          "en": "I am a student."
+        }
+      }
+    ],
+    "relatedKanji": [
+      "私"
+    ]
+  },
+  {
+    "id": "v-01-002",
+    "lessonId": "lesson-01",
+    "kanji": "",
+    "hiragana": "あなた",
+    "romaji": "anata",
+    "meaning": {
+      "vi": "Bạn, anh, chị (ngôi thứ 2)",
+      "en": "You"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "ja": "あなたは 先生ですか。",
+        "reading": "あなたは せんせいですか。",
+        "translation": {
+          "vi": "Bạn có phải là giáo viên không?",
+          "en": "Are you a teacher?"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v-01-003",
+    "lessonId": "lesson-01",
+    "kanji": "あの人",
+    "hiragana": "あのひと",
+    "romaji": "anohito",
+    "meaning": {
+      "vi": "Người kia, người đó",
+      "en": "That person, he, she"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "ja": "あの人は だれですか。",
+        "reading": "あのひとは だれですか。",
+        "translation": {
+          "vi": "Người kia là ai?",
+          "en": "Who is that person?"
+        }
+      }
+    ],
+    "relatedKanji": [
+      "人"
+    ]
+  },
+  {
+    "id": "v-01-004",
+    "lessonId": "lesson-01",
+    "kanji": "あの方",
+    "hiragana": "あのかた",
+    "romaji": "anokata",
+    "meaning": {
+      "vi": "Vị kia (cách nói lịch sự của あの人)",
+      "en": "That person, he, she (polite)"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "ja": "あの方は どなたですか。",
+        "reading": "あのかたは どなたですか。",
+        "translation": {
+          "vi": "Vị kia là ai?",
+          "en": "Who is that person? (polite)"
+        }
+      }
+    ],
+    "relatedKanji": [
+      "方"
+    ]
+  },
+  {
+    "id": "v-01-005",
+    "lessonId": "lesson-01",
+    "kanji": "",
+    "hiragana": "〜さん",
+    "romaji": "~san",
+    "meaning": {
+      "vi": "Anh/chị/ông/bà ~ (hậu tố thêm vào sau tên người)",
+      "en": "Mr./Ms. ~ (suffix added to names)"
+    },
+    "wordType": "suffix",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-01-006",
+    "lessonId": "lesson-01",
+    "kanji": "",
+    "hiragana": "〜ちゃん",
+    "romaji": "~chan",
+    "meaning": {
+      "vi": "Bé ~ (hậu tố thay cho ~san dùng cho trẻ em)",
+      "en": "~ (suffix for children)"
+    },
+    "wordType": "suffix",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-01-007",
+    "lessonId": "lesson-01",
+    "kanji": "〜人",
+    "hiragana": "〜じん",
+    "romaji": "~jin",
+    "meaning": {
+      "vi": "Người nước ~",
+      "en": "~ person (nationality)"
+    },
+    "wordType": "suffix",
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "ja": "アメリカ人",
+        "reading": "あめりかじん",
+        "translation": {
+          "vi": "Người Mỹ",
+          "en": "American"
+        }
+      }
+    ],
+    "relatedKanji": [
+      "人"
+    ]
+  },
+  {
+    "id": "v-01-008",
+    "lessonId": "lesson-01",
+    "kanji": "先生",
+    "hiragana": "せんせい",
+    "romaji": "sensei",
+    "meaning": {
+      "vi": "Thầy, cô (không dùng để nói về nghề nghiệp của mình)",
+      "en": "Teacher, doctor (not used for one's own profession)"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": [
+      "先",
+      "生"
+    ]
+  },
+  {
+    "id": "v-01-009",
+    "lessonId": "lesson-01",
+    "kanji": "教師",
+    "hiragana": "きょうし",
+    "romaji": "kyoushi",
+    "meaning": {
+      "vi": "Giáo viên (nghề nghiệp)",
+      "en": "Teacher (profession)"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": [
+      "教",
+      "師"
+    ]
+  },
+  {
+    "id": "v-01-010",
+    "lessonId": "lesson-01",
+    "kanji": "学生",
+    "hiragana": "がくせい",
+    "romaji": "gakusei",
+    "meaning": {
+      "vi": "Học sinh, sinh viên",
+      "en": "Student"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": [
+      "学",
+      "生"
+    ]
+  },
+  {
+    "id": "v-01-011",
+    "lessonId": "lesson-01",
+    "kanji": "会社員",
+    "hiragana": "かいしゃいん",
+    "romaji": "kaishain",
+    "meaning": {
+      "vi": "Nhân viên công ty",
+      "en": "Company employee"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": [
+      "会",
+      "社",
+      "員"
+    ]
+  },
+  {
+    "id": "v-01-012",
+    "lessonId": "lesson-01",
+    "kanji": "社員",
+    "hiragana": "しゃいん",
+    "romaji": "shain",
+    "meaning": {
+      "vi": "Nhân viên công ty (dùng kèm với tên công ty)",
+      "en": "Employee of ~ (used with company name)"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "ja": "IMCの社員",
+        "reading": "IMCのしゃいん",
+        "translation": {
+          "vi": "Nhân viên công ty IMC",
+          "en": "Employee of IMC"
+        }
+      }
+    ],
+    "relatedKanji": [
+      "社",
+      "員"
+    ]
+  },
+  {
+    "id": "v-01-013",
+    "lessonId": "lesson-01",
+    "kanji": "銀行員",
+    "hiragana": "ぎんこういん",
+    "romaji": "ginkouin",
+    "meaning": {
+      "vi": "Nhân viên ngân hàng",
+      "en": "Bank employee"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": [
+      "銀",
+      "行",
+      "員"
+    ]
+  },
+  {
+    "id": "v-01-014",
+    "lessonId": "lesson-01",
+    "kanji": "医者",
+    "hiragana": "いしゃ",
+    "romaji": "isha",
+    "meaning": {
+      "vi": "Bác sĩ",
+      "en": "Doctor"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": [
+      "医",
+      "者"
+    ]
+  },
+  {
+    "id": "v-01-015",
+    "lessonId": "lesson-01",
+    "kanji": "研究者",
+    "hiragana": "けんきゅうしゃ",
+    "romaji": "kenkyuusha",
+    "meaning": {
+      "vi": "Nhà nghiên cứu",
+      "en": "Researcher"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": [
+      "研",
+      "究",
+      "者"
+    ]
+  },
+  {
+    "id": "v-01-016",
+    "lessonId": "lesson-01",
+    "kanji": "エンジニア",
+    "hiragana": "エンジニア",
+    "romaji": "enjinia",
+    "meaning": {
+      "vi": "Kỹ sư",
+      "en": "Engineer"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-01-017",
+    "lessonId": "lesson-01",
+    "kanji": "大学",
+    "hiragana": "だいがく",
+    "romaji": "daigaku",
+    "meaning": {
+      "vi": "Đại học",
+      "en": "University"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": [
+      "大",
+      "学"
+    ]
+  },
+  {
+    "id": "v-01-018",
+    "lessonId": "lesson-01",
+    "kanji": "病院",
+    "hiragana": "びょういん",
+    "romaji": "byouin",
+    "meaning": {
+      "vi": "Bệnh viện",
+      "en": "Hospital"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": [
+      "病",
+      "院"
+    ]
+  },
+  {
+    "id": "v-01-019",
+    "lessonId": "lesson-01",
+    "kanji": "電気",
+    "hiragana": "でんき",
+    "romaji": "denki",
+    "meaning": {
+      "vi": "Điện, đèn điện",
+      "en": "Electricity, light"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": [
+      "電",
+      "気"
+    ]
+  },
+  {
+    "id": "v-01-020",
+    "lessonId": "lesson-01",
+    "kanji": "だれ",
+    "hiragana": "だれ",
+    "romaji": "dare",
+    "meaning": {
+      "vi": "Ai",
+      "en": "Who"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-01-021",
+    "lessonId": "lesson-01",
+    "kanji": "どなた",
+    "hiragana": "どなた",
+    "romaji": "donata",
+    "meaning": {
+      "vi": "Ai (cách nói lịch sự của だれ)",
+      "en": "Who (polite)"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-01-022",
+    "lessonId": "lesson-01",
+    "kanji": "〜歳",
+    "hiragana": "〜さい",
+    "romaji": "~sai",
+    "meaning": {
+      "vi": "Tuổi",
+      "en": "~ years old"
+    },
+    "wordType": "suffix",
+    "jlptLevel": "N5",
+    "relatedKanji": [
+      "歳"
+    ]
+  },
+  {
+    "id": "v-01-023",
+    "lessonId": "lesson-01",
+    "kanji": "何歳",
+    "hiragana": "なんさい",
+    "romaji": "nansai",
+    "meaning": {
+      "vi": "Mấy tuổi",
+      "en": "How old"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": [
+      "何",
+      "歳"
+    ]
+  },
+  {
+    "id": "v-01-024",
+    "lessonId": "lesson-01",
+    "kanji": "おいくつ",
+    "hiragana": "おいくつ",
+    "romaji": "oikutsu",
+    "meaning": {
+      "vi": "Mấy tuổi (cách nói lịch sự của なんさい)",
+      "en": "How old (polite)"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-01-025",
+    "lessonId": "lesson-01",
+    "kanji": "はい",
+    "hiragana": "はい",
+    "romaji": "hai",
+    "meaning": {
+      "vi": "Vâng, dạ",
+      "en": "Yes"
+    },
+    "wordType": "expression",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-01-026",
+    "lessonId": "lesson-01",
+    "kanji": "いいえ",
+    "hiragana": "いいえ",
+    "romaji": "iie",
+    "meaning": {
+      "vi": "Không",
+      "en": "No"
+    },
+    "wordType": "expression",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-01-027",
+    "lessonId": "lesson-01",
+    "kanji": "失礼ですが",
+    "hiragana": "しつれいですが",
+    "romaji": "shitsureidesuga",
+    "meaning": {
+      "vi": "Xin lỗi (dùng khi hỏi thông tin cá nhân của người khác)",
+      "en": "Excuse me, but..."
+    },
+    "wordType": "expression",
+    "jlptLevel": "N5",
+    "relatedKanji": [
+      "失",
+      "礼"
+    ]
+  },
+  {
+    "id": "v-01-028",
+    "lessonId": "lesson-01",
+    "kanji": "お名前は？",
+    "hiragana": "おなまえは？",
+    "romaji": "onamaewa?",
+    "meaning": {
+      "vi": "Tên bạn là gì?",
+      "en": "May I have your name?"
+    },
+    "wordType": "expression",
+    "jlptLevel": "N5",
+    "relatedKanji": [
+      "名",
+      "前"
+    ]
+  },
+  {
+    "id": "v-01-029",
+    "lessonId": "lesson-01",
+    "kanji": "初めまして",
+    "hiragana": "はじめまして",
+    "romaji": "hajimemashite",
+    "meaning": {
+      "vi": "Rất hân hạnh được gặp anh/chị",
+      "en": "How do you do?"
+    },
+    "wordType": "greeting",
+    "jlptLevel": "N5",
+    "relatedKanji": [
+      "初"
+    ]
+  },
+  {
+    "id": "v-01-030",
+    "lessonId": "lesson-01",
+    "kanji": "どうぞよろしく お願いします",
+    "hiragana": "どうぞよろしく おねがいします",
+    "romaji": "douzoyoroshiku onegaishimasu",
+    "meaning": {
+      "vi": "Rất mong được sự giúp đỡ của anh/chị",
+      "en": "Pleased to meet you"
+    },
+    "wordType": "greeting",
+    "jlptLevel": "N5",
+    "relatedKanji": [
+      "願"
+    ]
+  }
+]

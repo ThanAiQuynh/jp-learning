@@ -1,0 +1,68 @@
+@use '@styles/variables' as *;
+
+.root {
+  padding: $spacing-lg;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: $spacing-xl;
+}
+
+.wordHero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: $spacing-xl;
+  padding-bottom: $spacing-xl;
+  border-bottom: 1px solid var(--colorNeutralStroke1);
+}
+
+.badges {
+  display: flex;
+  gap: $spacing-sm;
+  margin-top: $spacing-md;
+}
+
+.section {
+  margin-bottom: $spacing-xl;
+}
+
+.sectionTitle {
+  font-weight: 600;
+  margin-bottom: $spacing-md;
+  color: var(--colorNeutralForeground1);
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+}
+
+.example {
+  background: var(--colorNeutralBackground2);
+  padding: $spacing-md;
+  border-radius: $border-radius-md;
+  margin-bottom: $spacing-sm;
+
+  .ja {
+    font-size: $font-size-lg;
+    margin-bottom: $spacing-xs;
+  }
+  
+  .reading {
+    font-size: $font-size-sm;
+    color: var(--colorNeutralForeground3);
+    margin-bottom: $spacing-xs;
+  }
+  
+  .translation {
+    font-size: $font-size-md;
+    color: var(--colorNeutralForeground2);
+  }
+}
+
+.kanjiLinks {
+  display: flex;
+  gap: $spacing-sm;
+  flex-wrap: wrap;
+}

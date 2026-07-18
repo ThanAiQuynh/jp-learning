@@ -1,0 +1,39 @@
+@use '@styles/variables' as *;
+@use '@styles/mixins' as *;
+
+.root {
+  display: flex;
+  align-items: center;
+  gap: $spacing-xl;
+  padding: $spacing-2xl;
+  background: linear-gradient(135deg, var(--colorBrandBackground) 0%, var(--colorBrandBackgroundHover) 100%);
+  border-radius: $card-border-radius;
+  color: var(--colorNeutralForegroundOnBrand);
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  font-size: 32px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+}
+
+.greeting {
+  color: var(--colorNeutralForegroundOnBrand);
+  font-weight: 600;
+}
+
+.message {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: $font-size-md;
+}

@@ -1,0 +1,26 @@
+{
+  "questions": {
+    "vocab_meaning": "Ý nghĩa của \"{{word}}\" là gì?",
+    "kanji_meaning": "Ý nghĩa của chữ Hán \"{{kanji}}\" là gì?",
+    "no_questions": "Không có câu hỏi nào cho bài học này."
+  },
+  "categories": {
+    "vocabulary": "Từ vựng",
+    "grammar": "Ngữ pháp",
+    "kanji": "Hán tự"
+  },
+  "progress": {
+    "question_count": "Câu hỏi {{index}} / {{total}}",
+    "completed": "Hoàn thành"
+  },
+  "summary": {
+    "title": "Kết quả",
+    "score": "Bạn trả lời đúng {{score}} / {{total}} câu",
+    "retake": "Làm lại",
+    "return": "Trở về bài học"
+  },
+  "feedback": {
+    "correct": "Chính xác!",
+    "incorrect": "Sai rồi!"
+  }
+}

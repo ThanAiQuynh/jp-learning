@@ -1,0 +1,47 @@
+[
+  {
+    "id": "minna-1",
+    "title": {
+      "vi": "Minna no Nihongo Sơ cấp 1",
+      "en": "Minna no Nihongo Beginner 1",
+      "ja": "みんなの日本語 初級I"
+    },
+    "level": "N5",
+    "description": {
+      "vi": "Giáo trình tiêu chuẩn dành cho người mới bắt đầu học tiếng Nhật.",
+      "en": "Standard textbook for Japanese beginners.",
+      "ja": "日本語初心者のための標準的な教科書。"
+    },
+    "totalLessons": 25
+  },
+  {
+    "id": "minna-2",
+    "title": {
+      "vi": "Minna no Nihongo Sơ cấp 2",
+      "en": "Minna no Nihongo Beginner 2",
+      "ja": "みんなの日本語 初級II"
+    },
+    "level": "N4",
+    "description": {
+      "vi": "Giáo trình tiêu chuẩn dành cho người đã học xong sơ cấp 1.",
+      "en": "Standard textbook for learners who finished beginner 1.",
+      "ja": "初級Iを終えた学習者のための教科書。"
+    },
+    "totalLessons": 25
+  },
+  {
+    "id": "kanji-n5",
+    "title": {
+      "vi": "Kanji Look and Learn N5",
+      "en": "Kanji Look and Learn N5",
+      "ja": "漢字 Look and Learn N5"
+    },
+    "level": "N5",
+    "description": {
+      "vi": "Học Kanji qua hình ảnh.",
+      "en": "Learn Kanji through pictures.",
+      "ja": "絵で学ぶ漢字。"
+    },
+    "totalLessons": 16
+  }
+]

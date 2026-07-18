@@ -1,0 +1,13 @@
+{
+  "title": "Flashcards Review",
+  "flip": "Flip Card (Space)",
+  "again": "Again (1)",
+  "hard": "Hard (2)",
+  "good": "Good (3)",
+  "easy": "Easy (4)",
+  "progress": "Progress: {{count}}/{{total}}",
+  "completed": "Congratulations! You have completed the review session.",
+  "return_lesson": "Return to Lesson",
+  "new_cards": "New Cards",
+  "review_cards": "Review"
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "id": "g-01-001",
+    "lessonId": "lesson-01",
+    "pattern": "N1 は N2 です",
+    "patternKana": "N1 は N2 です",
+    "title": {
+      "vi": "N1 là N2",
+      "en": "N1 is N2"
+    },
+    "explanation": {
+      "vi": "Trợ từ は (đọc là wa) biểu thị N1 là chủ đề của câu. です được dùng vào cuối câu khẳng định để biểu thị sự lịch sự.",
+      "en": "The particle は (pronounced wa) indicates N1 is the topic. です is used at the end of an affirmative sentence to express politeness."
+    },
+    "usage": {
+      "vi": "Khẳng định một sự thật, danh tính.",
+      "en": "Affirming a fact or identity."
+    },
+    "formation": [
+      "N1 + は + N2 + です"
+    ],
+    "examples": [
+      {
+        "ja": "わたしは マイク・ミラーです。",
+        "reading": "わたしは マイク・ミラーです。",
+        "translation": {
+          "vi": "Tôi là Mike Miller.",
+          "en": "I am Mike Miller."
+        },
+        "highlightRange": {
+          "start": 3,
+          "end": 4
+        }
+      },
+      {
+        "ja": "サントスさんは 学生です。",
+        "reading": "サントスさんは がくせいです。",
+        "translation": {
+          "vi": "Anh Santos là học sinh.",
+          "en": "Mr. Santos is a student."
+        },
+        "highlightRange": {
+          "start": 6,
+          "end": 7
+        }
+      }
+    ],
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "g-01-002",
+    "lessonId": "lesson-01",
+    "pattern": "N1 は N2 じゃ ありません",
+    "patternKana": "N1 は N2 じゃ ありません",
+    "title": {
+      "vi": "N1 không phải là N2",
+      "en": "N1 is not N2"
+    },
+    "explanation": {
+      "vi": "Đây là thể phủ định của です. Trong văn viết trang trọng, có thể dùng では ありません thay cho じゃ ありません.",
+      "en": "This is the negative form of です. In formal writing, では ありません can be used instead of じゃ ありません."
+    },
+    "usage": {
+      "vi": "Phủ định một sự việc.",
+      "en": "Negating a fact."
+    },
+    "formation": [
+      "N1 + は + N2 + じゃ ありません"
+    ],
+    "examples": [
+      {
+        "ja": "サントスさんは 学生じゃ ありません。",
+        "reading": "サントスさんは がくせいじゃ ありません。",
+        "translation": {
+          "vi": "Anh Santos không phải là học sinh.",
+          "en": "Mr. Santos is not a student."
+        },
+        "highlightRange": {
+          "start": 9,
+          "end": 17
+        }
+      }
+    ],
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "g-01-003",
+    "lessonId": "lesson-01",
+    "pattern": "N1 は N2 ですか",
+    "patternKana": "N1 は N2 ですか",
+    "title": {
+      "vi": "N1 có phải là N2 không?",
+      "en": "Is N1 N2?"
+    },
+    "explanation": {
+      "vi": "Thêm trợ từ か vào cuối câu để tạo thành câu hỏi. Đọc lên giọng ở chữ か.",
+      "en": "Adding the particle か to the end of a sentence turns it into a question. Raise your intonation at か."
+    },
+    "usage": {
+      "vi": "Hỏi thông tin.",
+      "en": "Asking for information."
+    },
+    "formation": [
+      "N1 + は + N2 + ですか"
+    ],
+    "examples": [
+      {
+        "ja": "ミラーさんは アメリカ人ですか。",
+        "reading": "ミラーさんは アメリカじんですか。",
+        "translation": {
+          "vi": "Anh Miller có phải người Mỹ không?",
+          "en": "Is Mr. Miller American?"
+        },
+        "highlightRange": {
+          "start": 12,
+          "end": 14
+        }
+      }
+    ],
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "g-01-004",
+    "lessonId": "lesson-01",
+    "pattern": "N も",
+    "patternKana": "N も",
+    "title": {
+      "vi": "N cũng",
+      "en": "N also/too"
+    },
+    "explanation": {
+      "vi": "Trợ từ も được dùng thay cho は khi thông tin về N giống với thông tin về chủ đề đã được nhắc đến trước đó.",
+      "en": "The particle も is used instead of は when the information about N is the same as the topic mentioned previously."
+    },
+    "usage": {
+      "vi": "Thể hiện sự tương đồng.",
+      "en": "Expressing similarity."
+    },
+    "formation": [
+      "N + も"
+    ],
+    "examples": [
+      {
+        "ja": "ミラーさんは 会社員です。グプタさんも 会社員です。",
+        "reading": "ミラーさんは かいしゃいんです。グプタさんも かいしゃいんです。",
+        "translation": {
+          "vi": "Anh Miller là nhân viên công ty. Anh Gupta cũng là nhân viên công ty.",
+          "en": "Mr. Miller is a company employee. Mr. Gupta is also a company employee."
+        },
+        "highlightRange": {
+          "start": 17,
+          "end": 18
+        }
+      }
+    ],
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "g-01-005",
+    "lessonId": "lesson-01",
+    "pattern": "N1 の N2",
+    "patternKana": "N1 の N2",
+    "title": {
+      "vi": "N2 của N1 / N2 thuộc N1",
+      "en": "N1's N2"
+    },
+    "explanation": {
+      "vi": "Trợ từ の nối hai danh từ. N1 bổ nghĩa cho N2. Trong bài này, の biểu thị tính sở thuộc.",
+      "en": "The particle の connects two nouns. N1 modifies N2. In this lesson, の expresses belonging."
+    },
+    "usage": {
+      "vi": "Biểu thị sở hữu hoặc trực thuộc.",
+      "en": "Expressing ownership or affiliation."
+    },
+    "formation": [
+      "N1 + の + N2"
+    ],
+    "examples": [
+      {
+        "ja": "ミラーさんは IMCの社員です。",
+        "reading": "ミラーさんは IMCのしゃいんです。",
+        "translation": {
+          "vi": "Anh Miller là nhân viên của công ty IMC.",
+          "en": "Mr. Miller is an employee of IMC."
+        },
+        "highlightRange": {
+          "start": 9,
+          "end": 10
+        }
+      }
+    ],
+    "jlptLevel": "N5"
+  }
+]

@@ -1,0 +1,118 @@
+@use '@styles/variables' as *;
+
+.root {
+  padding: $spacing-lg;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: $spacing-xl;
+  margin-bottom: $spacing-xl;
+  padding-bottom: $spacing-xl;
+  border-bottom: 1px solid var(--colorNeutralStroke1);
+}
+
+.kanjiBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  border: 2px dashed var(--colorNeutralStroke2);
+  border-radius: $border-radius-md;
+  font-size: 5rem;
+  font-family: "Noto Sans JP", sans-serif;
+  color: var(--colorNeutralForeground1);
+  background: var(--colorNeutralBackground2);
+}
+
+.kanjiInfo {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+  
+  .meaning {
+    font-size: $font-size-xl;
+    font-weight: 600;
+  }
+}
+
+.section {
+  margin-bottom: $spacing-xl;
+}
+
+.sectionTitle {
+  font-weight: 600;
+  margin-bottom: $spacing-md;
+  color: var(--colorNeutralForeground1);
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+  font-size: $font-size-lg;
+}
+
+.readingsBox {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+  background: var(--colorNeutralBackground2);
+  padding: $spacing-md;
+  border-radius: $border-radius-md;
+}
+
+.readingRow {
+  display: flex;
+  align-items: flex-start;
+  gap: $spacing-md;
+  
+  .label {
+    width: 60px;
+    font-weight: 600;
+    color: var(--colorNeutralForeground2);
+    flex-shrink: 0;
+  }
+  
+  .values {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $spacing-sm;
+    font-size: $font-size-lg;
+  }
+}
+
+.compoundsList {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+}
+
+.compoundItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $spacing-sm;
+  background: var(--colorNeutralBackground1);
+  border: 1px solid var(--colorNeutralStroke1);
+  border-radius: $border-radius-sm;
+  
+  .left {
+    display: flex;
+    align-items: center;
+    gap: $spacing-md;
+  }
+  
+  .word {
+    font-size: $font-size-lg;
+    font-weight: 600;
+  }
+  
+  .reading {
+    color: var(--colorNeutralForeground3);
+    font-size: $font-size-sm;
+  }
+  
+  .meaning {
+    color: var(--colorNeutralForeground2);
+  }
+}

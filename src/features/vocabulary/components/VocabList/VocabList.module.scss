@@ -1,0 +1,23 @@
+@use '@styles/variables' as *;
+
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: $spacing-md;
+}
+
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: $spacing-2xl;
+  text-align: center;
+  color: var(--colorNeutralForeground2);
+}

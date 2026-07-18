@@ -1,0 +1,36 @@
+{
+  "hero": {
+    "greeting": "Chào mừng trở lại!",
+    "message": "Hôm nay là một ngày tuyệt vời để học tiếng Nhật. Hãy tiếp tục cố gắng nhé!"
+  },
+  "progress": {
+    "title": "Tiến độ học tập",
+    "vocabulary": "Từ vựng",
+    "grammar": "Ngữ pháp",
+    "kanji": "Kanji",
+    "learned": "Đã học: {{current}}/{{total}}"
+  },
+  "quick_access": {
+    "title": "Truy cập nhanh",
+    "vocabulary": {
+      "title": "Từ vựng",
+      "desc": "Học từ mới bài {{lesson}}"
+    },
+    "grammar": {
+      "title": "Ngữ pháp",
+      "desc": "Cấu trúc bài {{lesson}}"
+    },
+    "kanji": {
+      "title": "Kanji",
+      "desc": "Hán tự bài {{lesson}}"
+    },
+    "flashcard": {
+      "title": "Flashcards",
+      "desc": "Ôn tập lại từ vựng"
+    },
+    "quiz": {
+      "title": "Bài tập",
+      "desc": "Làm bài kiểm tra ngắn"
+    }
+  }
+}

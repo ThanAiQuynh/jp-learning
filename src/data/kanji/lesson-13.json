@@ -1,0 +1,157 @@
+[
+  {
+    "id": "k-13-001",
+    "lessonId": "lesson-13",
+    "character": "漢1",
+    "onReadings": [
+      "カン"
+    ],
+    "kunReadings": [
+      "かん"
+    ],
+    "meaning": {
+      "vi": "Hán tự 1 (Bài 13)",
+      "en": "Kanji 1 (Lesson 13)"
+    },
+    "strokeCount": 5,
+    "radicals": [
+      "水"
+    ],
+    "primaryRadical": "水",
+    "jlptLevel": "N5",
+    "compounds": [
+      {
+        "word": "漢字1",
+        "reading": "かんじ1",
+        "meaning": {
+          "vi": "Từ ghép 1",
+          "en": "Compound 1"
+        }
+      }
+    ]
+  },
+  {
+    "id": "k-13-002",
+    "lessonId": "lesson-13",
+    "character": "漢2",
+    "onReadings": [
+      "カン"
+    ],
+    "kunReadings": [
+      "かん"
+    ],
+    "meaning": {
+      "vi": "Hán tự 2 (Bài 13)",
+      "en": "Kanji 2 (Lesson 13)"
+    },
+    "strokeCount": 5,
+    "radicals": [
+      "水"
+    ],
+    "primaryRadical": "水",
+    "jlptLevel": "N5",
+    "compounds": [
+      {
+        "word": "漢字2",
+        "reading": "かんじ2",
+        "meaning": {
+          "vi": "Từ ghép 2",
+          "en": "Compound 2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "k-13-003",
+    "lessonId": "lesson-13",
+    "character": "漢3",
+    "onReadings": [
+      "カン"
+    ],
+    "kunReadings": [
+      "かん"
+    ],
+    "meaning": {
+      "vi": "Hán tự 3 (Bài 13)",
+      "en": "Kanji 3 (Lesson 13)"
+    },
+    "strokeCount": 5,
+    "radicals": [
+      "水"
+    ],
+    "primaryRadical": "水",
+    "jlptLevel": "N5",
+    "compounds": [
+      {
+        "word": "漢字3",
+        "reading": "かんじ3",
+        "meaning": {
+          "vi": "Từ ghép 3",
+          "en": "Compound 3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "k-13-004",
+    "lessonId": "lesson-13",
+    "character": "漢4",
+    "onReadings": [
+      "カン"
+    ],
+    "kunReadings": [
+      "かん"
+    ],
+    "meaning": {
+      "vi": "Hán tự 4 (Bài 13)",
+      "en": "Kanji 4 (Lesson 13)"
+    },
+    "strokeCount": 5,
+    "radicals": [
+      "水"
+    ],
+    "primaryRadical": "水",
+    "jlptLevel": "N5",
+    "compounds": [
+      {
+        "word": "漢字4",
+        "reading": "かんじ4",
+        "meaning": {
+          "vi": "Từ ghép 4",
+          "en": "Compound 4"
+        }
+      }
+    ]
+  },
+  {
+    "id": "k-13-005",
+    "lessonId": "lesson-13",
+    "character": "漢5",
+    "onReadings": [
+      "カン"
+    ],
+    "kunReadings": [
+      "かん"
+    ],
+    "meaning": {
+      "vi": "Hán tự 5 (Bài 13)",
+      "en": "Kanji 5 (Lesson 13)"
+    },
+    "strokeCount": 5,
+    "radicals": [
+      "水"
+    ],
+    "primaryRadical": "水",
+    "jlptLevel": "N5",
+    "compounds": [
+      {
+        "word": "漢字5",
+        "reading": "かんじ5",
+        "meaning": {
+          "vi": "Từ ghép 5",
+          "en": "Compound 5"
+        }
+      }
+    ]
+  }
+]

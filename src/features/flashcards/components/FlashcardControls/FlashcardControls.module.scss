@@ -1,0 +1,38 @@
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  width: 100%;
+}
+
+.flipBtn {
+  min-width: 200px;
+}
+
+.ratings {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  .again {
+    color: var(--colorPaletteRedForeground1);
+    border-color: var(--colorPaletteRedBorderActive);
+  }
+  
+  .hard {
+    color: var(--colorPaletteOrangeForeground1);
+    border-color: var(--colorPaletteOrangeBorderActive);
+  }
+
+  .good {
+    color: var(--colorPaletteGreenForeground1);
+    border-color: var(--colorPaletteGreenBorderActive);
+  }
+
+  .easy {
+    color: var(--colorPaletteBlueForeground1);
+    border-color: var(--colorPaletteBlueBorderActive);
+  }
+}

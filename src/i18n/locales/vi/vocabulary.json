@@ -1,0 +1,11 @@
+{
+  "title": "Từ vựng (Bài {{lesson}})",
+  "subtitle": "Danh sách từ vựng trong bài học.",
+  "detail": {
+    "title": "Chi tiết từ vựng",
+    "listen": "Nghe",
+    "meaning": "Nghĩa",
+    "examples": "Ví dụ",
+    "related_kanji": "Kanji liên quan"
+  }
+}

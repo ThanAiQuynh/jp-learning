@@ -1,0 +1,11 @@
+{
+  "title": "単語 (第{{lesson}}課)",
+  "subtitle": "このレッスンの単語リストです。",
+  "detail": {
+    "title": "単語の詳細",
+    "listen": "聞く",
+    "meaning": "意味",
+    "examples": "例文",
+    "related_kanji": "関連する漢字"
+  }
+}

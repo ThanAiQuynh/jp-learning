@@ -1,0 +1,44 @@
+@use '@styles/variables' as *;
+
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: $spacing-md;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: $spacing-md;
+  background: var(--colorNeutralBackground1);
+  border: 1px solid var(--colorNeutralStroke1);
+  border-radius: $border-radius-md;
+  cursor: pointer;
+  transition: all 0.2s;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow4);
+    border-color: var(--colorBrandStroke1);
+  }
+}
+
+.character {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: $spacing-xs;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.meaning {
+  font-size: $font-size-sm;
+  color: var(--colorNeutralForeground2);
+  text-align: center;
+}

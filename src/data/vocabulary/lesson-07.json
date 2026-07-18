@@ -1,0 +1,117 @@
+[
+  {
+    "id": "v-07-001",
+    "lessonId": "lesson-07",
+    "kanji": "単語1",
+    "hiragana": "たんご1",
+    "romaji": "tango1",
+    "meaning": {
+      "vi": "Từ vựng 1 (Bài 7)",
+      "en": "Vocab 1 (Lesson 7)"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "ja": "これは単語1です。",
+        "reading": "これはたんご1です。",
+        "translation": {
+          "vi": "Đây là từ vựng 1.",
+          "en": "This is vocab 1."
+        }
+      }
+    ]
+  },
+  {
+    "id": "v-07-002",
+    "lessonId": "lesson-07",
+    "kanji": "単語2",
+    "hiragana": "たんご2",
+    "romaji": "tango2",
+    "meaning": {
+      "vi": "Từ vựng 2 (Bài 7)",
+      "en": "Vocab 2 (Lesson 7)"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "ja": "これは単語2です。",
+        "reading": "これはたんご2です。",
+        "translation": {
+          "vi": "Đây là từ vựng 2.",
+          "en": "This is vocab 2."
+        }
+      }
+    ]
+  },
+  {
+    "id": "v-07-003",
+    "lessonId": "lesson-07",
+    "kanji": "単語3",
+    "hiragana": "たんご3",
+    "romaji": "tango3",
+    "meaning": {
+      "vi": "Từ vựng 3 (Bài 7)",
+      "en": "Vocab 3 (Lesson 7)"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "ja": "これは単語3です。",
+        "reading": "これはたんご3です。",
+        "translation": {
+          "vi": "Đây là từ vựng 3.",
+          "en": "This is vocab 3."
+        }
+      }
+    ]
+  },
+  {
+    "id": "v-07-004",
+    "lessonId": "lesson-07",
+    "kanji": "単語4",
+    "hiragana": "たんご4",
+    "romaji": "tango4",
+    "meaning": {
+      "vi": "Từ vựng 4 (Bài 7)",
+      "en": "Vocab 4 (Lesson 7)"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "ja": "これは単語4です。",
+        "reading": "これはたんご4です。",
+        "translation": {
+          "vi": "Đây là từ vựng 4.",
+          "en": "This is vocab 4."
+        }
+      }
+    ]
+  },
+  {
+    "id": "v-07-005",
+    "lessonId": "lesson-07",
+    "kanji": "単語5",
+    "hiragana": "たんご5",
+    "romaji": "tango5",
+    "meaning": {
+      "vi": "Từ vựng 5 (Bài 7)",
+      "en": "Vocab 5 (Lesson 7)"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "ja": "これは単語5です。",
+        "reading": "これはたんご5です。",
+        "translation": {
+          "vi": "Đây là từ vựng 5.",
+          "en": "This is vocab 5."
+        }
+      }
+    ]
+  }
+]

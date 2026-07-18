@@ -1,0 +1,13 @@
+{
+  "title": "Ôn tập Flashcards",
+  "flip": "Lật thẻ (Space)",
+  "again": "Lại (1)",
+  "hard": "Khó (2)",
+  "good": "Tốt (3)",
+  "easy": "Dễ (4)",
+  "progress": "Tiến trình: {{count}}/{{total}}",
+  "completed": "Chúc mừng! Bạn đã hoàn thành phiên ôn tập.",
+  "return_lesson": "Quay lại Bài học",
+  "new_cards": "Thẻ mới",
+  "review_cards": "Ôn tập"
+}

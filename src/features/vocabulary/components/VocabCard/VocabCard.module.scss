@@ -1,0 +1,46 @@
+@use '@styles/variables' as *;
+
+.root {
+  display: flex;
+  flex-direction: column;
+  padding: $spacing-md;
+  border-radius: $border-radius-md;
+  background: var(--colorNeutralBackground1);
+  box-shadow: var(--shadow4);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: 1px solid var(--colorNeutralStroke1);
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow8);
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: $spacing-sm;
+}
+
+.wordContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.meaning {
+  text-align: center;
+  font-weight: 500;
+  margin-top: $spacing-md;
+  color: var(--colorNeutralForeground1);
+}
+
+.badges {
+  display: flex;
+  gap: $spacing-xs;
+  justify-content: center;
+  margin-top: $spacing-sm;
+}

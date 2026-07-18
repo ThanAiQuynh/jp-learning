@@ -1,0 +1,53 @@
+{
+  "app_title": "Learn Japanese",
+  "navigation": {
+    "home": "Home",
+    "courses": "Courses",
+    "library": "Library",
+    "lessons": "Lessons",
+    "vocabulary": "Vocabulary",
+    "grammar": "Grammar",
+    "kanji": "Kanji",
+    "radicals": "Radicals",
+    "flashcards": "Flashcards",
+    "quiz": "Quiz",
+    "stats": "Stats",
+    "settings": "Settings"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "no_data": "No data available",
+    "welcome": "Welcome to the Japanese Learning App!"
+  },
+  "word_type": {
+    "noun": "Noun",
+    "i-adjective": "i-Adjective",
+    "na-adjective": "na-Adjective",
+    "verb-group1": "Group 1 Verb",
+    "verb-group2": "Group 2 Verb",
+    "verb-group3": "Group 3 Verb",
+    "adverb": "Adverb",
+    "particle": "Particle",
+    "conjunction": "Conjunction",
+    "counter": "Counter",
+    "greeting": "Greeting",
+    "expression": "Expression",
+    "prefix": "Prefix",
+    "suffix": "Suffix"
+  },
+  "courses_page": {
+    "select_level": "Select JLPT Level",
+    "courses_for_level": "{{level}} Courses",
+    "no_courses": "No courses available for this level.",
+    "lesson_number": "Lesson {{number}}",
+    "vocab_count": "Vocab: {{count}}",
+    "grammar_count": "Grammar: {{count}}",
+    "kanji_count": "Kanji: {{count}}",
+    "no_lessons": "No lessons available.",
+    "learning_modules": "Learning Modules"
+  }
+}

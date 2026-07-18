@@ -1,0 +1,110 @@
+[
+  {
+    "id": "g-22-001",
+    "lessonId": "lesson-22",
+    "pattern": "〜文法1",
+    "patternKana": "〜ぶんぽう1",
+    "title": {
+      "vi": "Ngữ pháp 1 (Bài 22)",
+      "en": "Grammar 1 (Lesson 22)"
+    },
+    "explanation": {
+      "vi": "Giải thích ngữ pháp 1 bài 22",
+      "en": "Explanation for grammar 1 lesson 22"
+    },
+    "usage": {
+      "vi": "Cách dùng",
+      "en": "Usage"
+    },
+    "formation": [
+      "N + 文法"
+    ],
+    "examples": [
+      {
+        "ja": "私は文法1を勉強します。",
+        "reading": "わたしはぶんぽう1をべんきょうします。",
+        "translation": {
+          "vi": "Tôi học ngữ pháp 1.",
+          "en": "I study grammar 1."
+        },
+        "highlightRange": {
+          "start": 3,
+          "end": 6
+        }
+      }
+    ],
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "g-22-002",
+    "lessonId": "lesson-22",
+    "pattern": "〜文法2",
+    "patternKana": "〜ぶんぽう2",
+    "title": {
+      "vi": "Ngữ pháp 2 (Bài 22)",
+      "en": "Grammar 2 (Lesson 22)"
+    },
+    "explanation": {
+      "vi": "Giải thích ngữ pháp 2 bài 22",
+      "en": "Explanation for grammar 2 lesson 22"
+    },
+    "usage": {
+      "vi": "Cách dùng",
+      "en": "Usage"
+    },
+    "formation": [
+      "N + 文法"
+    ],
+    "examples": [
+      {
+        "ja": "私は文法2を勉強します。",
+        "reading": "わたしはぶんぽう2をべんきょうします。",
+        "translation": {
+          "vi": "Tôi học ngữ pháp 2.",
+          "en": "I study grammar 2."
+        },
+        "highlightRange": {
+          "start": 3,
+          "end": 6
+        }
+      }
+    ],
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "g-22-003",
+    "lessonId": "lesson-22",
+    "pattern": "〜文法3",
+    "patternKana": "〜ぶんぽう3",
+    "title": {
+      "vi": "Ngữ pháp 3 (Bài 22)",
+      "en": "Grammar 3 (Lesson 22)"
+    },
+    "explanation": {
+      "vi": "Giải thích ngữ pháp 3 bài 22",
+      "en": "Explanation for grammar 3 lesson 22"
+    },
+    "usage": {
+      "vi": "Cách dùng",
+      "en": "Usage"
+    },
+    "formation": [
+      "N + 文法"
+    ],
+    "examples": [
+      {
+        "ja": "私は文法3を勉強します。",
+        "reading": "わたしはぶんぽう3をべんきょうします。",
+        "translation": {
+          "vi": "Tôi học ngữ pháp 3.",
+          "en": "I study grammar 3."
+        },
+        "highlightRange": {
+          "start": 3,
+          "end": 6
+        }
+      }
+    ],
+    "jlptLevel": "N5"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "title": "Vocabulary (Lesson {{lesson}})",
+  "subtitle": "Vocabulary list for this lesson.",
+  "detail": {
+    "title": "Vocabulary Details",
+    "listen": "Listen",
+    "meaning": "Meaning",
+    "examples": "Examples",
+    "related_kanji": "Related Kanji"
+  }
+}

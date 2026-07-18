@@ -1,0 +1,14 @@
+{
+  "title": "Grammar (Lesson {{lesson}})",
+  "subtitle": "Grammar patterns for this lesson.",
+  "list": {
+    "view_detail": "View Details"
+  },
+  "detail": {
+    "title": "Grammar Details",
+    "explanation": "Explanation",
+    "usage": "Usage: {{usage}}",
+    "formation": "Formation",
+    "examples": "Examples"
+  }
+}

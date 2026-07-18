@@ -1,0 +1,30 @@
+@use '@styles/variables' as *;
+
+.root {
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-lg;
+  padding: $spacing-md 0;
+}
+
+.progressItem {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+}
+
+.labelGroup {
+  display: flex;
+  justify-content: space-between;
+  font-size: $font-size-sm;
+  color: var(--colorNeutralForeground2);
+  
+  span:first-child {
+    font-weight: 600;
+    color: var(--colorNeutralForeground1);
+  }
+}

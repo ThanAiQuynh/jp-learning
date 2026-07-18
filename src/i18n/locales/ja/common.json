@@ -1,0 +1,53 @@
+{
+  "app_title": "日本語を学ぶ",
+  "navigation": {
+    "home": "ホーム",
+    "courses": "コース",
+    "library": "ライブラリ",
+    "lessons": "レッスン",
+    "vocabulary": "語彙",
+    "grammar": "文法",
+    "kanji": "漢字",
+    "radicals": "部首",
+    "flashcards": "フラッシュカード",
+    "quiz": "クイズ",
+    "stats": "統計",
+    "settings": "設定"
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "close": "閉じる",
+    "no_data": "データがありません",
+    "welcome": "日本語学習アプリへようこそ！"
+  },
+  "word_type": {
+    "noun": "名詞",
+    "i-adjective": "い形容詞",
+    "na-adjective": "な形容詞",
+    "verb-group1": "Iグループ動詞",
+    "verb-group2": "IIグループ動詞",
+    "verb-group3": "IIIグループ動詞",
+    "adverb": "副詞",
+    "particle": "助詞",
+    "conjunction": "接続詞",
+    "counter": "助数詞",
+    "greeting": "挨拶",
+    "expression": "表現",
+    "prefix": "接頭辞",
+    "suffix": "接尾辞"
+  },
+  "courses_page": {
+    "select_level": "レベルを選択（JLPT）",
+    "courses_for_level": "{{level}} コース",
+    "no_courses": "このレベルのコースはまだありません。",
+    "lesson_number": "第{{number}}課",
+    "vocab_count": "単語: {{count}}",
+    "grammar_count": "文法: {{count}}",
+    "kanji_count": "漢字: {{count}}",
+    "no_lessons": "レッスンはまだありません。",
+    "learning_modules": "学習モジュール"
+  }
+}

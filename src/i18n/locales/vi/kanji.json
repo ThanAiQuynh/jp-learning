@@ -1,0 +1,13 @@
+{
+  "title": "Kanji (Bài {{lesson}})",
+  "subtitle": "Danh sách chữ Kanji trong bài học.",
+  "detail": {
+    "title": "Chi tiết Kanji",
+    "stroke_count": "Số nét: {{count}}",
+    "readings": "Âm đọc",
+    "on_reading": "ON:",
+    "kun_reading": "KUN:",
+    "radicals": "Bộ thủ",
+    "compounds": "Từ ghép"
+  }
+}

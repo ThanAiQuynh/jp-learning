@@ -1,0 +1,14 @@
+{
+  "title": "Ngữ pháp (Bài {{lesson}})",
+  "subtitle": "Danh sách cấu trúc ngữ pháp trong bài học.",
+  "list": {
+    "view_detail": "Xem chi tiết"
+  },
+  "detail": {
+    "title": "Chi tiết ngữ pháp",
+    "explanation": "Giải thích",
+    "usage": "Cách dùng: {{usage}}",
+    "formation": "Cấu trúc",
+    "examples": "Ví dụ"
+  }
+}

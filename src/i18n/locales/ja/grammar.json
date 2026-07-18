@@ -1,0 +1,14 @@
+{
+  "title": "文法 (第{{lesson}}課)",
+  "subtitle": "このレッスンの文法パターンです。",
+  "list": {
+    "view_detail": "詳細を見る"
+  },
+  "detail": {
+    "title": "文法の詳細",
+    "explanation": "解説",
+    "usage": "使い方: {{usage}}",
+    "formation": "接続",
+    "examples": "例文"
+  }
+}

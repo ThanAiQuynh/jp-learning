@@ -1,0 +1,36 @@
+{
+  "hero": {
+    "greeting": "Welcome back!",
+    "message": "Today is a great day to learn Japanese. Keep up the good work!"
+  },
+  "progress": {
+    "title": "Learning Progress",
+    "vocabulary": "Vocabulary",
+    "grammar": "Grammar",
+    "kanji": "Kanji",
+    "learned": "Learned: {{current}}/{{total}}"
+  },
+  "quick_access": {
+    "title": "Quick Access",
+    "vocabulary": {
+      "title": "Vocabulary",
+      "desc": "Learn new words for Lesson {{lesson}}"
+    },
+    "grammar": {
+      "title": "Grammar",
+      "desc": "Patterns for Lesson {{lesson}}"
+    },
+    "kanji": {
+      "title": "Kanji",
+      "desc": "Kanji for Lesson {{lesson}}"
+    },
+    "flashcard": {
+      "title": "Flashcards",
+      "desc": "Review vocabulary"
+    },
+    "quiz": {
+      "title": "Quiz",
+      "desc": "Take a short test"
+    }
+  }
+}

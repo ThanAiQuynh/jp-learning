@@ -1,0 +1,77 @@
+// ===========================
+// 🛠️ SCSS Mixins
+// ===========================
+@use "./variables" as *;
+
+
+// Responsive (Mobile First)
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == 'sm' {
+    @media (min-width: $breakpoint-sm) { @content; }
+  } @else if $breakpoint == 'md' {
+    @media (min-width: $breakpoint-md) { @content; }
+  } @else if $breakpoint == 'lg' {
+    @media (min-width: $breakpoint-lg) { @content; }
+  } @else if $breakpoint == 'xl' {
+    @media (min-width: $breakpoint-xl) { @content; }
+  } @else if $breakpoint == 'xxl' {
+    @media (min-width: $breakpoint-xxl) { @content; }
+  }
+}
+
+// Mobile only (portrait + landscape)
+@mixin mobile-only {
+  @media (max-width: #{$breakpoint-md - 1px}) { @content; }
+}
+
+// Tablet only
+@mixin tablet-only {
+  @media (min-width: $breakpoint-md) and (max-width: #{$breakpoint-lg - 1px}) { @content; }
+}
+
+// Desktop only
+@mixin desktop-only {
+  @media (min-width: $breakpoint-lg) { @content; }
+}
+
+// Typography Mixins
+@mixin text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@mixin japanese-text($size: $font-size-md) {
+  font-family: 'Noto Sans JP', 'Segoe UI', sans-serif;
+  font-size: $size;
+  line-height: 1.5;
+}
+
+// Touch Target
+@mixin touch-target {
+  min-height: $touch-target-min;
+  min-width: $touch-target-min;
+}
+
+// Components
+@mixin card-elevated {
+  background-color: var(--colorNeutralBackground1);
+  border-radius: $card-border-radius;
+  box-shadow: var(--shadow4);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    box-shadow: var(--shadow8);
+  }
+}
+
+// Furigana
+@mixin furigana-text {
+  ruby {
+    rt {
+      font-size: 0.5em;
+      color: var(--colorNeutralForeground3);
+      user-select: none;
+    }
+  }
+}

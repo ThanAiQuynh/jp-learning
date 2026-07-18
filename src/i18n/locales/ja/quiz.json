@@ -1,0 +1,26 @@
+{
+  "questions": {
+    "vocab_meaning": "「{{word}}」の意味は何ですか？",
+    "kanji_meaning": "漢字「{{kanji}}」の意味は何ですか？",
+    "no_questions": "このレッスンの質問はありません。"
+  },
+  "categories": {
+    "vocabulary": "語彙",
+    "grammar": "文法",
+    "kanji": "漢字"
+  },
+  "progress": {
+    "question_count": "質問 {{index}} / {{total}}",
+    "completed": "完了"
+  },
+  "summary": {
+    "title": "クイズ結果",
+    "score": "{{total}}問中{{score}}問正解しました",
+    "retake": "もう一度挑戦",
+    "return": "レッスンに戻る"
+  },
+  "feedback": {
+    "correct": "正解！",
+    "incorrect": "不正解！"
+  }
+}

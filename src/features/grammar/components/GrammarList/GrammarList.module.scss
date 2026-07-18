@@ -1,0 +1,58 @@
+@use '@styles/variables' as *;
+
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  margin-bottom: $spacing-md;
+  background: var(--colorNeutralBackground1);
+  border-radius: $border-radius-md;
+  border: 1px solid var(--colorNeutralStroke1);
+  overflow: hidden;
+}
+
+.pattern {
+  font-size: $font-size-lg;
+  font-weight: 600;
+  margin-right: $spacing-md;
+}
+
+.title {
+  color: var(--colorNeutralForeground2);
+  font-size: $font-size-sm;
+}
+
+.panel {
+  padding: $spacing-md;
+  background: var(--colorNeutralBackground2);
+}
+
+.examples {
+  margin-top: $spacing-md;
+}
+
+.exampleItem {
+  margin-bottom: $spacing-sm;
+  padding: $spacing-sm;
+  background: var(--colorNeutralBackground1);
+  border-radius: $border-radius-sm;
+  border-left: 3px solid var(--colorBrandBackground);
+}
+
+.ja {
+  font-size: $font-size-md;
+}
+
+.translation {
+  font-size: $font-size-sm;
+  color: var(--colorNeutralForeground2);
+  margin-top: $spacing-xs;
+}
+
+.actionContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: $spacing-md;
+}

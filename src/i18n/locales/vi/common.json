@@ -1,0 +1,53 @@
+{
+  "app_title": "Học tiếng Nhật",
+  "navigation": {
+    "home": "Trang chủ",
+    "courses": "Lộ trình",
+    "library": "Thư viện",
+    "lessons": "Bài học",
+    "vocabulary": "Từ vựng",
+    "grammar": "Ngữ pháp",
+    "kanji": "Hán tự",
+    "radicals": "Bộ thủ",
+    "flashcards": "Flashcards",
+    "quiz": "Bài tập",
+    "stats": "Thống kê",
+    "settings": "Cài đặt"
+  },
+  "common": {
+    "loading": "Đang tải...",
+    "error": "Đã có lỗi xảy ra",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "close": "Đóng",
+    "no_data": "Không có dữ liệu",
+    "welcome": "Chào mừng đến với ứng dụng học tiếng Nhật!"
+  },
+  "word_type": {
+    "noun": "Danh từ",
+    "i-adjective": "Tính từ đuôi い",
+    "na-adjective": "Tính từ đuôi な",
+    "verb-group1": "Động từ nhóm 1",
+    "verb-group2": "Động từ nhóm 2",
+    "verb-group3": "Động từ nhóm 3",
+    "adverb": "Phó từ",
+    "particle": "Trợ từ",
+    "conjunction": "Liên từ",
+    "counter": "Từ đếm",
+    "greeting": "Lời chào",
+    "expression": "Biểu hiện",
+    "prefix": "Tiền tố",
+    "suffix": "Hậu tố"
+  },
+  "courses_page": {
+    "select_level": "Chọn cấp độ (JLPT Level)",
+    "courses_for_level": "Giáo trình {{level}}",
+    "no_courses": "Chưa có giáo trình nào cho cấp độ này.",
+    "lesson_number": "Bài {{number}}",
+    "vocab_count": "Từ vựng: {{count}}",
+    "grammar_count": "Ngữ pháp: {{count}}",
+    "kanji_count": "Kanji: {{count}}",
+    "no_lessons": "Chưa có bài học nào.",
+    "learning_modules": "Học phần"
+  }
+}

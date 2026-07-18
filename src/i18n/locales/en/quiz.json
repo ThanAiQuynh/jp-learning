@@ -1,0 +1,26 @@
+{
+  "questions": {
+    "vocab_meaning": "What is the meaning of \"{{word}}\"?",
+    "kanji_meaning": "What does the Kanji \"{{kanji}}\" mean?",
+    "no_questions": "No questions available for this lesson."
+  },
+  "categories": {
+    "vocabulary": "Vocabulary",
+    "grammar": "Grammar",
+    "kanji": "Kanji"
+  },
+  "progress": {
+    "question_count": "Question {{index}} of {{total}}",
+    "completed": "Completed"
+  },
+  "summary": {
+    "title": "Quiz Results",
+    "score": "You scored {{score}} out of {{total}}",
+    "retake": "Retake Quiz",
+    "return": "Return to Lesson"
+  },
+  "feedback": {
+    "correct": "Correct!",
+    "incorrect": "Incorrect!"
+  }
+}

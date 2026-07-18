@@ -1,0 +1,627 @@
+[
+  {
+    "id": "lesson-01",
+    "number": 1,
+    "title": {
+      "ja": "新しい 友達",
+      "romanji": "Atarashii Tomodachi"
+    },
+    "description": {
+      "vi": "Làm quen và giới thiệu bản thân.",
+      "en": "Meeting people and introducing yourself.",
+      "ja": "自己紹介"
+    },
+    "jlptLevel": "N5",
+    "chapter": 1,
+    "courseId": "minna-1",
+    "vocabCount": 42,
+    "grammarCount": 4,
+    "kanjiCount": 10,
+    "topics": [
+      {
+        "vi": "Giới thiệu bản thân",
+        "en": "Self-introduction"
+      }
+    ]
+  },
+  {
+    "id": "lesson-02",
+    "number": 2,
+    "title": {
+      "ja": "買い物",
+      "romanji": "Kaimono"
+    },
+    "description": {
+      "vi": "Mua sắm, chỉ định đồ vật.",
+      "en": "Shopping, pointing at things.",
+      "ja": "買い物"
+    },
+    "jlptLevel": "N5",
+    "chapter": 2,
+    "courseId": "minna-1",
+    "vocabCount": 35,
+    "grammarCount": 3,
+    "kanjiCount": 8,
+    "topics": [
+      {
+        "vi": "Mua sắm",
+        "en": "Shopping"
+      }
+    ]
+  },
+  {
+    "id": "lesson-03",
+    "number": 3,
+    "title": {
+      "ja": "第 3 課",
+      "romanji": "Dai 3 ka"
+    },
+    "description": {
+      "vi": "Nội dung bài 3",
+      "en": "Lesson 3 content",
+      "ja": "第 3 課の内容"
+    },
+    "jlptLevel": "N5",
+    "chapter": 3,
+    "courseId": "minna-1",
+    "vocabCount": 20,
+    "grammarCount": 3,
+    "kanjiCount": 5,
+    "topics": [
+      {
+        "vi": "Chủ đề bài 3",
+        "en": "Topic 3"
+      }
+    ]
+  },
+  {
+    "id": "lesson-04",
+    "number": 4,
+    "title": {
+      "ja": "第 4 課",
+      "romanji": "Dai 4 ka"
+    },
+    "description": {
+      "vi": "Nội dung bài 4",
+      "en": "Lesson 4 content",
+      "ja": "第 4 課の内容"
+    },
+    "jlptLevel": "N5",
+    "chapter": 4,
+    "courseId": "minna-1",
+    "vocabCount": 20,
+    "grammarCount": 3,
+    "kanjiCount": 5,
+    "topics": [
+      {
+        "vi": "Chủ đề bài 4",
+        "en": "Topic 4"
+      }
+    ]
+  },
+  {
+    "id": "lesson-05",
+    "number": 5,
+    "title": {
+      "ja": "第 5 課",
+      "romanji": "Dai 5 ka"
+    },
+    "description": {
+      "vi": "Nội dung bài 5",
+      "en": "Lesson 5 content",
+      "ja": "第 5 課の内容"
+    },
+    "jlptLevel": "N5",
+    "chapter": 5,
+    "courseId": "minna-1",
+    "vocabCount": 20,
+    "grammarCount": 3,
+    "kanjiCount": 5,
+    "topics": [
+      {
+        "vi": "Chủ đề bài 5",
+        "en": "Topic 5"
+      }
+    ]
+  },
+  {
+    "id": "lesson-06",
+    "number": 6,
+    "title": {
+      "ja": "第 6 課",
+      "romanji": "Dai 6 ka"
+    },
+    "description": {
+      "vi": "Nội dung bài 6",
+      "en": "Lesson 6 content",
+      "ja": "第 6 課の内容"
+    },
+    "jlptLevel": "N5",
+    "chapter": 6,
+    "courseId": "minna-1",
+    "vocabCount": 20,
+    "grammarCount": 3,
+    "kanjiCount": 5,
+    "topics": [
+      {
+        "vi": "Chủ đề bài 6",
+        "en": "Topic 6"
+      }
+    ]
+  },
+  {
+    "id": "lesson-07",
+    "number": 7,
+    "title": {
+      "ja": "第 7 課",
+      "romanji": "Dai 7 ka"
+    },
+    "description": {
+      "vi": "Nội dung bài 7",
+      "en": "Lesson 7 content",
+      "ja": "第 7 課の内容"
+    },
+    "jlptLevel": "N5",
+    "chapter": 7,
+    "courseId": "minna-1",
+    "vocabCount": 20,
+    "grammarCount": 3,
+    "kanjiCount": 5,
+    "topics": [
+      {
+        "vi": "Chủ đề bài 7",
+        "en": "Topic 7"
+      }
+    ]
+  },
+  {
+    "id": "lesson-08",
+    "number": 8,
+    "title": {
+      "ja": "第 8 課",
+      "romanji": "Dai 8 ka"
+    },
+    "description": {
+      "vi": "Nội dung bài 8",
+      "en": "Lesson 8 content",
+      "ja": "第 8 課の内容"
+    },
+    "jlptLevel": "N5",
+    "chapter": 8,
+    "courseId": "minna-1",
+    "vocabCount": 20,
+    "grammarCount": 3,
+    "kanjiCount": 5,
+    "topics": [
+      {
+        "vi": "Chủ đề bài 8",
+        "en": "Topic 8"
+      }
+    ]
+  },
+  {
+    "id": "lesson-09",
+    "number": 9,
+    "title": {
+      "ja": "第 9 課",
+      "romanji": "Dai 9 ka"
+    },
+    "description": {
+      "vi": "Nội dung bài 9",
+      "en": "Lesson 9 content",
+      "ja": "第 9 課の内容"
+    },
+    "jlptLevel": "N5",
+    "chapter": 9,
+    "courseId": "minna-1",
+    "vocabCount": 20,
+    "grammarCount": 3,
+    "kanjiCount": 5,
+    "topics": [
+      {
+        "vi": "Chủ đề bài 9",
+        "en": "Topic 9"
+      }
+    ]
+  },
+  {
+    "id": "lesson-10",
+    "number": 10,
+    "title": {
+      "ja": "第 10 課",
+      "romanji": "Dai 10 ka"
+    },
+    "description": {
+      "vi": "Nội dung bài 10",
+      "en": "Lesson 10 content",
+      "ja": "第 10 課の内容"
+    },
+    "jlptLevel": "N5",
+    "chapter": 10,
+    "courseId": "minna-1",
+    "vocabCount": 20,
+    "grammarCount": 3,
+    "kanjiCount": 5,
+    "topics": [
+      {
+        "vi": "Chủ đề bài 10",
+        "en": "Topic 10"
+      }
+    ]
+  },
+  {
+    "id": "lesson-11",
+    "number": 11,
+    "title": {
+      "ja": "第 11 課",
+      "romanji": "Dai 11 ka"
+    },
+    "description": {
+      "vi": "Nội dung bài 11",
+      "en": "Lesson 11 content",
+      "ja": "第 11 課の内容"
+    },
+    "jlptLevel": "N5",
+    "chapter": 11,
+    "courseId": "minna-1",
+    "vocabCount": 20,
+    "grammarCount": 3,
+    "kanjiCount": 5,
+    "topics": [
+      {
+        "vi": "Chủ đề bài 11",
+        "en": "Topic 11"
+      }
+    ]
+  },
+  {
+    "id": "lesson-12",
+    "number": 12,
+    "title": {
+      "ja": "第 12 課",
+      "romanji": "Dai 12 ka"
+    },
+    "description": {
+      "vi": "Nội dung bài 12",
+      "en": "Lesson 12 content",
+      "ja": "第 12 課の内容"
+    },
+    "jlptLevel": "N5",
+    "chapter": 12,
+    "courseId": "minna-1",
+    "vocabCount": 20,
+    "grammarCount": 3,
+    "kanjiCount": 5,
+    "topics": [
+      {
+        "vi": "Chủ đề bài 12",
+        "en": "Topic 12"
+      }
+    ]
+  },
+  {
+    "id": "lesson-13",
+    "number": 13,
+    "title": {
+      "ja": "第 13 課",
+      "romanji": "Dai 13 ka"
+    },
+    "description": {
+      "vi": "Nội dung bài 13",
+      "en": "Lesson 13 content",
+      "ja": "第 13 課の内容"
+    },
+    "jlptLevel": "N5",
+    "chapter": 13,
+    "courseId": "minna-1",
+    "vocabCount": 20,
+    "grammarCount": 3,
+    "kanjiCount": 5,
+    "topics": [
+      {
+        "vi": "Chủ đề bài 13",
+        "en": "Topic 13"
+      }
+    ]
+  },
+  {
+    "id": "lesson-14",
+    "number": 14,
+    "title": {
+      "ja": "第 14 課",
+      "romanji": "Dai 14 ka"
+    },
+    "description": {
+      "vi": "Nội dung bài 14",
+      "en": "Lesson 14 content",
+      "ja": "第 14 課の内容"
+    },
+    "jlptLevel": "N5",
+    "chapter": 14,
+    "courseId": "minna-1",
+    "vocabCount": 20,
+    "grammarCount": 3,
+    "kanjiCount": 5,
+    "topics": [
+      {
+        "vi": "Chủ đề bài 14",
+        "en": "Topic 14"
+      }
+    ]
+  },
+  {
+    "id": "lesson-15",
+    "number": 15,
+    "title": {
+      "ja": "第 15 課",
+      "romanji": "Dai 15 ka"
+    },
+    "description": {
+      "vi": "Nội dung bài 15",
+      "en": "Lesson 15 content",
+      "ja": "第 15 課の内容"
+    },
+    "jlptLevel": "N5",
+    "chapter": 15,
+    "courseId": "minna-1",
+    "vocabCount": 20,
+    "grammarCount": 3,
+    "kanjiCount": 5,
+    "topics": [
+      {
+        "vi": "Chủ đề bài 15",
+        "en": "Topic 15"
+      }
+    ]
+  },
+  {
+    "id": "lesson-16",
+    "number": 16,
+    "title": {
+      "ja": "第 16 課",
+      "romanji": "Dai 16 ka"
+    },
+    "description": {
+      "vi": "Nội dung bài 16",
+      "en": "Lesson 16 content",
+      "ja": "第 16 課の内容"
+    },
+    "jlptLevel": "N5",
+    "chapter": 16,
+    "courseId": "minna-1",
+    "vocabCount": 20,
+    "grammarCount": 3,
+    "kanjiCount": 5,
+    "topics": [
+      {
+        "vi": "Chủ đề bài 16",
+        "en": "Topic 16"
+      }
+    ]
+  },
+  {
+    "id": "lesson-17",
+    "number": 17,
+    "title": {
+      "ja": "第 17 課",
+      "romanji": "Dai 17 ka"
+    },
+    "description": {
+      "vi": "Nội dung bài 17",
+      "en": "Lesson 17 content",
+      "ja": "第 17 課の内容"
+    },
+    "jlptLevel": "N5",
+    "chapter": 17,
+    "courseId": "minna-1",
+    "vocabCount": 20,
+    "grammarCount": 3,
+    "kanjiCount": 5,
+    "topics": [
+      {
+        "vi": "Chủ đề bài 17",
+        "en": "Topic 17"
+      }
+    ]
+  },
+  {
+    "id": "lesson-18",
+    "number": 18,
+    "title": {
+      "ja": "第 18 課",
+      "romanji": "Dai 18 ka"
+    },
+    "description": {
+      "vi": "Nội dung bài 18",
+      "en": "Lesson 18 content",
+      "ja": "第 18 課の内容"
+    },
+    "jlptLevel": "N5",
+    "chapter": 18,
+    "courseId": "minna-1",
+    "vocabCount": 20,
+    "grammarCount": 3,
+    "kanjiCount": 5,
+    "topics": [
+      {
+        "vi": "Chủ đề bài 18",
+        "en": "Topic 18"
+      }
+    ]
+  },
+  {
+    "id": "lesson-19",
+    "number": 19,
+    "title": {
+      "ja": "第 19 課",
+      "romanji": "Dai 19 ka"
+    },
+    "description": {
+      "vi": "Nội dung bài 19",
+      "en": "Lesson 19 content",
+      "ja": "第 19 課の内容"
+    },
+    "jlptLevel": "N5",
+    "chapter": 19,
+    "courseId": "minna-1",
+    "vocabCount": 20,
+    "grammarCount": 3,
+    "kanjiCount": 5,
+    "topics": [
+      {
+        "vi": "Chủ đề bài 19",
+        "en": "Topic 19"
+      }
+    ]
+  },
+  {
+    "id": "lesson-20",
+    "number": 20,
+    "title": {
+      "ja": "第 20 課",
+      "romanji": "Dai 20 ka"
+    },
+    "description": {
+      "vi": "Nội dung bài 20",
+      "en": "Lesson 20 content",
+      "ja": "第 20 課の内容"
+    },
+    "jlptLevel": "N5",
+    "chapter": 20,
+    "courseId": "minna-1",
+    "vocabCount": 20,
+    "grammarCount": 3,
+    "kanjiCount": 5,
+    "topics": [
+      {
+        "vi": "Chủ đề bài 20",
+        "en": "Topic 20"
+      }
+    ]
+  },
+  {
+    "id": "lesson-21",
+    "number": 21,
+    "title": {
+      "ja": "第 21 課",
+      "romanji": "Dai 21 ka"
+    },
+    "description": {
+      "vi": "Nội dung bài 21",
+      "en": "Lesson 21 content",
+      "ja": "第 21 課の内容"
+    },
+    "jlptLevel": "N5",
+    "chapter": 21,
+    "courseId": "minna-1",
+    "vocabCount": 20,
+    "grammarCount": 3,
+    "kanjiCount": 5,
+    "topics": [
+      {
+        "vi": "Chủ đề bài 21",
+        "en": "Topic 21"
+      }
+    ]
+  },
+  {
+    "id": "lesson-22",
+    "number": 22,
+    "title": {
+      "ja": "第 22 課",
+      "romanji": "Dai 22 ka"
+    },
+    "description": {
+      "vi": "Nội dung bài 22",
+      "en": "Lesson 22 content",
+      "ja": "第 22 課の内容"
+    },
+    "jlptLevel": "N5",
+    "chapter": 22,
+    "courseId": "minna-1",
+    "vocabCount": 20,
+    "grammarCount": 3,
+    "kanjiCount": 5,
+    "topics": [
+      {
+        "vi": "Chủ đề bài 22",
+        "en": "Topic 22"
+      }
+    ]
+  },
+  {
+    "id": "lesson-23",
+    "number": 23,
+    "title": {
+      "ja": "第 23 課",
+      "romanji": "Dai 23 ka"
+    },
+    "description": {
+      "vi": "Nội dung bài 23",
+      "en": "Lesson 23 content",
+      "ja": "第 23 課の内容"
+    },
+    "jlptLevel": "N5",
+    "chapter": 23,
+    "courseId": "minna-1",
+    "vocabCount": 20,
+    "grammarCount": 3,
+    "kanjiCount": 5,
+    "topics": [
+      {
+        "vi": "Chủ đề bài 23",
+        "en": "Topic 23"
+      }
+    ]
+  },
+  {
+    "id": "lesson-24",
+    "number": 24,
+    "title": {
+      "ja": "第 24 課",
+      "romanji": "Dai 24 ka"
+    },
+    "description": {
+      "vi": "Nội dung bài 24",
+      "en": "Lesson 24 content",
+      "ja": "第 24 課の内容"
+    },
+    "jlptLevel": "N5",
+    "chapter": 24,
+    "courseId": "minna-1",
+    "vocabCount": 20,
+    "grammarCount": 3,
+    "kanjiCount": 5,
+    "topics": [
+      {
+        "vi": "Chủ đề bài 24",
+        "en": "Topic 24"
+      }
+    ]
+  },
+  {
+    "id": "lesson-25",
+    "number": 25,
+    "title": {
+      "ja": "第 25 課",
+      "romanji": "Dai 25 ka"
+    },
+    "description": {
+      "vi": "Nội dung bài 25",
+      "en": "Lesson 25 content",
+      "ja": "第 25 課の内容"
+    },
+    "jlptLevel": "N5",
+    "chapter": 25,
+    "courseId": "minna-1",
+    "vocabCount": 20,
+    "grammarCount": 3,
+    "kanjiCount": 5,
+    "topics": [
+      {
+        "vi": "Chủ đề bài 25",
+        "en": "Topic 25"
+      }
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+@use '@styles/variables' as *;
+@use '@styles/mixins' as *;
+
+.root {
+  margin-top: $spacing-xl;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $spacing-md;
+
+  @include respond-to('md') {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.card {
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+}
+
+.preview {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  border-radius: 8px;
+  
+  // Note: CardPreview will wrap this content, so we ensure the svg inherits color
+  svg {
+    font-size: 28px;
+  }
+}
+
+.desc {
+  color: var(--colorNeutralForeground2);
+  font-size: $font-size-sm;
+}
