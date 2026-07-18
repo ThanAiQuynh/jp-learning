@@ -1,6 +1,7 @@
 .root {
   display: flex;
   height: 100vh;
+  height: 100dvh;
   width: 100vw;
   overflow: hidden;
 }
@@ -50,7 +51,8 @@
 
 .bottomNav {
   display: flex;
-  height: $bottom-nav-height;
+  height: calc(#{$bottom-nav-height} + env(safe-area-inset-bottom));
+  padding-bottom: env(safe-area-inset-bottom);
   border-top: 1px solid var(--colorNeutralStroke1);
   background: var(--colorNeutralBackground1);
   align-items: center;
