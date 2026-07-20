@@ -5,6 +5,7 @@ import { JLPTBadge } from '@components/JLPTBadge';
 import { useTranslation } from 'react-i18next';
 import { DetailDrawer } from '@components/DetailDrawer';
 import styles from './GrammarDetail.module.scss';
+import { formatGrammarPattern } from '../../utils';
 
 export interface GrammarDetailProps {
   isOpen: boolean;
@@ -24,7 +25,7 @@ export const GrammarDetail: FC<GrammarDetailProps> = ({ isOpen, onClose, item })
         <div className={styles.root}>
           {/* Hero */}
           <div className={styles.hero}>
-            <div className={styles.pattern}>{item.pattern}</div>
+            <div className={styles.pattern}>{formatGrammarPattern(item.pattern, currentLang)}</div>
             <div className={styles.title}>{item.title[currentLang] || item.title.en}</div>
             <div style={{ marginTop: '12px' }}>
               <JLPTBadge level={item.jlptLevel} />
@@ -54,11 +55,12 @@ export const GrammarDetail: FC<GrammarDetailProps> = ({ isOpen, onClose, item })
             </div>
               <ul className={styles.formationList}>
                 {item.formation.map((form: string, idx: number) => (
-                  <li key={idx}>{form}</li>
+                  <li key={idx}>{formatGrammarPattern(form, currentLang)}</li>
                 ))}
               </ul>
             </div>
           )}
+
 
           {/* Examples */}
           {item.examples && item.examples.length > 0 && (

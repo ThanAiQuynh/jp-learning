@@ -5,16 +5,19 @@
     "pattern": "N1 は N2 です",
     "patternKana": "N1 は N2 です",
     "title": {
-      "vi": "N1 là N2",
-      "en": "N1 is N2"
+      "vi": "Danh từ 1 là Danh từ 2",
+      "en": "Noun 1 is Noun 2",
+      "ja": "名詞1 は 名詞2 です"
     },
     "explanation": {
-      "vi": "Trợ từ は (đọc là wa) biểu thị N1 là chủ đề của câu. です được dùng vào cuối câu khẳng định để biểu thị sự lịch sự.",
-      "en": "The particle は (pronounced wa) indicates N1 is the topic. です is used at the end of an affirmative sentence to express politeness."
+      "vi": "Trợ từ は (đọc là wa) biểu thị Danh từ 1 là chủ đề của câu. です được dùng vào cuối câu khẳng định để biểu thị sự lịch sự.",
+      "en": "The particle は (pronounced wa) indicates Noun 1 is the topic. です is used at the end of an affirmative sentence to express politeness.",
+      "ja": "助詞「は」（わと発音）は、名詞1が文の主題であることを示します。「です」は肯定文の文末で丁寧さを表すために使われます。"
     },
     "usage": {
       "vi": "Khẳng định một sự thật, danh tính.",
-      "en": "Affirming a fact or identity."
+      "en": "Affirming a fact or identity.",
+      "ja": "事実や身元を断定する。"
     },
     "formation": [
       "N1 + は + N2 + です"
@@ -53,16 +56,19 @@
     "pattern": "N1 は N2 じゃ ありません",
     "patternKana": "N1 は N2 じゃ ありません",
     "title": {
-      "vi": "N1 không phải là N2",
-      "en": "N1 is not N2"
+      "vi": "Danh từ 1 không phải là Danh từ 2",
+      "en": "Noun 1 is not Noun 2",
+      "ja": "名詞1 は 名詞2 じゃありません"
     },
     "explanation": {
       "vi": "Đây là thể phủ định của です. Trong văn viết trang trọng, có thể dùng では ありません thay cho じゃ ありません.",
-      "en": "This is the negative form of です. In formal writing, では ありません can be used instead of じゃ ありません."
+      "en": "This is the negative form of です. In formal writing, では ありません can be used instead of じゃ ありません.",
+      "ja": "「です」の否定形です。フォーマルな書き言葉では「じゃありません」の代わりに「ではありません」が使われます。"
     },
     "usage": {
       "vi": "Phủ định một sự việc.",
-      "en": "Negating a fact."
+      "en": "Negating a fact.",
+      "ja": "事実を否定する。"
     },
     "formation": [
       "N1 + は + N2 + じゃ ありません"
@@ -89,16 +95,19 @@
     "pattern": "N1 は N2 ですか",
     "patternKana": "N1 は N2 ですか",
     "title": {
-      "vi": "N1 có phải là N2 không?",
-      "en": "Is N1 N2?"
+      "vi": "Danh từ 1 có phải là Danh từ 2 không?",
+      "en": "Is Noun 1 Noun 2?",
+      "ja": "名詞1 は 名詞2 ですか"
     },
     "explanation": {
       "vi": "Thêm trợ từ か vào cuối câu để tạo thành câu hỏi. Đọc lên giọng ở chữ か.",
-      "en": "Adding the particle か to the end of a sentence turns it into a question. Raise your intonation at か."
+      "en": "Adding the particle か to the end of a sentence turns it into a question. Raise your intonation at か.",
+      "ja": "文末に助詞「か」を付けると疑問文になります。「か」の部分でイントネーションを上げます。"
     },
     "usage": {
       "vi": "Hỏi thông tin.",
-      "en": "Asking for information."
+      "en": "Asking for information.",
+      "ja": "情報を尋ねる。"
     },
     "formation": [
       "N1 + は + N2 + ですか"
@@ -125,16 +134,19 @@
     "pattern": "N も",
     "patternKana": "N も",
     "title": {
-      "vi": "N cũng",
-      "en": "N also/too"
+      "vi": "Danh từ cũng",
+      "en": "Noun also/too",
+      "ja": "名詞 も"
     },
     "explanation": {
-      "vi": "Trợ từ も được dùng thay cho は khi thông tin về N giống với thông tin về chủ đề đã được nhắc đến trước đó.",
-      "en": "The particle も is used instead of は when the information about N is the same as the topic mentioned previously."
+      "vi": "Trợ từ も được dùng thay cho は khi thông tin về Danh từ giống với thông tin về chủ đề đã được nhắc đến trước đó.",
+      "en": "The particle も is used instead of は when the information about the Nounoun is the same as the topic mentioned previously.",
+      "ja": "名詞に関する情報が前に述べた主題の情報と同じ場合、「は」の代わりに助詞「も」が使われます。"
     },
     "usage": {
       "vi": "Thể hiện sự tương đồng.",
-      "en": "Expressing similarity."
+      "en": "Expressing similarity.",
+      "ja": "類似性を表す。"
     },
     "formation": [
       "N + も"
@@ -161,16 +173,19 @@
     "pattern": "N1 の N2",
     "patternKana": "N1 の N2",
     "title": {
-      "vi": "N2 của N1 / N2 thuộc N1",
-      "en": "N1's N2"
+      "vi": "Danh từ 2 của Danh từ 1 / Danh từ 2 thuộc Danh từ 1",
+      "en": "Noun 1's Noun 2",
+      "ja": "名詞1 の 名詞2"
     },
     "explanation": {
-      "vi": "Trợ từ の nối hai danh từ. N1 bổ nghĩa cho N2. Trong bài này, の biểu thị tính sở thuộc.",
-      "en": "The particle の connects two nouns. N1 modifies N2. In this lesson, の expresses belonging."
+      "vi": "Trợ từ の nối hai danh từ. Danh từ 1 bổ nghĩa cho Danh từ 2. Trong bài này, の biểu thị tính sở thuộc.",
+      "en": "The particle の connects two nouns. Noun 1 modifies Noun 2. In this lesson, の expresses belonging.",
+      "ja": "助詞「の」は二つの名詞を繋ぎます。名詞1が名詞2を修飾します。この課では「の」は所属を表します。"
     },
     "usage": {
       "vi": "Biểu thị sở hữu hoặc trực thuộc.",
-      "en": "Expressing ownership or affiliation."
+      "en": "Expressing ownership or affiliation.",
+      "ja": "所有や所属を表す。"
     },
     "formation": [
       "N1 + の + N2"

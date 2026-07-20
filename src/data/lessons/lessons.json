@@ -4,23 +4,28 @@
     "number": 1,
     "title": {
       "ja": "新しい 友達",
-      "romanji": "Atarashii Tomodachi"
+      "romaji": "Atarashii Tomodachi",
+      "vi": "Bạn mới"
     },
     "description": {
-      "vi": "Làm quen và giới thiệu bản thân.",
-      "en": "Meeting people and introducing yourself.",
+      "vi": "Tự giới thiệu bản thân, hỏi tên, quốc tịch, nghề nghiệp. Sử dụng mẫu câu ～は ～です。",
+      "en": "Self-introduction, asking about name, nationality, occupation. Using ～は ～です pattern.",
       "ja": "自己紹介"
     },
     "jlptLevel": "N5",
     "chapter": 1,
     "courseId": "minna-1",
-    "vocabCount": 42,
-    "grammarCount": 4,
+    "vocabCount": 49,
+    "grammarCount": 5,
     "kanjiCount": 10,
     "topics": [
       {
         "vi": "Giới thiệu bản thân",
         "en": "Self-introduction"
+      },
+      {
+        "vi": "Quốc tịch và nghề nghiệp",
+        "en": "Nationality and occupation"
       }
     ]
   },

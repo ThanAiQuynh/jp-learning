@@ -10,6 +10,7 @@ import {
 import { ChevronRightRegular } from '@fluentui/react-icons';
 import { useTranslation } from 'react-i18next';
 import styles from './GrammarList.module.scss';
+import { formatGrammarPattern } from '../../utils';
 
 export interface GrammarListProps {
   items: GrammarPattern[];
@@ -26,9 +27,10 @@ export const GrammarList: FC<GrammarListProps> = ({ items, onDetailClick }) => {
         {items.map(item => (
           <AccordionItem value={item.id} key={item.id} className={styles.item}>
             <AccordionHeader size="large">
-              <span className={styles.pattern}>{item.pattern}</span>
+              <span className={styles.pattern}>{formatGrammarPattern(item.pattern, currentLang)}</span>
               <span className={styles.title}>
                 {item.title[currentLang] || item.title.en}
+
               </span>
             </AccordionHeader>
             <AccordionPanel className={styles.panel}>

@@ -116,3 +116,33 @@
     color: var(--colorNeutralForeground2);
   }
 }
+
+.radicalsList {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+}
+
+.radicalItem {
+  display: flex;
+  align-items: center;
+  gap: $spacing-md;
+  padding: $spacing-sm;
+  background: var(--colorNeutralBackground2);
+  border-radius: $border-radius-sm;
+}
+
+.radicalInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.radicalName {
+  font-weight: 600;
+  color: var(--colorNeutralForeground1);
+}
+
+.radicalMeaning {
+  font-size: $font-size-sm;
+  color: var(--colorNeutralForeground2);
+}

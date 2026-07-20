@@ -1,20 +1,38 @@
-import { FC } from 'react';
+import { FC, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Title1 } from '@fluentui/react-components';
-import { EmptyState } from '@components/EmptyState';
-import { DocumentText24Regular } from '@fluentui/react-icons';
+import { Radical } from '@types';
+import { getAllRadicals } from '@data';
+import { RadicalGrid } from '../../features/radicals/components';
 
 export const RadicalPage: FC = () => {
   const { t } = useTranslation('common');
+  const [radicals, setRadicals] = useState<Radical[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchRadicals = async () => {
+      try {
+        const data = await getAllRadicals();
+        setRadicals(data);
+      } catch (error) {
+        console.error('Failed to load radicals', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchRadicals();
+  }, []);
 
   return (
-    <div style={{ padding: '0 16px' }}>
+    <div style={{ padding: '0 16px', maxWidth: '1200px', margin: '0 auto' }}>
       <Title1 as="h1" style={{ margin: '24px 0' }}>{t('navigation.radicals')}</Title1>
-      <EmptyState 
-        icon={<DocumentText24Regular />}
-        title={t('navigation.radicals')}
-        message="Dữ liệu bộ thủ đang được cập nhật. Vui lòng quay lại sau!"
-      />
+      
+      {loading ? (
+        <div>Loading...</div>
+      ) : (
+        <RadicalGrid items={radicals} />
+      )}
     </div>
   );
 };

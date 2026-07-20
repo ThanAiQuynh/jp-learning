@@ -1,4 +1,4 @@
-import { VocabularyItem, GrammarPattern, KanjiItem } from '@types';
+import { VocabularyItem, GrammarPattern, KanjiItem, Radical } from '@types';
 
 // Use Vite's import.meta.glob to dynamically import all json files
 const vocabModules = import.meta.glob('./vocabulary/*.json');
@@ -48,4 +48,28 @@ export const getAllGrammar = async (): Promise<GrammarPattern[]> => {
 export const getAllKanji = async (): Promise<KanjiItem[]> => {
   const all = await Promise.all(Object.values(kanjiModules).map(m => m() as Promise<{ default: KanjiItem[] }>));
   return all.flatMap(m => m.default);
+};
+
+/**
+ * Fetch all 214 Kangxi radicals
+ */
+export const getAllRadicals = async (): Promise<Radical[]> => {
+  const module = await import('./radicals/radicals.json');
+  return module.default as Radical[];
+};
+
+/**
+ * Fetch radicals filtered by stroke count group
+ */
+export const getRadicalsByStrokeCount = async (strokeCount: number): Promise<Radical[]> => {
+  const all = await getAllRadicals();
+  return all.filter(r => r.strokeCount === strokeCount);
+};
+
+/**
+ * Find radicals by character
+ */
+export const getRadicalByCharacter = async (character: string): Promise<Radical | undefined> => {
+  const all = await getAllRadicals();
+  return all.find(r => r.character === character || r.variants.includes(character));
 };

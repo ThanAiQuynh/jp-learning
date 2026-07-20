@@ -1,10 +1,11 @@
-import { FC } from 'react';
-import { KanjiItem, Language } from '@types';
+import { FC, useEffect, useState } from 'react';
+import { KanjiItem, Language, Radical } from '@types';
 import { Badge } from '@fluentui/react-components';
 import { TextSortAscending24Regular, SearchSquare24Regular } from '@fluentui/react-icons';
 import { JLPTBadge } from '@components/JLPTBadge';
 import { useTranslation } from 'react-i18next';
 import { DetailDrawer } from '@components/DetailDrawer';
+import { getRadicalByCharacter } from '@data';
 import styles from './KanjiDetail.module.scss';
 
 export interface KanjiDetailProps {
@@ -15,6 +16,18 @@ export interface KanjiDetailProps {
 
 export const KanjiDetail: FC<KanjiDetailProps> = ({ isOpen, onClose, item }) => {
   const { t, i18n } = useTranslation(['kanji', 'common']);
+  const [radicalDetails, setRadicalDetails] = useState<Radical[]>([]);
+
+  useEffect(() => {
+    if (item?.radicals) {
+      Promise.all(item.radicals.map(r => getRadicalByCharacter(r)))
+        .then(results => {
+          setRadicalDetails(results.filter((r): r is Radical => r !== undefined));
+        });
+    } else {
+      setRadicalDetails([]);
+    }
+  }, [item]);
 
   if (!item) return null;
 
@@ -66,15 +79,27 @@ export const KanjiDetail: FC<KanjiDetailProps> = ({ isOpen, onClose, item }) => 
           </div>
 
           {/* Bộ thủ */}
-          {item.radicals && item.radicals.length > 0 && (
+          {radicalDetails.length > 0 && (
             <div className={styles.section}>
               <div className={styles.sectionTitle}>
               <SearchSquare24Regular />
               {t('kanji:detail.radicals')}
             </div>
-              <div style={{ display: 'flex', gap: '8px' }}>
-                {item.radicals.map((r: string, i: number) => (
-                  <Badge key={i} color="brand" appearance="outline">{r}</Badge>
+              <div className={styles.radicalsList}>
+                {radicalDetails.map((r: Radical) => (
+                  <div key={r.id} className={styles.radicalItem}>
+                    <Badge color="brand" appearance="outline" size="extra-large">
+                      <span style={{ fontSize: '1.2rem', fontFamily: 'Noto Sans JP' }}>{r.character}</span>
+                    </Badge>
+                    <div className={styles.radicalInfo}>
+                      <span className={styles.radicalName}>
+                        {r.name.vi} ({r.name.ja})
+                      </span>
+                      <span className={styles.radicalMeaning}>
+                        {r.meaning[currentLang] || r.meaning.en}
+                      </span>
+                    </div>
+                  </div>
                 ))}
               </div>
             </div>
