@@ -335,13 +335,13 @@ export const QuizPage: FC = () => {
         {isCompleted && mode !== 'matching' ? (
           <QuizSummary score={score} total={total} lessonId={lessonId} onRetake={handleRetake} />
         ) : mode === 'multiple-choice' ? (
-          <QuizQuestion question={mcQuestions[currentIndex]} onAnswer={handleMcAnswer} />
+          <QuizQuestion key={mcQuestions[currentIndex]?.id || currentIndex} question={mcQuestions[currentIndex]} onAnswer={handleMcAnswer} />
         ) : mode === 'matching' ? (
           isCompleted
             ? <QuizSummary score={score} total={matchingPairs.length} lessonId={lessonId} onRetake={handleRetake} />
             : <MatchingQuestion pairs={matchingPairs} onComplete={handleMatchingComplete} />
         ) : (
-          <FillBlankQuestion question={fillBlankQuestions[currentIndex]} onAnswer={handleFillBlankAnswer} />
+          <FillBlankQuestion key={fillBlankQuestions[currentIndex]?.id || currentIndex} question={fillBlankQuestions[currentIndex]} onAnswer={handleFillBlankAnswer} />
         )}
       </div>
     </div>

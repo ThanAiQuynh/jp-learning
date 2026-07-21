@@ -24,26 +24,29 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+  align-items: stretch;
 }
 
 .matchingItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 12px $spacing-md;
   border-radius: $border-radius-md;
   cursor: pointer;
   text-align: center;
   font-size: $font-size-lg;
+  line-height: 1.4;
+  word-break: break-word;
   border: 2px solid var(--colorNeutralStroke1);
   background-color: var(--colorNeutralBackground1);
   transition: all $transition-fast;
+  min-height: 52px;
+  box-sizing: border-box;
 
   &.jpText {
     font-family: "Noto Sans JP", sans-serif;
+    line-height: 1.5;
   }
 
   &.selected {
@@ -89,4 +92,13 @@
 .hintContainer {
   text-align: center;
   margin-top: $spacing-md;
+  min-height: 24px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity $transition-fast, visibility $transition-fast;
+
+  &.visible {
+    visibility: visible;
+    opacity: 1;
+  }
 }

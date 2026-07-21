@@ -29,7 +29,7 @@ export const QuizQuestion: FC<QuizQuestionProps> = ({ question, onAnswer }) => {
     setSelectedOption(index);
     setTimeout(() => {
       onAnswer(isCorrect);
-    }, 1500); // Wait 1.5s to show feedback
+    }, 1500);
   };
 
   const getOptionClassName = (index: number, isCorrect: boolean) => {

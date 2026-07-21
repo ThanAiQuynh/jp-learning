@@ -36,7 +36,8 @@
   },
   "feedback": {
     "correct": "Chính xác!",
-    "incorrect": "Sai rồi!"
+    "incorrect": "Sai rồi!",
+    "next": "Tiếp tục"
   },
   "matching": {
     "instruction": "Chọn từ bên trái, rồi chọn nghĩa tương ứng bên phải",

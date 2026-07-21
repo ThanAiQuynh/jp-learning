@@ -1,4 +1,4 @@
-import { FC, useState } from 'react';
+import { FC, useState, Fragment } from 'react';
 import { Button, Title3, Caption1Strong } from '@fluentui/react-components';
 import { useTranslation } from 'react-i18next';
 import { CheckmarkRegular, DismissRegular } from '@fluentui/react-icons';
@@ -74,25 +74,23 @@ export const MatchingQuestion: FC<MatchingQuestionProps> = ({ pairs, onComplete 
       </div>
 
       <div className={styles.grid}>
-        {/* Left column */}
-        <div className={styles.column}>
-          {pairs.map(pair => (
-            <div key={pair.id} className={getLeftClassName(pair.id)} onClick={() => handleLeftClick(pair.id)}>
-              {matched[pair.id] === 'correct' && <CheckmarkRegular className={styles.matchedIcon} />}
-              {pair.left}
-            </div>
-          ))}
-        </div>
-
-        {/* Right column (shuffled) */}
-        <div className={styles.column}>
-          {rightItems.map(pair => (
-            <div key={pair.id} className={getRightClassName(pair.id)} onClick={() => handleRightClick(pair.id)}>
-              {matched[pair.id] === 'correct' && <CheckmarkRegular className={styles.matchedIcon} />}
-              {pair.right}
-            </div>
-          ))}
-        </div>
+        {pairs.map((leftPair, idx) => {
+          const rightPair = rightItems[idx];
+          return (
+            <Fragment key={leftPair.id}>
+              <div className={getLeftClassName(leftPair.id)} onClick={() => handleLeftClick(leftPair.id)}>
+                {matched[leftPair.id] === 'correct' && <CheckmarkRegular className={styles.matchedIcon} />}
+                {leftPair.left}
+              </div>
+              {rightPair && (
+                <div key={rightPair.id} className={getRightClassName(rightPair.id)} onClick={() => handleRightClick(rightPair.id)}>
+                  {matched[rightPair.id] === 'correct' && <CheckmarkRegular className={styles.matchedIcon} />}
+                  {rightPair.right}
+                </div>
+              )}
+            </Fragment>
+          );
+        })}
       </div>
 
       {isAllMatched && (
@@ -106,14 +104,12 @@ export const MatchingQuestion: FC<MatchingQuestionProps> = ({ pairs, onComplete 
         </div>
       )}
 
-      {!isAllMatched && selectedLeft && (
-        <div className={styles.hintContainer}>
-          <Caption1Strong className={styles.instructionText}>
-            <DismissRegular style={{ marginRight: 4 }} />
-            {t('matching.cancel_hint', 'Nhấn lại từ đã chọn để bỏ chọn')}
-          </Caption1Strong>
-        </div>
-      )}
+      <div className={`${styles.hintContainer} ${!isAllMatched && selectedLeft ? styles.visible : ''}`}>
+        <Caption1Strong className={styles.instructionText}>
+          <DismissRegular style={{ marginRight: 4 }} />
+          {t('matching.cancel_hint', 'Nhấn lại từ đã chọn để bỏ chọn')}
+        </Caption1Strong>
+      </div>
     </div>
   );
 };

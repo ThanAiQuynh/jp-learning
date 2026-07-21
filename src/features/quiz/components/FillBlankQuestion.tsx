@@ -1,4 +1,4 @@
-import { FC, useState, useRef } from 'react';
+import { FC, useState, useRef, useEffect } from 'react';
 import { Button, Input, Title1, Title3, Caption1Strong, Card } from '@fluentui/react-components';
 import { useTranslation } from 'react-i18next';
 import { CheckmarkCircle24Regular, DismissCircle24Regular } from '@fluentui/react-icons';
@@ -24,19 +24,30 @@ export const FillBlankQuestion: FC<FillBlankQuestionProps> = ({ question, onAnsw
   const [isCorrect, setIsCorrect] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
 
+  useEffect(() => {
+    setUserInput('');
+    setSubmitted(false);
+    setIsCorrect(false);
+  }, [question.id]);
+
   const handleSubmit = () => {
     if (!userInput.trim()) return;
     const correct = userInput.trim() === question.answer.trim();
     setIsCorrect(correct);
     setSubmitted(true);
-    setTimeout(() => {
-      onAnswer(correct);
-    }, 2000);
+  };
+
+  const handleNext = () => {
+    onAnswer(isCorrect);
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter' && !submitted) {
-      handleSubmit();
+    if (e.key === 'Enter') {
+      if (!submitted) {
+        handleSubmit();
+      } else {
+        handleNext();
+      }
     }
   };
 
@@ -97,12 +108,20 @@ export const FillBlankQuestion: FC<FillBlankQuestionProps> = ({ question, onAnsw
 
       {/* Explanation */}
       {submitted && (
-        <div className={styles.explanationBox}>
-          <Caption1Strong style={{ color: 'var(--colorNeutralForeground3)', display: 'block', marginBottom: '4px' }}>
-            {t('fill_blank.explanation', 'Giải thích')}
-          </Caption1Strong>
-          <span style={{ color: 'var(--colorNeutralForeground1)' }}>{question.explanation}</span>
-        </div>
+        <>
+          <div className={styles.explanationBox}>
+            <Caption1Strong style={{ color: 'var(--colorNeutralForeground3)', display: 'block', marginBottom: '4px' }}>
+              {t('fill_blank.explanation', 'Giải thích')}
+            </Caption1Strong>
+            <span style={{ color: 'var(--colorNeutralForeground1)' }}>{question.explanation}</span>
+          </div>
+
+          <div className={styles.nextActionContainer}>
+            <Button appearance="primary" size="large" onClick={handleNext} autoFocus>
+              {t('feedback.next', 'Tiếp tục')}
+            </Button>
+          </div>
+        </>
       )}
     </Card>
   );

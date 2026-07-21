@@ -36,7 +36,8 @@
   },
   "feedback": {
     "correct": "Correct!",
-    "incorrect": "Incorrect!"
+    "incorrect": "Incorrect!",
+    "next": "Next Question"
   },
   "matching": {
     "instruction": "Select a word on the left, then its meaning on the right",
