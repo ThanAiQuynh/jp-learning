@@ -33,6 +33,13 @@ export interface AppShellProps {
   children: ReactNode;
 }
 
+interface NavItemConfig {
+  to: string;
+  label: string;
+  icon: FC<{ className?: string }>;
+  activeIcon: FC<{ className?: string }>;
+}
+
 export const AppShell: FC<AppShellProps> = ({ children }) => {
   const { t, i18n } = useTranslation('common');
   const dispatch = useAppDispatch();
@@ -48,31 +55,30 @@ export const AppShell: FC<AppShellProps> = ({ children }) => {
     i18n.changeLanguage(lang);
   };
 
-  const navItems = [
+  const navItems: NavItemConfig[] = [
     { to: '/', label: t('navigation.home'), icon: HomeRegular, activeIcon: HomeFilled },
     { to: '/courses', label: t('navigation.courses'), icon: MapRegular, activeIcon: MapFilled },
   ];
 
-  const libraryItems = [
+  const libraryItems: NavItemConfig[] = [
     { to: '/vocabulary', label: t('navigation.vocabulary'), icon: BookRegular, activeIcon: BookFilled },
     { to: '/grammar', label: t('navigation.grammar'), icon: BoardRegular, activeIcon: BoardFilled },
     { to: '/kanji', label: t('navigation.kanji'), icon: ContactCardRegular, activeIcon: ContactCardFilled },
     { to: '/radicals', label: t('navigation.radicals'), icon: DocumentTextRegular, activeIcon: DocumentTextFilled },
   ];
 
-  const renderNavLinks = (items: any[]) => items.map(item => (
+  const renderSidebarLinks = (items: NavItemConfig[]) => items.map(item => (
     <NavLink 
       key={item.to} 
       to={item.to}
       className={({ isActive }) => 
-        isActive ? `${styles.navItem} ${styles.active}` : styles.navItem
+        isActive ? `${styles.sidebarNavItem} ${styles.active}` : styles.sidebarNavItem
       }
-      style={{ flexDirection: 'row', justifyContent: 'flex-start', padding: '12px 16px', fontSize: '16px' }}
     >
       {({ isActive }) => (
         <>
-          <item.icon style={{ marginRight: '12px', display: isActive ? 'none' : 'block' }} />
-          <item.activeIcon style={{ marginRight: '12px', display: isActive ? 'block' : 'none' }} />
+          <item.icon className={`${styles.navIcon} ${isActive ? styles.hidden : styles.visible}`} />
+          <item.activeIcon className={`${styles.navIcon} ${isActive ? styles.visible : styles.hidden}`} />
           {item.label}
         </>
       )}
@@ -83,25 +89,25 @@ export const AppShell: FC<AppShellProps> = ({ children }) => {
     <div className={styles.root}>
       {/* Desktop Sidebar */}
       <nav className={styles.sidebar}>
-        <div style={{ padding: '16px' }}>
+        <div className={styles.sidebarHeader}>
           <Title3>{t('app_title')}</Title3>
         </div>
-        <div style={{ display: 'flex', flexDirection: 'column', padding: '0 8px', gap: '4px' }}>
-          {renderNavLinks(navItems)}
+        <div className={styles.sidebarNav}>
+          {renderSidebarLinks(navItems)}
           
-          <div style={{ padding: '16px 8px 8px', fontSize: '12px', fontWeight: 'bold', color: 'var(--colorNeutralForeground3)' }}>
+          <div className={styles.sidebarSectionHeader}>
             {t('navigation.library').toUpperCase()}
           </div>
           
-          {renderNavLinks(libraryItems)}
+          {renderSidebarLinks(libraryItems)}
         </div>
       </nav>
 
       {/* Main Content Area */}
       <div className={styles.main}>
         <header className={styles.header}>
-          <Title3 style={{ fontSize: '18px' }}>{t('app_title')}</Title3>
-          <div style={{ display: 'flex', gap: '4px', alignItems: 'center' }}>
+          <Title3 className={styles.headerTitle}>{t('app_title')}</Title3>
+          <div className={styles.headerActions}>
 
             <Tooltip content={showFurigana ? t('toggle.hide_furigana', 'Ẩn furigana') : t('toggle.show_furigana', 'Hiện furigana')} relationship="label">
               <Button
@@ -109,7 +115,7 @@ export const AppShell: FC<AppShellProps> = ({ children }) => {
                 appearance={showFurigana ? 'subtle' : 'transparent'}
                 onClick={() => dispatch(toggleFurigana())}
                 aria-label="Toggle furigana"
-                style={{ opacity: showFurigana ? 1 : 0.4 }}
+                className={`${styles.toggleBtn} ${showFurigana ? styles.active : styles.inactive}`}
               />
             </Tooltip>
 
@@ -119,7 +125,7 @@ export const AppShell: FC<AppShellProps> = ({ children }) => {
                 appearance={showRomaji ? 'subtle' : 'transparent'}
                 onClick={() => dispatch(toggleRomaji())}
                 aria-label="Toggle romaji"
-                style={{ opacity: showRomaji ? 1 : 0.4 }}
+                className={`${styles.toggleBtn} ${showRomaji ? styles.active : styles.inactive}`}
               />
             </Tooltip>
 
@@ -155,13 +161,13 @@ export const AppShell: FC<AppShellProps> = ({ children }) => {
               key={item.to} 
               to={item.to}
               className={({ isActive }) => 
-                isActive ? `${styles.navItem} ${styles.active}` : styles.navItem
+                isActive ? `${styles.bottomNavItem} ${styles.active}` : styles.bottomNavItem
               }
             >
               {({ isActive }) => (
                 <>
-                  <item.icon style={{ fontSize: '24px', marginBottom: '4px', display: isActive ? 'none' : 'block' }} />
-                  <item.activeIcon style={{ fontSize: '24px', marginBottom: '4px', display: isActive ? 'block' : 'none' }} />
+                  <item.icon className={`${styles.bottomNavIcon} ${isActive ? styles.hidden : styles.visible}`} />
+                  <item.activeIcon className={`${styles.bottomNavIcon} ${isActive ? styles.visible : styles.hidden}`} />
                   <span>{item.label}</span>
                 </>
               )}

@@ -108,7 +108,7 @@ export const KanjiDetail: FC<KanjiDetailProps> = ({ isOpen, onClose, item }) => 
                   return (
                     <div key={r.id} className={styles.radicalItem}>
                       <Badge color={isPrimary ? "danger" : "brand"} appearance="outline" size="extra-large">
-                        <span style={{ fontSize: '1.2rem', fontFamily: 'Noto Sans JP' }}>{r.character}</span>
+                        <span className={styles.radicalBadgeText}>{r.character}</span>
                       </Badge>
                       <div className={styles.radicalInfo}>
                         <div className={styles.radicalHeader}>

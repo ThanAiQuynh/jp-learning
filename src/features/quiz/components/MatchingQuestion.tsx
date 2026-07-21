@@ -2,6 +2,7 @@ import { FC, useState } from 'react';
 import { Button, Title3, Caption1Strong } from '@fluentui/react-components';
 import { useTranslation } from 'react-i18next';
 import { CheckmarkRegular, DismissRegular } from '@fluentui/react-icons';
+import styles from './MatchingQuestion.module.scss';
 
 export interface MatchingPair {
   id: string;
@@ -45,75 +46,49 @@ export const MatchingQuestion: FC<MatchingQuestionProps> = ({ pairs, onComplete 
     setSelectedLeft(null);
   };
 
-  const getLeftStyle = (id: string): React.CSSProperties => {
-    const base: React.CSSProperties = {
-      padding: '12px 16px',
-      borderRadius: '8px',
-      cursor: matched[id] ? 'default' : 'pointer',
-      textAlign: 'center',
-      fontSize: '18px',
-      fontFamily: 'Noto Sans JP, sans-serif',
-      border: '2px solid',
-      transition: 'all 0.2s',
-    };
-    if (matched[id] === 'correct') {
-      return { ...base, borderColor: '#107C10', backgroundColor: '#DFF6DD', color: '#107C10', cursor: 'default' };
-    }
-    if (selectedLeft === id) {
-      return { ...base, borderColor: 'var(--colorBrandBackground)', backgroundColor: 'var(--colorBrandBackgroundInverted)', color: 'var(--colorBrandForeground1)' };
-    }
-    return { ...base, borderColor: 'var(--colorNeutralStroke1)', backgroundColor: 'var(--colorNeutralBackground1)' };
+  const getLeftClassName = (id: string) => {
+    const classes = [styles.matchingItem, styles.jpText];
+    if (matched[id] === 'correct') classes.push(styles.correct);
+    else if (selectedLeft === id) classes.push(styles.selected);
+    return classes.join(' ');
   };
 
-  const getRightStyle = (id: string): React.CSSProperties => {
-    const isWrong = wrongPair?.endsWith(`-${id}`) || wrongPair?.startsWith(`${selectedLeft}-`) && wrongPair?.endsWith(id);
-    const base: React.CSSProperties = {
-      padding: '12px 16px',
-      borderRadius: '8px',
-      cursor: matched[id] ? 'default' : 'pointer',
-      textAlign: 'center',
-      border: '2px solid',
-      transition: 'all 0.2s',
-    };
-    if (matched[id] === 'correct') {
-      return { ...base, borderColor: '#107C10', backgroundColor: '#DFF6DD', color: '#107C10', cursor: 'default' };
-    }
-    if (isWrong) {
-      return { ...base, borderColor: '#D13438', backgroundColor: '#FDE7E9', color: '#D13438' };
-    }
-    if (selectedLeft) {
-      return { ...base, borderColor: 'var(--colorNeutralStroke1)', backgroundColor: 'var(--colorNeutralBackground1)', opacity: 0.85 };
-    }
-    return { ...base, borderColor: 'var(--colorNeutralStroke1)', backgroundColor: 'var(--colorNeutralBackground1)' };
+  const getRightClassName = (id: string) => {
+    const isWrong = wrongPair?.endsWith(`-${id}`) || (wrongPair?.startsWith(`${selectedLeft}-`) && wrongPair?.endsWith(id));
+    const classes = [styles.matchingItem];
+    if (matched[id] === 'correct') classes.push(styles.correct);
+    else if (isWrong) classes.push(styles.wrong);
+    else if (selectedLeft) classes.push(styles.dimmed);
+    return classes.join(' ');
   };
 
   return (
-    <div style={{ maxWidth: '700px', margin: '0 auto', width: '100%' }}>
-      <div style={{ textAlign: 'center', marginBottom: '24px' }}>
-        <Caption1Strong style={{ color: 'var(--colorNeutralForeground3)' }}>
+    <div className={styles.root}>
+      <div className={styles.headerArea}>
+        <Caption1Strong className={styles.instructionText}>
           {t('matching.instruction', 'Chọn từ bên trái, rồi chọn nghĩa tương ứng bên phải')}
         </Caption1Strong>
-        <Title3 style={{ display: 'block', marginTop: '8px' }}>
+        <Title3 className={styles.progressTitle}>
           {correctCount} / {pairs.length} {t('matching.matched', 'cặp đúng')}
         </Title3>
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+      <div className={styles.grid}>
         {/* Left column */}
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+        <div className={styles.column}>
           {pairs.map(pair => (
-            <div key={pair.id} style={getLeftStyle(pair.id)} onClick={() => handleLeftClick(pair.id)}>
-              {matched[pair.id] === 'correct' && <CheckmarkRegular style={{ marginRight: 8, color: '#107C10' }} />}
+            <div key={pair.id} className={getLeftClassName(pair.id)} onClick={() => handleLeftClick(pair.id)}>
+              {matched[pair.id] === 'correct' && <CheckmarkRegular className={styles.matchedIcon} />}
               {pair.left}
             </div>
           ))}
         </div>
 
         {/* Right column (shuffled) */}
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+        <div className={styles.column}>
           {rightItems.map(pair => (
-            <div key={pair.id} style={getRightStyle(pair.id)} onClick={() => handleRightClick(pair.id)}>
-              {matched[pair.id] === 'correct' && <CheckmarkRegular style={{ marginRight: 8, color: '#107C10' }} />}
+            <div key={pair.id} className={getRightClassName(pair.id)} onClick={() => handleRightClick(pair.id)}>
+              {matched[pair.id] === 'correct' && <CheckmarkRegular className={styles.matchedIcon} />}
               {pair.right}
             </div>
           ))}
@@ -121,8 +96,8 @@ export const MatchingQuestion: FC<MatchingQuestionProps> = ({ pairs, onComplete 
       </div>
 
       {isAllMatched && (
-        <div style={{ textAlign: 'center', marginTop: '32px' }}>
-          <div style={{ color: '#107C10', fontSize: '18px', marginBottom: '16px' }}>
+        <div className={styles.completeContainer}>
+          <div className={styles.completeBanner}>
             🎉 {t('matching.all_correct', 'Hoàn thành! Bạn đã nối đúng tất cả!')}
           </div>
           <Button appearance="primary" size="large" onClick={() => onComplete(correctCount, pairs.length)}>
@@ -132,8 +107,8 @@ export const MatchingQuestion: FC<MatchingQuestionProps> = ({ pairs, onComplete 
       )}
 
       {!isAllMatched && selectedLeft && (
-        <div style={{ textAlign: 'center', marginTop: '16px' }}>
-          <Caption1Strong style={{ color: 'var(--colorNeutralForeground3)' }}>
+        <div className={styles.hintContainer}>
+          <Caption1Strong className={styles.instructionText}>
             <DismissRegular style={{ marginRight: 4 }} />
             {t('matching.cancel_hint', 'Nhấn lại từ đã chọn để bỏ chọn')}
           </Caption1Strong>

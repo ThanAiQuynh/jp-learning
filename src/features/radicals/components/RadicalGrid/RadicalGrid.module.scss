@@ -12,7 +12,7 @@
 }
 
 .groupTitle {
-  font-size: 1.25rem;
+  font-size: $font-size-xl;
   margin-bottom: $spacing-md;
   color: var(--colorNeutralForeground1);
   border-bottom: 1px solid var(--colorNeutralStroke2);
@@ -35,7 +35,7 @@
   border: 1px solid var(--colorNeutralStroke1);
   border-radius: $border-radius-md;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all $transition-fast;
   
   &:hover {
     transform: translateY(-2px);
@@ -45,7 +45,7 @@
 }
 
 .character {
-  font-size: 2.5rem;
+  font-size: $font-size-4xl;
   line-height: 1.2;
   margin-bottom: $spacing-xs;
   font-family: "Noto Sans JP", sans-serif;
@@ -53,7 +53,7 @@
 }
 
 .variants {
-  font-size: 1.2rem;
+  font-size: $font-size-lg;
   color: var(--colorNeutralForeground3);
 }
 
@@ -66,7 +66,7 @@
 }
 
 .name {
-  font-size: 0.75rem;
+  font-size: $font-size-xs;
   color: var(--colorNeutralForeground3);
   text-align: center;
 }

@@ -68,7 +68,7 @@
   font-size: $font-size-md;
   line-height: 1.5;
   color: var(--colorNeutralForeground1);
-  border-left: 4px solid var(--colorBrandBackground);
+  border: 1px solid var(--colorNeutralStroke1);
 }
 
 .readingRow {

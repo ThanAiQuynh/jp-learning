@@ -1,0 +1,92 @@
+@use '@styles/variables' as *;
+
+.root {
+  max-width: 700px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.headerArea {
+  text-align: center;
+  margin-bottom: $spacing-lg;
+}
+
+.instructionText {
+  color: var(--colorNeutralForeground3);
+}
+
+.progressTitle {
+  display: block;
+  margin-top: $spacing-xs;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.matchingItem {
+  padding: 12px $spacing-md;
+  border-radius: $border-radius-md;
+  cursor: pointer;
+  text-align: center;
+  font-size: $font-size-lg;
+  border: 2px solid var(--colorNeutralStroke1);
+  background-color: var(--colorNeutralBackground1);
+  transition: all $transition-fast;
+
+  &.jpText {
+    font-family: "Noto Sans JP", sans-serif;
+  }
+
+  &.selected {
+    border-color: var(--colorBrandBackground);
+    background-color: var(--colorBrandBackgroundInverted);
+    color: var(--colorBrandForeground1);
+  }
+
+  &.correct {
+    border-color: var(--colorPaletteGreenBorder1, #107c10);
+    background-color: var(--colorPaletteGreenBackground1, #dff6dd);
+    color: var(--colorPaletteGreenForeground1, #107c10);
+    cursor: default;
+  }
+
+  &.wrong {
+    border-color: var(--colorPaletteRedBorder1, #d13438);
+    background-color: var(--colorPaletteRedBackground1, #fde7e9);
+    color: var(--colorPaletteRedForeground1, #d13438);
+  }
+
+  &.dimmed {
+    opacity: 0.85;
+  }
+}
+
+.matchedIcon {
+  margin-right: $spacing-xs;
+  color: var(--colorPaletteGreenForeground1, #107c10);
+}
+
+.completeContainer {
+  text-align: center;
+  margin-top: $spacing-xl;
+}
+
+.completeBanner {
+  color: var(--colorPaletteGreenForeground1, #107c10);
+  font-size: $font-size-lg;
+  margin-bottom: $spacing-md;
+}
+
+.hintContainer {
+  text-align: center;
+  margin-top: $spacing-md;
+}

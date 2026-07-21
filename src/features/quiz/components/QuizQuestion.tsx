@@ -2,6 +2,7 @@ import { FC, useState, useEffect } from 'react';
 import { Title1, Title3, Button, Card } from '@fluentui/react-components';
 import { useTranslation } from 'react-i18next';
 import { CategoryType } from '@types';
+import styles from './QuizQuestion.module.scss';
 
 export interface QuizQuestionData {
   id: string;
@@ -31,42 +32,36 @@ export const QuizQuestion: FC<QuizQuestionProps> = ({ question, onAnswer }) => {
     }, 1500); // Wait 1.5s to show feedback
   };
 
-  const getButtonStyle = (index: number, isCorrect: boolean) => {
-    if (selectedOption === null) return {};
-    if (isCorrect) return { backgroundColor: '#107C10', color: 'white' }; // Green for correct
-    if (selectedOption === index) return { backgroundColor: '#D13438', color: 'white' }; // Red for wrong
-    return { opacity: 0.5 };
+  const getOptionClassName = (index: number, isCorrect: boolean) => {
+    if (selectedOption === null) return styles.optionBtn;
+    if (isCorrect) return `${styles.optionBtn} ${styles.correct}`;
+    if (selectedOption === index) return `${styles.optionBtn} ${styles.incorrect}`;
+    return `${styles.optionBtn} ${styles.dimmed}`;
   };
 
   return (
-    <Card style={{ padding: '32px', maxWidth: '600px', margin: '0 auto', textAlign: 'center' }}>
-      <Title3 style={{ marginBottom: '8px', color: 'var(--colorNeutralForeground3)' }}>
+    <Card className={styles.quizCard}>
+      <Title3 className={styles.quizCategory}>
         {t(`categories.${question.type}`)}
       </Title3>
-      <Title1 style={{ marginBottom: '32px' }}>{question.questionText}</Title1>
+      <Title1 className={styles.quizTitle}>{question.questionText}</Title1>
       
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+      <div className={styles.optionsGrid}>
         {question.options.map((opt, i) => (
           <Button 
             key={i} 
             size="large" 
             onClick={() => handleSelect(i, opt.isCorrect)}
-            style={{ 
-              height: 'auto', 
-              minHeight: '64px', 
-              fontSize: '18px', 
-              whiteSpace: 'normal',
-              ...getButtonStyle(i, opt.isCorrect)
-            }}
+            className={getOptionClassName(i, opt.isCorrect)}
           >
             {opt.label}
           </Button>
         ))}
       </div>
 
-      <div style={{ height: '32px', marginTop: '24px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <div className={styles.feedbackContainer}>
         {selectedOption !== null && (
-          <Title3 style={{ color: question.options[selectedOption].isCorrect ? '#107C10' : '#D13438' }}>
+          <Title3 className={`${styles.feedbackText} ${question.options[selectedOption].isCorrect ? styles.correct : styles.incorrect}`}>
             {question.options[selectedOption].isCorrect ? t('feedback.correct', 'Chính xác!') : t('feedback.incorrect', 'Sai rồi!')}
           </Title3>
         )}

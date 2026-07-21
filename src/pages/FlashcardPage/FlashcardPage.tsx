@@ -130,6 +130,30 @@ export const FlashcardPage: FC = () => {
     setActiveType(data.value as FlashcardType);
   };
 
+  // Keyboard navigation shortcuts
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (['INPUT', 'TEXTAREA'].includes((e.target as HTMLElement)?.tagName)) return;
+
+      if (e.code === 'Space') {
+        e.preventDefault();
+        setIsFlipped(prev => !prev);
+      } else if (e.code === 'ArrowRight' || e.code === 'Digit2' || e.code === 'Numpad2') {
+        e.preventDefault();
+        handleRate();
+      } else if (e.code === 'ArrowLeft' || e.code === 'Digit1' || e.code === 'Numpad1') {
+        e.preventDefault();
+        if (currentIndex > 0) {
+          setCurrentIndex(prev => prev - 1);
+          setIsFlipped(false);
+        }
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [currentIndex, handleRate]);
+
   if (loading) {
     return <div style={{ padding: '48px', textAlign: 'center' }}>{t('loading', 'Đang tải...')}</div>;
   }

@@ -36,9 +36,9 @@
 .exampleItem {
   margin-bottom: $spacing-sm;
   padding: $spacing-sm;
-  background: var(--colorNeutralBackground1);
+  background: var(--colorNeutralBackground2);
   border-radius: $border-radius-sm;
-  border-left: 3px solid var(--colorBrandBackground);
+  border: 1px solid var(--colorNeutralStroke2);
 }
 
 .ja {

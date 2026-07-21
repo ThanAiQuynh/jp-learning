@@ -201,7 +201,7 @@ export const QuizPage: FC = () => {
     }
   };
 
-  const handleMatchingComplete = (correct: number, total: number) => {
+  const handleMatchingComplete = (correct: number, _total: number) => {
     setScore(correct);
     setIsCompleted(true);
     // For matching, total is the pairs count

@@ -13,6 +13,7 @@ import { GrammarList } from '@features/grammar/components/GrammarList';
 import { GrammarDetail } from '@features/grammar/components/GrammarDetail';
 import { KanjiGrid } from '@features/kanji/components/KanjiGrid';
 import { KanjiDetail } from '@features/kanji/components/KanjiDetail';
+import styles from './SearchPage.module.scss';
 
 export const SearchPage: FC = () => {
   const [searchParams] = useSearchParams();
@@ -38,7 +39,6 @@ export const SearchPage: FC = () => {
     }
     const q = query.toLowerCase();
 
-    // Naive search (in real app, this should be done via a service or backend)
     Promise.all([getAllVocab(), getAllGrammar(), getAllKanji()]).then(([allVocab, allGrammar, allKanji]) => {
       setVocabResults(allVocab.filter(v => 
         v.hiragana.toLowerCase().includes(q) || 
@@ -71,13 +71,13 @@ export const SearchPage: FC = () => {
   };
 
   return (
-    <div style={{ padding: '0 16px' }}>
+    <div className={styles.root}>
       <PageHeader 
         title={t('search.title', 'Search Results')}
         subtitle={t('search.subtitle', 'Results for "{{query}}"', { query })}
       />
 
-      <TabList selectedValue={activeTab} onTabSelect={onTabSelect} style={{ marginBottom: 24 }}>
+      <TabList selectedValue={activeTab} onTabSelect={onTabSelect} className={styles.tabList}>
         <Tab value="vocab">{t('navigation.vocabulary')} ({vocabResults.length})</Tab>
         <Tab value="grammar">{t('navigation.grammar')} ({grammarResults.length})</Tab>
         <Tab value="kanji">{t('navigation.kanji')} ({kanjiResults.length})</Tab>

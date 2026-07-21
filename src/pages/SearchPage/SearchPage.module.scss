@@ -1,0 +1,11 @@
+@use '@styles/variables' as *;
+
+.root {
+  padding: 0 $spacing-md;
+  max-width: $content-max-width;
+  margin: 0 auto;
+}
+
+.tabList {
+  margin-bottom: $spacing-lg;
+}
