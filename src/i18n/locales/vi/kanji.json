@@ -8,6 +8,19 @@
     "on_reading": "ON:",
     "kun_reading": "KUN:",
     "radicals": "Bộ thủ",
+    "primary_radical": "Bộ chính",
+    "stroke_count_short": "{{count}} nét",
+    "variants": "Biến thể: {{variants}}",
+    "position": {
+      "hen": "Bên trái",
+      "tsukuri": "Bên phải",
+      "kanmuri": "Phía trên",
+      "ashi": "Phía dưới",
+      "tare": "Che phủ bên trái",
+      "nyou": "Bao quanh dưới",
+      "kamae": "Bao quanh",
+      "full": "Toàn bộ"
+    },
     "compounds": "Từ ghép"
   }
 }

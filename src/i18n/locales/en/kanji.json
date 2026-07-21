@@ -8,6 +8,19 @@
     "on_reading": "ON:",
     "kun_reading": "KUN:",
     "radicals": "Radicals",
+    "primary_radical": "Primary",
+    "stroke_count_short": "{{count}} strokes",
+    "variants": "Variants: {{variants}}",
+    "position": {
+      "hen": "Left",
+      "tsukuri": "Right",
+      "kanmuri": "Top",
+      "ashi": "Bottom",
+      "tare": "Top-Left",
+      "nyou": "Bottom-Left",
+      "kamae": "Enclosure",
+      "full": "Full"
+    },
     "compounds": "Compounds"
   }
 }

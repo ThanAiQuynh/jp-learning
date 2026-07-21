@@ -1,11 +1,13 @@
 import { FC, useEffect, useState } from 'react';
 import { KanjiItem, Language, Radical } from '@types';
 import { Badge } from '@fluentui/react-components';
-import { TextSortAscending24Regular, SearchSquare24Regular } from '@fluentui/react-icons';
+import { TextSortAscending24Regular, SearchSquare24Regular, Lightbulb24Regular } from '@fluentui/react-icons';
 import { JLPTBadge } from '@components/JLPTBadge';
 import { useTranslation } from 'react-i18next';
 import { DetailDrawer } from '@components/DetailDrawer';
 import { getRadicalByCharacter } from '@data';
+import { useAppSelector } from '@store/hooks';
+import { JapaneseText } from '@components/JapaneseText';
 import styles from './KanjiDetail.module.scss';
 
 export interface KanjiDetailProps {
@@ -17,6 +19,8 @@ export interface KanjiDetailProps {
 export const KanjiDetail: FC<KanjiDetailProps> = ({ isOpen, onClose, item }) => {
   const { t, i18n } = useTranslation(['kanji', 'common']);
   const [radicalDetails, setRadicalDetails] = useState<Radical[]>([]);
+  const showFurigana = useAppSelector(state => state.progress.settings.showFurigana);
+  const showRomaji = useAppSelector(state => state.progress.settings.showRomaji);
 
   useEffect(() => {
     if (item?.radicals) {
@@ -52,6 +56,19 @@ export const KanjiDetail: FC<KanjiDetailProps> = ({ isOpen, onClose, item }) => 
             </div>
           </div>
 
+          {/* Mẹo nhớ (Mnemonic) */}
+          {item.mnemonic && (item.mnemonic[currentLang] || item.mnemonic.en) && (
+            <div className={styles.section}>
+              <div className={styles.sectionTitle}>
+                <Lightbulb24Regular />
+                {t('kanji:detail.mnemonic', 'Mẹo nhớ')}
+              </div>
+              <div className={styles.mnemonicBox}>
+                {item.mnemonic[currentLang] || item.mnemonic.en}
+              </div>
+            </div>
+          )}
+
           {/* Âm đọc */}
           <div className={styles.section}>
             <div className={styles.sectionTitle}>
@@ -86,21 +103,40 @@ export const KanjiDetail: FC<KanjiDetailProps> = ({ isOpen, onClose, item }) => 
               {t('kanji:detail.radicals')}
             </div>
               <div className={styles.radicalsList}>
-                {radicalDetails.map((r: Radical) => (
-                  <div key={r.id} className={styles.radicalItem}>
-                    <Badge color="brand" appearance="outline" size="extra-large">
-                      <span style={{ fontSize: '1.2rem', fontFamily: 'Noto Sans JP' }}>{r.character}</span>
-                    </Badge>
-                    <div className={styles.radicalInfo}>
-                      <span className={styles.radicalName}>
-                        {r.name.vi} ({r.name.ja})
-                      </span>
-                      <span className={styles.radicalMeaning}>
-                        {r.meaning[currentLang] || r.meaning.en}
-                      </span>
+                {radicalDetails.map((r: Radical) => {
+                  const isPrimary = r.character === item.primaryRadical || r.variants.includes(item.primaryRadical);
+                  return (
+                    <div key={r.id} className={styles.radicalItem}>
+                      <Badge color={isPrimary ? "danger" : "brand"} appearance="outline" size="extra-large">
+                        <span style={{ fontSize: '1.2rem', fontFamily: 'Noto Sans JP' }}>{r.character}</span>
+                      </Badge>
+                      <div className={styles.radicalInfo}>
+                        <div className={styles.radicalHeader}>
+                          <span className={styles.radicalName}>
+                            {r.name.vi} ({r.name.ja})
+                          </span>
+                          {isPrimary && (
+                            <Badge color="danger" appearance="filled" size="small">
+                              {t('kanji:detail.primary_radical')}
+                            </Badge>
+                          )}
+                        </div>
+                        <span className={styles.radicalMeaning}>
+                          {r.meaning[currentLang] || r.meaning.en}
+                        </span>
+                        <div className={styles.radicalDetailsRow}>
+                          <span>{t('kanji:detail.stroke_count_short', { count: r.strokeCount })}</span>
+                          {r.position && (
+                            <span>• {t(`kanji:detail.position.${r.position}`)}</span>
+                          )}
+                          {r.variants.length > 0 && (
+                            <span>• {t('kanji:detail.variants', { variants: r.variants.join(', ') })}</span>
+                          )}
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
           )}
@@ -116,8 +152,12 @@ export const KanjiDetail: FC<KanjiDetailProps> = ({ isOpen, onClose, item }) => 
                 {item.compounds.map((c: any, i: number) => (
                   <div key={i} className={styles.compoundItem}>
                     <div className={styles.left}>
-                      <span className={styles.word}>{c.word}</span>
-                      <span className={styles.reading}>{c.reading}</span>
+                      <JapaneseText
+                        text={c.word}
+                        reading={showFurigana ? c.reading : undefined}
+                        showRomaji={showRomaji}
+                        size="md"
+                      />
                     </div>
                     <div className={styles.meaning}>
                       {c.meaning[currentLang] || c.meaning.en}

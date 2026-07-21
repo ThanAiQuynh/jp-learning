@@ -57,7 +57,6 @@ export type QuizType = typeof QuizType[keyof typeof QuizType];
 export const Language = {
   VI: 'vi',
   EN: 'en',
-  JA: 'ja',
 } as const;
 export type Language = typeof Language[keyof typeof Language];
 

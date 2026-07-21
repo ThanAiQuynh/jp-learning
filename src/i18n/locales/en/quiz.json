@@ -2,12 +2,27 @@
   "questions": {
     "vocab_meaning": "What is the meaning of \"{{word}}\"?",
     "kanji_meaning": "What does the Kanji \"{{kanji}}\" mean?",
+    "grammar_example": "Which grammar pattern is used in: \"{{example}}\"?",
+    "grammar_meaning": "What does the grammar pattern \"{{pattern}}\" mean?",
     "no_questions": "No questions available for this lesson."
   },
   "categories": {
     "vocabulary": "Vocabulary",
     "grammar": "Grammar",
-    "kanji": "Kanji"
+    "kanji": "Kanji",
+    "mixed": "Mixed"
+  },
+  "mode": {
+    "multiple_choice": "Multiple Choice",
+    "matching": "Matching",
+    "fill_blank": "Fill in Blank"
+  },
+  "config": {
+    "title": "Quiz Setup",
+    "mode": "Mode",
+    "category": "Category",
+    "start": "Start Quiz",
+    "question_count": "{{count}} questions"
   },
   "progress": {
     "question_count": "Question {{index}} of {{total}}",
@@ -22,5 +37,19 @@
   "feedback": {
     "correct": "Correct!",
     "incorrect": "Incorrect!"
+  },
+  "matching": {
+    "instruction": "Select a word on the left, then its meaning on the right",
+    "matched": "pairs matched",
+    "all_correct": "Great! You matched all pairs correctly!",
+    "next": "Continue",
+    "cancel_hint": "Click the selected word again to deselect"
+  },
+  "fill_blank": {
+    "title": "Fill in the Blank",
+    "placeholder": "Type your answer...",
+    "submit": "Check",
+    "your_answer": "You typed:",
+    "explanation": "Explanation"
   }
 }

@@ -2,15 +2,30 @@
   "questions": {
     "vocab_meaning": "Ý nghĩa của \"{{word}}\" là gì?",
     "kanji_meaning": "Ý nghĩa của chữ Hán \"{{kanji}}\" là gì?",
+    "grammar_example": "Mẫu ngữ pháp nào được dùng trong câu: \"{{example}}\"?",
+    "grammar_meaning": "Mẫu ngữ pháp \"{{pattern}}\" có nghĩa là gì?",
     "no_questions": "Không có câu hỏi nào cho bài học này."
   },
   "categories": {
     "vocabulary": "Từ vựng",
     "grammar": "Ngữ pháp",
-    "kanji": "Hán tự"
+    "kanji": "Hán tự",
+    "mixed": "Tổng hợp"
+  },
+  "mode": {
+    "multiple_choice": "Trắc nghiệm",
+    "matching": "Nối từ",
+    "fill_blank": "Điền từ"
+  },
+  "config": {
+    "title": "Cấu hình bài kiểm tra",
+    "mode": "Hình thức",
+    "category": "Nội dung",
+    "start": "Bắt đầu",
+    "question_count": "{{count}} câu hỏi"
   },
   "progress": {
-    "question_count": "Câu hỏi {{index}} / {{total}}",
+    "question_count": "Câu {{index}} / {{total}}",
     "completed": "Hoàn thành"
   },
   "summary": {
@@ -22,5 +37,19 @@
   "feedback": {
     "correct": "Chính xác!",
     "incorrect": "Sai rồi!"
+  },
+  "matching": {
+    "instruction": "Chọn từ bên trái, rồi chọn nghĩa tương ứng bên phải",
+    "matched": "cặp đúng",
+    "all_correct": "Hoàn thành! Bạn đã nối đúng tất cả!",
+    "next": "Tiếp tục",
+    "cancel_hint": "Nhấn lại từ đã chọn để bỏ chọn"
+  },
+  "fill_blank": {
+    "title": "Điền vào chỗ trống",
+    "placeholder": "Nhập câu trả lời...",
+    "submit": "Kiểm tra",
+    "your_answer": "Bạn đã nhập:",
+    "explanation": "Giải thích"
   }
 }

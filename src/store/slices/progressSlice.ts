@@ -12,6 +12,8 @@ interface ProgressState {
   settings: {
     language: Language;
     theme: Theme;
+    showFurigana: boolean;
+    showRomaji: boolean;
   };
 }
 
@@ -20,6 +22,8 @@ const initialState: ProgressState = {
   settings: {
     language: Language.VI,
     theme: Theme.System,
+    showFurigana: true,
+    showRomaji: true,
   },
 };
 
@@ -49,8 +53,14 @@ export const progressSlice = createSlice({
       }
       state.lessons[lessonId][category][itemId] = status;
     },
+    toggleFurigana(state) {
+      state.settings.showFurigana = !state.settings.showFurigana;
+    },
+    toggleRomaji(state) {
+      state.settings.showRomaji = !state.settings.showRomaji;
+    },
   },
 });
 
-export const { setLanguage, setTheme, updateItemStatus } = progressSlice.actions;
+export const { setLanguage, setTheme, updateItemStatus, toggleFurigana, toggleRomaji } = progressSlice.actions;
 export default progressSlice.reducer;

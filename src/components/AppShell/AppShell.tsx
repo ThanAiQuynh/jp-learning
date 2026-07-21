@@ -9,7 +9,8 @@ import {
   MenuTrigger,
   MenuList,
   MenuItem,
-  MenuPopover
+  MenuPopover,
+  Tooltip,
 } from '@fluentui/react-components';
 import { 
   HomeRegular, HomeFilled, 
@@ -19,10 +20,12 @@ import {
   LocalLanguage24Regular,
   ContactCardRegular, ContactCardFilled,
   WeatherMoonRegular, WeatherSunnyRegular,
-  DocumentTextRegular, DocumentTextFilled
+  DocumentTextRegular, DocumentTextFilled,
+  TextCaseTitleRegular,
+  TextT24Regular,
 } from '@fluentui/react-icons';
 import { useAppDispatch, useAppSelector } from '@store/hooks';
-import { setTheme } from '@store/slices/progressSlice';
+import { setTheme, toggleFurigana, toggleRomaji } from '@store/slices/progressSlice';
 import { Language, Theme } from '@types';
 import styles from './AppShell.module.scss';
 
@@ -34,8 +37,10 @@ export const AppShell: FC<AppShellProps> = ({ children }) => {
   const { t, i18n } = useTranslation('common');
   const dispatch = useAppDispatch();
   const theme = useAppSelector(state => state.progress.settings.theme);
+  const showFurigana = useAppSelector(state => state.progress.settings.showFurigana);
+  const showRomaji = useAppSelector(state => state.progress.settings.showRomaji);
 
-  const toggleTheme = () => {
+  const toggleThemeHandler = () => {
     dispatch(setTheme(theme === Theme.Dark ? Theme.Light : Theme.Dark));
   };
 
@@ -96,7 +101,27 @@ export const AppShell: FC<AppShellProps> = ({ children }) => {
       <div className={styles.main}>
         <header className={styles.header}>
           <Title3 style={{ fontSize: '18px' }}>{t('app_title')}</Title3>
-          <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
+          <div style={{ display: 'flex', gap: '4px', alignItems: 'center' }}>
+
+            <Tooltip content={showFurigana ? t('toggle.hide_furigana', 'Ẩn furigana') : t('toggle.show_furigana', 'Hiện furigana')} relationship="label">
+              <Button
+                icon={<TextCaseTitleRegular />}
+                appearance={showFurigana ? 'subtle' : 'transparent'}
+                onClick={() => dispatch(toggleFurigana())}
+                aria-label="Toggle furigana"
+                style={{ opacity: showFurigana ? 1 : 0.4 }}
+              />
+            </Tooltip>
+
+            <Tooltip content={showRomaji ? t('toggle.hide_romaji', 'Ẩn romaji') : t('toggle.show_romaji', 'Hiện romaji')} relationship="label">
+              <Button
+                icon={<TextT24Regular />}
+                appearance={showRomaji ? 'subtle' : 'transparent'}
+                onClick={() => dispatch(toggleRomaji())}
+                aria-label="Toggle romaji"
+                style={{ opacity: showRomaji ? 1 : 0.4 }}
+              />
+            </Tooltip>
 
             <Menu>
               <MenuTrigger disableButtonEnhancement>
@@ -106,14 +131,13 @@ export const AppShell: FC<AppShellProps> = ({ children }) => {
                 <MenuList>
                   <MenuItem onClick={() => changeLanguage(Language.VI)}>Tiếng Việt</MenuItem>
                   <MenuItem onClick={() => changeLanguage(Language.EN)}>English</MenuItem>
-                  <MenuItem onClick={() => changeLanguage(Language.JA)}>日本語</MenuItem>
                 </MenuList>
               </MenuPopover>
             </Menu>
             <Button 
               icon={theme === Theme.Dark ? <WeatherSunnyRegular /> : <WeatherMoonRegular />} 
               appearance="transparent" 
-              onClick={toggleTheme}
+              onClick={toggleThemeHandler}
               aria-label={theme === Theme.Dark ? 'Switch to light mode' : 'Switch to dark mode'}
             />
             <Avatar name="User" />

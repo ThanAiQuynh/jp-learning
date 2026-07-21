@@ -7,7 +7,16 @@
   "easy": "Dễ (4)",
   "progress": "Tiến trình: {{count}}/{{total}}",
   "completed": "Chúc mừng! Bạn đã hoàn thành phiên ôn tập.",
+  "completed_message": "Bạn đã ôn tập xong tất cả thẻ trong phiên này.",
   "return_lesson": "Quay lại Bài học",
+  "restart": "Làm lại",
   "new_cards": "Thẻ mới",
-  "review_cards": "Ôn tập"
+  "review_cards": "Ôn tập",
+  "no_cards": "Không có thẻ",
+  "no_cards_message": "Bài học này chưa có thẻ cho loại đang chọn.",
+  "loading": "Đang tải...",
+  "type_vocab": "Từ vựng",
+  "type_grammar": "Ngữ pháp",
+  "type_kanji": "Hán tự",
+  "type_mixed": "Tổng hợp"
 }

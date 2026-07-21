@@ -7,7 +7,16 @@
   "easy": "Easy (4)",
   "progress": "Progress: {{count}}/{{total}}",
   "completed": "Congratulations! You have completed the review session.",
+  "completed_message": "You have reviewed all cards in this session.",
   "return_lesson": "Return to Lesson",
+  "restart": "Restart",
   "new_cards": "New Cards",
-  "review_cards": "Review"
+  "review_cards": "Review",
+  "no_cards": "No Cards",
+  "no_cards_message": "No cards available for the selected type in this lesson.",
+  "loading": "Loading...",
+  "type_vocab": "Vocabulary",
+  "type_grammar": "Grammar",
+  "type_kanji": "Kanji",
+  "type_mixed": "Mixed"
 }

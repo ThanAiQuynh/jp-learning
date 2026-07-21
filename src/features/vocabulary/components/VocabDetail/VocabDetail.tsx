@@ -7,6 +7,7 @@ import { JLPTBadge } from '@components/JLPTBadge';
 import { WordTypeBadge } from '@components/WordTypeBadge';
 import { useTranslation } from 'react-i18next';
 import { DetailDrawer } from '@components/DetailDrawer';
+import { useAppSelector } from '@store/hooks';
 import styles from './VocabDetail.module.scss';
 
 export interface VocabDetailProps {
@@ -17,6 +18,8 @@ export interface VocabDetailProps {
 
 export const VocabDetail: FC<VocabDetailProps> = ({ isOpen, onClose, item }) => {
   const { t, i18n } = useTranslation(['vocabulary', 'common']);
+  const showRomaji = useAppSelector(state => state.progress.settings.showRomaji);
+  const showFurigana = useAppSelector(state => state.progress.settings.showFurigana);
 
   if (!item) return null;
 
@@ -29,9 +32,9 @@ export const VocabDetail: FC<VocabDetailProps> = ({ isOpen, onClose, item }) => 
           <div className={styles.wordHero}>
             <JapaneseText
               text={item.kanji || item.hiragana}
-              reading={item.kanji ? item.hiragana : undefined}
+              reading={showFurigana && item.kanji ? item.hiragana : undefined}
               romaji={item.romaji}
-              showRomaji={true}
+              showRomaji={showRomaji}
               size="xxl"
             />
             <div className={styles.badges}>
