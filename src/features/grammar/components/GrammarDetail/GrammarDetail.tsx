@@ -28,7 +28,7 @@ export const GrammarDetail: FC<GrammarDetailProps> = ({ isOpen, onClose, item })
             <div className={styles.pattern}>{formatGrammarPattern(item.pattern, currentLang)}</div>
             <div className={styles.title}>{item.title[currentLang] || item.title.en}</div>
             <div style={{ marginTop: '12px' }}>
-              <JLPTBadge level={item.jlptLevel} />
+              <JLPTBadge level={item.jlptLevel} size="large" />
             </div>
           </div>
 

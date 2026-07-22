@@ -21,25 +21,40 @@ export const VocabCard: FC<VocabCardProps> = ({ item, onClick, onPlayAudio }) =>
   const currentLang = i18n.language as Language;
   const meaning = item.meaning[currentLang] || item.meaning.en;
 
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      onClick?.(item);
+    }
+  };
+
+  const wordText = item.kanji || item.hiragana;
+
   return (
-    <div className={styles.root} onClick={() => onClick?.(item)}>
+    <div 
+      className={styles.root} 
+      onClick={() => onClick?.(item)}
+      onKeyDown={handleKeyDown}
+      role="button"
+      tabIndex={0}
+      aria-label={`${wordText}: ${meaning}`}
+    >
       <div className={styles.header}>
         <div style={{ flex: 1 }} />
-        {item.audioFile && (
-          <Button 
-            icon={<Speaker2Regular />} 
-            appearance="transparent" 
-            onClick={(e) => {
-              e.stopPropagation();
-              onPlayAudio?.(e, item);
-            }} 
-          />
-        )}
+        <Button 
+          icon={<Speaker2Regular />} 
+          appearance="transparent" 
+          aria-label={`Nghe phát âm ${wordText}`}
+          onClick={(e) => {
+            e.stopPropagation();
+            onPlayAudio?.(e, item);
+          }} 
+        />
       </div>
 
       <div className={styles.wordContainer}>
         <JapaneseText 
-          text={item.kanji || item.hiragana}
+          text={wordText}
           reading={item.kanji ? item.hiragana : undefined}
           romaji={item.romaji}
           showRomaji={true}

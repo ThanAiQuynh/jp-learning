@@ -5,6 +5,8 @@ import { Radical } from '@types';
 import { getAllRadicals } from '@data';
 import { RadicalGrid } from '../../features/radicals/components';
 
+import styles from './RadicalPage.module.scss';
+
 export const RadicalPage: FC = () => {
   const { t } = useTranslation('common');
   const [radicals, setRadicals] = useState<Radical[]>([]);
@@ -25,8 +27,8 @@ export const RadicalPage: FC = () => {
   }, []);
 
   return (
-    <div style={{ padding: '0 16px', maxWidth: '1200px', margin: '0 auto' }}>
-      <Title1 as="h1" style={{ margin: '24px 0' }}>{t('navigation.radicals')}</Title1>
+    <div className={styles.root}>
+      <Title1 as="h1" className={styles.title}>{t('navigation.radicals')}</Title1>
       
       {loading ? (
         <div>Loading...</div>

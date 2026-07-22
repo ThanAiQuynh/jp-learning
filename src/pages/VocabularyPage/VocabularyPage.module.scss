@@ -1,0 +1,20 @@
+@use '@styles/variables' as *;
+@use '@styles/mixins' as *;
+
+.root {
+  padding: 0 $spacing-md;
+
+  @include respond-to('md') {
+    padding: 0 $spacing-lg;
+  }
+}
+
+.filterBar {
+  display: flex;
+  gap: $spacing-sm;
+  margin-bottom: $spacing-md;
+}
+
+.searchBox {
+  flex: 1;
+}

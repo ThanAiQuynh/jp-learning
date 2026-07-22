@@ -11,6 +11,9 @@ import { GrammarDetail } from '@features/grammar/components/GrammarDetail';
 import { PageHeader } from '@components/PageHeader';
 import { getGrammarForLesson } from '@data/index';
 
+import { useDebounce } from '@utils/useDebounce';
+import styles from './GrammarPage.module.scss';
+
 export const GrammarPage: FC = () => {
   const { t } = useTranslation('grammar');
   const [searchParams] = useSearchParams();
@@ -20,14 +23,15 @@ export const GrammarPage: FC = () => {
   const [isDetailOpen, setIsDetailOpen] = useState(false);
 
   const [searchQuery, setSearchQuery] = useState('');
+  const debouncedSearchQuery = useDebounce(searchQuery, 200);
 
   useEffect(() => {
     getGrammarForLesson(lessonId).then(data => setGrammarData(data));
   }, [lessonId]);
 
   const filteredData = grammarData.filter(g => {
-    if (!searchQuery) return true;
-    const q = searchQuery.toLowerCase();
+    if (!debouncedSearchQuery) return true;
+    const q = debouncedSearchQuery.toLowerCase();
     return g.pattern.toLowerCase().includes(q) ||
            (g.title.vi && g.title.vi.toLowerCase().includes(q)) ||
            (g.title.en && g.title.en.toLowerCase().includes(q)) ||
@@ -46,18 +50,19 @@ export const GrammarPage: FC = () => {
   };
 
   return (
-    <div style={{ padding: '0 16px' }}>
+    <div className={styles.root}>
       <PageHeader 
         title={t('title', { lesson: lessonId.replace('lesson-', '') })}
         subtitle={t('subtitle') as string}
       />
 
-      <div style={{ display: 'flex', gap: '8px', marginBottom: '16px' }}>
+      <div className={styles.filterBar}>
         <SearchBox 
           placeholder={t('common.search', 'Search...')} 
+          aria-label={t('common.search', 'Search...')}
           value={searchQuery}
           onChange={(_, data) => setSearchQuery(data.value || '')}
-          style={{ flex: 1 }}
+          className={styles.searchBox}
         />
         <Button icon={<FilterRegular />} aria-label="Filter" />
       </div>

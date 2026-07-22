@@ -17,8 +17,13 @@ export const store = configureStore({
   preloadedState,
 });
 
+let saveTimeout: ReturnType<typeof setTimeout> | null = null;
+
 store.subscribe(() => {
-  saveState(PERSISTED_KEYS.progress, store.getState().progress);
+  if (saveTimeout) clearTimeout(saveTimeout);
+  saveTimeout = setTimeout(() => {
+    saveState(PERSISTED_KEYS.progress, store.getState().progress);
+  }, 500);
 });
 
 export type RootState = ReturnType<typeof store.getState>;

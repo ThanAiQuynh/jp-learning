@@ -6,14 +6,20 @@
   padding: $spacing-md;
   border-radius: $border-radius-md;
   background: var(--colorNeutralBackground1);
-  box-shadow: var(--shadow4);
-  cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s;
   border: 1px solid var(--colorNeutralStroke1);
+  box-shadow: none;
+  cursor: pointer;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease, border-color 0.2s ease;
   
   &:hover {
     transform: translateY(-2px);
-    box-shadow: var(--shadow8);
+    border-color: var(--colorNeutralStroke1Hover);
+    box-shadow: var(--shadow4);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--colorCompoundBrandForeground1);
+    outline-offset: 2px;
   }
 }
 

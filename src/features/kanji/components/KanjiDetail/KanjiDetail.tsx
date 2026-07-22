@@ -51,7 +51,7 @@ export const KanjiDetail: FC<KanjiDetailProps> = ({ isOpen, onClose, item }) => 
               </div>
               <div>{t('kanji:detail.stroke_count', { count: item.strokeCount })}</div>
               <div style={{ display: 'flex', gap: '8px' }}>
-                <JLPTBadge level={item.jlptLevel} />
+                <JLPTBadge level={item.jlptLevel} size="large" />
               </div>
             </div>
           </div>

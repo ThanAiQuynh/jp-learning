@@ -18,5 +18,9 @@
   "type_vocab": "Từ vựng",
   "type_grammar": "Ngữ pháp",
   "type_kanji": "Hán tự",
-  "type_mixed": "Tổng hợp"
+  "type_mixed": "Tổng hợp",
+  "listen": "Nghe phát âm",
+  "auto_play": "Tự động phát âm",
+  "auto_play_on": "Tự động phát âm: Bật",
+  "auto_play_off": "Tự động phát âm: Tắt"
 }

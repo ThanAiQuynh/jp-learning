@@ -15,9 +15,13 @@ import { KanjiGrid } from '@features/kanji/components/KanjiGrid';
 import { KanjiDetail } from '@features/kanji/components/KanjiDetail';
 import styles from './SearchPage.module.scss';
 
+import { useDebounce } from '@utils/useDebounce';
+import { playJapaneseSpeech } from '@utils/audio';
+
 export const SearchPage: FC = () => {
   const [searchParams] = useSearchParams();
-  const query = searchParams.get('q') || '';
+  const rawQuery = searchParams.get('q') || '';
+  const query = useDebounce(rawQuery, 250);
   const { t } = useTranslation('common');
   const [activeTab, setActiveTab] = useState<string>('vocab');
 
@@ -74,7 +78,7 @@ export const SearchPage: FC = () => {
     <div className={styles.root}>
       <PageHeader 
         title={t('search.title', 'Search Results')}
-        subtitle={t('search.subtitle', 'Results for "{{query}}"', { query })}
+        subtitle={t('search.subtitle', 'Results for "{{query}}"', { query: rawQuery })}
       />
 
       <TabList selectedValue={activeTab} onTabSelect={onTabSelect} className={styles.tabList}>
@@ -84,7 +88,11 @@ export const SearchPage: FC = () => {
       </TabList>
 
       {activeTab === 'vocab' && (
-        <VocabList items={vocabResults} onItemClick={setSelectedVocab} />
+        <VocabList 
+          items={vocabResults} 
+          onItemClick={setSelectedVocab} 
+          onPlayAudio={(item) => playJapaneseSpeech(item.hiragana || item.kanji)}
+        />
       )}
       {activeTab === 'grammar' && (
         <GrammarList items={grammarResults} onDetailClick={setSelectedGrammar} />

@@ -12,13 +12,20 @@ import { useAppSelector } from '@store/hooks';
 import { EmptyState } from '@components/EmptyState';
 import { Board24Regular, CheckmarkCircle24Regular } from '@fluentui/react-icons';
 import { VocabularyItem, GrammarPattern, KanjiItem } from '@types';
+import { formatGrammarPattern } from '@features/grammar/utils';
 
 type FlashcardType = 'vocab' | 'grammar' | 'kanji' | 'mixed';
 
+interface FlashcardFace {
+  text: string;
+  subtext?: string;
+  audioText?: string;
+}
+
 interface FlashcardEntry {
   id: string;
-  front: { text: string; subtext?: string };
-  back: { text: string; subtext?: string };
+  front: FlashcardFace;
+  back: FlashcardFace;
   sourceType: FlashcardType;
 }
 
@@ -28,16 +35,16 @@ function buildVocabCards(items: VocabularyItem[], lang: Language): FlashcardEntr
     front: {
       text: v.kanji || v.hiragana,
       subtext: v.kanji ? v.hiragana : undefined,
+      audioText: v.hiragana || v.kanji,
     },
     back: {
       text: (v.meaning as any)[lang] || v.meaning.en,
       subtext: v.romaji,
+      audioText: v.hiragana || v.kanji,
     },
     sourceType: 'vocab' as const,
   }));
 }
-
-import { formatGrammarPattern } from '@features/grammar/utils';
 
 function buildGrammarCards(items: GrammarPattern[], lang: Language): FlashcardEntry[] {
   return items.map(g => ({
@@ -45,10 +52,12 @@ function buildGrammarCards(items: GrammarPattern[], lang: Language): FlashcardEn
     front: {
       text: formatGrammarPattern(g.pattern, lang),
       subtext: g.patternKana !== g.pattern ? formatGrammarPattern(g.patternKana, lang) : undefined,
+      audioText: g.patternKana || g.pattern,
     },
     back: {
       text: (g.title as any)[lang] || g.title.en,
       subtext: (g.explanation as any)[lang] || g.explanation.en,
+      audioText: g.patternKana || g.pattern,
     },
     sourceType: 'grammar' as const,
   }));
@@ -60,10 +69,12 @@ function buildKanjiCards(items: KanjiItem[], lang: Language): FlashcardEntry[] {
     front: {
       text: k.character,
       subtext: [...k.onReadings, ...k.kunReadings].join('・') || undefined,
+      audioText: k.kunReadings[0] || k.onReadings[0] || k.character,
     },
     back: {
       text: (k.meaning as any)[lang] || k.meaning.en,
       subtext: k.compounds.length > 0 ? k.compounds.slice(0, 2).map(c => c.word).join('、') : undefined,
+      audioText: k.character,
     },
     sourceType: 'kanji' as const,
   }));
@@ -115,7 +126,7 @@ export const FlashcardPage: FC = () => {
     setIsCompleted(false);
   }, [activeType]);
 
-  const handleFlip = useCallback(() => setIsFlipped(true), []);
+  const handleFlip = useCallback(() => setIsFlipped(prev => !prev), []);
 
   const handleRate = useCallback(() => {
     setIsFlipped(false);
@@ -137,7 +148,7 @@ export const FlashcardPage: FC = () => {
 
       if (e.code === 'Space') {
         e.preventDefault();
-        setIsFlipped(prev => !prev);
+        handleFlip();
       } else if (e.code === 'ArrowRight' || e.code === 'Digit2' || e.code === 'Numpad2') {
         e.preventDefault();
         handleRate();
@@ -152,7 +163,7 @@ export const FlashcardPage: FC = () => {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [currentIndex, handleRate]);
+  }, [currentIndex, handleRate, handleFlip]);
 
   if (loading) {
     return <div style={{ padding: '48px', textAlign: 'center' }}>{t('loading', 'Đang tải...')}</div>;
@@ -196,12 +207,14 @@ export const FlashcardPage: FC = () => {
     subtext: currentItem?.sourceType === 'vocab'
       ? (showFurigana ? currentItem.front.subtext : undefined)
       : currentItem?.front.subtext,
+    audioText: currentItem?.front.audioText,
   };
   const back = {
     text: currentItem?.back.text ?? '',
     subtext: currentItem?.sourceType === 'vocab'
       ? (showRomaji ? currentItem.back.subtext : undefined)
       : currentItem?.back.subtext,
+    audioText: currentItem?.back.audioText,
   };
 
   const typeLabels: Record<FlashcardType, string> = {
@@ -270,3 +283,5 @@ export const FlashcardPage: FC = () => {
     </div>
   );
 };
+
+

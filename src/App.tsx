@@ -6,6 +6,7 @@ import { store } from '@store';
 import { useAppSelector } from '@store/hooks';
 import { MainLayout } from '@layouts/MainLayout';
 import { useTranslation } from 'react-i18next';
+import { ErrorBoundary } from '@components/ErrorBoundary/ErrorBoundary';
 import '@i18n';
 import '@styles/global.scss';
 
@@ -24,10 +25,10 @@ const SearchPage = lazy(() => import('@pages/SearchPage').then(module => ({ defa
 const QuizPage = lazy(() => import('@pages/QuizPage').then(module => ({ default: module.QuizPage })));
 const RadicalPage = lazy(() => import('@pages/RadicalPage').then(module => ({ default: module.RadicalPage })));
 
-const LevelsPage = lazy(() => import('@pages/CoursesPage').then(module => ({ default: module.LevelsView })));
-const CoursesPage = lazy(() => import('@pages/CoursesPage').then(module => ({ default: module.CoursesView })));
-const LessonsPage = lazy(() => import('@pages/CoursesPage').then(module => ({ default: module.LessonsView })));
-const LessonHubPage = lazy(() => import('@pages/CoursesPage').then(module => ({ default: module.LessonHubView })));
+const LevelsPage = lazy(() => import('@pages/CoursesPage/LevelsView').then(module => ({ default: module.LevelsView })));
+const CoursesPage = lazy(() => import('@pages/CoursesPage/CoursesView').then(module => ({ default: module.CoursesView })));
+const LessonsPage = lazy(() => import('@pages/CoursesPage/LessonsView').then(module => ({ default: module.LessonsView })));
+const LessonHubPage = lazy(() => import('@pages/CoursesPage/LessonHubView').then(module => ({ default: module.LessonHubView })));
 const router = createBrowserRouter([
   {
     path: '/',
@@ -119,7 +120,9 @@ function AppContent() {
 
   return (
     <FluentProvider theme={isDark ? webDarkTheme : webLightTheme} style={{ height: '100vh', width: '100vw' }}>
-      <RouterProvider router={router} />
+      <ErrorBoundary>
+        <RouterProvider router={router} />
+      </ErrorBoundary>
     </FluentProvider>
   );
 }

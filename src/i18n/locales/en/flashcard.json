@@ -18,5 +18,9 @@
   "type_vocab": "Vocabulary",
   "type_grammar": "Grammar",
   "type_kanji": "Kanji",
-  "type_mixed": "Mixed"
+  "type_mixed": "Mixed",
+  "listen": "Listen",
+  "auto_play": "Auto-play audio",
+  "auto_play_on": "Auto-play audio: On",
+  "auto_play_off": "Auto-play audio: Off"
 }

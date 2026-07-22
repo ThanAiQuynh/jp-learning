@@ -1,16 +1,39 @@
-import { FC } from 'react';
+import { FC, MouseEvent } from 'react';
 import styles from './Flashcard.module.scss';
-import { Button } from '@fluentui/react-components';
+import { Button, Tooltip } from '@fluentui/react-components';
 import { Speaker2Regular } from '@fluentui/react-icons';
+import { playJapaneseSpeech } from '@utils/audio';
+import { useTranslation } from 'react-i18next';
 
-export interface FlashcardProps {
-  front: { text: string; subtext?: string };
-  back: { text: string; subtext?: string };
-  isFlipped: boolean;
-  onFlip: () => void;
+export interface FlashcardFace {
+  text: string;
+  subtext?: string;
+  audioText?: string;
 }
 
-export const Flashcard: FC<FlashcardProps> = ({ front, back, isFlipped, onFlip }) => {
+export interface FlashcardProps {
+  front: FlashcardFace;
+  back: FlashcardFace;
+  isFlipped: boolean;
+  onFlip: () => void;
+  onPlayAudio?: (text: string) => void;
+}
+
+export const Flashcard: FC<FlashcardProps> = ({ front, back, isFlipped, onFlip, onPlayAudio }) => {
+  const { t } = useTranslation('flashcard');
+
+  const handleAudioClick = (e: MouseEvent, face: FlashcardFace) => {
+    e.stopPropagation();
+    const textToPlay = face.audioText || face.subtext || face.text;
+    if (!textToPlay) return;
+
+    if (onPlayAudio) {
+      onPlayAudio(textToPlay);
+    } else {
+      playJapaneseSpeech(textToPlay);
+    }
+  };
+
   return (
     <div className={styles.scene} onClick={onFlip}>
       <div className={`${styles.card} ${isFlipped ? styles.isFlipped : ''}`}>
@@ -22,7 +45,15 @@ export const Flashcard: FC<FlashcardProps> = ({ front, back, isFlipped, onFlip }
             {front.subtext && <div className={styles.subtext}>{front.subtext}</div>}
           </div>
           <div className={styles.actions} onClick={e => e.stopPropagation()}>
-            <Button icon={<Speaker2Regular />} appearance="subtle" size="large" />
+            <Tooltip content={t('listen', 'Nghe phát âm')} relationship="label">
+              <Button
+                icon={<Speaker2Regular />}
+                appearance="subtle"
+                size="large"
+                onClick={(e) => handleAudioClick(e, front)}
+                aria-label={t('listen', 'Nghe phát âm')}
+              />
+            </Tooltip>
           </div>
         </div>
 
@@ -33,7 +64,15 @@ export const Flashcard: FC<FlashcardProps> = ({ front, back, isFlipped, onFlip }
             {back.subtext && <div className={styles.subtext}>{back.subtext}</div>}
           </div>
           <div className={styles.actions} onClick={e => e.stopPropagation()}>
-            <Button icon={<Speaker2Regular />} appearance="subtle" size="large" />
+            <Tooltip content={t('listen', 'Nghe phát âm')} relationship="label">
+              <Button
+                icon={<Speaker2Regular />}
+                appearance="subtle"
+                size="large"
+                onClick={(e) => handleAudioClick(e, back)}
+                aria-label={t('listen', 'Nghe phát âm')}
+              />
+            </Tooltip>
           </div>
         </div>
 
@@ -41,3 +80,4 @@ export const Flashcard: FC<FlashcardProps> = ({ front, back, isFlipped, onFlip }
     </div>
   );
 };
+

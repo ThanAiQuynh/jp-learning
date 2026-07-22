@@ -11,6 +11,9 @@ import { KanjiDetail } from '@features/kanji/components/KanjiDetail';
 import { PageHeader } from '@components/PageHeader';
 import { getKanjiForLesson } from '@data/index';
 
+import { useDebounce } from '@utils/useDebounce';
+import styles from './KanjiPage.module.scss';
+
 export const KanjiPage: FC = () => {
   const { t } = useTranslation('kanji');
   const [searchParams] = useSearchParams();
@@ -20,14 +23,15 @@ export const KanjiPage: FC = () => {
   const [isDetailOpen, setIsDetailOpen] = useState(false);
 
   const [searchQuery, setSearchQuery] = useState('');
+  const debouncedSearchQuery = useDebounce(searchQuery, 200);
 
   useEffect(() => {
     getKanjiForLesson(lessonId).then(data => setKanjiData(data));
   }, [lessonId]);
 
   const filteredData = kanjiData.filter(k => {
-    if (!searchQuery) return true;
-    const q = searchQuery.toLowerCase();
+    if (!debouncedSearchQuery) return true;
+    const q = debouncedSearchQuery.toLowerCase();
     return k.character.toLowerCase().includes(q) ||
            (k.meaning.vi && k.meaning.vi.toLowerCase().includes(q)) ||
            (k.meaning.en && k.meaning.en.toLowerCase().includes(q)) ||
@@ -46,18 +50,19 @@ export const KanjiPage: FC = () => {
   };
 
   return (
-    <div style={{ padding: '0 16px' }}>
+    <div className={styles.root}>
       <PageHeader 
         title={t('title', { lesson: lessonId.replace('lesson-', '') })}
         subtitle={t('subtitle') as string}
       />
 
-      <div style={{ display: 'flex', gap: '8px', marginBottom: '16px' }}>
+      <div className={styles.filterBar}>
         <SearchBox 
           placeholder={t('common.search', 'Search...')} 
+          aria-label={t('common.search', 'Search...')}
           value={searchQuery}
           onChange={(_, data) => setSearchQuery(data.value || '')}
-          style={{ flex: 1 }}
+          className={styles.searchBox}
         />
         <Button icon={<FilterRegular />} aria-label="Filter" />
       </div>

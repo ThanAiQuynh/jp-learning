@@ -1,8 +1,6 @@
-import { FC, useState, useEffect } from 'react';
+import { FC, useState, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
-
 import { useSearchParams } from 'react-router-dom';
-
 import { VocabularyItem } from '@types';
 import { VocabList } from '@features/vocabulary/components/VocabList';
 import { SearchBox, Button } from '@fluentui/react-components';
@@ -10,6 +8,10 @@ import { FilterRegular } from '@fluentui/react-icons';
 import { VocabDetail } from '@features/vocabulary/components/VocabDetail';
 import { PageHeader } from '@components/PageHeader';
 import { getVocabForLesson } from '@data/index';
+import { playJapaneseSpeech } from '@utils/audio';
+import { useDebounce } from '@utils/useDebounce';
+
+import styles from './VocabularyPage.module.scss';
 
 export const VocabularyPage: FC = () => {
   const { t } = useTranslation('vocabulary');
@@ -20,14 +22,21 @@ export const VocabularyPage: FC = () => {
   const [isDetailOpen, setIsDetailOpen] = useState(false);
 
   const [searchQuery, setSearchQuery] = useState('');
+  const debouncedSearchQuery = useDebounce(searchQuery, 200);
+
+  const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     getVocabForLesson(lessonId).then(data => setVocabData(data));
+
+    return () => {
+      if (timerRef.current) clearTimeout(timerRef.current);
+    };
   }, [lessonId]);
 
   const filteredData = vocabData.filter(v => {
-    if (!searchQuery) return true;
-    const q = searchQuery.toLowerCase();
+    if (!debouncedSearchQuery) return true;
+    const q = debouncedSearchQuery.toLowerCase();
     return v.hiragana.toLowerCase().includes(q) ||
            (v.kanji && v.kanji.toLowerCase().includes(q)) ||
            (v.romaji && v.romaji.toLowerCase().includes(q)) ||
@@ -42,23 +51,24 @@ export const VocabularyPage: FC = () => {
 
   const handleCloseDetail = () => {
     setIsDetailOpen(false);
-    // Don't clear selected item immediately to allow close animation
-    setTimeout(() => setSelectedItem(null), 300);
+    if (timerRef.current) clearTimeout(timerRef.current);
+    timerRef.current = setTimeout(() => setSelectedItem(null), 300);
   };
 
   return (
-    <div style={{ padding: '0 16px' }}>
+    <div className={styles.root}>
       <PageHeader 
         title={t('title', { lesson: lessonId.replace('lesson-', '') })}
         subtitle={t('subtitle') as string}
       />
 
-      <div style={{ display: 'flex', gap: '8px', marginBottom: '16px' }}>
+      <div className={styles.filterBar}>
         <SearchBox 
           placeholder={t('common.search', 'Search...')} 
+          aria-label={t('common.search', 'Search...')}
           value={searchQuery}
           onChange={(_, data) => setSearchQuery(data.value || '')}
-          style={{ flex: 1 }}
+          className={styles.searchBox}
         />
         <Button icon={<FilterRegular />} aria-label="Filter" />
       </div>
@@ -66,7 +76,7 @@ export const VocabularyPage: FC = () => {
       <VocabList 
         items={filteredData} 
         onItemClick={handleItemClick}
-        onPlayAudio={(item) => console.log('Play audio for', item.id)}
+        onPlayAudio={(item) => playJapaneseSpeech(item.hiragana || item.kanji)}
       />
 
       <VocabDetail 

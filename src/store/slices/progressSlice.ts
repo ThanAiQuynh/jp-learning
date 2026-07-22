@@ -14,6 +14,7 @@ interface ProgressState {
     theme: Theme;
     showFurigana: boolean;
     showRomaji: boolean;
+    audioAutoPlay: boolean;
   };
 }
 
@@ -24,6 +25,7 @@ const initialState: ProgressState = {
     theme: Theme.System,
     showFurigana: true,
     showRomaji: true,
+    audioAutoPlay: true,
   },
 };
 
@@ -59,8 +61,11 @@ export const progressSlice = createSlice({
     toggleRomaji(state) {
       state.settings.showRomaji = !state.settings.showRomaji;
     },
+    toggleAudioAutoPlay(state) {
+      state.settings.audioAutoPlay = !state.settings.audioAutoPlay;
+    },
   },
 });
 
-export const { setLanguage, setTheme, updateItemStatus, toggleFurigana, toggleRomaji } = progressSlice.actions;
+export const { setLanguage, setTheme, updateItemStatus, toggleFurigana, toggleRomaji, toggleAudioAutoPlay } = progressSlice.actions;
 export default progressSlice.reducer;

@@ -21,6 +21,9 @@
 
 .badges {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: $spacing-sm;
   margin-top: $spacing-md;
 }

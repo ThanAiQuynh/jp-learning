@@ -1,0 +1,16 @@
+@use '@styles/variables' as *;
+@use '@styles/mixins' as *;
+
+.root {
+  padding: 0 $spacing-md;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  @include respond-to('md') {
+    padding: 0 $spacing-lg;
+  }
+}
+
+.title {
+  margin: $spacing-lg 0;
+}

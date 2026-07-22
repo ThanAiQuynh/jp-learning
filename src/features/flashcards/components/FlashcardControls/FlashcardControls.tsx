@@ -21,6 +21,7 @@ export const FlashcardControls: FC<FlashcardControlsProps> = ({ isFlipped, onFli
         e.preventDefault();
         onFlip();
       }
+
       if (isFlipped) {
         switch (e.key) {
           case '1': onRate('again'); break;
@@ -67,3 +68,5 @@ export const FlashcardControls: FC<FlashcardControlsProps> = ({ isFlipped, onFli
     </div>
   );
 };
+
+
