@@ -1,7 +1,7 @@
 /**
  * Helper to play Japanese text pronunciation using Web Speech API (speechSynthesis)
  */
-export const playJapaneseSpeech = (text: string, rate = 0.9): void => {
+export const playJapaneseSpeech = (text?: string, rate = 0.9): void => {
   if (!('speechSynthesis' in window) || !text) {
     console.warn('Speech synthesis is not supported or empty text provided.');
     return;

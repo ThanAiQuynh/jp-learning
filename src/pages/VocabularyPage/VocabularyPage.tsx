@@ -76,7 +76,7 @@ export const VocabularyPage: FC = () => {
       <VocabList 
         items={filteredData} 
         onItemClick={handleItemClick}
-        onPlayAudio={(item) => playJapaneseSpeech(item.hiragana || item.kanji)}
+        onPlayAudio={(item) => playJapaneseSpeech(item.hiragana || item.kanji || '')}
       />
 
       <VocabDetail 

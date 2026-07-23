@@ -91,7 +91,7 @@ export const SearchPage: FC = () => {
         <VocabList 
           items={vocabResults} 
           onItemClick={setSelectedVocab} 
-          onPlayAudio={(item) => playJapaneseSpeech(item.hiragana || item.kanji)}
+          onPlayAudio={(item) => playJapaneseSpeech(item.hiragana || item.kanji || '')}
         />
       )}
       {activeTab === 'grammar' && (
