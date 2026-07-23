@@ -21,7 +21,17 @@
     "cancel": "Hủy",
     "close": "Đóng",
     "no_data": "Không có dữ liệu",
-    "welcome": "Chào mừng đến với ứng dụng học tiếng Nhật!"
+    "welcome": "Chào mừng đến với ứng dụng học tiếng Nhật!",
+    "play_audio": "Nghe phát âm",
+    "play": "Nghe"
+  },
+  "audio": {
+    "play": "Nghe",
+    "play_audio": "Nghe phát âm",
+    "play_pronunciation": "Nghe phát âm {{text}}",
+    "play_radical": "Nghe bộ thủ {{text}}",
+    "play_compound": "Nghe từ ghép {{text}}",
+    "listen_reading": "Nghe {{text}}"
   },
   "word_type": {
     "noun": "Danh từ",

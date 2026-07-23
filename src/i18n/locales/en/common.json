@@ -21,7 +21,17 @@
     "cancel": "Cancel",
     "close": "Close",
     "no_data": "No data available",
-    "welcome": "Welcome to the Japanese Learning App!"
+    "welcome": "Welcome to the Japanese Learning App!",
+    "play_audio": "Play audio",
+    "play": "Listen"
+  },
+  "audio": {
+    "play": "Listen",
+    "play_audio": "Play audio",
+    "play_pronunciation": "Listen to pronunciation for {{text}}",
+    "play_radical": "Listen to radical {{text}}",
+    "play_compound": "Listen to compound {{text}}",
+    "listen_reading": "Listen: {{text}}"
   },
   "word_type": {
     "noun": "Noun",

@@ -1,13 +1,14 @@
 import { FC, useEffect, useState } from 'react';
 import { KanjiItem, Language, Radical } from '@types';
-import { Badge } from '@fluentui/react-components';
-import { TextSortAscending24Regular, SearchSquare24Regular, Lightbulb24Regular } from '@fluentui/react-icons';
+import { Badge, Button } from '@fluentui/react-components';
+import { TextSortAscending24Regular, SearchSquare24Regular, Lightbulb24Regular, Speaker2Regular } from '@fluentui/react-icons';
 import { JLPTBadge } from '@components/JLPTBadge';
 import { useTranslation } from 'react-i18next';
 import { DetailDrawer } from '@components/DetailDrawer';
 import { getRadicalByCharacter } from '@data';
 import { useAppSelector } from '@store/hooks';
 import { JapaneseText } from '@components/JapaneseText';
+import { playJapaneseSpeech } from '@utils/audio';
 import styles from './KanjiDetail.module.scss';
 
 export interface KanjiDetailProps {
@@ -42,8 +43,19 @@ export const KanjiDetail: FC<KanjiDetailProps> = ({ isOpen, onClose, item }) => 
         <div className={styles.root}>
           {/* Hero */}
           <div className={styles.hero}>
-            <div className={styles.kanjiBox}>
-              {item.character}
+            <div className={styles.kanjiBoxWrapper}>
+              <div className={styles.kanjiBox}>
+                {item.character}
+              </div>
+              <Button 
+                icon={<Speaker2Regular />} 
+                appearance="subtle"
+                size="small"
+                aria-label={t('common:audio.play_pronunciation', { text: item.character })}
+                onClick={() => playJapaneseSpeech(item.character)}
+              >
+                {t('common:audio.play')}
+              </Button>
             </div>
             <div className={styles.kanjiInfo}>
               <div className={styles.meaning}>
@@ -61,7 +73,7 @@ export const KanjiDetail: FC<KanjiDetailProps> = ({ isOpen, onClose, item }) => 
             <div className={styles.section}>
               <div className={styles.sectionTitle}>
                 <Lightbulb24Regular />
-                {t('kanji:detail.mnemonic', 'Mẹo nhớ')}
+                {t('kanji:detail.mnemonic')}
               </div>
               <div className={styles.mnemonicBox}>
                 {item.mnemonic[currentLang] || item.mnemonic.en}
@@ -80,7 +92,17 @@ export const KanjiDetail: FC<KanjiDetailProps> = ({ isOpen, onClose, item }) => 
                 <div className={styles.readingRow}>
                   <div className={styles.label}>{t('kanji:detail.on_reading')}</div>
                   <div className={styles.values}>
-                    {item.onReadings.map((r: string, i: number) => <Badge key={i} color="informative">{r}</Badge>)}
+                    {item.onReadings.map((r: string, i: number) => (
+                      <Badge 
+                        key={i} 
+                        color="informative" 
+                        className={styles.clickableBadge}
+                        onClick={() => playJapaneseSpeech(r)}
+                        title={t('common:audio.listen_reading', { text: r })}
+                      >
+                        {r} <Speaker2Regular style={{ fontSize: '12px', marginLeft: '4px' }} />
+                      </Badge>
+                    ))}
                   </div>
                 </div>
               )}
@@ -88,7 +110,17 @@ export const KanjiDetail: FC<KanjiDetailProps> = ({ isOpen, onClose, item }) => 
                 <div className={styles.readingRow}>
                   <div className={styles.label}>{t('kanji:detail.kun_reading')}</div>
                   <div className={styles.values}>
-                    {item.kunReadings.map((r: string, i: number) => <Badge key={i} color="success">{r}</Badge>)}
+                    {item.kunReadings.map((r: string, i: number) => (
+                      <Badge 
+                        key={i} 
+                        color="success" 
+                        className={styles.clickableBadge}
+                        onClick={() => playJapaneseSpeech(r.replace('-', ''))}
+                        title={t('common:audio.listen_reading', { text: r })}
+                      >
+                        {r} <Speaker2Regular style={{ fontSize: '12px', marginLeft: '4px' }} />
+                      </Badge>
+                    ))}
                   </div>
                 </div>
               )}
@@ -105,15 +137,16 @@ export const KanjiDetail: FC<KanjiDetailProps> = ({ isOpen, onClose, item }) => 
               <div className={styles.radicalsList}>
                 {radicalDetails.map((r: Radical) => {
                   const isPrimary = r.character === item.primaryRadical || r.variants.includes(item.primaryRadical);
+                  const radName = r.name[currentLang] || r.name.vi || r.name.en;
                   return (
                     <div key={r.id} className={styles.radicalItem}>
                       <Badge color={isPrimary ? "danger" : "brand"} appearance="outline" size="extra-large">
                         <span className={styles.radicalBadgeText}>{r.character}</span>
                       </Badge>
-                      <div className={styles.radicalInfo}>
+                      <div className={styles.radicalInfo} style={{ flex: 1 }}>
                         <div className={styles.radicalHeader}>
                           <span className={styles.radicalName}>
-                            {r.name.vi} ({r.name.ja})
+                            {radName} ({r.name.ja})
                           </span>
                           {isPrimary && (
                             <Badge color="danger" appearance="filled" size="small">
@@ -134,6 +167,13 @@ export const KanjiDetail: FC<KanjiDetailProps> = ({ isOpen, onClose, item }) => 
                           )}
                         </div>
                       </div>
+                      <Button 
+                        icon={<Speaker2Regular />} 
+                        appearance="transparent" 
+                        size="small"
+                        onClick={() => playJapaneseSpeech(r.name.ja || r.character)}
+                        aria-label={t('common:audio.play_radical', { text: r.name.ja || r.character })}
+                      />
                     </div>
                   );
                 })}
@@ -157,6 +197,13 @@ export const KanjiDetail: FC<KanjiDetailProps> = ({ isOpen, onClose, item }) => 
                         reading={showFurigana ? c.reading : undefined}
                         showRomaji={showRomaji}
                         size="md"
+                      />
+                      <Button 
+                        icon={<Speaker2Regular />} 
+                        appearance="transparent" 
+                        size="small"
+                        onClick={() => playJapaneseSpeech(c.reading || c.word)}
+                        aria-label={t('common:audio.play_compound', { text: c.word })}
                       />
                     </div>
                     <div className={styles.meaning}>

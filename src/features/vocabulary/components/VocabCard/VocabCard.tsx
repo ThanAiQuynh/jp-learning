@@ -15,7 +15,7 @@ export interface VocabCardProps {
 }
 
 export const VocabCard: FC<VocabCardProps> = ({ item, onClick, onPlayAudio }) => {
-  const { i18n } = useTranslation('common');
+  const { t, i18n } = useTranslation('common');
   
   // Safely get translation based on current language
   const currentLang = i18n.language as Language;
@@ -44,7 +44,7 @@ export const VocabCard: FC<VocabCardProps> = ({ item, onClick, onPlayAudio }) =>
         <Button 
           icon={<Speaker2Regular />} 
           appearance="transparent" 
-          aria-label={`Nghe phát âm ${wordText}`}
+          aria-label={t('common:audio.play_pronunciation', { text: wordText })}
           onClick={(e) => {
             e.stopPropagation();
             onPlayAudio?.(e, item);

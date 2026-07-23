@@ -13,6 +13,13 @@
   border-bottom: 1px solid var(--colorNeutralStroke1);
 }
 
+.kanjiBoxWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $spacing-xs;
+}
+
 .kanjiBox {
   display: flex;
   align-items: center;
@@ -88,6 +95,16 @@
     flex-wrap: wrap;
     gap: $spacing-sm;
     font-size: $font-size-lg;
+  }
+}
+
+.clickableBadge {
+  cursor: pointer;
+  transition: opacity 0.2s;
+  user-select: none;
+
+  &:hover {
+    opacity: 0.8;
   }
 }
 

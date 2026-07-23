@@ -21,6 +21,7 @@
       "kamae": "Enclosure",
       "full": "Full"
     },
-    "compounds": "Compounds"
+    "compounds": "Compounds",
+    "mnemonic": "Mnemonic"
   }
 }
