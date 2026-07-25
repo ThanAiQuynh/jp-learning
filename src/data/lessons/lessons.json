@@ -33,24 +33,29 @@
     "id": "lesson-02",
     "number": 2,
     "title": {
-      "ja": "買い物",
-      "romanji": "Kaimono"
+      "ja": "これは 何ですか",
+      "romaji": "Kore wa Nan Desu ka",
+      "vi": "Cái này là gì?"
     },
     "description": {
-      "vi": "Mua sắm, chỉ định đồ vật.",
-      "en": "Shopping, pointing at things.",
-      "ja": "買い物"
+      "vi": "Sử dụng đại từ chỉ định これ/それ/あれ để xác định đồ vật. Hỏi tên, xuất xứ, sở hữu của đồ vật.",
+      "en": "Using demonstrative pronouns これ/それ/あれ to identify objects. Asking about names, origins, and ownership.",
+      "ja": "指示代名詞を使って物を特定する"
     },
     "jlptLevel": "N5",
     "chapter": 2,
     "courseId": "minna-1",
-    "vocabCount": 35,
-    "grammarCount": 3,
+    "vocabCount": 42,
+    "grammarCount": 4,
     "kanjiCount": 8,
     "topics": [
       {
-        "vi": "Mua sắm",
-        "en": "Shopping"
+        "vi": "Đại từ chỉ định (đồ vật)",
+        "en": "Demonstrative pronouns (objects)"
+      },
+      {
+        "vi": "Đồ vật hàng ngày",
+        "en": "Everyday objects"
       }
     ]
   },
@@ -58,24 +63,29 @@
     "id": "lesson-03",
     "number": 3,
     "title": {
-      "ja": "第 3 課",
-      "romanji": "Dai 3 ka"
+      "ja": "ここは デパートです",
+      "romaji": "Koko wa Depaato Desu",
+      "vi": "Đây là cửa hàng bách hóa"
     },
     "description": {
-      "vi": "Nội dung bài 3",
-      "en": "Lesson 3 content",
-      "ja": "第 3 課の内容"
+      "vi": "Chỉ nơi chốn bằng ここ/そこ/あそこ. Hỏi giá tiền, mua sắm tại cửa hàng bách hóa. Hỏi xuất xứ sản phẩm.",
+      "en": "Indicating places with ここ/そこ/あそこ. Asking prices, shopping at department stores. Asking product origins.",
+      "ja": "場所を指し示す。買い物をする"
     },
     "jlptLevel": "N5",
     "chapter": 3,
     "courseId": "minna-1",
-    "vocabCount": 20,
-    "grammarCount": 3,
-    "kanjiCount": 5,
+    "vocabCount": 40,
+    "grammarCount": 4,
+    "kanjiCount": 8,
     "topics": [
       {
-        "vi": "Chủ đề bài 3",
-        "en": "Topic 3"
+        "vi": "Nơi chốn và phương hướng",
+        "en": "Places and directions"
+      },
+      {
+        "vi": "Mua sắm và giá cả",
+        "en": "Shopping and prices"
       }
     ]
   },
@@ -83,24 +93,29 @@
     "id": "lesson-04",
     "number": 4,
     "title": {
-      "ja": "第 4 課",
-      "romanji": "Dai 4 ka"
+      "ja": "何時に 起きますか",
+      "romaji": "Nanji ni Okimasu ka",
+      "vi": "Mấy giờ bạn dậy?"
     },
     "description": {
-      "vi": "Nội dung bài 4",
-      "en": "Lesson 4 content",
-      "ja": "第 4 課の内容"
+      "vi": "Nói giờ giấc, thời gian biểu hàng ngày. Chia động từ thể ます (khẳng định, phủ định, quá khứ). Dùng から〜まで chỉ khoảng thời gian.",
+      "en": "Telling time, daily schedules. Conjugating verbs in ます form (affirmative, negative, past). Using から〜まで for time ranges.",
+      "ja": "時刻を言う。動詞のます形。日常のスケジュール"
     },
     "jlptLevel": "N5",
     "chapter": 4,
     "courseId": "minna-1",
-    "vocabCount": 20,
-    "grammarCount": 3,
-    "kanjiCount": 5,
+    "vocabCount": 42,
+    "grammarCount": 4,
+    "kanjiCount": 8,
     "topics": [
       {
-        "vi": "Chủ đề bài 4",
-        "en": "Topic 4"
+        "vi": "Thời gian và giờ giấc",
+        "en": "Time and schedules"
+      },
+      {
+        "vi": "Động từ thể ます",
+        "en": "Verb ます form"
       }
     ]
   },
@@ -108,24 +123,29 @@
     "id": "lesson-05",
     "number": 5,
     "title": {
-      "ja": "第 5 課",
-      "romanji": "Dai 5 ka"
+      "ja": "京都へ 行きます",
+      "romaji": "Kyouto e Ikimasu",
+      "vi": "Đi đến Kyoto"
     },
     "description": {
-      "vi": "Nội dung bài 5",
-      "en": "Lesson 5 content",
-      "ja": "第 5 課の内容"
+      "vi": "Di chuyển bằng 行きます/来ます/帰ります. Phương tiện giao thông với で. Đi cùng ai với と. Hỏi khi nào với いつ.",
+      "en": "Movement verbs 行きます/来ます/帰ります. Transportation with で. Going with someone using と. Asking when with いつ.",
+      "ja": "移動動詞。交通手段。いつ"
     },
     "jlptLevel": "N5",
     "chapter": 5,
     "courseId": "minna-1",
-    "vocabCount": 20,
-    "grammarCount": 3,
-    "kanjiCount": 5,
+    "vocabCount": 34,
+    "grammarCount": 4,
+    "kanjiCount": 8,
     "topics": [
       {
-        "vi": "Chủ đề bài 5",
-        "en": "Topic 5"
+        "vi": "Di chuyển và giao thông",
+        "en": "Movement and transportation"
+      },
+      {
+        "vi": "Thời gian (tuần, tháng, năm)",
+        "en": "Time periods (week, month, year)"
       }
     ]
   },

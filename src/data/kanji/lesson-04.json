@@ -1,157 +1,65 @@
 [
   {
-    "id": "k-04-001",
-    "lessonId": "lesson-04",
-    "character": "漢1",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 1 (Bài 4)",
-      "en": "Kanji 1 (Lesson 4)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "id": "k-04-001", "lessonId": "lesson-04", "character": "今", "onReadings": ["コン", "キン"], "kunReadings": ["いま"],
+    "meaning": { "vi": "Bây giờ, hiện tại", "en": "Now, present" }, "strokeCount": 4, "radicals": ["人"], "primaryRadical": "人", "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字1",
-        "reading": "かんじ1",
-        "meaning": {
-          "vi": "Từ ghép 1",
-          "en": "Compound 1"
-        }
-      }
+      { "word": "今日", "reading": "きょう", "meaning": { "vi": "Hôm nay", "en": "Today" } },
+      { "word": "今月", "reading": "こんげつ", "meaning": { "vi": "Tháng này", "en": "This month" } }
     ]
   },
   {
-    "id": "k-04-002",
-    "lessonId": "lesson-04",
-    "character": "漢2",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 2 (Bài 4)",
-      "en": "Kanji 2 (Lesson 4)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "id": "k-04-002", "lessonId": "lesson-04", "character": "午", "onReadings": ["ゴ"], "kunReadings": [],
+    "meaning": { "vi": "Trưa, ngọ", "en": "Noon" }, "strokeCount": 4, "radicals": ["十"], "primaryRadical": "十", "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字2",
-        "reading": "かんじ2",
-        "meaning": {
-          "vi": "Từ ghép 2",
-          "en": "Compound 2"
-        }
-      }
+      { "word": "午前", "reading": "ごぜん", "meaning": { "vi": "Buổi sáng", "en": "AM, morning" } },
+      { "word": "午後", "reading": "ごご", "meaning": { "vi": "Buổi chiều", "en": "PM, afternoon" } }
     ]
   },
   {
-    "id": "k-04-003",
-    "lessonId": "lesson-04",
-    "character": "漢3",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 3 (Bài 4)",
-      "en": "Kanji 3 (Lesson 4)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "id": "k-04-003", "lessonId": "lesson-04", "character": "前", "onReadings": ["ゼン"], "kunReadings": ["まえ"],
+    "meaning": { "vi": "Trước, phía trước", "en": "Before, front" }, "strokeCount": 9, "radicals": ["刀"], "primaryRadical": "刀", "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字3",
-        "reading": "かんじ3",
-        "meaning": {
-          "vi": "Từ ghép 3",
-          "en": "Compound 3"
-        }
-      }
+      { "word": "午前", "reading": "ごぜん", "meaning": { "vi": "Buổi sáng", "en": "Morning" } },
+      { "word": "名前", "reading": "なまえ", "meaning": { "vi": "Tên", "en": "Name" } }
     ]
   },
   {
-    "id": "k-04-004",
-    "lessonId": "lesson-04",
-    "character": "漢4",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 4 (Bài 4)",
-      "en": "Kanji 4 (Lesson 4)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "id": "k-04-004", "lessonId": "lesson-04", "character": "後", "onReadings": ["ゴ", "コウ"], "kunReadings": ["あと", "うし・ろ"],
+    "meaning": { "vi": "Sau, phía sau", "en": "After, behind" }, "strokeCount": 9, "radicals": ["彳"], "primaryRadical": "彳", "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字4",
-        "reading": "かんじ4",
-        "meaning": {
-          "vi": "Từ ghép 4",
-          "en": "Compound 4"
-        }
-      }
+      { "word": "午後", "reading": "ごご", "meaning": { "vi": "Buổi chiều", "en": "Afternoon" } },
+      { "word": "後で", "reading": "あとで", "meaning": { "vi": "Sau đó", "en": "After, later" } }
     ]
   },
   {
-    "id": "k-04-005",
-    "lessonId": "lesson-04",
-    "character": "漢5",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 5 (Bài 4)",
-      "en": "Kanji 5 (Lesson 4)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "id": "k-04-005", "lessonId": "lesson-04", "character": "毎", "onReadings": ["マイ"], "kunReadings": [],
+    "meaning": { "vi": "Mỗi, hàng", "en": "Every, each" }, "strokeCount": 6, "radicals": ["母"], "primaryRadical": "母", "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字5",
-        "reading": "かんじ5",
-        "meaning": {
-          "vi": "Từ ghép 5",
-          "en": "Compound 5"
-        }
-      }
+      { "word": "毎日", "reading": "まいにち", "meaning": { "vi": "Mỗi ngày", "en": "Every day" } },
+      { "word": "毎朝", "reading": "まいあさ", "meaning": { "vi": "Mỗi sáng", "en": "Every morning" } }
+    ]
+  },
+  {
+    "id": "k-04-006", "lessonId": "lesson-04", "character": "半", "onReadings": ["ハン"], "kunReadings": ["なか・ば"],
+    "meaning": { "vi": "Nửa, rưỡi", "en": "Half" }, "strokeCount": 5, "radicals": ["十"], "primaryRadical": "十", "jlptLevel": "N5",
+    "compounds": [
+      { "word": "半分", "reading": "はんぶん", "meaning": { "vi": "Một nửa", "en": "Half" } }
+    ]
+  },
+  {
+    "id": "k-04-007", "lessonId": "lesson-04", "character": "休", "onReadings": ["キュウ"], "kunReadings": ["やす・む"],
+    "meaning": { "vi": "Nghỉ ngơi", "en": "Rest" }, "strokeCount": 6, "radicals": ["人"], "primaryRadical": "人", "jlptLevel": "N5",
+    "compounds": [
+      { "word": "休みます", "reading": "やすみます", "meaning": { "vi": "Nghỉ", "en": "To rest" } },
+      { "word": "休日", "reading": "きゅうじつ", "meaning": { "vi": "Ngày nghỉ", "en": "Holiday" } }
+    ]
+  },
+  {
+    "id": "k-04-008", "lessonId": "lesson-04", "character": "月", "onReadings": ["ゲツ", "ガツ"], "kunReadings": ["つき"],
+    "meaning": { "vi": "Tháng, mặt trăng", "en": "Month, moon" }, "strokeCount": 4, "radicals": ["月"], "primaryRadical": "月", "jlptLevel": "N5",
+    "compounds": [
+      { "word": "月曜日", "reading": "げつようび", "meaning": { "vi": "Thứ Hai", "en": "Monday" } },
+      { "word": "今月", "reading": "こんげつ", "meaning": { "vi": "Tháng này", "en": "This month" } }
     ]
   }
 ]

@@ -2,35 +2,22 @@
   {
     "id": "g-04-001",
     "lessonId": "lesson-04",
-    "pattern": "〜文法1",
-    "patternKana": "〜ぶんぽう1",
-    "title": {
-      "vi": "Ngữ pháp 1 (Bài 4)",
-      "en": "Grammar 1 (Lesson 4)"
-    },
+    "pattern": "今 〜時 〜分 です",
+    "patternKana": "いま 〜じ 〜ふん です",
+    "title": { "vi": "Bây giờ là ~ giờ ~ phút", "en": "It is now ~ hours ~ minutes", "ja": "今 〜時 〜分 です" },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 1 bài 4",
-      "en": "Explanation for grammar 1 lesson 4"
+      "vi": "Dùng để nói giờ hiện tại. 何時 (なんじ) để hỏi giờ. 半 (はん) = rưỡi. Chú ý cách đọc đặc biệt: 4時 (よじ), 7時 (しちじ), 9時 (くじ).",
+      "en": "Used to tell the current time. 何時 (nanji) to ask the time. 半 (han) = half past. Note special readings: 4時 (yoji), 7時 (shichiji), 9時 (kuji).",
+      "ja": "現在の時刻を言うときに使います。「何時」で時間を聞きます。「半」は30分を意味します。"
     },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
+    "usage": { "vi": "Nói và hỏi giờ.", "en": "Telling and asking time.", "ja": "時刻を言う・尋ねる。" },
+    "formation": ["今 + 〜時 + 〜分 + です", "今 + 何時 + ですか"],
     "examples": [
       {
-        "ja": "私は文法1を勉強します。",
-        "reading": "わたしはぶんぽう1をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 1.",
-          "en": "I study grammar 1."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
+        "ja": "今 何時ですか。 ...7時10分です。",
+        "reading": "いま なんじですか。 ...しちじじゅっぷんです。",
+        "translation": { "vi": "Bây giờ mấy giờ? ...7 giờ 10 phút.", "en": "What time is it? ...It's 7:10." },
+        "highlightRange": { "start": 2, "end": 4 }
       }
     ],
     "jlptLevel": "N5"
@@ -38,35 +25,28 @@
   {
     "id": "g-04-002",
     "lessonId": "lesson-04",
-    "pattern": "〜文法2",
-    "patternKana": "〜ぶんぽう2",
-    "title": {
-      "vi": "Ngữ pháp 2 (Bài 4)",
-      "en": "Grammar 2 (Lesson 4)"
-    },
+    "pattern": "V ます / V ません / V ました / V ませんでした",
+    "patternKana": "V ます / V ません / V ました / V ませんでした",
+    "title": { "vi": "Chia động từ thể lịch sự (ます form)", "en": "Polite verb conjugation (masu form)", "ja": "動詞の丁寧形（ます形）" },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 2 bài 4",
-      "en": "Explanation for grammar 2 lesson 4"
+      "vi": "Vます = khẳng định hiện tại/tương lai. Vません = phủ định hiện tại/tương lai. Vました = khẳng định quá khứ. Vませんでした = phủ định quá khứ. Đây là thể lịch sự, dùng trong giao tiếp hàng ngày.",
+      "en": "Vmasu = present/future affirmative. Vmasen = present/future negative. Vmashita = past affirmative. Vmasendeshita = past negative. This is the polite form used in daily conversation.",
+      "ja": "Vます＝現在/未来肯定。Vません＝現在/未来否定。Vました＝過去肯定。Vませんでした＝過去否定。"
     },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
+    "usage": { "vi": "Nói về hành động lịch sự.", "en": "Talking about actions politely.", "ja": "丁寧に行動を述べる。" },
+    "formation": ["V + ます (khẳng định)", "V + ません (phủ định)", "V + ました (quá khứ KĐ)", "V + ませんでした (quá khứ PĐ)"],
     "examples": [
       {
-        "ja": "私は文法2を勉強します。",
-        "reading": "わたしはぶんぽう2をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 2.",
-          "en": "I study grammar 2."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
+        "ja": "毎日 勉強します。",
+        "reading": "まいにち べんきょうします。",
+        "translation": { "vi": "Mỗi ngày tôi học.", "en": "I study every day." },
+        "highlightRange": { "start": 4, "end": 9 }
+      },
+      {
+        "ja": "きのう 勉強しませんでした。",
+        "reading": "きのう べんきょうしませんでした。",
+        "translation": { "vi": "Hôm qua tôi không học.", "en": "I didn't study yesterday." },
+        "highlightRange": { "start": 4, "end": 14 }
       }
     ],
     "jlptLevel": "N5"
@@ -74,35 +54,57 @@
   {
     "id": "g-04-003",
     "lessonId": "lesson-04",
-    "pattern": "〜文法3",
-    "patternKana": "〜ぶんぽう3",
-    "title": {
-      "vi": "Ngữ pháp 3 (Bài 4)",
-      "en": "Grammar 3 (Lesson 4)"
-    },
+    "pattern": "N(thời gian) に V",
+    "patternKana": "N に V",
+    "title": { "vi": "Làm V vào lúc N (thời điểm)", "en": "Do V at N (time point)", "ja": "時間名詞 に 動詞" },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 3 bài 4",
-      "en": "Explanation for grammar 3 lesson 4"
+      "vi": "Trợ từ に dùng sau từ chỉ thời gian cụ thể (giờ, ngày, tháng) để nói \"vào lúc\". KHÔNG dùng に sau: きのう, きょう, あした, 毎日, 毎朝 (từ chỉ thời gian tương đối).",
+      "en": "The particle に is used after specific time words (hours, days, months) to say \"at\". Do NOT use に after: きのう, きょう, あした, 毎日, 毎朝 (relative time words).",
+      "ja": "助詞「に」は具体的な時間の後に「〜に」として使います。相対的な時間語（きのう、きょう等）には使いません。"
     },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
+    "usage": { "vi": "Chỉ thời điểm hành động.", "en": "Indicating when an action takes place.", "ja": "行動の時点を示す。" },
+    "formation": ["N(thời gian) + に + V"],
     "examples": [
       {
-        "ja": "私は文法3を勉強します。",
-        "reading": "わたしはぶんぽう3をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 3.",
-          "en": "I study grammar 3."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
+        "ja": "6時に 起きます。",
+        "reading": "ろくじに おきます。",
+        "translation": { "vi": "Tôi dậy lúc 6 giờ.", "en": "I get up at 6 o'clock." },
+        "highlightRange": { "start": 2, "end": 3 }
+      },
+      {
+        "ja": "日曜日に 休みます。",
+        "reading": "にちようびに やすみます。",
+        "translation": { "vi": "Tôi nghỉ vào Chủ Nhật.", "en": "I take a day off on Sunday." },
+        "highlightRange": { "start": 4, "end": 5 }
+      }
+    ],
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "g-04-004",
+    "lessonId": "lesson-04",
+    "pattern": "N1 から N2 まで",
+    "patternKana": "N1 から N2 まで",
+    "title": { "vi": "Từ N1 đến N2 (thời gian/nơi chốn)", "en": "From N1 to N2 (time/place)", "ja": "N1 から N2 まで" },
+    "explanation": {
+      "vi": "から = từ (điểm bắt đầu). まで = đến (điểm kết thúc). Có thể dùng riêng từng trợ từ. Có thể kết hợp với に: 月曜日から 金曜日まで.",
+      "en": "から = from (starting point). まで = to/until (ending point). Each particle can be used independently. Can combine with に.",
+      "ja": "「から」は起点、「まで」は終点を表します。それぞれ単独でも使えます。"
+    },
+    "usage": { "vi": "Diễn tả khoảng thời gian hoặc phạm vi.", "en": "Expressing time range or scope.", "ja": "時間や範囲を表す。" },
+    "formation": ["N1 + から + N2 + まで"],
+    "examples": [
+      {
+        "ja": "9時から 5時まで 働きます。",
+        "reading": "くじから ごじまで はたらきます。",
+        "translation": { "vi": "Tôi làm việc từ 9 giờ đến 5 giờ.", "en": "I work from 9 to 5." },
+        "highlightRange": { "start": 2, "end": 7 }
+      },
+      {
+        "ja": "月曜日から 金曜日まで 勉強します。",
+        "reading": "げつようびから きんようびまで べんきょうします。",
+        "translation": { "vi": "Tôi học từ thứ Hai đến thứ Sáu.", "en": "I study from Monday to Friday." },
+        "highlightRange": { "start": 4, "end": 10 }
       }
     ],
     "jlptLevel": "N5"

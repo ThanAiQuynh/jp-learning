@@ -1,117 +1,154 @@
 [
   {
-    "id": "v-05-001",
-    "lessonId": "lesson-05",
-    "kanji": "単語1",
-    "hiragana": "たんご1",
-    "romaji": "tango1",
-    "meaning": {
-      "vi": "Từ vựng 1 (Bài 5)",
-      "en": "Vocab 1 (Lesson 5)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
+    "id": "v-05-001", "lessonId": "lesson-05", "kanji": "行きます", "hiragana": "いきます", "romaji": "ikimasu",
+    "meaning": { "vi": "Đi", "en": "To go" }, "wordType": "verb-group1", "jlptLevel": "N5",
     "examples": [
-      {
-        "ja": "これは単語1です。",
-        "reading": "これはたんご1です。",
-        "translation": {
-          "vi": "Đây là từ vựng 1.",
-          "en": "This is vocab 1."
-        }
-      }
+      { "ja": "学校へ 行きます。", "reading": "がっこうへ いきます。", "translation": { "vi": "Tôi đi đến trường.", "en": "I go to school." } }
+    ], "relatedKanji": ["行"]
+  },
+  {
+    "id": "v-05-002", "lessonId": "lesson-05", "kanji": "来ます", "hiragana": "きます", "romaji": "kimasu",
+    "meaning": { "vi": "Đến, tới", "en": "To come" }, "wordType": "verb-group3", "jlptLevel": "N5",
+    "examples": [
+      { "ja": "日本へ 来ました。", "reading": "にほんへ きました。", "translation": { "vi": "Tôi đã đến Nhật Bản.", "en": "I came to Japan." } }
+    ], "relatedKanji": ["来"]
+  },
+  {
+    "id": "v-05-003", "lessonId": "lesson-05", "kanji": "帰ります", "hiragana": "かえります", "romaji": "kaerimasu",
+    "meaning": { "vi": "Về (nhà, nước...)", "en": "To go home, to return" }, "wordType": "verb-group1", "jlptLevel": "N5",
+    "examples": [
+      { "ja": "5時に うちへ 帰ります。", "reading": "ごじに うちへ かえります。", "translation": { "vi": "Tôi về nhà lúc 5 giờ.", "en": "I go home at 5 o'clock." } }
+    ], "relatedKanji": ["帰"]
+  },
+  {
+    "id": "v-05-004", "lessonId": "lesson-05", "kanji": "学校", "hiragana": "がっこう", "romaji": "gakkou",
+    "meaning": { "vi": "Trường học", "en": "School" }, "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["学", "校"]
+  },
+  {
+    "id": "v-05-005", "lessonId": "lesson-05", "kanji": "", "hiragana": "スーパー", "romaji": "suupaa",
+    "meaning": { "vi": "Siêu thị", "en": "Supermarket" }, "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-05-006", "lessonId": "lesson-05", "kanji": "駅", "hiragana": "えき", "romaji": "eki",
+    "meaning": { "vi": "Nhà ga, ga tàu", "en": "Station" }, "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["駅"]
+  },
+  {
+    "id": "v-05-007", "lessonId": "lesson-05", "kanji": "飛行機", "hiragana": "ひこうき", "romaji": "hikouki",
+    "meaning": { "vi": "Máy bay", "en": "Airplane" }, "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["飛", "行", "機"]
+  },
+  {
+    "id": "v-05-008", "lessonId": "lesson-05", "kanji": "船", "hiragana": "ふね", "romaji": "fune",
+    "meaning": { "vi": "Tàu thủy, thuyền", "en": "Ship, boat" }, "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["船"]
+  },
+  {
+    "id": "v-05-009", "lessonId": "lesson-05", "kanji": "電車", "hiragana": "でんしゃ", "romaji": "densha",
+    "meaning": { "vi": "Tàu điện", "en": "Train (electric)" }, "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["電", "車"]
+  },
+  {
+    "id": "v-05-010", "lessonId": "lesson-05", "kanji": "地下鉄", "hiragana": "ちかてつ", "romaji": "chikatetsu",
+    "meaning": { "vi": "Tàu điện ngầm", "en": "Subway" }, "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["地", "下", "鉄"]
+  },
+  {
+    "id": "v-05-011", "lessonId": "lesson-05", "kanji": "新幹線", "hiragana": "しんかんせん", "romaji": "shinkansen",
+    "meaning": { "vi": "Tàu cao tốc (Shinkansen)", "en": "Bullet train (Shinkansen)" }, "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["新", "幹", "線"]
+  },
+  {
+    "id": "v-05-012", "lessonId": "lesson-05", "kanji": "", "hiragana": "バス", "romaji": "basu",
+    "meaning": { "vi": "Xe buýt", "en": "Bus" }, "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-05-013", "lessonId": "lesson-05", "kanji": "", "hiragana": "タクシー", "romaji": "takushii",
+    "meaning": { "vi": "Taxi", "en": "Taxi" }, "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-05-014", "lessonId": "lesson-05", "kanji": "自転車", "hiragana": "じてんしゃ", "romaji": "jitensha",
+    "meaning": { "vi": "Xe đạp", "en": "Bicycle" }, "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["自", "転", "車"]
+  },
+  {
+    "id": "v-05-015", "lessonId": "lesson-05", "kanji": "", "hiragana": "歩いて", "romaji": "aruite",
+    "meaning": { "vi": "Đi bộ", "en": "On foot, by walking" }, "wordType": "expression", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-05-016", "lessonId": "lesson-05", "kanji": "人", "hiragana": "ひと", "romaji": "hito",
+    "meaning": { "vi": "Người", "en": "Person, people" }, "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["人"]
+  },
+  {
+    "id": "v-05-017", "lessonId": "lesson-05", "kanji": "友達", "hiragana": "ともだち", "romaji": "tomodachi",
+    "meaning": { "vi": "Bạn bè", "en": "Friend" }, "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["友", "達"]
+  },
+  {
+    "id": "v-05-018", "lessonId": "lesson-05", "kanji": "彼", "hiragana": "かれ", "romaji": "kare",
+    "meaning": { "vi": "Anh ấy, bạn trai", "en": "He, boyfriend" }, "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["彼"]
+  },
+  {
+    "id": "v-05-019", "lessonId": "lesson-05", "kanji": "彼女", "hiragana": "かのじょ", "romaji": "kanojo",
+    "meaning": { "vi": "Cô ấy, bạn gái", "en": "She, girlfriend" }, "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["彼", "女"]
+  },
+  {
+    "id": "v-05-020", "lessonId": "lesson-05", "kanji": "家族", "hiragana": "かぞく", "romaji": "kazoku",
+    "meaning": { "vi": "Gia đình", "en": "Family" }, "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["家", "族"]
+  },
+  {
+    "id": "v-05-021", "lessonId": "lesson-05", "kanji": "一人で", "hiragana": "ひとりで", "romaji": "hitori de",
+    "meaning": { "vi": "Một mình", "en": "Alone, by oneself" }, "wordType": "expression", "jlptLevel": "N5", "relatedKanji": ["一", "人"]
+  },
+  {
+    "id": "v-05-022", "lessonId": "lesson-05", "kanji": "去年", "hiragana": "きょねん", "romaji": "kyonen",
+    "meaning": { "vi": "Năm ngoái", "en": "Last year" }, "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["去", "年"]
+  },
+  {
+    "id": "v-05-023", "lessonId": "lesson-05", "kanji": "先月", "hiragana": "せんげつ", "romaji": "sengetsu",
+    "meaning": { "vi": "Tháng trước", "en": "Last month" }, "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["先", "月"]
+  },
+  {
+    "id": "v-05-024", "lessonId": "lesson-05", "kanji": "先週", "hiragana": "せんしゅう", "romaji": "senshuu",
+    "meaning": { "vi": "Tuần trước", "en": "Last week" }, "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["先", "週"]
+  },
+  {
+    "id": "v-05-025", "lessonId": "lesson-05", "kanji": "来週", "hiragana": "らいしゅう", "romaji": "raishuu",
+    "meaning": { "vi": "Tuần sau", "en": "Next week" }, "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["来", "週"]
+  },
+  {
+    "id": "v-05-026", "lessonId": "lesson-05", "kanji": "来月", "hiragana": "らいげつ", "romaji": "raigetsu",
+    "meaning": { "vi": "Tháng sau", "en": "Next month" }, "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["来", "月"]
+  },
+  {
+    "id": "v-05-027", "lessonId": "lesson-05", "kanji": "来年", "hiragana": "らいねん", "romaji": "rainen",
+    "meaning": { "vi": "Năm sau", "en": "Next year" }, "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["来", "年"]
+  },
+  {
+    "id": "v-05-028", "lessonId": "lesson-05", "kanji": "〜ごろ", "hiragana": "〜ごろ", "romaji": "~goro",
+    "meaning": { "vi": "Khoảng ~ (thời gian gần đúng)", "en": "About, around ~ (approximate time)" }, "wordType": "suffix", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-05-029", "lessonId": "lesson-05", "kanji": "何の", "hiragana": "なんの", "romaji": "nan no",
+    "meaning": { "vi": "~ gì (hỏi nội dung, loại)", "en": "What kind of (asking content/type)" }, "wordType": "pronoun", "jlptLevel": "N5", "relatedKanji": ["何"]
+  },
+  {
+    "id": "v-05-030", "lessonId": "lesson-05", "kanji": "",
+    "hiragana": "いつ", "romaji": "itsu",
+    "meaning": { "vi": "Khi nào, bao giờ", "en": "When" }, "wordType": "pronoun", "jlptLevel": "N5",
+    "examples": [
+      { "ja": "いつ 日本へ 来ましたか。", "reading": "いつ にほんへ きましたか。", "translation": { "vi": "Bạn đến Nhật khi nào?", "en": "When did you come to Japan?" } }
     ]
   },
   {
-    "id": "v-05-002",
-    "lessonId": "lesson-05",
-    "kanji": "単語2",
-    "hiragana": "たんご2",
-    "romaji": "tango2",
-    "meaning": {
-      "vi": "Từ vựng 2 (Bài 5)",
-      "en": "Vocab 2 (Lesson 5)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語2です。",
-        "reading": "これはたんご2です。",
-        "translation": {
-          "vi": "Đây là từ vựng 2.",
-          "en": "This is vocab 2."
-        }
-      }
-    ]
+    "id": "v-05-031", "lessonId": "lesson-05", "kanji": "誕生日", "hiragana": "たんじょうび", "romaji": "tanjoubi",
+    "meaning": { "vi": "Sinh nhật", "en": "Birthday" }, "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["誕", "生", "日"]
   },
   {
-    "id": "v-05-003",
-    "lessonId": "lesson-05",
-    "kanji": "単語3",
-    "hiragana": "たんご3",
-    "romaji": "tango3",
-    "meaning": {
-      "vi": "Từ vựng 3 (Bài 5)",
-      "en": "Vocab 3 (Lesson 5)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語3です。",
-        "reading": "これはたんご3です。",
-        "translation": {
-          "vi": "Đây là từ vựng 3.",
-          "en": "This is vocab 3."
-        }
-      }
-    ]
+    "id": "v-05-032", "lessonId": "lesson-05", "kanji": "",
+    "hiragana": "お疲れ様でした", "romaji": "otsukaresama deshita",
+    "meaning": { "vi": "Anh/chị vất vả rồi (nói khi kết thúc công việc)", "en": "Thank you for your hard work (said at end of work)" }, "wordType": "greeting", "jlptLevel": "N5"
   },
   {
-    "id": "v-05-004",
-    "lessonId": "lesson-05",
-    "kanji": "単語4",
-    "hiragana": "たんご4",
-    "romaji": "tango4",
-    "meaning": {
-      "vi": "Từ vựng 4 (Bài 5)",
-      "en": "Vocab 4 (Lesson 5)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語4です。",
-        "reading": "これはたんご4です。",
-        "translation": {
-          "vi": "Đây là từ vựng 4.",
-          "en": "This is vocab 4."
-        }
-      }
-    ]
+    "id": "v-05-033", "lessonId": "lesson-05", "kanji": "",
+    "hiragana": "いってらっしゃい", "romaji": "itterasshai",
+    "meaning": { "vi": "Đi cẩn thận nhé (nói khi tiễn người ra khỏi nhà)", "en": "Have a good trip (said to someone leaving)" }, "wordType": "greeting", "jlptLevel": "N5"
   },
   {
-    "id": "v-05-005",
-    "lessonId": "lesson-05",
-    "kanji": "単語5",
-    "hiragana": "たんご5",
-    "romaji": "tango5",
-    "meaning": {
-      "vi": "Từ vựng 5 (Bài 5)",
-      "en": "Vocab 5 (Lesson 5)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語5です。",
-        "reading": "これはたんご5です。",
-        "translation": {
-          "vi": "Đây là từ vựng 5.",
-          "en": "This is vocab 5."
-        }
-      }
-    ]
+    "id": "v-05-034", "lessonId": "lesson-05", "kanji": "",
+    "hiragana": "いってきます", "romaji": "ittekimasu",
+    "meaning": { "vi": "Tôi đi đây (nói khi rời khỏi nhà)", "en": "I'm off (said when leaving home)" }, "wordType": "greeting", "jlptLevel": "N5"
   }
 ]

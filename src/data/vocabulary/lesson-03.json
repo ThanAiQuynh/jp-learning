@@ -2,22 +2,22 @@
   {
     "id": "v-03-001",
     "lessonId": "lesson-03",
-    "kanji": "単語1",
-    "hiragana": "たんご1",
-    "romaji": "tango1",
+    "kanji": "",
+    "hiragana": "ここ",
+    "romaji": "koko",
     "meaning": {
-      "vi": "Từ vựng 1 (Bài 3)",
-      "en": "Vocab 1 (Lesson 3)"
+      "vi": "Đây, chỗ này (nơi gần người nói)",
+      "en": "Here (place near the speaker)"
     },
-    "wordType": "noun",
+    "wordType": "pronoun",
     "jlptLevel": "N5",
     "examples": [
       {
-        "ja": "これは単語1です。",
-        "reading": "これはたんご1です。",
+        "ja": "ここは 食堂です。",
+        "reading": "ここは しょくどうです。",
         "translation": {
-          "vi": "Đây là từ vựng 1.",
-          "en": "This is vocab 1."
+          "vi": "Đây là nhà ăn.",
+          "en": "This is the cafeteria."
         }
       }
     ]
@@ -25,68 +25,48 @@
   {
     "id": "v-03-002",
     "lessonId": "lesson-03",
-    "kanji": "単語2",
-    "hiragana": "たんご2",
-    "romaji": "tango2",
+    "kanji": "",
+    "hiragana": "そこ",
+    "romaji": "soko",
     "meaning": {
-      "vi": "Từ vựng 2 (Bài 3)",
-      "en": "Vocab 2 (Lesson 3)"
+      "vi": "Đó, chỗ đó (nơi gần người nghe)",
+      "en": "There (place near the listener)"
     },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語2です。",
-        "reading": "これはたんご2です。",
-        "translation": {
-          "vi": "Đây là từ vựng 2.",
-          "en": "This is vocab 2."
-        }
-      }
-    ]
+    "wordType": "pronoun",
+    "jlptLevel": "N5"
   },
   {
     "id": "v-03-003",
     "lessonId": "lesson-03",
-    "kanji": "単語3",
-    "hiragana": "たんご3",
-    "romaji": "tango3",
+    "kanji": "",
+    "hiragana": "あそこ",
+    "romaji": "asoko",
     "meaning": {
-      "vi": "Từ vựng 3 (Bài 3)",
-      "en": "Vocab 3 (Lesson 3)"
+      "vi": "Chỗ kia (nơi xa cả hai)",
+      "en": "Over there (place far from both)"
     },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語3です。",
-        "reading": "これはたんご3です。",
-        "translation": {
-          "vi": "Đây là từ vựng 3.",
-          "en": "This is vocab 3."
-        }
-      }
-    ]
+    "wordType": "pronoun",
+    "jlptLevel": "N5"
   },
   {
     "id": "v-03-004",
     "lessonId": "lesson-03",
-    "kanji": "単語4",
-    "hiragana": "たんご4",
-    "romaji": "tango4",
+    "kanji": "",
+    "hiragana": "どこ",
+    "romaji": "doko",
     "meaning": {
-      "vi": "Từ vựng 4 (Bài 3)",
-      "en": "Vocab 4 (Lesson 3)"
+      "vi": "Ở đâu",
+      "en": "Where"
     },
-    "wordType": "noun",
+    "wordType": "pronoun",
     "jlptLevel": "N5",
     "examples": [
       {
-        "ja": "これは単語4です。",
-        "reading": "これはたんご4です。",
+        "ja": "トイレは どこですか。",
+        "reading": "トイレは どこですか。",
         "translation": {
-          "vi": "Đây là từ vựng 4.",
-          "en": "This is vocab 4."
+          "vi": "Nhà vệ sinh ở đâu?",
+          "en": "Where is the restroom?"
         }
       }
     ]
@@ -94,24 +74,527 @@
   {
     "id": "v-03-005",
     "lessonId": "lesson-03",
-    "kanji": "単語5",
-    "hiragana": "たんご5",
-    "romaji": "tango5",
+    "kanji": "",
+    "hiragana": "こちら",
+    "romaji": "kochira",
     "meaning": {
-      "vi": "Từ vựng 5 (Bài 3)",
-      "en": "Vocab 5 (Lesson 3)"
+      "vi": "Phía này, bên này (cách nói lịch sự của ここ)",
+      "en": "This way (polite form of ここ)"
+    },
+    "wordType": "pronoun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-03-006",
+    "lessonId": "lesson-03",
+    "kanji": "",
+    "hiragana": "そちら",
+    "romaji": "sochira",
+    "meaning": {
+      "vi": "Phía đó, bên đó (cách nói lịch sự của そこ)",
+      "en": "That way (polite form of そこ)"
+    },
+    "wordType": "pronoun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-03-007",
+    "lessonId": "lesson-03",
+    "kanji": "",
+    "hiragana": "あちら",
+    "romaji": "achira",
+    "meaning": {
+      "vi": "Phía kia, bên kia (cách nói lịch sự của あそこ)",
+      "en": "That way over there (polite form of あそこ)"
+    },
+    "wordType": "pronoun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-03-008",
+    "lessonId": "lesson-03",
+    "kanji": "",
+    "hiragana": "どちら",
+    "romaji": "dochira",
+    "meaning": {
+      "vi": "Phía nào, bên nào (cách nói lịch sự của どこ)",
+      "en": "Which way (polite form of どこ)"
+    },
+    "wordType": "pronoun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-03-009",
+    "lessonId": "lesson-03",
+    "kanji": "教室",
+    "hiragana": "きょうしつ",
+    "romaji": "kyoushitsu",
+    "meaning": {
+      "vi": "Phòng học, lớp học",
+      "en": "Classroom"
     },
     "wordType": "noun",
     "jlptLevel": "N5",
+    "relatedKanji": ["教", "室"]
+  },
+  {
+    "id": "v-03-010",
+    "lessonId": "lesson-03",
+    "kanji": "食堂",
+    "hiragana": "しょくどう",
+    "romaji": "shokudou",
+    "meaning": {
+      "vi": "Nhà ăn, quán ăn",
+      "en": "Cafeteria, dining hall"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["食", "堂"]
+  },
+  {
+    "id": "v-03-011",
+    "lessonId": "lesson-03",
+    "kanji": "事務所",
+    "hiragana": "じむしょ",
+    "romaji": "jimusho",
+    "meaning": {
+      "vi": "Văn phòng",
+      "en": "Office"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["事", "務", "所"]
+  },
+  {
+    "id": "v-03-012",
+    "lessonId": "lesson-03",
+    "kanji": "会議室",
+    "hiragana": "かいぎしつ",
+    "romaji": "kaigishitsu",
+    "meaning": {
+      "vi": "Phòng họp",
+      "en": "Meeting room, conference room"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["会", "議", "室"]
+  },
+  {
+    "id": "v-03-013",
+    "lessonId": "lesson-03",
+    "kanji": "受付",
+    "hiragana": "うけつけ",
+    "romaji": "uketsuke",
+    "meaning": {
+      "vi": "Quầy lễ tân, quầy tiếp nhận",
+      "en": "Reception desk"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["受", "付"]
+  },
+  {
+    "id": "v-03-014",
+    "lessonId": "lesson-03",
+    "kanji": "",
+    "hiragana": "ロビー",
+    "romaji": "robii",
+    "meaning": {
+      "vi": "Sảnh (sảnh khách sạn, tòa nhà)",
+      "en": "Lobby"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-03-015",
+    "lessonId": "lesson-03",
+    "kanji": "部屋",
+    "hiragana": "へや",
+    "romaji": "heya",
+    "meaning": {
+      "vi": "Phòng, căn phòng",
+      "en": "Room"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["部", "屋"]
+  },
+  {
+    "id": "v-03-016",
+    "lessonId": "lesson-03",
+    "kanji": "",
+    "hiragana": "トイレ",
+    "romaji": "toire",
+    "meaning": {
+      "vi": "Nhà vệ sinh",
+      "en": "Restroom, toilet"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-03-017",
+    "lessonId": "lesson-03",
+    "kanji": "お手洗い",
+    "hiragana": "おてあらい",
+    "romaji": "otearai",
+    "meaning": {
+      "vi": "Nhà vệ sinh (cách nói lịch sự)",
+      "en": "Restroom (polite)"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["手", "洗"]
+  },
+  {
+    "id": "v-03-018",
+    "lessonId": "lesson-03",
+    "kanji": "階段",
+    "hiragana": "かいだん",
+    "romaji": "kaidan",
+    "meaning": {
+      "vi": "Cầu thang",
+      "en": "Stairs, staircase"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["階", "段"]
+  },
+  {
+    "id": "v-03-019",
+    "lessonId": "lesson-03",
+    "kanji": "",
+    "hiragana": "エレベーター",
+    "romaji": "erebeetaa",
+    "meaning": {
+      "vi": "Thang máy",
+      "en": "Elevator"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-03-020",
+    "lessonId": "lesson-03",
+    "kanji": "",
+    "hiragana": "エスカレーター",
+    "romaji": "esukareetaa",
+    "meaning": {
+      "vi": "Thang cuốn",
+      "en": "Escalator"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-03-021",
+    "lessonId": "lesson-03",
+    "kanji": "国",
+    "hiragana": "くに",
+    "romaji": "kuni",
+    "meaning": {
+      "vi": "Nước, quốc gia",
+      "en": "Country"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["国"]
+  },
+  {
+    "id": "v-03-022",
+    "lessonId": "lesson-03",
+    "kanji": "",
+    "hiragana": "うち",
+    "romaji": "uchi",
+    "meaning": {
+      "vi": "Nhà (của mình)",
+      "en": "Home, house"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-03-023",
+    "lessonId": "lesson-03",
+    "kanji": "電話",
+    "hiragana": "でんわ",
+    "romaji": "denwa",
+    "meaning": {
+      "vi": "Điện thoại",
+      "en": "Telephone"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["電", "話"]
+  },
+  {
+    "id": "v-03-024",
+    "lessonId": "lesson-03",
+    "kanji": "靴",
+    "hiragana": "くつ",
+    "romaji": "kutsu",
+    "meaning": {
+      "vi": "Giày",
+      "en": "Shoes"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["靴"]
+  },
+  {
+    "id": "v-03-025",
+    "lessonId": "lesson-03",
+    "kanji": "",
+    "hiragana": "ネクタイ",
+    "romaji": "nekutai",
+    "meaning": {
+      "vi": "Cà vạt",
+      "en": "Necktie"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-03-026",
+    "lessonId": "lesson-03",
+    "kanji": "",
+    "hiragana": "ワイン",
+    "romaji": "wain",
+    "meaning": {
+      "vi": "Rượu vang",
+      "en": "Wine"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-03-027",
+    "lessonId": "lesson-03",
+    "kanji": "売り場",
+    "hiragana": "うりば",
+    "romaji": "uriba",
+    "meaning": {
+      "vi": "Quầy bán hàng",
+      "en": "Sales counter, department"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["売", "場"]
+  },
+  {
+    "id": "v-03-028",
+    "lessonId": "lesson-03",
+    "kanji": "地下",
+    "hiragana": "ちか",
+    "romaji": "chika",
+    "meaning": {
+      "vi": "Tầng hầm",
+      "en": "Basement"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["地", "下"]
+  },
+  {
+    "id": "v-03-029",
+    "lessonId": "lesson-03",
+    "kanji": "〜階",
+    "hiragana": "〜かい/がい",
+    "romaji": "~kai/gai",
+    "meaning": {
+      "vi": "Tầng ~ (tầng lầu)",
+      "en": "~ floor (counter for floors)"
+    },
+    "wordType": "counter",
+    "jlptLevel": "N5",
+    "relatedKanji": ["階"],
     "examples": [
       {
-        "ja": "これは単語5です。",
-        "reading": "これはたんご5です。",
+        "ja": "靴売り場は 3階です。",
+        "reading": "くつうりばは さんがいです。",
         "translation": {
-          "vi": "Đây là từ vựng 5.",
-          "en": "This is vocab 5."
+          "vi": "Quầy bán giày ở tầng 3.",
+          "en": "The shoe department is on the 3rd floor."
         }
       }
     ]
+  },
+  {
+    "id": "v-03-030",
+    "lessonId": "lesson-03",
+    "kanji": "〜円",
+    "hiragana": "〜えん",
+    "romaji": "~en",
+    "meaning": {
+      "vi": "~ yên (đơn vị tiền tệ Nhật)",
+      "en": "~ yen (Japanese currency)"
+    },
+    "wordType": "counter",
+    "jlptLevel": "N5",
+    "relatedKanji": ["円"],
+    "examples": [
+      {
+        "ja": "これは 300円です。",
+        "reading": "これは さんびゃくえんです。",
+        "translation": {
+          "vi": "Cái này giá 300 yên.",
+          "en": "This is 300 yen."
+        }
+      }
+    ]
+  },
+  {
+    "id": "v-03-031",
+    "lessonId": "lesson-03",
+    "kanji": "",
+    "hiragana": "いくら",
+    "romaji": "ikura",
+    "meaning": {
+      "vi": "Bao nhiêu (tiền)",
+      "en": "How much (price)"
+    },
+    "wordType": "pronoun",
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "ja": "この時計は いくらですか。",
+        "reading": "このとけいは いくらですか。",
+        "translation": {
+          "vi": "Cái đồng hồ này giá bao nhiêu?",
+          "en": "How much is this watch?"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v-03-032",
+    "lessonId": "lesson-03",
+    "kanji": "百",
+    "hiragana": "ひゃく",
+    "romaji": "hyaku",
+    "meaning": {
+      "vi": "Trăm",
+      "en": "Hundred"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["百"]
+  },
+  {
+    "id": "v-03-033",
+    "lessonId": "lesson-03",
+    "kanji": "千",
+    "hiragana": "せん",
+    "romaji": "sen",
+    "meaning": {
+      "vi": "Nghìn",
+      "en": "Thousand"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["千"]
+  },
+  {
+    "id": "v-03-034",
+    "lessonId": "lesson-03",
+    "kanji": "万",
+    "hiragana": "まん",
+    "romaji": "man",
+    "meaning": {
+      "vi": "Vạn (mười nghìn)",
+      "en": "Ten thousand"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["万"]
+  },
+  {
+    "id": "v-03-035",
+    "lessonId": "lesson-03",
+    "kanji": "",
+    "hiragana": "すみません",
+    "romaji": "sumimasen",
+    "meaning": {
+      "vi": "Xin lỗi (cũng dùng để gọi nhân viên)",
+      "en": "Excuse me, I'm sorry"
+    },
+    "wordType": "expression",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-03-036",
+    "lessonId": "lesson-03",
+    "kanji": "",
+    "hiragana": "〜で ございます",
+    "romaji": "~de gozaimasu",
+    "meaning": {
+      "vi": "Là ~ (cách nói lịch sự nhất của です)",
+      "en": "Is ~ (most polite form of です)"
+    },
+    "wordType": "expression",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-03-037",
+    "lessonId": "lesson-03",
+    "kanji": "",
+    "hiragana": "見せて ください",
+    "romaji": "misete kudasai",
+    "meaning": {
+      "vi": "Cho tôi xem ~ (nhờ cho xem)",
+      "en": "Please show me ~"
+    },
+    "wordType": "expression",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-03-038",
+    "lessonId": "lesson-03",
+    "kanji": "",
+    "hiragana": "じゃ",
+    "romaji": "ja",
+    "meaning": {
+      "vi": "Vậy thì... (khi đưa ra quyết định)",
+      "en": "Well then... (when making a decision)"
+    },
+    "wordType": "expression",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-03-039",
+    "lessonId": "lesson-03",
+    "kanji": "",
+    "hiragana": "〜を ください",
+    "romaji": "~o kudasai",
+    "meaning": {
+      "vi": "Cho tôi ~ (khi mua hàng)",
+      "en": "Please give me ~ (when buying)"
+    },
+    "wordType": "expression",
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "ja": "じゃ、これを ください。",
+        "reading": "じゃ、これを ください。",
+        "translation": {
+          "vi": "Vậy, cho tôi cái này.",
+          "en": "Well then, I'll take this one please."
+        }
+      }
+    ]
+  },
+  {
+    "id": "v-03-040",
+    "lessonId": "lesson-03",
+    "kanji": "",
+    "hiragana": "デパート",
+    "romaji": "depaato",
+    "meaning": {
+      "vi": "Cửa hàng bách hóa",
+      "en": "Department store"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
   }
 ]

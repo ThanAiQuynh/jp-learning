@@ -2,35 +2,44 @@
   {
     "id": "g-03-001",
     "lessonId": "lesson-03",
-    "pattern": "〜文法1",
-    "patternKana": "〜ぶんぽう1",
+    "pattern": "ここ/そこ/あそこ は N です",
+    "patternKana": "ここ/そこ/あそこ は N です",
     "title": {
-      "vi": "Ngữ pháp 1 (Bài 3)",
-      "en": "Grammar 1 (Lesson 3)"
+      "vi": "Đây/Đó/Kia là N (chỉ nơi chốn)",
+      "en": "Here/There/Over there is N (indicating places)",
+      "ja": "ここ/そこ/あそこ は 名詞 です"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 1 bài 3",
-      "en": "Explanation for grammar 1 lesson 3"
+      "vi": "ここ chỉ nơi gần người nói. そこ chỉ nơi gần người nghe. あそこ chỉ nơi xa cả hai. Dùng để nói về một địa điểm cụ thể.",
+      "en": "ここ indicates a place near the speaker. そこ indicates a place near the listener. あそこ indicates a place far from both. Used to talk about specific locations.",
+      "ja": "「ここ」は話し手の近くの場所、「そこ」は聞き手の近くの場所、「あそこ」は両方から離れた場所を指します。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Chỉ định và mô tả nơi chốn.",
+      "en": "Pointing at and describing places.",
+      "ja": "場所を指し示して説明する。"
     },
     "formation": [
-      "N + 文法"
+      "ここ/そこ/あそこ + は + N + です"
     ],
     "examples": [
       {
-        "ja": "私は文法1を勉強します。",
-        "reading": "わたしはぶんぽう1をべんきょうします。",
+        "ja": "ここは 食堂です。",
+        "reading": "ここは しょくどうです。",
         "translation": {
-          "vi": "Tôi học ngữ pháp 1.",
-          "en": "I study grammar 1."
+          "vi": "Đây là nhà ăn.",
+          "en": "This is the cafeteria."
         },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
+        "highlightRange": { "start": 0, "end": 2 }
+      },
+      {
+        "ja": "あそこは 会議室です。",
+        "reading": "あそこは かいぎしつです。",
+        "translation": {
+          "vi": "Chỗ kia là phòng họp.",
+          "en": "Over there is the meeting room."
+        },
+        "highlightRange": { "start": 0, "end": 3 }
       }
     ],
     "jlptLevel": "N5"
@@ -38,35 +47,45 @@
   {
     "id": "g-03-002",
     "lessonId": "lesson-03",
-    "pattern": "〜文法2",
-    "patternKana": "〜ぶんぽう2",
+    "pattern": "N は ここ/そこ/あそこ です",
+    "patternKana": "N は ここ/そこ/あそこ です",
     "title": {
-      "vi": "Ngữ pháp 2 (Bài 3)",
-      "en": "Grammar 2 (Lesson 3)"
+      "vi": "N ở đây/đó/kia (hỏi vị trí của một nơi)",
+      "en": "N is here/there/over there (asking location)",
+      "ja": "名詞 は ここ/そこ/あそこ です"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 2 bài 3",
-      "en": "Explanation for grammar 2 lesson 3"
+      "vi": "Khi hỏi vị trí của một địa điểm, đặt tên nơi đó làm chủ đề rồi dùng どこ để hỏi. Trả lời bằng ここ/そこ/あそこ.",
+      "en": "When asking the location of a place, make the place name the topic and use どこ to ask. Answer with ここ/そこ/あそこ.",
+      "ja": "場所の位置を尋ねるとき、場所名を主題にして「どこ」で聞きます。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Hỏi và chỉ vị trí.",
+      "en": "Asking and indicating locations.",
+      "ja": "場所を尋ねて示す。"
     },
     "formation": [
-      "N + 文法"
+      "N + は + どこ + ですか",
+      "N + は + ここ/そこ/あそこ + です"
     ],
     "examples": [
       {
-        "ja": "私は文法2を勉強します。",
-        "reading": "わたしはぶんぽう2をべんきょうします。",
+        "ja": "トイレは どこですか。 ...あそこです。",
+        "reading": "トイレは どこですか。 ...あそこです。",
         "translation": {
-          "vi": "Tôi học ngữ pháp 2.",
-          "en": "I study grammar 2."
+          "vi": "Nhà vệ sinh ở đâu? ...Ở chỗ kia.",
+          "en": "Where is the restroom? ...Over there."
         },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
+        "highlightRange": { "start": 4, "end": 6 }
+      },
+      {
+        "ja": "エレベーターは どこですか。",
+        "reading": "エレベーターは どこですか。",
+        "translation": {
+          "vi": "Thang máy ở đâu?",
+          "en": "Where is the elevator?"
+        },
+        "highlightRange": { "start": 7, "end": 9 }
       }
     ],
     "jlptLevel": "N5"
@@ -74,35 +93,73 @@
   {
     "id": "g-03-003",
     "lessonId": "lesson-03",
-    "pattern": "〜文法3",
-    "patternKana": "〜ぶんぽう3",
+    "pattern": "N は N (nước) の N (sản phẩm) です",
+    "patternKana": "N は N の N です",
     "title": {
-      "vi": "Ngữ pháp 3 (Bài 3)",
-      "en": "Grammar 3 (Lesson 3)"
+      "vi": "N là sản phẩm của nước N (xuất xứ)",
+      "en": "N is N's (country) product (origin)",
+      "ja": "名詞 は 国名 の 製品 です"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 3 bài 3",
-      "en": "Explanation for grammar 3 lesson 3"
+      "vi": "Dùng の để chỉ xuất xứ sản phẩm. Ví dụ: これは 日本の カメラです = Đây là máy ảnh của Nhật. Kết hợp với どこ để hỏi xuất xứ.",
+      "en": "Use の to indicate the origin of a product. Example: これは 日本のカメラです = This is a Japanese camera. Combine with どこ to ask about origin.",
+      "ja": "「の」を使って製品の出所を示します。例：これは日本のカメラです。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Hỏi và nói về xuất xứ sản phẩm.",
+      "en": "Asking and talking about product origin.",
+      "ja": "製品の産地を尋ねて話す。"
     },
     "formation": [
-      "N + 文法"
+      "これ/それ/あれ + は + N(nước) + の + N(sản phẩm) + です",
+      "どこ + の + N + ですか"
     ],
     "examples": [
       {
-        "ja": "私は文法3を勉強します。",
-        "reading": "わたしはぶんぽう3をべんきょうします。",
+        "ja": "これは どこの コンピューターですか。 ...日本の コンピューターです。",
+        "reading": "これは どこの コンピューターですか。 ...にほんの コンピューターです。",
         "translation": {
-          "vi": "Tôi học ngữ pháp 3.",
-          "en": "I study grammar 3."
+          "vi": "Đây là máy tính của nước nào? ...Là máy tính Nhật Bản.",
+          "en": "Where is this computer from? ...It's a Japanese computer."
         },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
+        "highlightRange": { "start": 4, "end": 7 }
+      }
+    ],
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "g-03-004",
+    "lessonId": "lesson-03",
+    "pattern": "N は いくらですか",
+    "patternKana": "N は いくらですか",
+    "title": {
+      "vi": "N giá bao nhiêu?",
+      "en": "How much is N?",
+      "ja": "名詞 は いくらですか"
+    },
+    "explanation": {
+      "vi": "いくら dùng để hỏi giá tiền. Trả lời bằng số + 円 (えん). Có thể kết hợp với この/その/あの để chỉ cụ thể đồ vật.",
+      "en": "いくら is used to ask the price. Answer with number + 円 (en). Can be combined with この/その/あの to specify the item.",
+      "ja": "「いくら」は値段を尋ねるときに使います。答えは数字＋「円」です。"
+    },
+    "usage": {
+      "vi": "Hỏi giá khi mua sắm.",
+      "en": "Asking prices when shopping.",
+      "ja": "買い物で値段を尋ねる。"
+    },
+    "formation": [
+      "N + は + いくら + ですか",
+      "この/その/あの + N + は + いくら + ですか"
+    ],
+    "examples": [
+      {
+        "ja": "この時計は いくらですか。 ...5,800円です。",
+        "reading": "このとけいは いくらですか。 ...ごせんはっぴゃくえんです。",
+        "translation": {
+          "vi": "Cái đồng hồ này giá bao nhiêu? ...5.800 yên.",
+          "en": "How much is this watch? ...It's 5,800 yen."
+        },
+        "highlightRange": { "start": 5, "end": 8 }
       }
     ],
     "jlptLevel": "N5"

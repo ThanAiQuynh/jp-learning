@@ -2,22 +2,22 @@
   {
     "id": "v-02-001",
     "lessonId": "lesson-02",
-    "kanji": "単語1",
-    "hiragana": "たんご1",
-    "romaji": "tango1",
+    "kanji": "",
+    "hiragana": "これ",
+    "romaji": "kore",
     "meaning": {
-      "vi": "Từ vựng 1 (Bài 2)",
-      "en": "Vocab 1 (Lesson 2)"
+      "vi": "Cái này (vật ở gần người nói)",
+      "en": "This (thing near the speaker)"
     },
-    "wordType": "noun",
+    "wordType": "pronoun",
     "jlptLevel": "N5",
     "examples": [
       {
-        "ja": "これは単語1です。",
-        "reading": "これはたんご1です。",
+        "ja": "これは 本です。",
+        "reading": "これは ほんです。",
         "translation": {
-          "vi": "Đây là từ vựng 1.",
-          "en": "This is vocab 1."
+          "vi": "Đây là quyển sách.",
+          "en": "This is a book."
         }
       }
     ]
@@ -25,22 +25,22 @@
   {
     "id": "v-02-002",
     "lessonId": "lesson-02",
-    "kanji": "単語2",
-    "hiragana": "たんご2",
-    "romaji": "tango2",
+    "kanji": "",
+    "hiragana": "それ",
+    "romaji": "sore",
     "meaning": {
-      "vi": "Từ vựng 2 (Bài 2)",
-      "en": "Vocab 2 (Lesson 2)"
+      "vi": "Cái đó (vật ở gần người nghe)",
+      "en": "That (thing near the listener)"
     },
-    "wordType": "noun",
+    "wordType": "pronoun",
     "jlptLevel": "N5",
     "examples": [
       {
-        "ja": "これは単語2です。",
-        "reading": "これはたんご2です。",
+        "ja": "それは 辞書ですか。",
+        "reading": "それは じしょですか。",
         "translation": {
-          "vi": "Đây là từ vựng 2.",
-          "en": "This is vocab 2."
+          "vi": "Đó là cuốn từ điển phải không?",
+          "en": "Is that a dictionary?"
         }
       }
     ]
@@ -48,22 +48,22 @@
   {
     "id": "v-02-003",
     "lessonId": "lesson-02",
-    "kanji": "単語3",
-    "hiragana": "たんご3",
-    "romaji": "tango3",
+    "kanji": "",
+    "hiragana": "あれ",
+    "romaji": "are",
     "meaning": {
-      "vi": "Từ vựng 3 (Bài 2)",
-      "en": "Vocab 3 (Lesson 2)"
+      "vi": "Cái kia (vật ở xa cả người nói và người nghe)",
+      "en": "That over there (thing far from both)"
     },
-    "wordType": "noun",
+    "wordType": "pronoun",
     "jlptLevel": "N5",
     "examples": [
       {
-        "ja": "これは単語3です。",
-        "reading": "これはたんご3です。",
+        "ja": "あれは テレビです。",
+        "reading": "あれは テレビです。",
         "translation": {
-          "vi": "Đây là từ vựng 3.",
-          "en": "This is vocab 3."
+          "vi": "Cái kia là tivi.",
+          "en": "That over there is a television."
         }
       }
     ]
@@ -71,22 +71,22 @@
   {
     "id": "v-02-004",
     "lessonId": "lesson-02",
-    "kanji": "単語4",
-    "hiragana": "たんご4",
-    "romaji": "tango4",
+    "kanji": "",
+    "hiragana": "この",
+    "romaji": "kono",
     "meaning": {
-      "vi": "Từ vựng 4 (Bài 2)",
-      "en": "Vocab 4 (Lesson 2)"
+      "vi": "~ này (bổ nghĩa cho danh từ, vật ở gần người nói)",
+      "en": "This ~ (modifying a noun, thing near speaker)"
     },
-    "wordType": "noun",
+    "wordType": "expression",
     "jlptLevel": "N5",
     "examples": [
       {
-        "ja": "これは単語4です。",
-        "reading": "これはたんご4です。",
+        "ja": "この本は わたしのです。",
+        "reading": "このほんは わたしのです。",
         "translation": {
-          "vi": "Đây là từ vựng 4.",
-          "en": "This is vocab 4."
+          "vi": "Quyển sách này là của tôi.",
+          "en": "This book is mine."
         }
       }
     ]
@@ -94,24 +94,572 @@
   {
     "id": "v-02-005",
     "lessonId": "lesson-02",
-    "kanji": "単語5",
-    "hiragana": "たんご5",
-    "romaji": "tango5",
+    "kanji": "",
+    "hiragana": "その",
+    "romaji": "sono",
     "meaning": {
-      "vi": "Từ vựng 5 (Bài 2)",
-      "en": "Vocab 5 (Lesson 2)"
+      "vi": "~ đó (bổ nghĩa cho danh từ, vật ở gần người nghe)",
+      "en": "That ~ (modifying a noun, thing near listener)"
+    },
+    "wordType": "expression",
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "ja": "その傘は だれのですか。",
+        "reading": "そのかさは だれのですか。",
+        "translation": {
+          "vi": "Cái ô đó là của ai?",
+          "en": "Whose umbrella is that?"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v-02-006",
+    "lessonId": "lesson-02",
+    "kanji": "",
+    "hiragana": "あの",
+    "romaji": "ano",
+    "meaning": {
+      "vi": "~ kia (bổ nghĩa cho danh từ, vật ở xa cả hai)",
+      "en": "That ~ over there (modifying a noun, far from both)"
+    },
+    "wordType": "expression",
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "ja": "あのかばんは ミラーさんのです。",
+        "reading": "あのかばんは ミラーさんのです。",
+        "translation": {
+          "vi": "Cái cặp kia là của anh Miller.",
+          "en": "That bag over there is Mr. Miller's."
+        }
+      }
+    ]
+  },
+  {
+    "id": "v-02-007",
+    "lessonId": "lesson-02",
+    "kanji": "本",
+    "hiragana": "ほん",
+    "romaji": "hon",
+    "meaning": {
+      "vi": "Sách, quyển sách",
+      "en": "Book"
     },
     "wordType": "noun",
     "jlptLevel": "N5",
     "examples": [
       {
-        "ja": "これは単語5です。",
-        "reading": "これはたんご5です。",
+        "ja": "これは 日本語の本です。",
+        "reading": "これは にほんごのほんです。",
         "translation": {
-          "vi": "Đây là từ vựng 5.",
-          "en": "This is vocab 5."
+          "vi": "Đây là sách tiếng Nhật.",
+          "en": "This is a Japanese book."
         }
       }
-    ]
+    ],
+    "relatedKanji": ["本"]
+  },
+  {
+    "id": "v-02-008",
+    "lessonId": "lesson-02",
+    "kanji": "辞書",
+    "hiragana": "じしょ",
+    "romaji": "jisho",
+    "meaning": {
+      "vi": "Từ điển",
+      "en": "Dictionary"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["辞", "書"]
+  },
+  {
+    "id": "v-02-009",
+    "lessonId": "lesson-02",
+    "kanji": "雑誌",
+    "hiragana": "ざっし",
+    "romaji": "zasshi",
+    "meaning": {
+      "vi": "Tạp chí",
+      "en": "Magazine"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["雑", "誌"]
+  },
+  {
+    "id": "v-02-010",
+    "lessonId": "lesson-02",
+    "kanji": "新聞",
+    "hiragana": "しんぶん",
+    "romaji": "shinbun",
+    "meaning": {
+      "vi": "Báo (tờ báo)",
+      "en": "Newspaper"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["新", "聞"]
+  },
+  {
+    "id": "v-02-011",
+    "lessonId": "lesson-02",
+    "kanji": "",
+    "hiragana": "ノート",
+    "romaji": "nooto",
+    "meaning": {
+      "vi": "Vở, sổ tay",
+      "en": "Notebook"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-02-012",
+    "lessonId": "lesson-02",
+    "kanji": "手帳",
+    "hiragana": "てちょう",
+    "romaji": "techou",
+    "meaning": {
+      "vi": "Sổ tay nhỏ (sổ lịch bỏ túi)",
+      "en": "Pocket notebook, planner"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["手", "帳"]
+  },
+  {
+    "id": "v-02-013",
+    "lessonId": "lesson-02",
+    "kanji": "名刺",
+    "hiragana": "めいし",
+    "romaji": "meishi",
+    "meaning": {
+      "vi": "Danh thiếp (card visit)",
+      "en": "Business card"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["名", "刺"]
+  },
+  {
+    "id": "v-02-014",
+    "lessonId": "lesson-02",
+    "kanji": "",
+    "hiragana": "カード",
+    "romaji": "kaado",
+    "meaning": {
+      "vi": "Thẻ (thẻ tín dụng, thẻ nhân viên...)",
+      "en": "Card"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-02-015",
+    "lessonId": "lesson-02",
+    "kanji": "鉛筆",
+    "hiragana": "えんぴつ",
+    "romaji": "enpitsu",
+    "meaning": {
+      "vi": "Bút chì",
+      "en": "Pencil"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["鉛", "筆"]
+  },
+  {
+    "id": "v-02-016",
+    "lessonId": "lesson-02",
+    "kanji": "",
+    "hiragana": "ボールペン",
+    "romaji": "boorupen",
+    "meaning": {
+      "vi": "Bút bi",
+      "en": "Ballpoint pen"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-02-017",
+    "lessonId": "lesson-02",
+    "kanji": "",
+    "hiragana": "シャープペンシル",
+    "romaji": "shaapupenshiru",
+    "meaning": {
+      "vi": "Bút chì bấm",
+      "en": "Mechanical pencil"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-02-018",
+    "lessonId": "lesson-02",
+    "kanji": "鍵",
+    "hiragana": "かぎ",
+    "romaji": "kagi",
+    "meaning": {
+      "vi": "Chìa khóa",
+      "en": "Key"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["鍵"]
+  },
+  {
+    "id": "v-02-019",
+    "lessonId": "lesson-02",
+    "kanji": "時計",
+    "hiragana": "とけい",
+    "romaji": "tokei",
+    "meaning": {
+      "vi": "Đồng hồ",
+      "en": "Watch, clock"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "ja": "それは 時計ですか。",
+        "reading": "それは とけいですか。",
+        "translation": {
+          "vi": "Đó là đồng hồ phải không?",
+          "en": "Is that a watch?"
+        }
+      }
+    ],
+    "relatedKanji": ["時", "計"]
+  },
+  {
+    "id": "v-02-020",
+    "lessonId": "lesson-02",
+    "kanji": "傘",
+    "hiragana": "かさ",
+    "romaji": "kasa",
+    "meaning": {
+      "vi": "Ô (dù)",
+      "en": "Umbrella"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["傘"]
+  },
+  {
+    "id": "v-02-021",
+    "lessonId": "lesson-02",
+    "kanji": "",
+    "hiragana": "かばん",
+    "romaji": "kaban",
+    "meaning": {
+      "vi": "Cặp, túi xách",
+      "en": "Bag, briefcase"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-02-022",
+    "lessonId": "lesson-02",
+    "kanji": "",
+    "hiragana": "テレビ",
+    "romaji": "terebi",
+    "meaning": {
+      "vi": "Tivi",
+      "en": "Television"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-02-023",
+    "lessonId": "lesson-02",
+    "kanji": "",
+    "hiragana": "ラジオ",
+    "romaji": "rajio",
+    "meaning": {
+      "vi": "Ra-đi-ô",
+      "en": "Radio"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-02-024",
+    "lessonId": "lesson-02",
+    "kanji": "",
+    "hiragana": "カメラ",
+    "romaji": "kamera",
+    "meaning": {
+      "vi": "Máy ảnh",
+      "en": "Camera"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-02-025",
+    "lessonId": "lesson-02",
+    "kanji": "",
+    "hiragana": "コンピューター",
+    "romaji": "konpyuutaa",
+    "meaning": {
+      "vi": "Máy tính",
+      "en": "Computer"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-02-026",
+    "lessonId": "lesson-02",
+    "kanji": "自動車",
+    "hiragana": "じどうしゃ",
+    "romaji": "jidousha",
+    "meaning": {
+      "vi": "Ô tô",
+      "en": "Automobile, car"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["自", "動", "車"]
+  },
+  {
+    "id": "v-02-027",
+    "lessonId": "lesson-02",
+    "kanji": "机",
+    "hiragana": "つくえ",
+    "romaji": "tsukue",
+    "meaning": {
+      "vi": "Cái bàn (bàn học/bàn làm việc)",
+      "en": "Desk"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["机"]
+  },
+  {
+    "id": "v-02-028",
+    "lessonId": "lesson-02",
+    "kanji": "",
+    "hiragana": "いす",
+    "romaji": "isu",
+    "meaning": {
+      "vi": "Ghế",
+      "en": "Chair"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-02-029",
+    "lessonId": "lesson-02",
+    "kanji": "",
+    "hiragana": "チョコレート",
+    "romaji": "chokoreeto",
+    "meaning": {
+      "vi": "Sô-cô-la",
+      "en": "Chocolate"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-02-030",
+    "lessonId": "lesson-02",
+    "kanji": "",
+    "hiragana": "コーヒー",
+    "romaji": "koohii",
+    "meaning": {
+      "vi": "Cà phê",
+      "en": "Coffee"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-02-031",
+    "lessonId": "lesson-02",
+    "kanji": "英語",
+    "hiragana": "えいご",
+    "romaji": "eigo",
+    "meaning": {
+      "vi": "Tiếng Anh",
+      "en": "English (language)"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["英", "語"]
+  },
+  {
+    "id": "v-02-032",
+    "lessonId": "lesson-02",
+    "kanji": "日本語",
+    "hiragana": "にほんご",
+    "romaji": "nihongo",
+    "meaning": {
+      "vi": "Tiếng Nhật",
+      "en": "Japanese (language)"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "ja": "これは 日本語の本です。",
+        "reading": "これは にほんごのほんです。",
+        "translation": {
+          "vi": "Đây là sách tiếng Nhật.",
+          "en": "This is a Japanese book."
+        }
+      }
+    ],
+    "relatedKanji": ["日", "本", "語"]
+  },
+  {
+    "id": "v-02-033",
+    "lessonId": "lesson-02",
+    "kanji": "〜語",
+    "hiragana": "〜ご",
+    "romaji": "~go",
+    "meaning": {
+      "vi": "Tiếng ~ (hậu tố chỉ ngôn ngữ)",
+      "en": "~ language (suffix for languages)"
+    },
+    "wordType": "suffix",
+    "jlptLevel": "N5",
+    "relatedKanji": ["語"]
+  },
+  {
+    "id": "v-02-034",
+    "lessonId": "lesson-02",
+    "kanji": "何",
+    "hiragana": "なん",
+    "romaji": "nan",
+    "meaning": {
+      "vi": "Cái gì, gì",
+      "en": "What"
+    },
+    "wordType": "pronoun",
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "ja": "これは 何ですか。",
+        "reading": "これは なんですか。",
+        "translation": {
+          "vi": "Đây là cái gì?",
+          "en": "What is this?"
+        }
+      }
+    ],
+    "relatedKanji": ["何"]
+  },
+  {
+    "id": "v-02-035",
+    "lessonId": "lesson-02",
+    "kanji": "",
+    "hiragana": "そうです",
+    "romaji": "sou desu",
+    "meaning": {
+      "vi": "Đúng vậy (xác nhận)",
+      "en": "That's right, yes it is"
+    },
+    "wordType": "expression",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-02-036",
+    "lessonId": "lesson-02",
+    "kanji": "",
+    "hiragana": "そうじゃ ありません",
+    "romaji": "sou ja arimasen",
+    "meaning": {
+      "vi": "Không phải vậy (phủ nhận)",
+      "en": "That's not right, no it isn't"
+    },
+    "wordType": "expression",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-02-037",
+    "lessonId": "lesson-02",
+    "kanji": "",
+    "hiragana": "そうですか",
+    "romaji": "sou desu ka",
+    "meaning": {
+      "vi": "Vậy à? (thể hiện sự hiểu biết)",
+      "en": "Is that so? (showing understanding)"
+    },
+    "wordType": "expression",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-02-038",
+    "lessonId": "lesson-02",
+    "kanji": "",
+    "hiragana": "あのう",
+    "romaji": "anou",
+    "meaning": {
+      "vi": "À... (dùng khi bắt chuyện, do dự)",
+      "en": "Um..., excuse me (hesitation filler)"
+    },
+    "wordType": "expression",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-02-039",
+    "lessonId": "lesson-02",
+    "kanji": "",
+    "hiragana": "お土産",
+    "romaji": "omiyage",
+    "meaning": {
+      "vi": "Quà (quà tặng khi đi du lịch về)",
+      "en": "Souvenir, gift"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["土", "産"]
+  },
+  {
+    "id": "v-02-040",
+    "lessonId": "lesson-02",
+    "kanji": "",
+    "hiragana": "どうぞ",
+    "romaji": "douzo",
+    "meaning": {
+      "vi": "Xin mời (khi đưa cho ai cái gì)",
+      "en": "Please, go ahead, here you are"
+    },
+    "wordType": "expression",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-02-041",
+    "lessonId": "lesson-02",
+    "kanji": "",
+    "hiragana": "どうも ありがとう ございます",
+    "romaji": "doumo arigatou gozaimasu",
+    "meaning": {
+      "vi": "Xin cảm ơn rất nhiều",
+      "en": "Thank you very much"
+    },
+    "wordType": "greeting",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-02-042",
+    "lessonId": "lesson-02",
+    "kanji": "",
+    "hiragana": "これから お世話に なります",
+    "romaji": "korekara osewa ni narimasu",
+    "meaning": {
+      "vi": "Từ nay xin nhờ anh/chị giúp đỡ",
+      "en": "I look forward to your continued support"
+    },
+    "wordType": "greeting",
+    "jlptLevel": "N5"
   }
 ]

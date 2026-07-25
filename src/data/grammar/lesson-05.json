@@ -1,108 +1,100 @@
 [
   {
-    "id": "g-05-001",
-    "lessonId": "lesson-05",
-    "pattern": "〜文法1",
-    "patternKana": "〜ぶんぽう1",
-    "title": {
-      "vi": "Ngữ pháp 1 (Bài 5)",
-      "en": "Grammar 1 (Lesson 5)"
-    },
+    "id": "g-05-001", "lessonId": "lesson-05",
+    "pattern": "N (場所) へ 行きます/来ます/帰ります",
+    "patternKana": "N へ いきます/きます/かえります",
+    "title": { "vi": "Đi/Đến/Về N (nơi chốn)", "en": "Go to / Come to / Return to N (place)", "ja": "名詞(場所)へ 行きます/来ます/帰ります" },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 1 bài 5",
-      "en": "Explanation for grammar 1 lesson 5"
+      "vi": "Trợ từ へ (đọc là え) chỉ hướng di chuyển. 行きます = đi. 来ます = đến. 帰ります = về (nhà, nước). Có thể thay bằng に nhưng へ nhấn mạnh hướng đi.",
+      "en": "The particle へ (pronounced え) indicates the direction of movement. 行きます = go. 来ます = come. 帰ります = return (home, country). Can be replaced with に but へ emphasizes direction.",
+      "ja": "助詞「へ」は移動の方向を示します。「に」に置き換えることもできますが、「へ」は方向を強調します。"
     },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
+    "usage": { "vi": "Nói về việc di chuyển đến một nơi.", "en": "Talking about moving to a place.", "ja": "場所への移動を述べる。" },
+    "formation": ["N(場所) + へ + 行きます/来ます/帰ります"],
     "examples": [
       {
-        "ja": "私は文法1を勉強します。",
-        "reading": "わたしはぶんぽう1をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 1.",
-          "en": "I study grammar 1."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
+        "ja": "日本へ 来ました。", "reading": "にほんへ きました。",
+        "translation": { "vi": "Tôi đã đến Nhật Bản.", "en": "I came to Japan." },
+        "highlightRange": { "start": 3, "end": 4 }
+      },
+      {
+        "ja": "うちへ 帰ります。", "reading": "うちへ かえります。",
+        "translation": { "vi": "Tôi về nhà.", "en": "I go home." },
+        "highlightRange": { "start": 2, "end": 3 }
       }
     ],
     "jlptLevel": "N5"
   },
   {
-    "id": "g-05-002",
-    "lessonId": "lesson-05",
-    "pattern": "〜文法2",
-    "patternKana": "〜ぶんぽう2",
-    "title": {
-      "vi": "Ngữ pháp 2 (Bài 5)",
-      "en": "Grammar 2 (Lesson 5)"
-    },
+    "id": "g-05-002", "lessonId": "lesson-05",
+    "pattern": "N (乗り物) で 行きます",
+    "patternKana": "N で いきます",
+    "title": { "vi": "Đi bằng N (phương tiện)", "en": "Go by N (transportation)", "ja": "名詞(乗り物)で 行きます" },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 2 bài 5",
-      "en": "Explanation for grammar 2 lesson 5"
+      "vi": "Trợ từ で chỉ phương tiện di chuyển. 電車で = bằng tàu điện. バスで = bằng xe buýt. Đi bộ: 歩いて (aruite) — KHÔNG dùng で.",
+      "en": "The particle で indicates the means of transportation. 電車で = by train. バスで = by bus. Walking: 歩いて (aruite) — do NOT use で.",
+      "ja": "助詞「で」は交通手段を示します。歩く場合は「歩いて」と言い、「で」は使いません。"
     },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
+    "usage": { "vi": "Nói về phương tiện di chuyển.", "en": "Talking about transportation.", "ja": "交通手段について述べる。" },
+    "formation": ["N(乗り物) + で + V(移動)", "歩いて + V(移動)"],
     "examples": [
       {
-        "ja": "私は文法2を勉強します。",
-        "reading": "わたしはぶんぽう2をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 2.",
-          "en": "I study grammar 2."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
+        "ja": "電車で 会社へ 行きます。", "reading": "でんしゃで かいしゃへ いきます。",
+        "translation": { "vi": "Tôi đi làm bằng tàu điện.", "en": "I go to the office by train." },
+        "highlightRange": { "start": 3, "end": 4 }
+      },
+      {
+        "ja": "歩いて 駅へ 行きます。", "reading": "あるいて えきへ いきます。",
+        "translation": { "vi": "Tôi đi bộ đến ga.", "en": "I walk to the station." },
+        "highlightRange": { "start": 0, "end": 3 }
       }
     ],
     "jlptLevel": "N5"
   },
   {
-    "id": "g-05-003",
-    "lessonId": "lesson-05",
-    "pattern": "〜文法3",
-    "patternKana": "〜ぶんぽう3",
-    "title": {
-      "vi": "Ngữ pháp 3 (Bài 5)",
-      "en": "Grammar 3 (Lesson 5)"
-    },
+    "id": "g-05-003", "lessonId": "lesson-05",
+    "pattern": "N (人) と V",
+    "patternKana": "N と V",
+    "title": { "vi": "Làm V cùng với N (người)", "en": "Do V with N (person)", "ja": "名詞(人)と 動詞" },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 3 bài 5",
-      "en": "Explanation for grammar 3 lesson 5"
+      "vi": "Trợ từ と chỉ người cùng thực hiện hành động. 友達と = cùng bạn. 家族と = cùng gia đình. Đi một mình: 一人で (hitori de) — KHÔNG dùng と.",
+      "en": "The particle と indicates the person who does the action together. 友達と = with friend. 家族と = with family. Alone: 一人で (hitori de) — do NOT use と.",
+      "ja": "助詞「と」は一緒に行動する相手を示します。一人の場合は「一人で」と言います。"
     },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
+    "usage": { "vi": "Nói về người đi cùng.", "en": "Saying who you go with.", "ja": "一緒に行動する人を述べる。" },
+    "formation": ["N(人) + と + V", "一人で + V"],
     "examples": [
       {
-        "ja": "私は文法3を勉強します。",
-        "reading": "わたしはぶんぽう3をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 3.",
-          "en": "I study grammar 3."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
+        "ja": "家族と 日本へ 来ました。", "reading": "かぞくと にほんへ きました。",
+        "translation": { "vi": "Tôi đã đến Nhật cùng gia đình.", "en": "I came to Japan with my family." },
+        "highlightRange": { "start": 2, "end": 3 }
+      },
+      {
+        "ja": "一人で 行きます。", "reading": "ひとりで いきます。",
+        "translation": { "vi": "Tôi đi một mình.", "en": "I go alone." },
+        "highlightRange": { "start": 0, "end": 3 }
+      }
+    ],
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "g-05-004", "lessonId": "lesson-05",
+    "pattern": "いつ V ますか",
+    "patternKana": "いつ V ますか",
+    "title": { "vi": "Khi nào làm V?", "en": "When do you V?", "ja": "いつ 動詞ますか" },
+    "explanation": {
+      "vi": "いつ dùng để hỏi thời gian. Đặt ở đầu câu hoặc trước động từ. KHÔNG cần trợ từ に sau いつ.",
+      "en": "いつ is used to ask about time. Place it at the beginning or before the verb. No particle に is needed after いつ.",
+      "ja": "「いつ」は時間を尋ねるときに使います。「いつ」の後に助詞「に」は不要です。"
+    },
+    "usage": { "vi": "Hỏi thời gian hành động.", "en": "Asking when an action happens.", "ja": "行動の時期を尋ねる。" },
+    "formation": ["いつ + V + ますか"],
+    "examples": [
+      {
+        "ja": "いつ 日本へ 来ましたか。 ...3月25日に 来ました。",
+        "reading": "いつ にほんへ きましたか。 ...さんがつにじゅうごにちに きました。",
+        "translation": { "vi": "Bạn đến Nhật khi nào? ...Tôi đến ngày 25 tháng 3.", "en": "When did you come to Japan? ...I came on March 25th." },
+        "highlightRange": { "start": 0, "end": 2 }
       }
     ],
     "jlptLevel": "N5"

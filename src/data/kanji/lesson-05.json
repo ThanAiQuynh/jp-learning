@@ -1,157 +1,70 @@
 [
   {
-    "id": "k-05-001",
-    "lessonId": "lesson-05",
-    "character": "漢1",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 1 (Bài 5)",
-      "en": "Kanji 1 (Lesson 5)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "id": "k-05-001", "lessonId": "lesson-05", "character": "行", "onReadings": ["コウ", "ギョウ"], "kunReadings": ["い・く", "おこな・う"],
+    "meaning": { "vi": "Đi, hàng", "en": "Go, line" }, "strokeCount": 6, "radicals": ["行"], "primaryRadical": "行", "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字1",
-        "reading": "かんじ1",
-        "meaning": {
-          "vi": "Từ ghép 1",
-          "en": "Compound 1"
-        }
-      }
+      { "word": "行きます", "reading": "いきます", "meaning": { "vi": "Đi", "en": "To go" } },
+      { "word": "銀行", "reading": "ぎんこう", "meaning": { "vi": "Ngân hàng", "en": "Bank" } },
+      { "word": "旅行", "reading": "りょこう", "meaning": { "vi": "Du lịch", "en": "Travel" } }
     ]
   },
   {
-    "id": "k-05-002",
-    "lessonId": "lesson-05",
-    "character": "漢2",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 2 (Bài 5)",
-      "en": "Kanji 2 (Lesson 5)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "id": "k-05-002", "lessonId": "lesson-05", "character": "来", "onReadings": ["ライ"], "kunReadings": ["く・る", "きた・る"],
+    "meaning": { "vi": "Đến, tới, sắp tới", "en": "Come, next" }, "strokeCount": 7, "radicals": ["木"], "primaryRadical": "木", "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字2",
-        "reading": "かんじ2",
-        "meaning": {
-          "vi": "Từ ghép 2",
-          "en": "Compound 2"
-        }
-      }
+      { "word": "来ます", "reading": "きます", "meaning": { "vi": "Đến", "en": "To come" } },
+      { "word": "来月", "reading": "らいげつ", "meaning": { "vi": "Tháng sau", "en": "Next month" } },
+      { "word": "来年", "reading": "らいねん", "meaning": { "vi": "Năm sau", "en": "Next year" } }
     ]
   },
   {
-    "id": "k-05-003",
-    "lessonId": "lesson-05",
-    "character": "漢3",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 3 (Bài 5)",
-      "en": "Kanji 3 (Lesson 5)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "id": "k-05-003", "lessonId": "lesson-05", "character": "帰", "onReadings": ["キ"], "kunReadings": ["かえ・る"],
+    "meaning": { "vi": "Về, trở về", "en": "Return" }, "strokeCount": 10, "radicals": ["巾"], "primaryRadical": "巾", "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字3",
-        "reading": "かんじ3",
-        "meaning": {
-          "vi": "Từ ghép 3",
-          "en": "Compound 3"
-        }
-      }
+      { "word": "帰ります", "reading": "かえります", "meaning": { "vi": "Về", "en": "To return" } },
+      { "word": "帰国", "reading": "きこく", "meaning": { "vi": "Về nước", "en": "Return to one's country" } }
     ]
   },
   {
-    "id": "k-05-004",
-    "lessonId": "lesson-05",
-    "character": "漢4",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 4 (Bài 5)",
-      "en": "Kanji 4 (Lesson 5)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "id": "k-05-004", "lessonId": "lesson-05", "character": "車", "onReadings": ["シャ"], "kunReadings": ["くるま"],
+    "meaning": { "vi": "Xe", "en": "Car, vehicle" }, "strokeCount": 7, "radicals": ["車"], "primaryRadical": "車", "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字4",
-        "reading": "かんじ4",
-        "meaning": {
-          "vi": "Từ ghép 4",
-          "en": "Compound 4"
-        }
-      }
+      { "word": "電車", "reading": "でんしゃ", "meaning": { "vi": "Tàu điện", "en": "Train" } },
+      { "word": "自動車", "reading": "じどうしゃ", "meaning": { "vi": "Ô tô", "en": "Automobile" } },
+      { "word": "自転車", "reading": "じてんしゃ", "meaning": { "vi": "Xe đạp", "en": "Bicycle" } }
     ]
   },
   {
-    "id": "k-05-005",
-    "lessonId": "lesson-05",
-    "character": "漢5",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 5 (Bài 5)",
-      "en": "Kanji 5 (Lesson 5)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "id": "k-05-005", "lessonId": "lesson-05", "character": "友", "onReadings": ["ユウ"], "kunReadings": ["とも"],
+    "meaning": { "vi": "Bạn bè", "en": "Friend" }, "strokeCount": 4, "radicals": ["又"], "primaryRadical": "又", "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字5",
-        "reading": "かんじ5",
-        "meaning": {
-          "vi": "Từ ghép 5",
-          "en": "Compound 5"
-        }
-      }
+      { "word": "友達", "reading": "ともだち", "meaning": { "vi": "Bạn bè", "en": "Friend" } },
+      { "word": "友人", "reading": "ゆうじん", "meaning": { "vi": "Bạn (trang trọng)", "en": "Friend (formal)" } }
+    ]
+  },
+  {
+    "id": "k-05-006", "lessonId": "lesson-05", "character": "年", "onReadings": ["ネン"], "kunReadings": ["とし"],
+    "meaning": { "vi": "Năm, tuổi", "en": "Year" }, "strokeCount": 6, "radicals": ["干"], "primaryRadical": "干", "jlptLevel": "N5",
+    "compounds": [
+      { "word": "去年", "reading": "きょねん", "meaning": { "vi": "Năm ngoái", "en": "Last year" } },
+      { "word": "来年", "reading": "らいねん", "meaning": { "vi": "Năm sau", "en": "Next year" } }
+    ]
+  },
+  {
+    "id": "k-05-007", "lessonId": "lesson-05", "character": "週", "onReadings": ["シュウ"], "kunReadings": [],
+    "meaning": { "vi": "Tuần", "en": "Week" }, "strokeCount": 11, "radicals": ["辶"], "primaryRadical": "辶", "jlptLevel": "N5",
+    "compounds": [
+      { "word": "先週", "reading": "せんしゅう", "meaning": { "vi": "Tuần trước", "en": "Last week" } },
+      { "word": "来週", "reading": "らいしゅう", "meaning": { "vi": "Tuần sau", "en": "Next week" } },
+      { "word": "毎週", "reading": "まいしゅう", "meaning": { "vi": "Mỗi tuần", "en": "Every week" } }
+    ]
+  },
+  {
+    "id": "k-05-008", "lessonId": "lesson-05", "character": "校", "onReadings": ["コウ"], "kunReadings": [],
+    "meaning": { "vi": "Trường", "en": "School" }, "strokeCount": 10, "radicals": ["木"], "primaryRadical": "木", "jlptLevel": "N5",
+    "compounds": [
+      { "word": "学校", "reading": "がっこう", "meaning": { "vi": "Trường học", "en": "School" } },
+      { "word": "高校", "reading": "こうこう", "meaning": { "vi": "Trường cấp 3", "en": "High school" } }
     ]
   }
 ]

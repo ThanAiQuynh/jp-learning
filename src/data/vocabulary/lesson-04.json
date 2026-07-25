@@ -2,116 +2,474 @@
   {
     "id": "v-04-001",
     "lessonId": "lesson-04",
-    "kanji": "単語1",
-    "hiragana": "たんご1",
-    "romaji": "tango1",
-    "meaning": {
-      "vi": "Từ vựng 1 (Bài 4)",
-      "en": "Vocab 1 (Lesson 4)"
-    },
-    "wordType": "noun",
+    "kanji": "起きます",
+    "hiragana": "おきます",
+    "romaji": "okimasu",
+    "meaning": { "vi": "Thức dậy", "en": "To wake up, to get up" },
+    "wordType": "verb-group2",
     "jlptLevel": "N5",
     "examples": [
-      {
-        "ja": "これは単語1です。",
-        "reading": "これはたんご1です。",
-        "translation": {
-          "vi": "Đây là từ vựng 1.",
-          "en": "This is vocab 1."
-        }
-      }
-    ]
+      { "ja": "毎朝 6時に 起きます。", "reading": "まいあさ ろくじに おきます。", "translation": { "vi": "Mỗi sáng tôi dậy lúc 6 giờ.", "en": "I wake up at 6 every morning." } }
+    ],
+    "relatedKanji": ["起"]
   },
   {
     "id": "v-04-002",
     "lessonId": "lesson-04",
-    "kanji": "単語2",
-    "hiragana": "たんご2",
-    "romaji": "tango2",
-    "meaning": {
-      "vi": "Từ vựng 2 (Bài 4)",
-      "en": "Vocab 2 (Lesson 4)"
-    },
-    "wordType": "noun",
+    "kanji": "寝ます",
+    "hiragana": "ねます",
+    "romaji": "nemasu",
+    "meaning": { "vi": "Ngủ, đi ngủ", "en": "To sleep, to go to bed" },
+    "wordType": "verb-group2",
     "jlptLevel": "N5",
     "examples": [
-      {
-        "ja": "これは単語2です。",
-        "reading": "これはたんご2です。",
-        "translation": {
-          "vi": "Đây là từ vựng 2.",
-          "en": "This is vocab 2."
-        }
-      }
-    ]
+      { "ja": "11時に 寝ます。", "reading": "じゅういちじに ねます。", "translation": { "vi": "Tôi đi ngủ lúc 11 giờ.", "en": "I go to bed at 11." } }
+    ],
+    "relatedKanji": ["寝"]
   },
   {
     "id": "v-04-003",
     "lessonId": "lesson-04",
-    "kanji": "単語3",
-    "hiragana": "たんご3",
-    "romaji": "tango3",
-    "meaning": {
-      "vi": "Từ vựng 3 (Bài 4)",
-      "en": "Vocab 3 (Lesson 4)"
-    },
-    "wordType": "noun",
+    "kanji": "働きます",
+    "hiragana": "はたらきます",
+    "romaji": "hatarakimasu",
+    "meaning": { "vi": "Làm việc", "en": "To work" },
+    "wordType": "verb-group1",
     "jlptLevel": "N5",
     "examples": [
-      {
-        "ja": "これは単語3です。",
-        "reading": "これはたんご3です。",
-        "translation": {
-          "vi": "Đây là từ vựng 3.",
-          "en": "This is vocab 3."
-        }
-      }
-    ]
+      { "ja": "9時から 5時まで 働きます。", "reading": "くじから ごじまで はたらきます。", "translation": { "vi": "Tôi làm việc từ 9 giờ đến 5 giờ.", "en": "I work from 9 to 5." } }
+    ],
+    "relatedKanji": ["働"]
   },
   {
     "id": "v-04-004",
     "lessonId": "lesson-04",
-    "kanji": "単語4",
-    "hiragana": "たんご4",
-    "romaji": "tango4",
-    "meaning": {
-      "vi": "Từ vựng 4 (Bài 4)",
-      "en": "Vocab 4 (Lesson 4)"
-    },
-    "wordType": "noun",
+    "kanji": "休みます",
+    "hiragana": "やすみます",
+    "romaji": "yasumimasu",
+    "meaning": { "vi": "Nghỉ, nghỉ ngơi", "en": "To rest, to take a day off" },
+    "wordType": "verb-group1",
     "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語4です。",
-        "reading": "これはたんご4です。",
-        "translation": {
-          "vi": "Đây là từ vựng 4.",
-          "en": "This is vocab 4."
-        }
-      }
-    ]
+    "relatedKanji": ["休"]
   },
   {
     "id": "v-04-005",
     "lessonId": "lesson-04",
-    "kanji": "単語5",
-    "hiragana": "たんご5",
-    "romaji": "tango5",
-    "meaning": {
-      "vi": "Từ vựng 5 (Bài 4)",
-      "en": "Vocab 5 (Lesson 4)"
-    },
+    "kanji": "勉強します",
+    "hiragana": "べんきょうします",
+    "romaji": "benkyou shimasu",
+    "meaning": { "vi": "Học bài, học tập", "en": "To study" },
+    "wordType": "verb-group3",
+    "jlptLevel": "N5",
+    "examples": [
+      { "ja": "毎日 日本語を 勉強します。", "reading": "まいにち にほんごを べんきょうします。", "translation": { "vi": "Mỗi ngày tôi học tiếng Nhật.", "en": "I study Japanese every day." } }
+    ],
+    "relatedKanji": ["勉", "強"]
+  },
+  {
+    "id": "v-04-006",
+    "lessonId": "lesson-04",
+    "kanji": "終わります",
+    "hiragana": "おわります",
+    "romaji": "owarimasu",
+    "meaning": { "vi": "Kết thúc", "en": "To finish, to end" },
+    "wordType": "verb-group1",
+    "jlptLevel": "N5",
+    "relatedKanji": ["終"]
+  },
+  {
+    "id": "v-04-007",
+    "lessonId": "lesson-04",
+    "kanji": "",
+    "hiragana": "デパート",
+    "romaji": "depaato",
+    "meaning": { "vi": "Cửa hàng bách hóa", "en": "Department store" },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-04-008",
+    "lessonId": "lesson-04",
+    "kanji": "銀行",
+    "hiragana": "ぎんこう",
+    "romaji": "ginkou",
+    "meaning": { "vi": "Ngân hàng", "en": "Bank" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["銀", "行"]
+  },
+  {
+    "id": "v-04-009",
+    "lessonId": "lesson-04",
+    "kanji": "郵便局",
+    "hiragana": "ゆうびんきょく",
+    "romaji": "yuubinkyoku",
+    "meaning": { "vi": "Bưu điện", "en": "Post office" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["郵", "便", "局"]
+  },
+  {
+    "id": "v-04-010",
+    "lessonId": "lesson-04",
+    "kanji": "図書館",
+    "hiragana": "としょかん",
+    "romaji": "toshokan",
+    "meaning": { "vi": "Thư viện", "en": "Library" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["図", "書", "館"]
+  },
+  {
+    "id": "v-04-011",
+    "lessonId": "lesson-04",
+    "kanji": "美術館",
+    "hiragana": "びじゅつかん",
+    "romaji": "bijutsukan",
+    "meaning": { "vi": "Bảo tàng mỹ thuật", "en": "Art museum" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["美", "術", "館"]
+  },
+  {
+    "id": "v-04-012",
+    "lessonId": "lesson-04",
+    "kanji": "今",
+    "hiragana": "いま",
+    "romaji": "ima",
+    "meaning": { "vi": "Bây giờ", "en": "Now" },
     "wordType": "noun",
     "jlptLevel": "N5",
     "examples": [
-      {
-        "ja": "これは単語5です。",
-        "reading": "これはたんご5です。",
-        "translation": {
-          "vi": "Đây là từ vựng 5.",
-          "en": "This is vocab 5."
-        }
-      }
-    ]
+      { "ja": "今 何時ですか。", "reading": "いま なんじですか。", "translation": { "vi": "Bây giờ mấy giờ?", "en": "What time is it now?" } }
+    ],
+    "relatedKanji": ["今"]
+  },
+  {
+    "id": "v-04-013",
+    "lessonId": "lesson-04",
+    "kanji": "〜時",
+    "hiragana": "〜じ",
+    "romaji": "~ji",
+    "meaning": { "vi": "~ giờ (đơn vị thời gian)", "en": "~ o'clock (time)" },
+    "wordType": "counter",
+    "jlptLevel": "N5",
+    "relatedKanji": ["時"]
+  },
+  {
+    "id": "v-04-014",
+    "lessonId": "lesson-04",
+    "kanji": "〜分",
+    "hiragana": "〜ふん/ぷん",
+    "romaji": "~fun/pun",
+    "meaning": { "vi": "~ phút", "en": "~ minute(s)" },
+    "wordType": "counter",
+    "jlptLevel": "N5",
+    "relatedKanji": ["分"]
+  },
+  {
+    "id": "v-04-015",
+    "lessonId": "lesson-04",
+    "kanji": "半",
+    "hiragana": "はん",
+    "romaji": "han",
+    "meaning": { "vi": "Rưỡi, nửa", "en": "Half" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "examples": [
+      { "ja": "今 7時半です。", "reading": "いま しちじはんです。", "translation": { "vi": "Bây giờ 7 giờ rưỡi.", "en": "It's half past 7 now." } }
+    ],
+    "relatedKanji": ["半"]
+  },
+  {
+    "id": "v-04-016",
+    "lessonId": "lesson-04",
+    "kanji": "午前",
+    "hiragana": "ごぜん",
+    "romaji": "gozen",
+    "meaning": { "vi": "Buổi sáng (trước 12 giờ trưa), AM", "en": "Morning, AM" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["午", "前"]
+  },
+  {
+    "id": "v-04-017",
+    "lessonId": "lesson-04",
+    "kanji": "午後",
+    "hiragana": "ごご",
+    "romaji": "gogo",
+    "meaning": { "vi": "Buổi chiều (sau 12 giờ trưa), PM", "en": "Afternoon, PM" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["午", "後"]
+  },
+  {
+    "id": "v-04-018",
+    "lessonId": "lesson-04",
+    "kanji": "朝",
+    "hiragana": "あさ",
+    "romaji": "asa",
+    "meaning": { "vi": "Buổi sáng", "en": "Morning" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["朝"]
+  },
+  {
+    "id": "v-04-019",
+    "lessonId": "lesson-04",
+    "kanji": "昼",
+    "hiragana": "ひる",
+    "romaji": "hiru",
+    "meaning": { "vi": "Buổi trưa, ban ngày", "en": "Noon, daytime" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["昼"]
+  },
+  {
+    "id": "v-04-020",
+    "lessonId": "lesson-04",
+    "kanji": "晩",
+    "hiragana": "ばん",
+    "romaji": "ban",
+    "meaning": { "vi": "Buổi tối", "en": "Evening, night" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["晩"]
+  },
+  {
+    "id": "v-04-021",
+    "lessonId": "lesson-04",
+    "kanji": "夜",
+    "hiragana": "よる",
+    "romaji": "yoru",
+    "meaning": { "vi": "Ban đêm", "en": "Night" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["夜"]
+  },
+  {
+    "id": "v-04-022",
+    "lessonId": "lesson-04",
+    "kanji": "",
+    "hiragana": "おととい",
+    "romaji": "ototoi",
+    "meaning": { "vi": "Hôm kia", "en": "The day before yesterday" },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-04-023",
+    "lessonId": "lesson-04",
+    "kanji": "昨日",
+    "hiragana": "きのう",
+    "romaji": "kinou",
+    "meaning": { "vi": "Hôm qua", "en": "Yesterday" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["昨", "日"]
+  },
+  {
+    "id": "v-04-024",
+    "lessonId": "lesson-04",
+    "kanji": "今日",
+    "hiragana": "きょう",
+    "romaji": "kyou",
+    "meaning": { "vi": "Hôm nay", "en": "Today" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["今", "日"]
+  },
+  {
+    "id": "v-04-025",
+    "lessonId": "lesson-04",
+    "kanji": "明日",
+    "hiragana": "あした",
+    "romaji": "ashita",
+    "meaning": { "vi": "Ngày mai", "en": "Tomorrow" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["明", "日"]
+  },
+  {
+    "id": "v-04-026",
+    "lessonId": "lesson-04",
+    "kanji": "",
+    "hiragana": "あさって",
+    "romaji": "asatte",
+    "meaning": { "vi": "Ngày kia (ngày mốt)", "en": "The day after tomorrow" },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-04-027",
+    "lessonId": "lesson-04",
+    "kanji": "毎朝",
+    "hiragana": "まいあさ",
+    "romaji": "maiasa",
+    "meaning": { "vi": "Mỗi sáng", "en": "Every morning" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["毎", "朝"]
+  },
+  {
+    "id": "v-04-028",
+    "lessonId": "lesson-04",
+    "kanji": "毎晩",
+    "hiragana": "まいばん",
+    "romaji": "maiban",
+    "meaning": { "vi": "Mỗi tối", "en": "Every evening" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["毎", "晩"]
+  },
+  {
+    "id": "v-04-029",
+    "lessonId": "lesson-04",
+    "kanji": "毎日",
+    "hiragana": "まいにち",
+    "romaji": "mainichi",
+    "meaning": { "vi": "Mỗi ngày", "en": "Every day" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["毎", "日"]
+  },
+  {
+    "id": "v-04-030",
+    "lessonId": "lesson-04",
+    "kanji": "月曜日",
+    "hiragana": "げつようび",
+    "romaji": "getsuyoubi",
+    "meaning": { "vi": "Thứ Hai", "en": "Monday" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["月", "曜", "日"]
+  },
+  {
+    "id": "v-04-031",
+    "lessonId": "lesson-04",
+    "kanji": "火曜日",
+    "hiragana": "かようび",
+    "romaji": "kayoubi",
+    "meaning": { "vi": "Thứ Ba", "en": "Tuesday" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["火", "曜", "日"]
+  },
+  {
+    "id": "v-04-032",
+    "lessonId": "lesson-04",
+    "kanji": "水曜日",
+    "hiragana": "すいようび",
+    "romaji": "suiyoubi",
+    "meaning": { "vi": "Thứ Tư", "en": "Wednesday" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["水", "曜", "日"]
+  },
+  {
+    "id": "v-04-033",
+    "lessonId": "lesson-04",
+    "kanji": "木曜日",
+    "hiragana": "もくようび",
+    "romaji": "mokuyoubi",
+    "meaning": { "vi": "Thứ Năm", "en": "Thursday" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["木", "曜", "日"]
+  },
+  {
+    "id": "v-04-034",
+    "lessonId": "lesson-04",
+    "kanji": "金曜日",
+    "hiragana": "きんようび",
+    "romaji": "kinyoubi",
+    "meaning": { "vi": "Thứ Sáu", "en": "Friday" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["金", "曜", "日"]
+  },
+  {
+    "id": "v-04-035",
+    "lessonId": "lesson-04",
+    "kanji": "土曜日",
+    "hiragana": "どようび",
+    "romaji": "doyoubi",
+    "meaning": { "vi": "Thứ Bảy", "en": "Saturday" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["土", "曜", "日"]
+  },
+  {
+    "id": "v-04-036",
+    "lessonId": "lesson-04",
+    "kanji": "日曜日",
+    "hiragana": "にちようび",
+    "romaji": "nichiyoubi",
+    "meaning": { "vi": "Chủ Nhật", "en": "Sunday" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["日", "曜"]
+  },
+  {
+    "id": "v-04-037",
+    "lessonId": "lesson-04",
+    "kanji": "何曜日",
+    "hiragana": "なんようび",
+    "romaji": "nanyoubi",
+    "meaning": { "vi": "Thứ mấy", "en": "What day of the week" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["何", "曜", "日"]
+  },
+  {
+    "id": "v-04-038",
+    "lessonId": "lesson-04",
+    "kanji": "",
+    "hiragana": "番号",
+    "romaji": "bangou",
+    "meaning": { "vi": "Số (số hiệu)", "en": "Number" },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-04-039",
+    "lessonId": "lesson-04",
+    "kanji": "何時",
+    "hiragana": "なんじ",
+    "romaji": "nanji",
+    "meaning": { "vi": "Mấy giờ", "en": "What time" },
+    "wordType": "noun",
+    "jlptLevel": "N5",
+    "relatedKanji": ["何", "時"]
+  },
+  {
+    "id": "v-04-040",
+    "lessonId": "lesson-04",
+    "kanji": "",
+    "hiragana": "そちら",
+    "romaji": "sochira",
+    "meaning": { "vi": "Phía bạn, bên ấy (dùng cho điện thoại: bên đó)",  "en": "Your side (used in phone calls)" },
+    "wordType": "pronoun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-04-041",
+    "lessonId": "lesson-04",
+    "kanji": "",
+    "hiragana": "大変ですね",
+    "romaji": "taihen desu ne",
+    "meaning": { "vi": "Vất vả quá nhỉ (thể hiện sự thông cảm)", "en": "That's tough, isn't it (expressing sympathy)" },
+    "wordType": "expression",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-04-042",
+    "lessonId": "lesson-04",
+    "kanji": "",
+    "hiragana": "えーと",
+    "romaji": "eeto",
+    "meaning": { "vi": "À... (do dự, suy nghĩ)", "en": "Umm... (thinking)" },
+    "wordType": "expression",
+    "jlptLevel": "N5"
   }
 ]

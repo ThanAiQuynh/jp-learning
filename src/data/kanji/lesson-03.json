@@ -2,156 +2,127 @@
   {
     "id": "k-03-001",
     "lessonId": "lesson-03",
-    "character": "漢1",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 1 (Bài 3)",
-      "en": "Kanji 1 (Lesson 3)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
+    "character": "国",
+    "onReadings": ["コク"],
+    "kunReadings": ["くに"],
+    "meaning": { "vi": "Nước, quốc gia", "en": "Country, nation" },
+    "strokeCount": 8,
+    "radicals": ["囗"],
+    "primaryRadical": "囗",
     "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字1",
-        "reading": "かんじ1",
-        "meaning": {
-          "vi": "Từ ghép 1",
-          "en": "Compound 1"
-        }
-      }
+      { "word": "中国", "reading": "ちゅうごく", "meaning": { "vi": "Trung Quốc", "en": "China" } },
+      { "word": "外国", "reading": "がいこく", "meaning": { "vi": "Nước ngoài", "en": "Foreign country" } }
     ]
   },
   {
     "id": "k-03-002",
     "lessonId": "lesson-03",
-    "character": "漢2",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 2 (Bài 3)",
-      "en": "Kanji 2 (Lesson 3)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
+    "character": "電",
+    "onReadings": ["デン"],
+    "kunReadings": [],
+    "meaning": { "vi": "Điện", "en": "Electricity" },
+    "strokeCount": 13,
+    "radicals": ["雨"],
+    "primaryRadical": "雨",
     "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字2",
-        "reading": "かんじ2",
-        "meaning": {
-          "vi": "Từ ghép 2",
-          "en": "Compound 2"
-        }
-      }
+      { "word": "電話", "reading": "でんわ", "meaning": { "vi": "Điện thoại", "en": "Telephone" } },
+      { "word": "電車", "reading": "でんしゃ", "meaning": { "vi": "Tàu điện", "en": "Train" } }
     ]
   },
   {
     "id": "k-03-003",
     "lessonId": "lesson-03",
-    "character": "漢3",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 3 (Bài 3)",
-      "en": "Kanji 3 (Lesson 3)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
+    "character": "話",
+    "onReadings": ["ワ"],
+    "kunReadings": ["はな・す", "はなし"],
+    "meaning": { "vi": "Nói chuyện, câu chuyện", "en": "Talk, story" },
+    "strokeCount": 13,
+    "radicals": ["言"],
+    "primaryRadical": "言",
     "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字3",
-        "reading": "かんじ3",
-        "meaning": {
-          "vi": "Từ ghép 3",
-          "en": "Compound 3"
-        }
-      }
+      { "word": "電話", "reading": "でんわ", "meaning": { "vi": "Điện thoại", "en": "Telephone" } },
+      { "word": "話す", "reading": "はなす", "meaning": { "vi": "Nói chuyện", "en": "To speak" } }
     ]
   },
   {
     "id": "k-03-004",
     "lessonId": "lesson-03",
-    "character": "漢4",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 4 (Bài 3)",
-      "en": "Kanji 4 (Lesson 3)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
+    "character": "食",
+    "onReadings": ["ショク"],
+    "kunReadings": ["た・べる"],
+    "meaning": { "vi": "Ăn, thức ăn", "en": "Eat, food" },
+    "strokeCount": 9,
+    "radicals": ["食"],
+    "primaryRadical": "食",
     "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字4",
-        "reading": "かんじ4",
-        "meaning": {
-          "vi": "Từ ghép 4",
-          "en": "Compound 4"
-        }
-      }
+      { "word": "食堂", "reading": "しょくどう", "meaning": { "vi": "Nhà ăn", "en": "Cafeteria" } },
+      { "word": "食べる", "reading": "たべる", "meaning": { "vi": "Ăn", "en": "To eat" } }
     ]
   },
   {
     "id": "k-03-005",
     "lessonId": "lesson-03",
-    "character": "漢5",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 5 (Bài 3)",
-      "en": "Kanji 5 (Lesson 3)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
+    "character": "百",
+    "onReadings": ["ヒャク"],
+    "kunReadings": [],
+    "meaning": { "vi": "Trăm", "en": "Hundred" },
+    "strokeCount": 6,
+    "radicals": ["白"],
+    "primaryRadical": "白",
     "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字5",
-        "reading": "かんじ5",
-        "meaning": {
-          "vi": "Từ ghép 5",
-          "en": "Compound 5"
-        }
-      }
+      { "word": "百", "reading": "ひゃく", "meaning": { "vi": "Một trăm", "en": "One hundred" } },
+      { "word": "三百", "reading": "さんびゃく", "meaning": { "vi": "Ba trăm", "en": "Three hundred" } }
+    ]
+  },
+  {
+    "id": "k-03-006",
+    "lessonId": "lesson-03",
+    "character": "千",
+    "onReadings": ["セン"],
+    "kunReadings": ["ち"],
+    "meaning": { "vi": "Nghìn", "en": "Thousand" },
+    "strokeCount": 3,
+    "radicals": ["十"],
+    "primaryRadical": "十",
+    "jlptLevel": "N5",
+    "compounds": [
+      { "word": "千", "reading": "せん", "meaning": { "vi": "Một nghìn", "en": "One thousand" } },
+      { "word": "三千", "reading": "さんぜん", "meaning": { "vi": "Ba nghìn", "en": "Three thousand" } }
+    ]
+  },
+  {
+    "id": "k-03-007",
+    "lessonId": "lesson-03",
+    "character": "万",
+    "onReadings": ["マン", "バン"],
+    "kunReadings": [],
+    "meaning": { "vi": "Vạn (mười nghìn)", "en": "Ten thousand" },
+    "strokeCount": 3,
+    "radicals": ["一"],
+    "primaryRadical": "一",
+    "jlptLevel": "N5",
+    "compounds": [
+      { "word": "一万", "reading": "いちまん", "meaning": { "vi": "Mười nghìn", "en": "Ten thousand" } }
+    ]
+  },
+  {
+    "id": "k-03-008",
+    "lessonId": "lesson-03",
+    "character": "円",
+    "onReadings": ["エン"],
+    "kunReadings": ["まる・い"],
+    "meaning": { "vi": "Yên (tiền), tròn", "en": "Yen, circle" },
+    "strokeCount": 4,
+    "radicals": ["冂"],
+    "primaryRadical": "冂",
+    "jlptLevel": "N5",
+    "compounds": [
+      { "word": "百円", "reading": "ひゃくえん", "meaning": { "vi": "100 yên", "en": "100 yen" } }
     ]
   }
 ]

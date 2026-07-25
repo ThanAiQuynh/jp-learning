@@ -2,155 +2,211 @@
   {
     "id": "k-02-001",
     "lessonId": "lesson-02",
-    "character": "漢1",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
+    "character": "本",
+    "onReadings": ["ホン"],
+    "kunReadings": ["もと"],
     "meaning": {
-      "vi": "Hán tự 1 (Bài 2)",
-      "en": "Kanji 1 (Lesson 2)"
+      "vi": "Sách, gốc",
+      "en": "Book, origin"
     },
     "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
+    "radicals": ["木"],
+    "primaryRadical": "木",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字1",
-        "reading": "かんじ1",
-        "meaning": {
-          "vi": "Từ ghép 1",
-          "en": "Compound 1"
-        }
+        "word": "日本",
+        "reading": "にほん",
+        "meaning": { "vi": "Nhật Bản", "en": "Japan" }
+      },
+      {
+        "word": "本",
+        "reading": "ほん",
+        "meaning": { "vi": "Quyển sách", "en": "Book" }
       }
     ]
   },
   {
     "id": "k-02-002",
     "lessonId": "lesson-02",
-    "character": "漢2",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
+    "character": "何",
+    "onReadings": ["カ"],
+    "kunReadings": ["なに", "なん"],
     "meaning": {
-      "vi": "Hán tự 2 (Bài 2)",
-      "en": "Kanji 2 (Lesson 2)"
+      "vi": "Gì, cái gì",
+      "en": "What"
     },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
+    "strokeCount": 7,
+    "radicals": ["人"],
+    "primaryRadical": "人",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字2",
-        "reading": "かんじ2",
-        "meaning": {
-          "vi": "Từ ghép 2",
-          "en": "Compound 2"
-        }
+        "word": "何",
+        "reading": "なに",
+        "meaning": { "vi": "Cái gì", "en": "What" }
+      },
+      {
+        "word": "何人",
+        "reading": "なんにん",
+        "meaning": { "vi": "Bao nhiêu người", "en": "How many people" }
       }
     ]
   },
   {
     "id": "k-02-003",
     "lessonId": "lesson-02",
-    "character": "漢3",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
+    "character": "語",
+    "onReadings": ["ゴ"],
+    "kunReadings": ["かた・る"],
     "meaning": {
-      "vi": "Hán tự 3 (Bài 2)",
-      "en": "Kanji 3 (Lesson 2)"
+      "vi": "Ngôn ngữ, kể",
+      "en": "Language, word"
     },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
+    "strokeCount": 14,
+    "radicals": ["言"],
+    "primaryRadical": "言",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字3",
-        "reading": "かんじ3",
-        "meaning": {
-          "vi": "Từ ghép 3",
-          "en": "Compound 3"
-        }
+        "word": "日本語",
+        "reading": "にほんご",
+        "meaning": { "vi": "Tiếng Nhật", "en": "Japanese language" }
+      },
+      {
+        "word": "英語",
+        "reading": "えいご",
+        "meaning": { "vi": "Tiếng Anh", "en": "English language" }
       }
     ]
   },
   {
     "id": "k-02-004",
     "lessonId": "lesson-02",
-    "character": "漢4",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
+    "character": "書",
+    "onReadings": ["ショ"],
+    "kunReadings": ["か・く"],
     "meaning": {
-      "vi": "Hán tự 4 (Bài 2)",
-      "en": "Kanji 4 (Lesson 2)"
+      "vi": "Viết, sách",
+      "en": "Write, book"
     },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
+    "strokeCount": 10,
+    "radicals": ["日"],
+    "primaryRadical": "日",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字4",
-        "reading": "かんじ4",
-        "meaning": {
-          "vi": "Từ ghép 4",
-          "en": "Compound 4"
-        }
+        "word": "辞書",
+        "reading": "じしょ",
+        "meaning": { "vi": "Từ điển", "en": "Dictionary" }
+      },
+      {
+        "word": "教科書",
+        "reading": "きょうかしょ",
+        "meaning": { "vi": "Sách giáo khoa", "en": "Textbook" }
       }
     ]
   },
   {
     "id": "k-02-005",
     "lessonId": "lesson-02",
-    "character": "漢5",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
+    "character": "新",
+    "onReadings": ["シン"],
+    "kunReadings": ["あたら・しい", "あら・た"],
     "meaning": {
-      "vi": "Hán tự 5 (Bài 2)",
-      "en": "Kanji 5 (Lesson 2)"
+      "vi": "Mới",
+      "en": "New"
     },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
+    "strokeCount": 13,
+    "radicals": ["斤"],
+    "primaryRadical": "斤",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字5",
-        "reading": "かんじ5",
-        "meaning": {
-          "vi": "Từ ghép 5",
-          "en": "Compound 5"
-        }
+        "word": "新聞",
+        "reading": "しんぶん",
+        "meaning": { "vi": "Báo", "en": "Newspaper" }
+      },
+      {
+        "word": "新しい",
+        "reading": "あたらしい",
+        "meaning": { "vi": "Mới", "en": "New" }
+      }
+    ]
+  },
+  {
+    "id": "k-02-006",
+    "lessonId": "lesson-02",
+    "character": "聞",
+    "onReadings": ["ブン", "モン"],
+    "kunReadings": ["き・く", "き・こえる"],
+    "meaning": {
+      "vi": "Nghe, hỏi",
+      "en": "Hear, ask, listen"
+    },
+    "strokeCount": 14,
+    "radicals": ["耳"],
+    "primaryRadical": "耳",
+    "jlptLevel": "N5",
+    "compounds": [
+      {
+        "word": "新聞",
+        "reading": "しんぶん",
+        "meaning": { "vi": "Báo", "en": "Newspaper" }
+      },
+      {
+        "word": "聞く",
+        "reading": "きく",
+        "meaning": { "vi": "Nghe, hỏi", "en": "To listen, to ask" }
+      }
+    ]
+  },
+  {
+    "id": "k-02-007",
+    "lessonId": "lesson-02",
+    "character": "英",
+    "onReadings": ["エイ"],
+    "kunReadings": [],
+    "meaning": {
+      "vi": "Anh (nước Anh), tài giỏi",
+      "en": "England, excellent"
+    },
+    "strokeCount": 8,
+    "radicals": ["艸"],
+    "primaryRadical": "艸",
+    "jlptLevel": "N5",
+    "compounds": [
+      {
+        "word": "英語",
+        "reading": "えいご",
+        "meaning": { "vi": "Tiếng Anh", "en": "English language" }
+      }
+    ]
+  },
+  {
+    "id": "k-02-008",
+    "lessonId": "lesson-02",
+    "character": "時",
+    "onReadings": ["ジ"],
+    "kunReadings": ["とき"],
+    "meaning": {
+      "vi": "Thời gian, giờ",
+      "en": "Time, hour"
+    },
+    "strokeCount": 10,
+    "radicals": ["日"],
+    "primaryRadical": "日",
+    "jlptLevel": "N5",
+    "compounds": [
+      {
+        "word": "時計",
+        "reading": "とけい",
+        "meaning": { "vi": "Đồng hồ", "en": "Watch, clock" }
+      },
+      {
+        "word": "時間",
+        "reading": "じかん",
+        "meaning": { "vi": "Thời gian", "en": "Time" }
       }
     ]
   }

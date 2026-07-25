@@ -2,34 +2,63 @@
   {
     "id": "g-02-001",
     "lessonId": "lesson-02",
-    "pattern": "〜文法1",
-    "patternKana": "〜ぶんぽう1",
+    "pattern": "これ/それ/あれ は N です",
+    "patternKana": "これ/それ/あれ は N です",
     "title": {
-      "vi": "Ngữ pháp 1 (Bài 2)",
-      "en": "Grammar 1 (Lesson 2)"
+      "vi": "Đây/Đó/Kia là N",
+      "en": "This/That/That over there is N",
+      "ja": "これ/それ/あれ は 名詞 です"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 1 bài 2",
-      "en": "Explanation for grammar 1 lesson 2"
+      "vi": "これ chỉ vật ở gần người nói. それ chỉ vật ở gần người nghe. あれ chỉ vật ở xa cả hai. Ba từ này dùng thay cho danh từ khi chỉ đồ vật.",
+      "en": "これ refers to things near the speaker. それ refers to things near the listener. あれ refers to things far from both. These pronouns replace nouns when pointing at objects.",
+      "ja": "「これ」は話し手の近くにある物を指します。「それ」は聞き手の近くにある物を指します。「あれ」は両方から離れた物を指します。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Chỉ định và xác định đồ vật.",
+      "en": "Pointing at and identifying objects.",
+      "ja": "物を指し示して特定する。"
     },
     "formation": [
-      "N + 文法"
+      "これ + は + N + です",
+      "それ + は + N + です",
+      "あれ + は + N + です"
     ],
     "examples": [
       {
-        "ja": "私は文法1を勉強します。",
-        "reading": "わたしはぶんぽう1をべんきょうします。",
+        "ja": "これは 辞書です。",
+        "reading": "これは じしょです。",
         "translation": {
-          "vi": "Tôi học ngữ pháp 1.",
-          "en": "I study grammar 1."
+          "vi": "Đây là cuốn từ điển.",
+          "en": "This is a dictionary."
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
+        }
+      },
+      {
+        "ja": "それは 何ですか。",
+        "reading": "それは なんですか。",
+        "translation": {
+          "vi": "Đó là cái gì?",
+          "en": "What is that?"
+        },
+        "highlightRange": {
+          "start": 0,
+          "end": 2
+        }
+      },
+      {
+        "ja": "あれは テレビです。",
+        "reading": "あれは テレビです。",
+        "translation": {
+          "vi": "Cái kia là tivi.",
+          "en": "That over there is a TV."
+        },
+        "highlightRange": {
+          "start": 0,
+          "end": 2
         }
       }
     ],
@@ -38,34 +67,51 @@
   {
     "id": "g-02-002",
     "lessonId": "lesson-02",
-    "pattern": "〜文法2",
-    "patternKana": "〜ぶんぽう2",
+    "pattern": "この/その/あの N",
+    "patternKana": "この/その/あの N",
     "title": {
-      "vi": "Ngữ pháp 2 (Bài 2)",
-      "en": "Grammar 2 (Lesson 2)"
+      "vi": "N này / N đó / N kia (bổ nghĩa cho danh từ)",
+      "en": "This N / That N / That N over there (modifying a noun)",
+      "ja": "この/その/あの 名詞"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 2 bài 2",
-      "en": "Explanation for grammar 2 lesson 2"
+      "vi": "この, その, あの đứng trước danh từ để bổ nghĩa. Không dùng một mình (khác với これ, それ, あれ). この (gần người nói), その (gần người nghe), あの (xa cả hai).",
+      "en": "この, その, あの are placed before nouns to modify them. They cannot be used alone (unlike これ, それ, あれ). この (near speaker), その (near listener), あの (far from both).",
+      "ja": "「この」「その」「あの」は名詞の前に置いて修飾します。単独では使えません。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Chỉ định đồ vật kèm tên gọi.",
+      "en": "Specifying objects with their names.",
+      "ja": "物を名前と一緒に指し示す。"
     },
     "formation": [
-      "N + 文法"
+      "この + N",
+      "その + N",
+      "あの + N"
     ],
     "examples": [
       {
-        "ja": "私は文法2を勉強します。",
-        "reading": "わたしはぶんぽう2をべんきょうします。",
+        "ja": "この本は 日本語の本です。",
+        "reading": "このほんは にほんごのほんです。",
         "translation": {
-          "vi": "Tôi học ngữ pháp 2.",
-          "en": "I study grammar 2."
+          "vi": "Quyển sách này là sách tiếng Nhật.",
+          "en": "This book is a Japanese book."
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
+        }
+      },
+      {
+        "ja": "その時計は いくらですか。",
+        "reading": "そのとけいは いくらですか。",
+        "translation": {
+          "vi": "Đồng hồ đó giá bao nhiêu?",
+          "en": "How much is that watch?"
+        },
+        "highlightRange": {
+          "start": 0,
+          "end": 2
         }
       }
     ],
@@ -74,34 +120,114 @@
   {
     "id": "g-02-003",
     "lessonId": "lesson-02",
-    "pattern": "〜文法3",
-    "patternKana": "〜ぶんぽう3",
+    "pattern": "そうです / そうじゃ ありません",
+    "patternKana": "そうです / そうじゃ ありません",
     "title": {
-      "vi": "Ngữ pháp 3 (Bài 2)",
-      "en": "Grammar 3 (Lesson 2)"
+      "vi": "Đúng vậy / Không phải vậy",
+      "en": "That's right / That's not right",
+      "ja": "そうです / そうじゃありません"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 3 bài 2",
-      "en": "Explanation for grammar 3 lesson 2"
+      "vi": "Khi được hỏi「〜ですか」, trả lời khẳng định bằng「はい、そうです」và phủ định bằng「いいえ、そうじゃ ありません」. Cách trả lời lịch sự hơn:「いいえ、違います」(iie, chigaimasu).",
+      "en": "When asked 「〜ですか」, answer affirmatively with 「はい、そうです」 and negatively with 「いいえ、そうじゃ ありません」. A more polite negative: 「いいえ、違います」.",
+      "ja": "「〜ですか」と聞かれたとき、肯定は「はい、そうです」、否定は「いいえ、そうじゃありません」と答えます。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xác nhận hoặc phủ nhận câu hỏi.",
+      "en": "Confirming or denying a question.",
+      "ja": "質問を確認または否定する。"
     },
     "formation": [
-      "N + 文法"
+      "はい、そうです",
+      "いいえ、そうじゃ ありません"
     ],
     "examples": [
       {
-        "ja": "私は文法3を勉強します。",
-        "reading": "わたしはぶんぽう3をべんきょうします。",
+        "ja": "これは 鉛筆ですか。 ...はい、そうです。",
+        "reading": "これは えんぴつですか。 ...はい、そうです。",
         "translation": {
-          "vi": "Tôi học ngữ pháp 3.",
-          "en": "I study grammar 3."
+          "vi": "Đây là bút chì phải không? ...Vâng, đúng vậy.",
+          "en": "Is this a pencil? ...Yes, it is."
         },
         "highlightRange": {
-          "start": 3,
+          "start": 12,
+          "end": 18
+        }
+      },
+      {
+        "ja": "それは ボールペンですか。 ...いいえ、そうじゃ ありません。シャープペンシルです。",
+        "reading": "それは ボールペンですか。 ...いいえ、そうじゃ ありません。シャープペンシルです。",
+        "translation": {
+          "vi": "Đó là bút bi phải không? ...Không, không phải. Đó là bút chì bấm.",
+          "en": "Is that a ballpoint pen? ...No, it isn't. It's a mechanical pencil."
+        },
+        "highlightRange": {
+          "start": 17,
+          "end": 29
+        }
+      }
+    ],
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "g-02-004",
+    "lessonId": "lesson-02",
+    "pattern": "N1 の N2",
+    "patternKana": "N1 の N2",
+    "title": {
+      "vi": "N2 của N1 (sở hữu và thuộc tính)",
+      "en": "N1's N2 (possession and attribute)",
+      "ja": "名詞1 の 名詞2（所有・属性）"
+    },
+    "explanation": {
+      "vi": "Trong bài này, trợ từ の dùng để biểu thị: (1) Sở hữu: わたしの本 = sách của tôi. (2) Thuộc tính/nội dung: 日本語の本 = sách tiếng Nhật. (3) Khi N2 đã rõ ràng trong ngữ cảnh, có thể lược bỏ: これは わたしのです = Đây là (cái) của tôi.",
+      "en": "In this lesson, the particle の is used for: (1) Possession: わたしの本 = my book. (2) Attribute: 日本語の本 = Japanese book. (3) When N2 is clear from context, it can be omitted: これは わたしのです = This is mine.",
+      "ja": "この課では「の」は以下を表します：(1) 所有：わたしの本。(2) 属性：日本語の本。(3) N2が文脈から明らかな場合は省略可能：これはわたしのです。"
+    },
+    "usage": {
+      "vi": "Thể hiện sở hữu và thuộc tính.",
+      "en": "Expressing possession and attributes.",
+      "ja": "所有や属性を表す。"
+    },
+    "formation": [
+      "N1 + の + N2",
+      "N1 + の + です (khi lược bỏ N2)"
+    ],
+    "examples": [
+      {
+        "ja": "これは わたしの傘です。",
+        "reading": "これは わたしのかさです。",
+        "translation": {
+          "vi": "Đây là ô của tôi.",
+          "en": "This is my umbrella."
+        },
+        "highlightRange": {
+          "start": 4,
+          "end": 5
+        }
+      },
+      {
+        "ja": "これは 日本語の本です。",
+        "reading": "これは にほんごのほんです。",
+        "translation": {
+          "vi": "Đây là sách tiếng Nhật.",
+          "en": "This is a Japanese language book."
+        },
+        "highlightRange": {
+          "start": 5,
           "end": 6
+        }
+      },
+      {
+        "ja": "この傘は わたしのです。",
+        "reading": "このかさは わたしのです。",
+        "translation": {
+          "vi": "Cái ô này là của tôi.",
+          "en": "This umbrella is mine."
+        },
+        "highlightRange": {
+          "start": 7,
+          "end": 8
         }
       }
     ],
