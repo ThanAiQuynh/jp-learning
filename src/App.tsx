@@ -7,6 +7,7 @@ import { useAppSelector } from '@store/hooks';
 import { MainLayout } from '@layouts/MainLayout';
 import { useTranslation } from 'react-i18next';
 import { ErrorBoundary } from '@components/ErrorBoundary/ErrorBoundary';
+import { Analytics } from '@vercel/analytics/react';
 import '@i18n';
 import '@styles/global.scss';
 
@@ -122,6 +123,7 @@ function AppContent() {
     <FluentProvider theme={isDark ? webDarkTheme : webLightTheme} style={{ height: '100vh', width: '100vw' }}>
       <ErrorBoundary>
         <RouterProvider router={router} />
+        <Analytics />
       </ErrorBoundary>
     </FluentProvider>
   );
