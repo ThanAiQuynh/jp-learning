@@ -1,23 +1,18 @@
 import { FC, useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useSearchParams } from 'react-router-dom';
-import { GrammarPattern, Language } from '@types';
+import { GrammarPattern } from '@types';
 import { GrammarList } from '@features/grammar/components/GrammarList';
 import { SearchBox } from '@fluentui/react-components';
 import { Board24Regular } from '@fluentui/react-icons';
 import { GrammarDetail } from '@features/grammar/components/GrammarDetail';
 import { PageHeader } from '@components/PageHeader';
-import { LessonSelect } from '@components/LessonSelect';
 import { EmptyState } from '@components/EmptyState';
-import { getGrammarForLesson } from '@data/index';
-import lessonsData from '@data/lessons/lessons.json';
+import { getAllGrammar } from '@data/index';
 import { useDebounce } from '@utils/useDebounce';
 import styles from './GrammarPage.module.scss';
 
 export const GrammarPage: FC = () => {
-  const { t, i18n } = useTranslation('grammar');
-  const [searchParams, setSearchParams] = useSearchParams();
-  const lessonId = searchParams.get('lesson') || 'lesson-01';
+  const { t } = useTranslation('grammar');
   const [grammarData, setGrammarData] = useState<GrammarPattern[]>([]);
   const [selectedItem, setSelectedItem] = useState<GrammarPattern | null>(null);
   const [isDetailOpen, setIsDetailOpen] = useState(false);
@@ -25,19 +20,9 @@ export const GrammarPage: FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const debouncedSearchQuery = useDebounce(searchQuery, 200);
 
-  const currentLang = i18n.language as Language;
-  const currentLessonMeta = lessonsData.find(l => l.id === lessonId);
-  const lessonNumber = currentLessonMeta?.number || lessonId.replace('lesson-', '');
-  const lessonTitle = currentLessonMeta ? ((currentLessonMeta.title as any)[currentLang] || currentLessonMeta.title.ja) : '';
-
   useEffect(() => {
-    getGrammarForLesson(lessonId).then(data => setGrammarData(data));
-  }, [lessonId]);
-
-  const handleLessonChange = (newLessonId: string) => {
-    setSearchParams({ lesson: newLessonId });
-    setSearchQuery('');
-  };
+    getAllGrammar().then(data => setGrammarData(data));
+  }, []);
 
   const filteredData = grammarData.filter(g => {
     if (!debouncedSearchQuery) return true;
@@ -62,15 +47,8 @@ export const GrammarPage: FC = () => {
   return (
     <div className={styles.root}>
       <PageHeader 
-        title={t('title', { lesson: lessonNumber })}
-        subtitle={lessonTitle ? `${lessonTitle} — ${t('subtitle')}` : t('subtitle')}
-        action={
-          <LessonSelect 
-            value={lessonId} 
-            onChange={handleLessonChange}
-            style={{ minWidth: '180px' }}
-          />
-        }
+        title={t('title')}
+        subtitle={t('subtitle')}
       />
 
       <div className={styles.filterBar}>
@@ -94,7 +72,7 @@ export const GrammarPage: FC = () => {
           title={t('no_grammar', 'Không tìm thấy ngữ pháp')}
           message={debouncedSearchQuery 
             ? t('no_grammar_search', 'Không có cấu trúc ngữ pháp nào khớp với từ khóa tìm kiếm.')
-            : t('no_grammar_lesson', 'Bài học này chưa có dữ liệu ngữ pháp.')}
+            : t('no_grammar_data', 'Chưa có dữ liệu ngữ pháp.')}
         />
       )}
 

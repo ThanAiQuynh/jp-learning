@@ -1,6 +1,6 @@
 {
-  "title": "Kanji (Lesson {{lesson}})",
-  "subtitle": "Kanji list for this lesson.",
+  "title": "Kanji",
+  "subtitle": "All Japanese Kanji characters collection.",
   "detail": {
     "title": "Kanji Details",
     "stroke_count": "Strokes: {{count}}",

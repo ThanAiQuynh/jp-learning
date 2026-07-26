@@ -1,6 +1,6 @@
 {
-  "title": "Kanji (Bài {{lesson}})",
-  "subtitle": "Danh sách chữ Kanji trong bài học.",
+  "title": "Chữ Kanji",
+  "subtitle": "Tổng hợp tất cả Hán tự tiếng Nhật.",
   "detail": {
     "title": "Chi tiết Kanji",
     "stroke_count": "Số nét: {{count}}",

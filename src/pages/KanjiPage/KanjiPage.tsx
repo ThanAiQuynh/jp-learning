@@ -1,23 +1,18 @@
 import { FC, useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useSearchParams } from 'react-router-dom';
-import { KanjiItem, Language } from '@types';
+import { KanjiItem } from '@types';
 import { KanjiGrid } from '@features/kanji/components/KanjiGrid';
 import { SearchBox } from '@fluentui/react-components';
 import { ContactCard24Regular } from '@fluentui/react-icons';
 import { KanjiDetail } from '@features/kanji/components/KanjiDetail';
 import { PageHeader } from '@components/PageHeader';
-import { LessonSelect } from '@components/LessonSelect';
 import { EmptyState } from '@components/EmptyState';
-import { getKanjiForLesson } from '@data/index';
-import lessonsData from '@data/lessons/lessons.json';
+import { getAllKanji } from '@data/index';
 import { useDebounce } from '@utils/useDebounce';
 import styles from './KanjiPage.module.scss';
 
 export const KanjiPage: FC = () => {
-  const { t, i18n } = useTranslation('kanji');
-  const [searchParams, setSearchParams] = useSearchParams();
-  const lessonId = searchParams.get('lesson') || 'lesson-01';
+  const { t } = useTranslation('kanji');
   const [kanjiData, setKanjiData] = useState<KanjiItem[]>([]);
   const [selectedItem, setSelectedItem] = useState<KanjiItem | null>(null);
   const [isDetailOpen, setIsDetailOpen] = useState(false);
@@ -25,19 +20,9 @@ export const KanjiPage: FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const debouncedSearchQuery = useDebounce(searchQuery, 200);
 
-  const currentLang = i18n.language as Language;
-  const currentLessonMeta = lessonsData.find(l => l.id === lessonId);
-  const lessonNumber = currentLessonMeta?.number || lessonId.replace('lesson-', '');
-  const lessonTitle = currentLessonMeta ? ((currentLessonMeta.title as any)[currentLang] || currentLessonMeta.title.ja) : '';
-
   useEffect(() => {
-    getKanjiForLesson(lessonId).then(data => setKanjiData(data));
-  }, [lessonId]);
-
-  const handleLessonChange = (newLessonId: string) => {
-    setSearchParams({ lesson: newLessonId });
-    setSearchQuery('');
-  };
+    getAllKanji().then(data => setKanjiData(data));
+  }, []);
 
   const filteredData = kanjiData.filter(k => {
     if (!debouncedSearchQuery) return true;
@@ -62,15 +47,8 @@ export const KanjiPage: FC = () => {
   return (
     <div className={styles.root}>
       <PageHeader 
-        title={t('title', { lesson: lessonNumber })}
-        subtitle={lessonTitle ? `${lessonTitle} — ${t('subtitle')}` : t('subtitle')}
-        action={
-          <LessonSelect 
-            value={lessonId} 
-            onChange={handleLessonChange}
-            style={{ minWidth: '180px' }}
-          />
-        }
+        title={t('title')}
+        subtitle={t('subtitle')}
       />
 
       <div className={styles.filterBar}>
@@ -94,7 +72,7 @@ export const KanjiPage: FC = () => {
           title={t('no_kanji', 'Không tìm thấy Hán tự')}
           message={debouncedSearchQuery 
             ? t('no_kanji_search', 'Không có chữ Kanji nào khớp với từ khóa tìm kiếm.')
-            : t('no_kanji_lesson', 'Bài học này chưa có dữ liệu Kanji.')}
+            : t('no_kanji_data', 'Chưa có dữ liệu Kanji.')}
         />
       )}
 

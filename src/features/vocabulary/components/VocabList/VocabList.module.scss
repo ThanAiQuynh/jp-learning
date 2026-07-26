@@ -1,15 +1,16 @@
 @use '@styles/variables' as *;
 
-.root {
-  display: flex;
-  flex-direction: column;
-  gap: $spacing-md;
+.scrollContainer {
+  flex: 1;
+  overflow-y: auto;
+  min-height: 0;
+  padding-right: $spacing-xs;
 }
 
-.grid {
+.rowGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: $spacing-md;
+  padding-bottom: $spacing-md;
 }
 
 .emptyState {
