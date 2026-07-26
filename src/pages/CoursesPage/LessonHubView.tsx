@@ -21,9 +21,9 @@ export const LessonHubView: FC = () => {
   const desc = lesson ? (lesson.description[lang] || lesson.description.vi) : '';
 
   const actions = [
-    { title: dt('quick_access.vocabulary.title'), path: `/vocabulary`, icon: <Book24Regular />, color: 'var(--colorPaletteGreenForeground1)', bg: 'var(--colorPaletteGreenBackground2)' },
-    { title: dt('quick_access.grammar.title'), path: `/grammar`, icon: <Board24Regular />, color: 'var(--colorPaletteYellowForeground1)', bg: 'var(--colorPaletteYellowBackground2)' },
-    { title: dt('quick_access.kanji.title'), path: `/kanji`, icon: <ContactCard24Regular />, color: 'var(--colorPaletteRedForeground1)', bg: 'var(--colorPaletteRedBackground2)' },
+    { title: dt('quick_access.vocabulary.title'), path: `/vocabulary?lesson=${lessonId}`, icon: <Book24Regular />, color: 'var(--colorPaletteGreenForeground1)', bg: 'var(--colorPaletteGreenBackground2)' },
+    { title: dt('quick_access.grammar.title'), path: `/grammar?lesson=${lessonId}`, icon: <Board24Regular />, color: 'var(--colorPaletteYellowForeground1)', bg: 'var(--colorPaletteYellowBackground2)' },
+    { title: dt('quick_access.kanji.title'), path: `/kanji?lesson=${lessonId}`, icon: <ContactCard24Regular />, color: 'var(--colorPaletteRedForeground1)', bg: 'var(--colorPaletteRedBackground2)' },
     { title: dt('quick_access.flashcard.title'), path: `/flashcards?lesson=${lessonId}`, icon: <Flash24Regular />, color: 'var(--colorPaletteBerryForeground1)', bg: 'var(--colorPaletteBerryBackground2)' },
     { title: dt('quick_access.quiz.title'), path: `/quiz?lesson=${lessonId}`, icon: <QuizNew24Regular />, color: 'var(--colorPalettePurpleForeground1)', bg: 'var(--colorPalettePurpleBackground2)' },
   ];
