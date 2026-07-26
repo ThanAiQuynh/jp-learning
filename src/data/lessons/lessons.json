@@ -3,14 +3,14 @@
     "id": "lesson-01",
     "number": 1,
     "title": {
-      "ja": "新しい 友達",
-      "romaji": "Atarashii Tomodachi",
-      "vi": "Bạn mới"
+      "ja": "わたしは マイク・ミラーです",
+      "romaji": "Watashi wa Maiku Miraa desu",
+      "vi": "Tôi là Mike Miller (Tự giới thiệu)"
     },
     "description": {
       "vi": "Tự giới thiệu bản thân, hỏi tên, quốc tịch, nghề nghiệp. Sử dụng mẫu câu ～は ～です。",
       "en": "Self-introduction, asking about name, nationality, occupation. Using ～は ～です pattern.",
-      "ja": "自己紹介"
+      "ja": "自己紹介、名前、国籍、職業の尋ね方。"
     },
     "jlptLevel": "N5",
     "chapter": 1,
@@ -24,8 +24,8 @@
         "en": "Self-introduction"
       },
       {
-        "vi": "Quốc tịch và nghề nghiệp",
-        "en": "Nationality and occupation"
+        "vi": "Quốc tịch & Nghề nghiệp",
+        "en": "Nationality & Occupation"
       }
     ]
   },
@@ -33,14 +33,14 @@
     "id": "lesson-02",
     "number": 2,
     "title": {
-      "ja": "これは 何ですか",
-      "romaji": "Kore wa Nan Desu ka",
-      "vi": "Cái này là gì?"
+      "ja": "これは 本です",
+      "romaji": "Kore wa hon desu",
+      "vi": "Cái này là sách (Đại từ chỉ đồ vật)"
     },
     "description": {
       "vi": "Sử dụng đại từ chỉ định これ/それ/あれ để xác định đồ vật. Hỏi tên, xuất xứ, sở hữu của đồ vật.",
-      "en": "Using demonstrative pronouns これ/それ/あれ to identify objects. Asking about names, origins, and ownership.",
-      "ja": "指示代名詞を使って物を特定する"
+      "en": "Using demonstratives これ/それ/あれ to identify objects. Asking about names, origins, and ownership.",
+      "ja": "指示代名詞を使って物を特定する。"
     },
     "jlptLevel": "N5",
     "chapter": 2,
@@ -51,7 +51,7 @@
     "topics": [
       {
         "vi": "Đại từ chỉ định (đồ vật)",
-        "en": "Demonstrative pronouns (objects)"
+        "en": "Demonstratives (objects)"
       },
       {
         "vi": "Đồ vật hàng ngày",
@@ -63,14 +63,14 @@
     "id": "lesson-03",
     "number": 3,
     "title": {
-      "ja": "ここは デパートです",
-      "romaji": "Koko wa Depaato Desu",
-      "vi": "Đây là cửa hàng bách hóa"
+      "ja": "ここは 教室です",
+      "romaji": "Koko wa kyoushitsu desu",
+      "vi": "Ở đây là phòng học (Địa điểm & Vị trí)"
     },
     "description": {
-      "vi": "Chỉ nơi chốn bằng ここ/そこ/あそこ. Hỏi giá tiền, mua sắm tại cửa hàng bách hóa. Hỏi xuất xứ sản phẩm.",
-      "en": "Indicating places with ここ/そこ/あそこ. Asking prices, shopping at department stores. Asking product origins.",
-      "ja": "場所を指し示す。買い物をする"
+      "vi": "Sử dụng đại từ chỉ địa điểm ここ/そこ/あそこ, chỉ hướng và vị trí.",
+      "en": "Using location demonstratives ここ/そこ/あそこ and directions.",
+      "ja": "場所や方向の指示代名詞を使う。"
     },
     "jlptLevel": "N5",
     "chapter": 3,
@@ -80,12 +80,12 @@
     "kanjiCount": 8,
     "topics": [
       {
-        "vi": "Nơi chốn và phương hướng",
-        "en": "Places and directions"
+        "vi": "Đại từ chỉ địa điểm",
+        "en": "Location demonstratives"
       },
       {
-        "vi": "Mua sắm và giá cả",
-        "en": "Shopping and prices"
+        "vi": "Trường học & Công ty",
+        "en": "School & Office"
       }
     ]
   },
@@ -93,14 +93,14 @@
     "id": "lesson-04",
     "number": 4,
     "title": {
-      "ja": "何時に 起きますか",
-      "romaji": "Nanji ni Okimasu ka",
-      "vi": "Mấy giờ bạn dậy?"
+      "ja": "今 何時ですか",
+      "romaji": "Ima nan-ji desu ka",
+      "vi": "Bây giờ là mấy giờ? (Thời gian & Động từ)"
     },
     "description": {
-      "vi": "Nói giờ giấc, thời gian biểu hàng ngày. Chia động từ thể ます (khẳng định, phủ định, quá khứ). Dùng から〜まで chỉ khoảng thời gian.",
-      "en": "Telling time, daily schedules. Conjugating verbs in ます form (affirmative, negative, past). Using から〜まで for time ranges.",
-      "ja": "時刻を言う。動詞のます形。日常のスケジュール"
+      "vi": "Hỏi giờ, phút, ngày trong tuần và sử dụng động từ thời hiện tại / quá khứ (ます/ました).",
+      "en": "Asking time, days of week, and using present/past verbs (masu/mashita).",
+      "ja": "時間や曜日、動詞の現在・過去形を使う。"
     },
     "jlptLevel": "N5",
     "chapter": 4,
@@ -110,12 +110,12 @@
     "kanjiCount": 8,
     "topics": [
       {
-        "vi": "Thời gian và giờ giấc",
-        "en": "Time and schedules"
+        "vi": "Thời gian & Giờ giấc",
+        "en": "Time & Clock"
       },
       {
-        "vi": "Động từ thể ます",
-        "en": "Verb ます form"
+        "vi": "Thói quen hàng ngày",
+        "en": "Daily routine"
       }
     ]
   },
@@ -123,14 +123,14 @@
     "id": "lesson-05",
     "number": 5,
     "title": {
-      "ja": "京都へ 行きます",
-      "romaji": "Kyouto e Ikimasu",
-      "vi": "Đi đến Kyoto"
+      "ja": "甲子園へ 行きますか",
+      "romaji": "Koushien e ikimasu ka",
+      "vi": "Bạn có đi Koshien không? (Di chuyển & Phương tiện)"
     },
     "description": {
-      "vi": "Di chuyển bằng 行きます/来ます/帰ります. Phương tiện giao thông với で. Đi cùng ai với と. Hỏi khi nào với いつ.",
-      "en": "Movement verbs 行きます/来ます/帰ります. Transportation with で. Going with someone using と. Asking when with いつ.",
-      "ja": "移動動詞。交通手段。いつ"
+      "vi": "Diễn tả hành động di chuyển (行きます/来ます/帰ります), phương tiện (で) và thời gian.",
+      "en": "Expressing movement (go/come/return), transportation (de), and dates.",
+      "ja": "移動の動詞、交通手段、日付を使う。"
     },
     "jlptLevel": "N5",
     "chapter": 5,
@@ -140,12 +140,12 @@
     "kanjiCount": 8,
     "topics": [
       {
-        "vi": "Di chuyển và giao thông",
-        "en": "Movement and transportation"
+        "vi": "Phương tiện đi lại",
+        "en": "Transportation"
       },
       {
-        "vi": "Thời gian (tuần, tháng, năm)",
-        "en": "Time periods (week, month, year)"
+        "vi": "Ngày tháng & Di chuyển",
+        "en": "Dates & Travel"
       }
     ]
   },
@@ -153,24 +153,29 @@
     "id": "lesson-06",
     "number": 6,
     "title": {
-      "ja": "第 6 課",
-      "romanji": "Dai 6 ka"
+      "ja": "いっしょに 行きませんか",
+      "romaji": "Isshoni ikimasen ka",
+      "vi": "Cùng đi không? (Tác động を & Lời mời)"
     },
     "description": {
-      "vi": "Nội dung bài 6",
-      "en": "Lesson 6 content",
-      "ja": "第 6 課の内容"
+      "vi": "Ngoại động từ với trợ từ を, địa điểm thực hiện (で) và lời mời rủ rê (～ませんか/～ましょう).",
+      "en": "Transitive verbs with を, action location (de), and invitations (masen ka/mashou).",
+      "ja": "他動詞、動作の場所、勧誘の表現。"
     },
     "jlptLevel": "N5",
     "chapter": 6,
     "courseId": "minna-1",
-    "vocabCount": 20,
-    "grammarCount": 3,
-    "kanjiCount": 5,
+    "vocabCount": 49,
+    "grammarCount": 5,
+    "kanjiCount": 9,
     "topics": [
       {
-        "vi": "Chủ đề bài 6",
-        "en": "Topic 6"
+        "vi": "Ăn uống & Mua sắm",
+        "en": "Food & Shopping"
+      },
+      {
+        "vi": "Lời mời rủ rê",
+        "en": "Invitations"
       }
     ]
   },
@@ -178,24 +183,29 @@
     "id": "lesson-07",
     "number": 7,
     "title": {
-      "ja": "第 7 課",
-      "romanji": "Dai 7 ka"
+      "ja": "スプーンで 食べます",
+      "romaji": "Supuun de tabemasu",
+      "vi": "Ăn bằng thìa (Công cụ & Cho/Nhận)"
     },
     "description": {
-      "vi": "Nội dung bài 7",
-      "en": "Lesson 7 content",
-      "ja": "第 7 課の内容"
+      "vi": "Diễn tả công cụ/phương tiện (で), ngôn ngữ, và hành động cho/nhận (あげます/もらいます).",
+      "en": "Expressing tools/means (de), languages, and giving/receiving (agemasu/moraimasu).",
+      "ja": "道具・手段、授受動詞（あげます・もらいます）。"
     },
     "jlptLevel": "N5",
     "chapter": 7,
     "courseId": "minna-1",
-    "vocabCount": 20,
-    "grammarCount": 3,
-    "kanjiCount": 5,
+    "vocabCount": 38,
+    "grammarCount": 5,
+    "kanjiCount": 7,
     "topics": [
       {
-        "vi": "Chủ đề bài 7",
-        "en": "Topic 7"
+        "vi": "Công cụ & Ngôn ngữ",
+        "en": "Tools & Languages"
+      },
+      {
+        "vi": "Tặng & Nhận quà",
+        "en": "Giving & Receiving"
       }
     ]
   },
@@ -203,24 +213,29 @@
     "id": "lesson-08",
     "number": 8,
     "title": {
-      "ja": "第 8 課",
-      "romanji": "Dai 8 ka"
+      "ja": "富士山は 高い山です",
+      "romaji": "Fujisan wa takai yama desu",
+      "vi": "Núi Phú Sĩ là núi cao (Tính từ い/な)"
     },
     "description": {
-      "vi": "Nội dung bài 8",
-      "en": "Lesson 8 content",
-      "ja": "第 8 課の内容"
+      "vi": "Sử dụng tính từ い và tính từ な để bổ nghĩa cho danh từ và làm vị ngữ.",
+      "en": "Using i-adjectives and na-adjectives for noun modification and predicates.",
+      "ja": "い形容詞とな形容詞の使い方。"
     },
     "jlptLevel": "N5",
     "chapter": 8,
     "courseId": "minna-1",
-    "vocabCount": 20,
-    "grammarCount": 3,
-    "kanjiCount": 5,
+    "vocabCount": 49,
+    "grammarCount": 5,
+    "kanjiCount": 8,
     "topics": [
       {
-        "vi": "Chủ đề bài 8",
-        "en": "Topic 8"
+        "vi": "Tính từ miêu tả",
+        "en": "Descriptive Adjectives"
+      },
+      {
+        "vi": "Đánh giá & Cảm tưởng",
+        "en": "Impressions & Ratings"
       }
     ]
   },
@@ -228,24 +243,29 @@
     "id": "lesson-09",
     "number": 9,
     "title": {
-      "ja": "第 9 課",
-      "romanji": "Dai 9 ka"
+      "ja": "納豆が 好きですか",
+      "romaji": "Nattou ga suki desu ka",
+      "vi": "Bạn có thích Natto không? (Sở thích & Khả năng)"
     },
     "description": {
-      "vi": "Nội dung bài 9",
-      "en": "Lesson 9 content",
-      "ja": "第 9 課の内容"
+      "vi": "Bày tỏ sở thích (好き/嫌い), khả năng (上手/下手), hiểu biết (わかる) và sở hữu (あります).",
+      "en": "Expressing likes/dislikes, skills/abilities, understanding, and possession.",
+      "ja": "好悪、上手・下手、理解、所有の表現。"
     },
     "jlptLevel": "N5",
     "chapter": 9,
     "courseId": "minna-1",
-    "vocabCount": 20,
-    "grammarCount": 3,
-    "kanjiCount": 5,
+    "vocabCount": 33,
+    "grammarCount": 6,
+    "kanjiCount": 7,
     "topics": [
       {
-        "vi": "Chủ đề bài 9",
-        "en": "Topic 9"
+        "vi": "Sở thích & Năng khiếu",
+        "en": "Hobbies & Skills"
+      },
+      {
+        "vi": "Lý do (から)",
+        "en": "Reasons (kara)"
       }
     ]
   },
@@ -253,24 +273,29 @@
     "id": "lesson-10",
     "number": 10,
     "title": {
-      "ja": "第 10 課",
-      "romanji": "Dai 10 ka"
+      "ja": "あそこに コンビニが あります",
+      "romaji": "Asoko ni konbini ga arimasu",
+      "vi": "Ở kia có cửa hàng tiện lợi (Tồn tại & Vị trí)"
     },
     "description": {
-      "vi": "Nội dung bài 10",
-      "en": "Lesson 10 content",
-      "ja": "第 10 課の内容"
+      "vi": "Diễn tả sự tồn tại của đồ vật (あります) và người/động vật (います) cùng vị trí tương đối.",
+      "en": "Expressing existence of inanimate objects (arimasu) and living things (imasu) with positions.",
+      "ja": "存在動詞（あります・います）と位置表現。"
     },
     "jlptLevel": "N5",
     "chapter": 10,
     "courseId": "minna-1",
-    "vocabCount": 20,
-    "grammarCount": 3,
-    "kanjiCount": 5,
+    "vocabCount": 42,
+    "grammarCount": 4,
+    "kanjiCount": 8,
     "topics": [
       {
-        "vi": "Chủ đề bài 10",
-        "en": "Topic 10"
+        "vi": "Sự tồn tại của đồ vật & Con người",
+        "en": "Existence of things & people"
+      },
+      {
+        "vi": "Vị trí không gian",
+        "en": "Spatial positions"
       }
     ]
   },
@@ -278,24 +303,29 @@
     "id": "lesson-11",
     "number": 11,
     "title": {
-      "ja": "第 11 課",
-      "romanji": "Dai 11 ka"
+      "ja": "みかんを 5つ 買いました",
+      "romaji": "Mikan wo hitotsu kaimashita",
+      "vi": "Tôi đã mua 5 quả quýt (Trợ số từ & Số lượng)"
     },
     "description": {
-      "vi": "Nội dung bài 11",
-      "en": "Lesson 11 content",
-      "ja": "第 11 課の内容"
+      "vi": "Cách đếm đồ vật, người, khoảng thời gian và tần suất thực hiện hành động.",
+      "en": "Counting objects, people, time duration, and frequency of actions.",
+      "ja": "助数詞、期間、頻度の表わし方。"
     },
     "jlptLevel": "N5",
     "chapter": 11,
     "courseId": "minna-1",
-    "vocabCount": 20,
-    "grammarCount": 3,
-    "kanjiCount": 5,
+    "vocabCount": 37,
+    "grammarCount": 4,
+    "kanjiCount": 10,
     "topics": [
       {
-        "vi": "Chủ đề bài 11",
-        "en": "Topic 11"
+        "vi": "Trợ số từ đếm đồ vật & Người",
+        "en": "Counters for objects & people"
+      },
+      {
+        "vi": "Khoảng thời gian & Tần suất",
+        "en": "Duration & Frequency"
       }
     ]
   },
@@ -303,24 +333,29 @@
     "id": "lesson-12",
     "number": 12,
     "title": {
-      "ja": "第 12 課",
-      "romanji": "Dai 12 ka"
+      "ja": "お祭りは どうでしたか",
+      "romaji": "Omatsuri wa dou deshitaka",
+      "vi": "Lễ hội thế nào? (So sánh & Quá khứ tính từ)"
     },
     "description": {
-      "vi": "Nội dung bài 12",
-      "en": "Lesson 12 content",
-      "ja": "第 12 課の内容"
+      "vi": "Thể quá khứ của tính từ/danh từ và cấu trúc so sánh hơn (より), so sánh nhất (一番).",
+      "en": "Past tense of adjectives/nouns, comparative (yori), and superlative (ichiban).",
+      "ja": "形容詞・名詞の過去形、比較級・最上級。"
     },
     "jlptLevel": "N5",
     "chapter": 12,
     "courseId": "minna-1",
-    "vocabCount": 20,
-    "grammarCount": 3,
-    "kanjiCount": 5,
+    "vocabCount": 32,
+    "grammarCount": 4,
+    "kanjiCount": 8,
     "topics": [
       {
-        "vi": "Chủ đề bài 12",
-        "en": "Topic 12"
+        "vi": "Quá khứ tính từ",
+        "en": "Past tense adjectives"
+      },
+      {
+        "vi": "So sánh hơn & So sánh nhất",
+        "en": "Comparisons & Superlatives"
       }
     ]
   },
@@ -328,24 +363,29 @@
     "id": "lesson-13",
     "number": 13,
     "title": {
-      "ja": "第 13 課",
-      "romanji": "Dai 13 ka"
+      "ja": "沖縄へ 行きたいです",
+      "romaji": "Okinawa e ikitai desu",
+      "vi": "Tôi muốn đi Okinawa (Mong muốn & Mục đích)"
     },
     "description": {
-      "vi": "Nội dung bài 13",
-      "en": "Lesson 13 content",
-      "ja": "第 13 課の内容"
+      "vi": "Diễn tả mong muốn có vật (ほしい), mong muốn làm gì (Vたい) và mục đích di chuyển (に行く).",
+      "en": "Expressing desire for things (hoshii), desire to do (V-tai), and purpose of movement (ni iku).",
+      "ja": "欲求（ほしい・たい）、移動の目的。"
     },
     "jlptLevel": "N5",
     "chapter": 13,
     "courseId": "minna-1",
-    "vocabCount": 20,
+    "vocabCount": 26,
     "grammarCount": 3,
-    "kanjiCount": 5,
+    "kanjiCount": 6,
     "topics": [
       {
-        "vi": "Chủ đề bài 13",
-        "en": "Topic 13"
+        "vi": "Mong muốn & Nhu cầu",
+        "en": "Desires & Needs"
+      },
+      {
+        "vi": "Mục đích di chuyển",
+        "en": "Purpose of movement"
       }
     ]
   },
@@ -353,24 +393,29 @@
     "id": "lesson-14",
     "number": 14,
     "title": {
-      "ja": "第 14 課",
-      "romanji": "Dai 14 ka"
+      "ja": "ちょっと 待ってください",
+      "romaji": "Chotto matte kudasai",
+      "vi": "Xin hãy đợi một chút (Thể て & Yêu cầu)"
     },
     "description": {
-      "vi": "Nội dung bài 14",
-      "en": "Lesson 14 content",
-      "ja": "第 14 課の内容"
+      "vi": "Cách chia động từ thể て, câu yêu cầu lịch sự (Vてください) và hành động đang diễn ra (Vています).",
+      "en": "Forming Te-form, polite requests (V-te kudasai), and progressive actions (V-te imasu).",
+      "ja": "て形の作り方、指示・依頼、進行中の動作。"
     },
     "jlptLevel": "N5",
     "chapter": 14,
     "courseId": "minna-1",
-    "vocabCount": 20,
+    "vocabCount": 34,
     "grammarCount": 3,
-    "kanjiCount": 5,
+    "kanjiCount": 7,
     "topics": [
       {
-        "vi": "Chủ đề bài 14",
-        "en": "Topic 14"
+        "vi": "Cách chia thể て",
+        "en": "Te-form conjugation"
+      },
+      {
+        "vi": "Yêu cầu & Đề nghị giúp đỡ",
+        "en": "Requests & Offers"
       }
     ]
   },
@@ -378,24 +423,29 @@
     "id": "lesson-15",
     "number": 15,
     "title": {
-      "ja": "第 15 課",
-      "romanji": "Dai 15 ka"
+      "ja": "写真を 撮っても いいですか",
+      "romaji": "Shashin wo tottemo ii desu ka",
+      "vi": "Chụp ảnh có được không? (Xin phép & Cấm đoán)"
     },
     "description": {
-      "vi": "Nội dung bài 15",
-      "en": "Lesson 15 content",
-      "ja": "第 15 課の内容"
+      "vi": "Xin phép làm gì (Vてもいいです), cấm đoán (Vてはいけません) và diễn tả trạng thái kết quả.",
+      "en": "Asking permission (V-temo ii desu), prohibition (V-te wa ikemasen), and resulting states.",
+      "ja": "許可、禁止、結果の状態（結婚・居住等）。"
     },
     "jlptLevel": "N5",
     "chapter": 15,
     "courseId": "minna-1",
     "vocabCount": 20,
     "grammarCount": 3,
-    "kanjiCount": 5,
+    "kanjiCount": 6,
     "topics": [
       {
-        "vi": "Chủ đề bài 15",
-        "en": "Topic 15"
+        "vi": "Xin phép & Cho phép",
+        "en": "Asking & Giving permission"
+      },
+      {
+        "vi": "Cấm đoán & Trạng thái",
+        "en": "Prohibitions & States"
       }
     ]
   },
@@ -403,24 +453,29 @@
     "id": "lesson-16",
     "number": 16,
     "title": {
-      "ja": "第 16 課",
-      "romanji": "Dai 16 ka"
+      "ja": "使い方を 教えてください",
+      "romaji": "Tsukaikata wo oshiete kudasai",
+      "vi": "Hãy chỉ cho tôi cách dùng (Nối hành động Vて)"
     },
     "description": {
-      "vi": "Nội dung bài 16",
-      "en": "Lesson 16 content",
-      "ja": "第 16 課の内容"
+      "vi": "Nối chuỗi hành động (V1て, V2て), thứ tự trước sau (V1てからV2) và mô tả đặc điểm cơ thể.",
+      "en": "Connecting sequential actions (V1-te, V2-te), after doing V1 (V1-te kara V2), and body features.",
+      "ja": "動作の順序（て、てから）、身体的特徴の描写。"
     },
     "jlptLevel": "N5",
     "chapter": 16,
     "courseId": "minna-1",
-    "vocabCount": 20,
+    "vocabCount": 29,
     "grammarCount": 3,
-    "kanjiCount": 5,
+    "kanjiCount": 6,
     "topics": [
       {
-        "vi": "Chủ đề bài 16",
-        "en": "Topic 16"
+        "vi": "Trình tự hành động",
+        "en": "Action sequence"
+      },
+      {
+        "vi": "Mô tả người & Cơ thể",
+        "en": "Describing people & body"
       }
     ]
   },
@@ -428,24 +483,29 @@
     "id": "lesson-17",
     "number": 17,
     "title": {
-      "ja": "第 17 課",
-      "romanji": "Dai 17 ka"
+      "ja": "どう しましたか",
+      "romaji": "Dou shimashita ka",
+      "vi": "Bạn bị sao vậy? (Thể ない & Bắt buộc)"
     },
     "description": {
-      "vi": "Nội dung bài 17",
-      "en": "Lesson 17 content",
-      "ja": "第 17 課の内容"
+      "vi": "Cách chia thể ない, yêu cầu không làm gì (Vないでください) và bắt buộc/nghĩa vụ (Vなければなりません).",
+      "en": "Forming Nai-form, requesting not to do (V-naide kudasai), and obligation (V-nakereba narimasen).",
+      "ja": "ない形の作り方、禁止の依頼、義務。"
     },
     "jlptLevel": "N5",
     "chapter": 17,
     "courseId": "minna-1",
-    "vocabCount": 20,
-    "grammarCount": 3,
-    "kanjiCount": 5,
+    "vocabCount": 23,
+    "grammarCount": 4,
+    "kanjiCount": 6,
     "topics": [
       {
-        "vi": "Chủ đề bài 17",
-        "en": "Topic 17"
+        "vi": "Thể ない & Khám bệnh",
+        "en": "Nai-form & Health"
+      },
+      {
+        "vi": "Nghĩa vụ & Bắt buộc",
+        "en": "Obligations & Rules"
       }
     ]
   },
@@ -453,24 +513,29 @@
     "id": "lesson-18",
     "number": 18,
     "title": {
-      "ja": "第 18 課",
-      "romanji": "Dai 18 ka"
+      "ja": "趣味は 何ですか",
+      "romaji": "Shumi wa nan desu ka",
+      "vi": "Sở thích của bạn là gì? (Thể từ điển 辞書形)"
     },
     "description": {
-      "vi": "Nội dung bài 18",
-      "en": "Lesson 18 content",
-      "ja": "第 18 課の内容"
+      "vi": "Cách chia thể từ điển (辞書形), biểu thị khả năng (ことができます), sở thích và trước khi (前に).",
+      "en": "Dictionary form, expressing ability (koto ga dekimasu), hobbies, and before doing (mae ni).",
+      "ja": "辞書形、可能、趣味、～前に。"
     },
     "jlptLevel": "N5",
     "chapter": 18,
     "courseId": "minna-1",
-    "vocabCount": 20,
+    "vocabCount": 16,
     "grammarCount": 3,
-    "kanjiCount": 5,
+    "kanjiCount": 6,
     "topics": [
       {
-        "vi": "Chủ đề bài 18",
-        "en": "Topic 18"
+        "vi": "Thể từ điển & Khả năng",
+        "en": "Dictionary form & Abilities"
+      },
+      {
+        "vi": "Sở thích & Thời gian trước khi",
+        "en": "Hobbies & Before doing"
       }
     ]
   },
@@ -478,24 +543,29 @@
     "id": "lesson-19",
     "number": 19,
     "title": {
-      "ja": "第 19 課",
-      "romanji": "Dai 19 ka"
+      "ja": "ダイエットを したことが あります",
+      "romaji": "Daietto wo shita koto ga arimasu",
+      "vi": "Tôi đã từng ăn kiêng (Thể た & Kinh nghiệm)"
     },
     "description": {
-      "vi": "Nội dung bài 19",
-      "en": "Lesson 19 content",
-      "ja": "第 19 課の内容"
+      "vi": "Cách chia thể た, diễn tả kinh nghiệm đã từng làm (Vたことがあります) và liệt kê hành động (VたりVたりします).",
+      "en": "Ta-form, expressing past experience (V-ta koto ga arimasu), and listing actions (V-tari V-tari).",
+      "ja": "た形、経験、動作の列挙（たり・たり）。"
     },
     "jlptLevel": "N5",
     "chapter": 19,
     "courseId": "minna-1",
-    "vocabCount": 20,
+    "vocabCount": 9,
     "grammarCount": 3,
-    "kanjiCount": 5,
+    "kanjiCount": 4,
     "topics": [
       {
-        "vi": "Chủ đề bài 19",
-        "en": "Topic 19"
+        "vi": "Thể た & Kinh nghiệm",
+        "en": "Ta-form & Experiences"
+      },
+      {
+        "vi": "Liệt kê hành động & Biến đổi",
+        "en": "Listing actions & Changes"
       }
     ]
   },
@@ -503,24 +573,29 @@
     "id": "lesson-20",
     "number": 20,
     "title": {
-      "ja": "第 20 課",
-      "romanji": "Dai 20 ka"
+      "ja": "夏休みは どうでしたか",
+      "romaji": "Natsuyasumi wa dou deshitaka",
+      "vi": "Nghỉ hè thế nào? (Thể thông thường 普通形)"
     },
     "description": {
-      "vi": "Nội dung bài 20",
-      "en": "Lesson 20 content",
-      "ja": "第 20 課の内容"
+      "vi": "Phân biệt thể lịch sự (丁寧形) và thể thông thường (普通形), dùng thể thông thường trong hội thoại thân mật.",
+      "en": "Distinguishing polite form and plain form (Futsuukei), using plain form in casual conversations.",
+      "ja": "丁寧形と普通形の使い分け、親しい間柄の会話。"
     },
     "jlptLevel": "N5",
     "chapter": 20,
     "courseId": "minna-1",
-    "vocabCount": 20,
-    "grammarCount": 3,
-    "kanjiCount": 5,
+    "vocabCount": 8,
+    "grammarCount": 2,
+    "kanjiCount": 4,
     "topics": [
       {
-        "vi": "Chủ đề bài 20",
-        "en": "Topic 20"
+        "vi": "Thể thông thường (普通形)",
+        "en": "Plain form (Futsuukei)"
+      },
+      {
+        "vi": "Hội thoại thân mật",
+        "en": "Casual conversation"
       }
     ]
   },
@@ -528,24 +603,29 @@
     "id": "lesson-21",
     "number": 21,
     "title": {
-      "ja": "第 21 課",
-      "romanji": "Dai 21 ka"
+      "ja": "わたしも そう 思います",
+      "romaji": "Watashi mo sou omoimasu",
+      "vi": "Tôi cũng nghĩ như vậy (Ý kiến & Trích dẫn)"
     },
     "description": {
-      "vi": "Nội dung bài 21",
-      "en": "Lesson 21 content",
-      "ja": "第 21 課の内容"
+      "vi": "Bày tỏ ý kiến cá nhân (～と思います), trích dẫn lời nói (～と言いました) và xác nhận (～でしょう).",
+      "en": "Expressing personal opinion (~to omoimasu), quoting speech (~to iimashita), and confirmation (~deshou).",
+      "ja": "意見（と思います）、引用（と言いました）、確認（でしょう）。"
     },
     "jlptLevel": "N5",
     "chapter": 21,
     "courseId": "minna-1",
-    "vocabCount": 20,
+    "vocabCount": 7,
     "grammarCount": 3,
-    "kanjiCount": 5,
+    "kanjiCount": 4,
     "topics": [
       {
-        "vi": "Chủ đề bài 21",
-        "en": "Topic 21"
+        "vi": "Ý kiến cá nhân",
+        "en": "Personal opinions"
+      },
+      {
+        "vi": "Trích dẫn & Xác nhận",
+        "en": "Quotations & Confirmation"
       }
     ]
   },
@@ -553,24 +633,29 @@
     "id": "lesson-22",
     "number": 22,
     "title": {
-      "ja": "第 22 課",
-      "romanji": "Dai 22 ka"
+      "ja": "どんな アパートが いいですか",
+      "romaji": "Donna apaato ga ii desu ka",
+      "vi": "Chung cư thế nào thì tốt? (Mệnh đề bổ nghĩa)"
     },
     "description": {
-      "vi": "Nội dung bài 22",
-      "en": "Lesson 22 content",
-      "ja": "第 22 課の内容"
+      "vi": "Sử dụng mệnh đề động từ/tính từ thể thông thường để bổ nghĩa cho danh từ (名詞修飾).",
+      "en": "Using verb/adjective plain clauses to modify nouns (Noun modification).",
+      "ja": "名詞修飾（動詞・形容詞で名詞を説明する）。"
     },
     "jlptLevel": "N5",
     "chapter": 22,
     "courseId": "minna-1",
-    "vocabCount": 20,
-    "grammarCount": 3,
-    "kanjiCount": 5,
+    "vocabCount": 6,
+    "grammarCount": 1,
+    "kanjiCount": 2,
     "topics": [
       {
-        "vi": "Chủ đề bài 22",
-        "en": "Topic 22"
+        "vi": "Mệnh đề bổ nghĩa danh từ",
+        "en": "Noun modifying clauses"
+      },
+      {
+        "vi": "Trang phục & Nhà ở",
+        "en": "Clothing & Housing"
       }
     ]
   },
@@ -578,24 +663,29 @@
     "id": "lesson-23",
     "number": 23,
     "title": {
-      "ja": "第 23 課",
-      "romanji": "Dai 23 ka"
+      "ja": "どうやって 行きますか",
+      "romaji": "Douyatte ikimasu ka",
+      "vi": "Đi bằng cách nào? (Thời điểm とき & Điều kiện と)"
     },
     "description": {
-      "vi": "Nội dung bài 23",
-      "en": "Lesson 23 content",
-      "ja": "第 23 課の内容"
+      "vi": "Diễn tả thời điểm thực hiện hành động (～とき) và mối quan hệ điều kiện kết quả tất yếu (～と).",
+      "en": "Expressing time of action (toki) and natural conditional result (to).",
+      "ja": "時点（とき）、必然的条件（と）。"
     },
     "jlptLevel": "N5",
     "chapter": 23,
     "courseId": "minna-1",
-    "vocabCount": 20,
-    "grammarCount": 3,
-    "kanjiCount": 5,
+    "vocabCount": 5,
+    "grammarCount": 2,
+    "kanjiCount": 2,
     "topics": [
       {
-        "vi": "Chủ đề bài 23",
-        "en": "Topic 23"
+        "vi": "Thời điểm (とき)",
+        "en": "Time points (toki)"
+      },
+      {
+        "vi": "Hỏi đường & Trợ từ と",
+        "en": "Directions & Conditional to"
       }
     ]
   },
@@ -603,24 +693,29 @@
     "id": "lesson-24",
     "number": 24,
     "title": {
-      "ja": "第 24 課",
-      "romanji": "Dai 24 ka"
+      "ja": "手伝いに 来てくれました",
+      "romaji": "Tetsudai ni kite kuremashita",
+      "vi": "Đã đến giúp tôi (Cho & Nhận hành động)"
     },
     "description": {
-      "vi": "Nội dung bài 24",
-      "en": "Lesson 24 content",
-      "ja": "第 24 課の内容"
+      "vi": "Diễn tả sự cho và nhận hành động giúp đỡ: Vてあげる, Vてもらいます, Vてくれます.",
+      "en": "Expressing giving and receiving favors: V-te ageru, V-te morau, V-te kureru.",
+      "ja": "行為の授受（てあげる・てもらう・てくれる）。"
     },
     "jlptLevel": "N5",
     "chapter": 24,
     "courseId": "minna-1",
-    "vocabCount": 20,
+    "vocabCount": 4,
     "grammarCount": 3,
-    "kanjiCount": 5,
+    "kanjiCount": 2,
     "topics": [
       {
-        "vi": "Chủ đề bài 24",
-        "en": "Topic 24"
+        "vi": "Cho & Nhận hành động",
+        "en": "Giving & Receiving favors"
+      },
+      {
+        "vi": "Cảm ơn & Sự giúp đỡ",
+        "en": "Gratitude & Assistance"
       }
     ]
   },
@@ -628,24 +723,29 @@
     "id": "lesson-25",
     "number": 25,
     "title": {
-      "ja": "第 25 課",
-      "romanji": "Dai 25 ka"
+      "ja": "いろいろ お世話に なりました",
+      "romaji": "Iroiro osewa ni narimashita",
+      "vi": "Cảm ơn đã giúp đỡ tôi (Điều kiện ～たら & ～ても)"
     },
     "description": {
-      "vi": "Nội dung bài 25",
-      "en": "Lesson 25 content",
-      "ja": "第 25 課の内容"
+      "vi": "Diễn tả điều kiện giả định (～たら) và điều kiện nhượng bộ / cho dù (～ても).",
+      "en": "Expressing hypothetical condition (~tara) and concession / even if (~temo).",
+      "ja": "仮定条件（たら）、逆説条件（ても）。"
     },
     "jlptLevel": "N5",
     "chapter": 25,
     "courseId": "minna-1",
-    "vocabCount": 20,
-    "grammarCount": 3,
-    "kanjiCount": 5,
+    "vocabCount": 5,
+    "grammarCount": 2,
+    "kanjiCount": 2,
     "topics": [
       {
-        "vi": "Chủ đề bài 25",
-        "en": "Topic 25"
+        "vi": "Điều kiện giả định (たら)",
+        "en": "Hypothetical condition (tara)"
+      },
+      {
+        "vi": "Cho dù (ても) & Chào tạm biệt",
+        "en": "Even if (temo) & Farewells"
       }
     ]
   }

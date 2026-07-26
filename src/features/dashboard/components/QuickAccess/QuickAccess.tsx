@@ -1,8 +1,14 @@
 import { FC } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
-import { Card, CardHeader, Body1, Title3 } from '@fluentui/react-components';
-import { Book24Regular, Board24Regular, Flash24Regular, ContactCard24Regular } from '@fluentui/react-icons';
+import { Card, Text, Title3 } from '@fluentui/react-components';
+import { 
+  Book24Regular, 
+  Board24Regular, 
+  Flash24Regular, 
+  ContactCard24Regular,
+  QuizNew24Regular
+} from '@fluentui/react-icons';
 import styles from './QuickAccess.module.scss';
 
 export const QuickAccess: FC = () => {
@@ -46,13 +52,22 @@ export const QuickAccess: FC = () => {
       icon: <Flash24Regular />,
       color: 'var(--colorPaletteBerryForeground1)',
       bg: 'var(--colorPaletteBerryBackground2)',
-      path: '/vocabulary' // Temp fallback
+      path: '/flashcards'
+    },
+    {
+      id: 'quiz',
+      title: t('quick_access.quiz.title'),
+      desc: t('quick_access.quiz.desc'),
+      icon: <QuizNew24Regular />,
+      color: 'var(--colorPalettePurpleForeground1)',
+      bg: 'var(--colorPalettePurpleBackground2)',
+      path: '/quiz'
     }
   ];
 
   return (
     <div className={styles.root}>
-      <Title3 style={{ marginBottom: '16px', display: 'block' }}>{t('quick_access.title')}</Title3>
+      <Title3 className={styles.heading}>{t('quick_access.title')}</Title3>
       <div className={styles.grid}>
         {items.map(item => (
           <Card
@@ -61,13 +76,13 @@ export const QuickAccess: FC = () => {
             onClick={() => navigate(item.path)}
             orientation="horizontal"
           >
-            <div className={styles.preview} style={{ backgroundColor: item.bg, color: item.color }}>
+            <div className={styles.iconContainer} style={{ backgroundColor: item.bg, color: item.color }}>
               {item.icon}
             </div>
-            <CardHeader
-              header={<b>{item.title}</b>}
-              description={<Body1 className={styles.desc}>{item.desc}</Body1>}
-            />
+            <div className={styles.textContainer}>
+              <Text className={styles.title}>{item.title}</Text>
+              <Text className={styles.desc}>{item.desc}</Text>
+            </div>
           </Card>
         ))}
       </div>

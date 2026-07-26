@@ -2,44 +2,70 @@
 @use '@styles/mixins' as *;
 
 .root {
-  margin-top: $spacing-xl;
+  margin-top: $spacing-lg;
+}
+
+.heading {
+  margin-bottom: $spacing-md;
+  display: block;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: $spacing-md;
-
-  @include respond-to('md') {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 .card {
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  padding: $spacing-md;
+  display: flex;
+  align-items: center;
+  gap: $spacing-md;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 
   &:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: var(--shadow4);
+    border-color: var(--colorBrandStroke1);
   }
 }
 
-.preview {
-  height: 100%;
+.iconContainer {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 4px 8px;
-  border-radius: 8px;
-  
-  // Note: CardPreview will wrap this content, so we ensure the svg inherits color
+  flex-shrink: 0;
+
   svg {
-    font-size: $font-size-2xl;
+    font-size: 24px;
+    display: flex;
   }
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  overflow: hidden;
+}
+
+.title {
+  font-weight: 600;
+  font-size: $font-size-md;
+  color: var(--colorNeutralForeground1);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .desc {
   color: var(--colorNeutralForeground2);
   font-size: $font-size-sm;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
