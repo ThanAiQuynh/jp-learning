@@ -1,117 +1,34 @@
 [
-  {
-    "id": "v-12-001",
-    "lessonId": "lesson-12",
-    "kanji": "単語1",
-    "hiragana": "たんご1",
-    "romaji": "tango1",
-    "meaning": {
-      "vi": "Từ vựng 1 (Bài 12)",
-      "en": "Vocab 1 (Lesson 12)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語1です。",
-        "reading": "これはたんご1です。",
-        "translation": {
-          "vi": "Đây là từ vựng 1.",
-          "en": "This is vocab 1."
-        }
-      }
-    ]
-  },
-  {
-    "id": "v-12-002",
-    "lessonId": "lesson-12",
-    "kanji": "単語2",
-    "hiragana": "たんご2",
-    "romaji": "tango2",
-    "meaning": {
-      "vi": "Từ vựng 2 (Bài 12)",
-      "en": "Vocab 2 (Lesson 12)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語2です。",
-        "reading": "これはたんご2です。",
-        "translation": {
-          "vi": "Đây là từ vựng 2.",
-          "en": "This is vocab 2."
-        }
-      }
-    ]
-  },
-  {
-    "id": "v-12-003",
-    "lessonId": "lesson-12",
-    "kanji": "単語3",
-    "hiragana": "たんご3",
-    "romaji": "tango3",
-    "meaning": {
-      "vi": "Từ vựng 3 (Bài 12)",
-      "en": "Vocab 3 (Lesson 12)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語3です。",
-        "reading": "これはたんご3です。",
-        "translation": {
-          "vi": "Đây là từ vựng 3.",
-          "en": "This is vocab 3."
-        }
-      }
-    ]
-  },
-  {
-    "id": "v-12-004",
-    "lessonId": "lesson-12",
-    "kanji": "単語4",
-    "hiragana": "たんご4",
-    "romaji": "tango4",
-    "meaning": {
-      "vi": "Từ vựng 4 (Bài 12)",
-      "en": "Vocab 4 (Lesson 12)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語4です。",
-        "reading": "これはたんご4です。",
-        "translation": {
-          "vi": "Đây là từ vựng 4.",
-          "en": "This is vocab 4."
-        }
-      }
-    ]
-  },
-  {
-    "id": "v-12-005",
-    "lessonId": "lesson-12",
-    "kanji": "単語5",
-    "hiragana": "たんご5",
-    "romaji": "tango5",
-    "meaning": {
-      "vi": "Từ vựng 5 (Bài 12)",
-      "en": "Vocab 5 (Lesson 12)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語5です。",
-        "reading": "これはたんご5です。",
-        "translation": {
-          "vi": "Đây là từ vựng 5.",
-          "en": "This is vocab 5."
-        }
-      }
-    ]
-  }
+  { "id": "v-12-001", "lessonId": "lesson-12", "kanji": "簡単[な]", "hiragana": "かんたん[な]", "romaji": "kantan [na]", "meaning": { "vi": "Đơn giản", "en": "Simple, easy" }, "wordType": "na-adjective", "jlptLevel": "N5" },
+  { "id": "v-12-002", "lessonId": "lesson-12", "kanji": "近い", "hiragana": "ちかい", "romaji": "chikai", "meaning": { "vi": "Gần", "en": "Near" }, "wordType": "i-adjective", "jlptLevel": "N5" },
+  { "id": "v-12-003", "lessonId": "lesson-12", "kanji": "遠い", "hiragana": "とおい", "romaji": "tooi", "meaning": { "vi": "Xa", "en": "Far" }, "wordType": "i-adjective", "jlptLevel": "N5" },
+  { "id": "v-12-004", "lessonId": "lesson-12", "kanji": "早い", "hiragana": "はやい", "romaji": "hayai", "meaning": { "vi": "Nhanh, sớm", "en": "Fast, early" }, "wordType": "i-adjective", "jlptLevel": "N5" },
+  { "id": "v-12-005", "lessonId": "lesson-12", "kanji": "遅い", "hiragana": "おそい", "romaji": "osoi", "meaning": { "vi": "Chậm, muộn", "en": "Slow, late" }, "wordType": "i-adjective", "jlptLevel": "N5" },
+  { "id": "v-12-006", "lessonId": "lesson-12", "kanji": "多い", "hiragana": "おおい", "romaji": "ooi", "meaning": { "vi": "Nhiều", "en": "Many" }, "wordType": "i-adjective", "jlptLevel": "N5" },
+  { "id": "v-12-007", "lessonId": "lesson-12", "kanji": "少ない", "hiragana": "すくない", "romaji": "sukunai", "meaning": { "vi": "Ít", "en": "Few" }, "wordType": "i-adjective", "jlptLevel": "N5" },
+  { "id": "v-12-008", "lessonId": "lesson-12", "kanji": "暖かい", "hiragana": "あたたかい", "romaji": "atatakai", "meaning": { "vi": "Ấm áp", "en": "Warm" }, "wordType": "i-adjective", "jlptLevel": "N5" },
+  { "id": "v-12-009", "lessonId": "lesson-12", "kanji": "涼しい", "hiragana": "すずしい", "romaji": "suzushii", "meaning": { "vi": "Mát mẻ", "en": "Cool" }, "wordType": "i-adjective", "jlptLevel": "N5" },
+  { "id": "v-12-010", "lessonId": "lesson-12", "kanji": "甘い", "hiragana": "あまい", "romaji": "amai", "meaning": { "vi": "Ngọt", "en": "Sweet" }, "wordType": "i-adjective", "jlptLevel": "N5" },
+  { "id": "v-12-011", "lessonId": "lesson-12", "kanji": "辛い", "hiragana": "からい", "romaji": "karai", "meaning": { "vi": "Cay", "en": "Spicy" }, "wordType": "i-adjective", "jlptLevel": "N5" },
+  { "id": "v-12-012", "lessonId": "lesson-12", "kanji": "重い", "hiragana": "おもい", "romaji": "omoi", "meaning": { "vi": "Nặng", "en": "Heavy" }, "wordType": "i-adjective", "jlptLevel": "N5" },
+  { "id": "v-12-013", "lessonId": "lesson-12", "kanji": "軽い", "hiragana": "かるい", "romaji": "karui", "meaning": { "vi": "Nhẹ", "en": "Light (weight)" }, "wordType": "i-adjective", "jlptLevel": "N5" },
+  { "id": "v-12-014", "lessonId": "lesson-12", "kanji": "季節", "hiragana": "きせつ", "romaji": "kisetsu", "meaning": { "vi": "Mùa", "en": "Season" }, "wordType": "noun", "jlptLevel": "N4" },
+  { "id": "v-12-015", "lessonId": "lesson-12", "kanji": "春", "hiragana": "はる", "romaji": "haru", "meaning": { "vi": "Mùa xuân", "en": "Spring" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-12-016", "lessonId": "lesson-12", "kanji": "夏", "hiragana": "なつ", "romaji": "natsu", "meaning": { "vi": "Mùa hè", "en": "Summer" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-12-017", "lessonId": "lesson-12", "kanji": "秋", "hiragana": "あき", "romaji": "aki", "meaning": { "vi": "Mùa thu", "en": "Autumn" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-12-018", "lessonId": "lesson-12", "kanji": "冬", "hiragana": "ふゆ", "romaji": "fuyu", "meaning": { "vi": "Mùa đông", "en": "Winter" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-12-019", "lessonId": "lesson-12", "kanji": "天気", "hiragana": "てんき", "romaji": "tenki", "meaning": { "vi": "Thời tiết", "en": "Weather" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-12-020", "lessonId": "lesson-12", "kanji": "雨", "hiragana": "あめ", "romaji": "ame", "meaning": { "vi": "Mưa", "en": "Rain" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-12-021", "lessonId": "lesson-12", "kanji": "雪", "hiragana": "ゆき", "romaji": "yuki", "meaning": { "vi": "Tuyết", "en": "Snow" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-12-022", "lessonId": "lesson-12", "kanji": "曇り", "hiragana": "くもり", "romaji": "kumori", "meaning": { "vi": "Mây, trời u ám", "en": "Cloudy" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-12-023", "lessonId": "lesson-12", "kanji": "旅行", "hiragana": "りょこう", "romaji": "ryokou", "meaning": { "vi": "Du lịch", "en": "Travel" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-12-024", "lessonId": "lesson-12", "kanji": "お祭り", "hiragana": "おまつり", "romaji": "omatsuri", "meaning": { "vi": "Lễ hội", "en": "Festival" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-12-025", "lessonId": "lesson-12", "kanji": "海", "hiragana": "うみ", "romaji": "umi", "meaning": { "vi": "Biển", "en": "Sea, ocean" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-12-026", "lessonId": "lesson-12", "kanji": "", "hiragana": "一番", "romaji": "ichiban", "meaning": { "vi": "Nhất, số một", "en": "Number one, most" }, "wordType": "adverb", "jlptLevel": "N5" },
+  { "id": "v-12-027", "lessonId": "lesson-12", "kanji": "", "hiragana": "ずっと", "romaji": "zutto", "meaning": { "vi": "~ hơn nhiều", "en": "By far, much more" }, "wordType": "adverb", "jlptLevel": "N4" },
+  { "id": "v-12-028", "lessonId": "lesson-12", "kanji": "", "hiragana": "どちら", "romaji": "dochira", "meaning": { "vi": "Cái nào (trong hai)", "en": "Which (of two)" }, "wordType": "pronoun", "jlptLevel": "N5" },
+  { "id": "v-12-029", "lessonId": "lesson-12", "kanji": "", "hiragana": "どちらも", "romaji": "dochira mo", "meaning": { "vi": "Cả hai", "en": "Both" }, "wordType": "pronoun", "jlptLevel": "N5" },
+  { "id": "v-12-030", "lessonId": "lesson-12", "kanji": "", "hiragana": "〜より", "romaji": "~yori", "meaning": { "vi": "Hơn ~", "en": "Than ~" }, "wordType": "particle", "jlptLevel": "N5" },
+  { "id": "v-12-031", "lessonId": "lesson-12", "kanji": "", "hiragana": "〜のほうが", "romaji": "~no hou ga", "meaning": { "vi": "~ (cái kia) thì hơn", "en": "~ is more (comparative)" }, "wordType": "expression", "jlptLevel": "N5" },
+  { "id": "v-12-032", "lessonId": "lesson-12", "kanji": "", "hiragana": "ホテル", "romaji": "hoteru", "meaning": { "vi": "Khách sạn", "en": "Hotel" }, "wordType": "noun", "jlptLevel": "N5" }
 ]

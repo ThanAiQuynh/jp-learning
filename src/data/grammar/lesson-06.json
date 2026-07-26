@@ -2,35 +2,44 @@
   {
     "id": "g-06-001",
     "lessonId": "lesson-06",
-    "pattern": "〜文法1",
-    "patternKana": "〜ぶんぽう1",
+    "pattern": "N を V(ます)",
+    "patternKana": "N を V(ます)",
     "title": {
-      "vi": "Ngữ pháp 1 (Bài 6)",
-      "en": "Grammar 1 (Lesson 6)"
+      "vi": "Làm V cái N (trợ từ chỉ tân ngữ)",
+      "en": "V N (object marker particle)",
+      "ja": "名詞 を 動詞(ます)"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 1 bài 6",
-      "en": "Explanation for grammar 1 lesson 6"
+      "vi": "Trợ từ を (đọc là o) đánh dấu tân ngữ (đối tượng) của ngoại động từ. Danh từ đứng trước を là đối tượng bị tác động bởi hành động.",
+      "en": "The particle を (pronounced o) marks the direct object of a transitive verb. The noun before を is the object affected by the action.",
+      "ja": "助詞「を」は他動詞の直接目的語を示します。「を」の前の名詞が動作の対象です。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Chỉ đối tượng của hành động.",
+      "en": "Indicating the object of an action.",
+      "ja": "動作の対象を示す。"
     },
     "formation": [
-      "N + 文法"
+      "N + を + V(ます)"
     ],
     "examples": [
       {
-        "ja": "私は文法1を勉強します。",
-        "reading": "わたしはぶんぽう1をべんきょうします。",
+        "ja": "ジュースを 飲みます。",
+        "reading": "ジュースを のみます。",
         "translation": {
-          "vi": "Tôi học ngữ pháp 1.",
-          "en": "I study grammar 1."
+          "vi": "Tôi uống nước trái cây.",
+          "en": "I drink juice."
         },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
+        "highlightRange": { "start": 4, "end": 5 }
+      },
+      {
+        "ja": "朝 パンを 食べます。",
+        "reading": "あさ パンを たべます。",
+        "translation": {
+          "vi": "Buổi sáng tôi ăn bánh mì.",
+          "en": "I eat bread in the morning."
+        },
+        "highlightRange": { "start": 4, "end": 5 }
       }
     ],
     "jlptLevel": "N5"
@@ -38,35 +47,44 @@
   {
     "id": "g-06-002",
     "lessonId": "lesson-06",
-    "pattern": "〜文法2",
-    "patternKana": "〜ぶんぽう2",
+    "pattern": "N を します",
+    "patternKana": "N を します",
     "title": {
-      "vi": "Ngữ pháp 2 (Bài 6)",
-      "en": "Grammar 2 (Lesson 6)"
+      "vi": "Làm N (hoạt động)",
+      "en": "Do N (activity)",
+      "ja": "名詞 を します"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 2 bài 6",
-      "en": "Explanation for grammar 2 lesson 6"
+      "vi": "します dùng với danh từ chỉ hoạt động để diễn tả 'làm/chơi/thực hiện' một hoạt động nào đó. Ví dụ: サッカーをします (chơi bóng đá), 宿題をします (làm bài tập).",
+      "en": "します is used with activity nouns to express 'do/play/perform' an activity. For example: サッカーをします (play soccer), 宿題をします (do homework).",
+      "ja": "「します」は活動を表す名詞と一緒に使い、その活動を行うことを表します。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Nói về việc thực hiện một hoạt động.",
+      "en": "Talking about doing an activity.",
+      "ja": "活動を行うことを述べる。"
     },
     "formation": [
-      "N + 文法"
+      "N(活動) + を + します"
     ],
     "examples": [
       {
-        "ja": "私は文法2を勉強します。",
-        "reading": "わたしはぶんぽう2をべんきょうします。",
+        "ja": "サッカーを します。",
+        "reading": "サッカーを します。",
         "translation": {
-          "vi": "Tôi học ngữ pháp 2.",
-          "en": "I study grammar 2."
+          "vi": "Tôi chơi bóng đá.",
+          "en": "I play soccer."
         },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
+        "highlightRange": { "start": 4, "end": 7 }
+      },
+      {
+        "ja": "宿題を します。",
+        "reading": "しゅくだいを します。",
+        "translation": {
+          "vi": "Tôi làm bài tập.",
+          "en": "I do homework."
+        },
+        "highlightRange": { "start": 3, "end": 6 }
       }
     ],
     "jlptLevel": "N5"
@@ -74,35 +92,134 @@
   {
     "id": "g-06-003",
     "lessonId": "lesson-06",
-    "pattern": "〜文法3",
-    "patternKana": "〜ぶんぽう3",
+    "pattern": "N (場所) で V",
+    "patternKana": "N (ばしょ) で V",
     "title": {
-      "vi": "Ngữ pháp 3 (Bài 6)",
-      "en": "Grammar 3 (Lesson 6)"
+      "vi": "Làm V ở N (nơi chốn)",
+      "en": "Do V at N (place)",
+      "ja": "名詞(場所) で 動詞"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 3 bài 6",
-      "en": "Explanation for grammar 3 lesson 6"
+      "vi": "Trợ từ で đánh dấu nơi chốn xảy ra hành động. Khác với に (chỉ nơi tồn tại), で chỉ nơi thực hiện hành động.",
+      "en": "The particle で marks the place where an action takes place. Unlike に (which marks location of existence), で marks where an action is performed.",
+      "ja": "助詞「で」は動作が行われる場所を示します。存在の場所を示す「に」とは異なります。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Chỉ nơi xảy ra hành động.",
+      "en": "Indicating where an action takes place.",
+      "ja": "動作が行われる場所を示す。"
     },
     "formation": [
-      "N + 文法"
+      "N(場所) + で + V(ます)"
     ],
     "examples": [
       {
-        "ja": "私は文法3を勉強します。",
-        "reading": "わたしはぶんぽう3をべんきょうします。",
+        "ja": "駅で 新聞を 買います。",
+        "reading": "えきで しんぶんを かいます。",
         "translation": {
-          "vi": "Tôi học ngữ pháp 3.",
-          "en": "I study grammar 3."
+          "vi": "Tôi mua báo ở ga.",
+          "en": "I buy a newspaper at the station."
         },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
+        "highlightRange": { "start": 1, "end": 2 }
+      },
+      {
+        "ja": "レストランで 晩ごはんを 食べます。",
+        "reading": "レストランで ばんごはんを たべます。",
+        "translation": {
+          "vi": "Tôi ăn cơm tối ở nhà hàng.",
+          "en": "I eat dinner at a restaurant."
+        },
+        "highlightRange": { "start": 5, "end": 6 }
+      }
+    ],
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "g-06-004",
+    "lessonId": "lesson-06",
+    "pattern": "V ませんか",
+    "patternKana": "V ませんか",
+    "title": {
+      "vi": "Bạn có muốn làm V không? (mời rủ)",
+      "en": "Won't you V? (invitation)",
+      "ja": "動詞 ませんか"
+    },
+    "explanation": {
+      "vi": "Vませんか dùng để mời, rủ ai đó làm gì. Mang sắc thái lịch sự hơn ましょう. Thường dùng khi muốn mời người nghe tham gia một hoạt động.",
+      "en": "Vませんか is used to invite someone to do something. It is more polite than ましょう. It is often used when inviting the listener to join an activity.",
+      "ja": "「Vませんか」は相手を誘うときに使います。「ましょう」より丁寧なニュアンスがあります。"
+    },
+    "usage": {
+      "vi": "Mời, rủ ai đó.",
+      "en": "Inviting someone.",
+      "ja": "相手を誘う。"
+    },
+    "formation": [
+      "V(ます form bỏ ます) + ませんか"
+    ],
+    "examples": [
+      {
+        "ja": "いっしょに 映画を 見ませんか。",
+        "reading": "いっしょに えいがを みませんか。",
+        "translation": {
+          "vi": "Bạn có muốn cùng xem phim không?",
+          "en": "Won't you watch a movie together?"
+        },
+        "highlightRange": { "start": 10, "end": 14 }
+      },
+      {
+        "ja": "ちょっと 休みませんか。",
+        "reading": "ちょっと やすみませんか。",
+        "translation": {
+          "vi": "Nghỉ một chút không?",
+          "en": "Shall we take a break?"
+        },
+        "highlightRange": { "start": 5, "end": 11 }
+      }
+    ],
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "g-06-005",
+    "lessonId": "lesson-06",
+    "pattern": "V ましょう",
+    "patternKana": "V ましょう",
+    "title": {
+      "vi": "Hãy cùng làm V (đề nghị)",
+      "en": "Let's V (suggestion)",
+      "ja": "動詞 ましょう"
+    },
+    "explanation": {
+      "vi": "Vましょう dùng để đề nghị cùng làm gì đó, hoặc đáp lại lời mời của người khác. Khi ai đó nói Vませんか, bạn có thể trả lời ええ、Vましょう.",
+      "en": "Vましょう is used to suggest doing something together, or to accept an invitation. When someone says Vませんか, you can respond with ええ、Vましょう.",
+      "ja": "「Vましょう」は一緒に何かをすることを提案するとき、または誘いを受け入れるときに使います。"
+    },
+    "usage": {
+      "vi": "Đề nghị cùng làm gì đó.",
+      "en": "Suggesting doing something together.",
+      "ja": "一緒に何かをすることを提案する。"
+    },
+    "formation": [
+      "V(ます form bỏ ます) + ましょう"
+    ],
+    "examples": [
+      {
+        "ja": "ちょっと 休みましょう。",
+        "reading": "ちょっと やすみましょう。",
+        "translation": {
+          "vi": "Hãy nghỉ một chút.",
+          "en": "Let's take a break."
+        },
+        "highlightRange": { "start": 5, "end": 10 }
+      },
+      {
+        "ja": "いっしょに 昼ごはんを 食べましょう。",
+        "reading": "いっしょに ひるごはんを たべましょう。",
+        "translation": {
+          "vi": "Hãy cùng ăn trưa.",
+          "en": "Let's eat lunch together."
+        },
+        "highlightRange": { "start": 13, "end": 19 }
       }
     ],
     "jlptLevel": "N5"

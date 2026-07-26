@@ -1,109 +1,48 @@
 [
   {
-    "id": "g-12-001",
-    "lessonId": "lesson-12",
-    "pattern": "〜文法1",
-    "patternKana": "〜ぶんぽう1",
-    "title": {
-      "vi": "Ngữ pháp 1 (Bài 12)",
-      "en": "Grammar 1 (Lesson 12)"
-    },
-    "explanation": {
-      "vi": "Giải thích ngữ pháp 1 bài 12",
-      "en": "Explanation for grammar 1 lesson 12"
-    },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
-    "examples": [
-      {
-        "ja": "私は文法1を勉強します。",
-        "reading": "わたしはぶんぽう1をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 1.",
-          "en": "I study grammar 1."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
-      }
-    ],
+    "id": "g-12-001", "lessonId": "lesson-12",
+    "pattern": "N1 は N2 より adj です",
+    "patternKana": "N1 は N2 より adj です",
+    "title": { "vi": "N1 thì adj hơn N2", "en": "N1 is more adj than N2", "ja": "N1はN2より形容詞です" },
+    "explanation": { "vi": "Dùng để so sánh hai đối tượng. N1 là đối tượng 'hơn'. より nghĩa là 'hơn'.", "en": "Used to compare two things. N1 is the 'more' item. より means 'than'.", "ja": "2つのものを比較するときに使います。" },
+    "usage": { "vi": "So sánh hơn.", "en": "Comparative.", "ja": "比較する。" },
+    "formation": ["N1 + は + N2 + より + adj + です"],
+    "examples": [{ "ja": "日本は ベトナムより 小さいです。", "reading": "にほんは ベトナムより ちいさいです。", "translation": { "vi": "Nhật nhỏ hơn Việt Nam.", "en": "Japan is smaller than Vietnam." }, "highlightRange": { "start": 7, "end": 10 } }],
     "jlptLevel": "N5"
   },
   {
-    "id": "g-12-002",
-    "lessonId": "lesson-12",
-    "pattern": "〜文法2",
-    "patternKana": "〜ぶんぽう2",
-    "title": {
-      "vi": "Ngữ pháp 2 (Bài 12)",
-      "en": "Grammar 2 (Lesson 12)"
-    },
-    "explanation": {
-      "vi": "Giải thích ngữ pháp 2 bài 12",
-      "en": "Explanation for grammar 2 lesson 12"
-    },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
-    "examples": [
-      {
-        "ja": "私は文法2を勉強します。",
-        "reading": "わたしはぶんぽう2をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 2.",
-          "en": "I study grammar 2."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
-      }
-    ],
+    "id": "g-12-002", "lessonId": "lesson-12",
+    "pattern": "N1 と N2 と どちらが adj ですか",
+    "patternKana": "N1 と N2 と どちらが adj ですか",
+    "title": { "vi": "N1 và N2, cái nào adj hơn?", "en": "Which is more adj, N1 or N2?", "ja": "N1とN2とどちらが形容詞ですか" },
+    "explanation": { "vi": "Dùng để hỏi so sánh giữa hai đối tượng. Trả lời: N1のほうが adj です (N1 adj hơn). Nếu bằng nhau: どちらも adj です.", "en": "Used to ask for comparison between two items. Answer: N1のほうが adj です. If equal: どちらも adj です.", "ja": "2つのものを比較して尋ねるときに使います。" },
+    "usage": { "vi": "Hỏi so sánh.", "en": "Asking for comparison.", "ja": "比較を尋ねる。" },
+    "formation": ["N1 + と + N2 + と + どちらが + adj + ですか", "N1 + のほうが + adj + です"],
+    "examples": [{ "ja": "海と 山と どちらが 好きですか。 …海の ほうが 好きです。", "reading": "うみと やまと どちらが すきですか。 …うみの ほうが すきです。", "translation": { "vi": "Biển và núi, bạn thích cái nào hơn? …Tôi thích biển hơn.", "en": "Which do you like more, the sea or the mountains? …I like the sea more." }, "highlightRange": { "start": 6, "end": 10 } }],
     "jlptLevel": "N5"
   },
   {
-    "id": "g-12-003",
-    "lessonId": "lesson-12",
-    "pattern": "〜文法3",
-    "patternKana": "〜ぶんぽう3",
-    "title": {
-      "vi": "Ngữ pháp 3 (Bài 12)",
-      "en": "Grammar 3 (Lesson 12)"
-    },
-    "explanation": {
-      "vi": "Giải thích ngữ pháp 3 bài 12",
-      "en": "Explanation for grammar 3 lesson 12"
-    },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
+    "id": "g-12-003", "lessonId": "lesson-12",
+    "pattern": "N (の中) で 何/どこ/だれが 一番 adj ですか",
+    "patternKana": "N で なに/どこ/だれが いちばん adj ですか",
+    "title": { "vi": "Trong N, cái gì/đâu/ai adj nhất?", "en": "What/Where/Who is the most adj in N?", "ja": "Nの中で何/どこ/だれが一番形容詞ですか" },
+    "explanation": { "vi": "Dùng để hỏi so sánh nhất (trong nhóm 3+ đối tượng). 一番 = nhất. Trả lời: N が一番 adj です.", "en": "Used to ask for superlative (among 3+ items). 一番 = most. Answer: N が一番 adj です.", "ja": "3つ以上の中で最も～なものを尋ねるときに使います。一番＝もっとも。" },
+    "usage": { "vi": "So sánh nhất.", "en": "Superlative.", "ja": "最上級。" },
+    "formation": ["N(の中)で + 何/どこ/だれが + 一番 + adj + ですか"],
+    "examples": [{ "ja": "季節の中で いつが 一番 好きですか。 …春が 一番 好きです。", "reading": "きせつのなかで いつが いちばん すきですか。 …はるが いちばん すきです。", "translation": { "vi": "Trong các mùa, bạn thích mùa nào nhất? …Tôi thích mùa xuân nhất.", "en": "Which season do you like the most? …I like spring the most." }, "highlightRange": { "start": 8, "end": 11 } }],
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "g-12-004", "lessonId": "lesson-12",
+    "pattern": "adj (過去形)",
+    "patternKana": "adj (かこけい)",
+    "title": { "vi": "Tính từ thể quá khứ", "en": "Past tense adjectives", "ja": "形容詞の過去形" },
+    "explanation": { "vi": "い-adj quá khứ: bỏ い → かったです (phủ: くなかったです). な-adj quá khứ: でした (phủ: じゃ ありませんでした). いい → よかったです.", "en": "い-adj past: drop い → かったです (neg: くなかったです). な-adj past: でした (neg: じゃ ありませんでした). いい → よかったです.", "ja": "い形容詞の過去：い→かったです。な形容詞の過去：でした。" },
+    "usage": { "vi": "Mô tả quá khứ.", "en": "Describing the past.", "ja": "過去の状態を述べる。" },
+    "formation": ["い-adj(bỏ い) + かったです", "な-adj + でした"],
     "examples": [
-      {
-        "ja": "私は文法3を勉強します。",
-        "reading": "わたしはぶんぽう3をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 3.",
-          "en": "I study grammar 3."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
-      }
+      { "ja": "旅行は 楽しかったです。", "reading": "りょこうは たのしかったです。", "translation": { "vi": "Chuyến du lịch vui.", "en": "The trip was fun." }, "highlightRange": { "start": 5, "end": 10 } },
+      { "ja": "ホテルは きれいでした。", "reading": "ホテルは きれいでした。", "translation": { "vi": "Khách sạn đẹp.", "en": "The hotel was clean/beautiful." }, "highlightRange": { "start": 5, "end": 9 } }
     ],
     "jlptLevel": "N5"
   }

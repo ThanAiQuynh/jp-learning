@@ -2,116 +2,378 @@
   {
     "id": "v-16-001",
     "lessonId": "lesson-16",
-    "kanji": "単語1",
-    "hiragana": "たんご1",
-    "romaji": "tango1",
+    "kanji": "乗ります",
+    "hiragana": "のります",
+    "romaji": "16001",
     "meaning": {
-      "vi": "Từ vựng 1 (Bài 16)",
-      "en": "Vocab 1 (Lesson 16)"
+      "vi": "Lên (xe)",
+      "en": "Ride, get on"
     },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語1です。",
-        "reading": "これはたんご1です。",
-        "translation": {
-          "vi": "Đây là từ vựng 1.",
-          "en": "This is vocab 1."
-        }
-      }
-    ]
+    "wordType": "verb",
+    "jlptLevel": "N5"
   },
   {
     "id": "v-16-002",
     "lessonId": "lesson-16",
-    "kanji": "単語2",
-    "hiragana": "たんご2",
-    "romaji": "tango2",
+    "kanji": "洗います",
+    "hiragana": "あらいます",
+    "romaji": "16002",
     "meaning": {
-      "vi": "Từ vựng 2 (Bài 16)",
-      "en": "Vocab 2 (Lesson 16)"
+      "vi": "Rửa, giặt",
+      "en": "Wash"
     },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語2です。",
-        "reading": "これはたんご2です。",
-        "translation": {
-          "vi": "Đây là từ vựng 2.",
-          "en": "This is vocab 2."
-        }
-      }
-    ]
+    "wordType": "verb",
+    "jlptLevel": "N5"
   },
   {
     "id": "v-16-003",
     "lessonId": "lesson-16",
-    "kanji": "単語3",
-    "hiragana": "たんご3",
-    "romaji": "tango3",
+    "kanji": "遊びます",
+    "hiragana": "あそびます",
+    "romaji": "16003",
     "meaning": {
-      "vi": "Từ vựng 3 (Bài 16)",
-      "en": "Vocab 3 (Lesson 16)"
+      "vi": "Chơi",
+      "en": "Play"
     },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語3です。",
-        "reading": "これはたんご3です。",
-        "translation": {
-          "vi": "Đây là từ vựng 3.",
-          "en": "This is vocab 3."
-        }
-      }
-    ]
+    "wordType": "verb",
+    "jlptLevel": "N5"
   },
   {
     "id": "v-16-004",
     "lessonId": "lesson-16",
-    "kanji": "単語4",
-    "hiragana": "たんご4",
-    "romaji": "tango4",
+    "kanji": "働きます",
+    "hiragana": "はたらきます",
+    "romaji": "16004",
     "meaning": {
-      "vi": "Từ vựng 4 (Bài 16)",
-      "en": "Vocab 4 (Lesson 16)"
+      "vi": "Làm việc",
+      "en": "Work"
     },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語4です。",
-        "reading": "これはたんご4です。",
-        "translation": {
-          "vi": "Đây là từ vựng 4.",
-          "en": "This is vocab 4."
-        }
-      }
-    ]
+    "wordType": "verb",
+    "jlptLevel": "N5"
   },
   {
     "id": "v-16-005",
     "lessonId": "lesson-16",
-    "kanji": "単語5",
-    "hiragana": "たんご5",
-    "romaji": "tango5",
+    "kanji": "歩きます",
+    "hiragana": "あるきます",
+    "romaji": "16005",
     "meaning": {
-      "vi": "Từ vựng 5 (Bài 16)",
-      "en": "Vocab 5 (Lesson 16)"
+      "vi": "Đi bộ",
+      "en": "Walk"
+    },
+    "wordType": "verb",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-16-006",
+    "lessonId": "lesson-16",
+    "kanji": "渡ります",
+    "hiragana": "わたります",
+    "romaji": "16006",
+    "meaning": {
+      "vi": "Băng qua",
+      "en": "Cross"
+    },
+    "wordType": "verb",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-16-007",
+    "lessonId": "lesson-16",
+    "kanji": "押します",
+    "hiragana": "おします",
+    "romaji": "16007",
+    "meaning": {
+      "vi": "Nhấn, đẩy",
+      "en": "Push, press"
+    },
+    "wordType": "verb",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-16-008",
+    "lessonId": "lesson-16",
+    "kanji": "引きます",
+    "hiragana": "ひきます",
+    "romaji": "16008",
+    "meaning": {
+      "vi": "Kéo",
+      "en": "Pull"
+    },
+    "wordType": "verb",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-16-009",
+    "lessonId": "lesson-16",
+    "kanji": "変えます",
+    "hiragana": "かえます",
+    "romaji": "16009",
+    "meaning": {
+      "vi": "Đổi, thay đổi",
+      "en": "Change"
+    },
+    "wordType": "verb",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-16-010",
+    "lessonId": "lesson-16",
+    "kanji": "浴びます",
+    "hiragana": "あびます",
+    "romaji": "16010",
+    "meaning": {
+      "vi": "Tắm (vòi sen)",
+      "en": "Take a shower"
+    },
+    "wordType": "verb",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-16-011",
+    "lessonId": "lesson-16",
+    "kanji": "入れます",
+    "hiragana": "いれます",
+    "romaji": "16011",
+    "meaning": {
+      "vi": "Cho vào",
+      "en": "Put in"
+    },
+    "wordType": "verb",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-16-012",
+    "lessonId": "lesson-16",
+    "kanji": "出します",
+    "hiragana": "だします",
+    "romaji": "16012",
+    "meaning": {
+      "vi": "Lấy ra, nộp",
+      "en": "Take out, submit"
+    },
+    "wordType": "verb",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-16-013",
+    "lessonId": "lesson-16",
+    "kanji": "体",
+    "hiragana": "からだ",
+    "romaji": "16013",
+    "meaning": {
+      "vi": "Cơ thể",
+      "en": "Body"
     },
     "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語5です。",
-        "reading": "これはたんご5です。",
-        "translation": {
-          "vi": "Đây là từ vựng 5.",
-          "en": "This is vocab 5."
-        }
-      }
-    ]
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-16-014",
+    "lessonId": "lesson-16",
+    "kanji": "頭",
+    "hiragana": "あたま",
+    "romaji": "16014",
+    "meaning": {
+      "vi": "Đầu",
+      "en": "Head"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-16-015",
+    "lessonId": "lesson-16",
+    "kanji": "髪",
+    "hiragana": "かみ",
+    "romaji": "16015",
+    "meaning": {
+      "vi": "Tóc",
+      "en": "Hair"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-16-016",
+    "lessonId": "lesson-16",
+    "kanji": "顔",
+    "hiragana": "かお",
+    "romaji": "16016",
+    "meaning": {
+      "vi": "Mặt",
+      "en": "Face"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-16-017",
+    "lessonId": "lesson-16",
+    "kanji": "目",
+    "hiragana": "め",
+    "romaji": "16017",
+    "meaning": {
+      "vi": "Mắt",
+      "en": "Eye"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-16-018",
+    "lessonId": "lesson-16",
+    "kanji": "耳",
+    "hiragana": "みみ",
+    "romaji": "16018",
+    "meaning": {
+      "vi": "Tai",
+      "en": "Ear"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-16-019",
+    "lessonId": "lesson-16",
+    "kanji": "口",
+    "hiragana": "くち",
+    "romaji": "16019",
+    "meaning": {
+      "vi": "Miệng",
+      "en": "Mouth"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-16-020",
+    "lessonId": "lesson-16",
+    "kanji": "歯",
+    "hiragana": "は",
+    "romaji": "16020",
+    "meaning": {
+      "vi": "Răng",
+      "en": "Teeth"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-16-021",
+    "lessonId": "lesson-16",
+    "kanji": "お腹",
+    "hiragana": "おなか",
+    "romaji": "16021",
+    "meaning": {
+      "vi": "Bụng",
+      "en": "Stomach"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-16-022",
+    "lessonId": "lesson-16",
+    "kanji": "足",
+    "hiragana": "あし",
+    "romaji": "16022",
+    "meaning": {
+      "vi": "Chân",
+      "en": "Leg, foot"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-16-023",
+    "lessonId": "lesson-16",
+    "kanji": "背",
+    "hiragana": "せ",
+    "romaji": "16023",
+    "meaning": {
+      "vi": "Lưng, chiều cao",
+      "en": "Back, height"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-16-024",
+    "lessonId": "lesson-16",
+    "kanji": "",
+    "hiragana": "サービス",
+    "romaji": "16024",
+    "meaning": {
+      "vi": "Dịch vụ, miễn phí",
+      "en": "Service, free of charge"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-16-025",
+    "lessonId": "lesson-16",
+    "kanji": "若い",
+    "hiragana": "わかい",
+    "romaji": "16025",
+    "meaning": {
+      "vi": "Trẻ",
+      "en": "Young"
+    },
+    "wordType": "i-adjective",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-16-026",
+    "lessonId": "lesson-16",
+    "kanji": "長い",
+    "hiragana": "ながい",
+    "romaji": "16026",
+    "meaning": {
+      "vi": "Dài",
+      "en": "Long"
+    },
+    "wordType": "i-adjective",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-16-027",
+    "lessonId": "lesson-16",
+    "kanji": "短い",
+    "hiragana": "みじかい",
+    "romaji": "16027",
+    "meaning": {
+      "vi": "Ngắn",
+      "en": "Short"
+    },
+    "wordType": "i-adjective",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-16-028",
+    "lessonId": "lesson-16",
+    "kanji": "明るい",
+    "hiragana": "あかるい",
+    "romaji": "16028",
+    "meaning": {
+      "vi": "Sáng",
+      "en": "Bright"
+    },
+    "wordType": "i-adjective",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-16-029",
+    "lessonId": "lesson-16",
+    "kanji": "暗い",
+    "hiragana": "くらい",
+    "romaji": "16029",
+    "meaning": {
+      "vi": "Tối",
+      "en": "Dark"
+    },
+    "wordType": "i-adjective",
+    "jlptLevel": "N5"
   }
 ]

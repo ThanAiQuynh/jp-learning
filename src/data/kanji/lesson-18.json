@@ -2,30 +2,31 @@
   {
     "id": "k-18-001",
     "lessonId": "lesson-18",
-    "character": "漢1",
+    "character": "歌",
     "onReadings": [
-      "カン"
+      "カ"
     ],
     "kunReadings": [
-      "かん"
+      "うた",
+      "うた・う"
     ],
     "meaning": {
-      "vi": "Hán tự 1 (Bài 18)",
-      "en": "Kanji 1 (Lesson 18)"
+      "vi": "Bài hát, hát",
+      "en": "Song, sing"
     },
-    "strokeCount": 5,
+    "strokeCount": 14,
     "radicals": [
-      "水"
+      "欠"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "欠",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字1",
-        "reading": "かんじ1",
+        "word": "歌",
+        "reading": "うた",
         "meaning": {
-          "vi": "Từ ghép 1",
-          "en": "Compound 1"
+          "vi": "Bài hát, hát",
+          "en": "Song, sing"
         }
       }
     ]
@@ -33,30 +34,31 @@
   {
     "id": "k-18-002",
     "lessonId": "lesson-18",
-    "character": "漢2",
+    "character": "集",
     "onReadings": [
-      "カン"
+      "シュウ"
     ],
     "kunReadings": [
-      "かん"
+      "あつ・める",
+      "あつ・まる"
     ],
     "meaning": {
-      "vi": "Hán tự 2 (Bài 18)",
-      "en": "Kanji 2 (Lesson 18)"
+      "vi": "Thu thập",
+      "en": "Collect"
     },
-    "strokeCount": 5,
+    "strokeCount": 12,
     "radicals": [
-      "水"
+      "隹"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "隹",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字2",
-        "reading": "かんじ2",
+        "word": "集",
+        "reading": "あつ・める",
         "meaning": {
-          "vi": "Từ ghép 2",
-          "en": "Compound 2"
+          "vi": "Thu thập",
+          "en": "Collect"
         }
       }
     ]
@@ -64,30 +66,30 @@
   {
     "id": "k-18-003",
     "lessonId": "lesson-18",
-    "character": "漢3",
+    "character": "運",
     "onReadings": [
-      "カン"
+      "ウン"
     ],
     "kunReadings": [
-      "かん"
+      "はこ・ぶ"
     ],
     "meaning": {
-      "vi": "Hán tự 3 (Bài 18)",
-      "en": "Kanji 3 (Lesson 18)"
+      "vi": "Vận, chuyên chở",
+      "en": "Carry, luck"
     },
-    "strokeCount": 5,
+    "strokeCount": 12,
     "radicals": [
-      "水"
+      "辶"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "辶",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字3",
-        "reading": "かんじ3",
+        "word": "運",
+        "reading": "はこ・ぶ",
         "meaning": {
-          "vi": "Từ ghép 3",
-          "en": "Compound 3"
+          "vi": "Vận, chuyên chở",
+          "en": "Carry, luck"
         }
       }
     ]
@@ -95,30 +97,30 @@
   {
     "id": "k-18-004",
     "lessonId": "lesson-18",
-    "character": "漢4",
+    "character": "転",
     "onReadings": [
-      "カン"
+      "テン"
     ],
     "kunReadings": [
-      "かん"
+      "ころ・がる"
     ],
     "meaning": {
-      "vi": "Hán tự 4 (Bài 18)",
-      "en": "Kanji 4 (Lesson 18)"
+      "vi": "Lăn, chuyển",
+      "en": "Roll, turn"
     },
-    "strokeCount": 5,
+    "strokeCount": 11,
     "radicals": [
-      "水"
+      "車"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "車",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字4",
-        "reading": "かんじ4",
+        "word": "転",
+        "reading": "ころ・がる",
         "meaning": {
-          "vi": "Từ ghép 4",
-          "en": "Compound 4"
+          "vi": "Lăn, chuyển",
+          "en": "Roll, turn"
         }
       }
     ]
@@ -126,30 +128,57 @@
   {
     "id": "k-18-005",
     "lessonId": "lesson-18",
-    "character": "漢5",
+    "character": "予",
     "onReadings": [
-      "カン"
+      "ヨ"
     ],
-    "kunReadings": [
-      "かん"
-    ],
+    "kunReadings": [],
     "meaning": {
-      "vi": "Hán tự 5 (Bài 18)",
-      "en": "Kanji 5 (Lesson 18)"
+      "vi": "Dự",
+      "en": "In advance"
     },
-    "strokeCount": 5,
+    "strokeCount": 4,
     "radicals": [
-      "水"
+      "亅"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "亅",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字5",
-        "reading": "かんじ5",
+        "word": "予",
+        "reading": "ヨ",
         "meaning": {
-          "vi": "Từ ghép 5",
-          "en": "Compound 5"
+          "vi": "Dự",
+          "en": "In advance"
+        }
+      }
+    ]
+  },
+  {
+    "id": "k-18-006",
+    "lessonId": "lesson-18",
+    "character": "約",
+    "onReadings": [
+      "ヤク"
+    ],
+    "kunReadings": [],
+    "meaning": {
+      "vi": "Ước, hẹn",
+      "en": "Promise"
+    },
+    "strokeCount": 9,
+    "radicals": [
+      "糸"
+    ],
+    "primaryRadical": "糸",
+    "jlptLevel": "N5",
+    "compounds": [
+      {
+        "word": "約",
+        "reading": "ヤク",
+        "meaning": {
+          "vi": "Ước, hẹn",
+          "en": "Promise"
         }
       }
     ]

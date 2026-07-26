@@ -1,109 +1,106 @@
 [
   {
-    "id": "g-09-001",
-    "lessonId": "lesson-09",
-    "pattern": "〜文法1",
-    "patternKana": "〜ぶんぽう1",
-    "title": {
-      "vi": "Ngữ pháp 1 (Bài 9)",
-      "en": "Grammar 1 (Lesson 9)"
-    },
+    "id": "g-09-001", "lessonId": "lesson-09",
+    "pattern": "N が 好きです / 嫌いです",
+    "patternKana": "N が すきです / きらいです",
+    "title": { "vi": "Thích / Ghét N", "en": "Like / Dislike N", "ja": "名詞が 好きです / 嫌いです" },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 1 bài 9",
-      "en": "Explanation for grammar 1 lesson 9"
+      "vi": "好き (thích) và 嫌い (ghét) là tính từ đuôi な. Đối tượng được thích/ghét đánh dấu bằng trợ từ が. Có thể thêm 大 (おお) để nhấn mạnh: 大好き (rất thích), 大嫌い (rất ghét).",
+      "en": "好き (like) and 嫌い (dislike) are な-adjectives. The object of liking/disliking is marked with が. Add 大 for emphasis: 大好き (love), 大嫌い (hate).",
+      "ja": "「好き」と「嫌い」はな形容詞です。好き嫌いの対象は「が」で示します。"
     },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
+    "usage": { "vi": "Diễn tả sở thích.", "en": "Expressing preferences.", "ja": "好き嫌いを表す。" },
+    "formation": ["N + が + 好きです/嫌いです", "N + が + 大好きです/大嫌いです"],
     "examples": [
-      {
-        "ja": "私は文法1を勉強します。",
-        "reading": "わたしはぶんぽう1をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 1.",
-          "en": "I study grammar 1."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
-      }
+      { "ja": "わたしは 日本料理が 好きです。", "reading": "わたしは にほんりょうりが すきです。", "translation": { "vi": "Tôi thích món Nhật.", "en": "I like Japanese food." }, "highlightRange": { "start": 9, "end": 10 } },
+      { "ja": "わたしは カラオケが 大好きです。", "reading": "わたしは カラオケが だいすきです。", "translation": { "vi": "Tôi rất thích karaoke.", "en": "I love karaoke." }, "highlightRange": { "start": 8, "end": 9 } }
     ],
     "jlptLevel": "N5"
   },
   {
-    "id": "g-09-002",
-    "lessonId": "lesson-09",
-    "pattern": "〜文法2",
-    "patternKana": "〜ぶんぽう2",
-    "title": {
-      "vi": "Ngữ pháp 2 (Bài 9)",
-      "en": "Grammar 2 (Lesson 9)"
-    },
+    "id": "g-09-002", "lessonId": "lesson-09",
+    "pattern": "N が 上手です / 下手です",
+    "patternKana": "N が じょうずです / へたです",
+    "title": { "vi": "Giỏi / Kém ở N", "en": "Good at / Bad at N", "ja": "名詞が 上手です / 下手です" },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 2 bài 9",
-      "en": "Explanation for grammar 2 lesson 9"
+      "vi": "上手 (giỏi) và 下手 (kém) dùng để đánh giá khả năng. KHÔNG dùng 上手 khi nói về bản thân (dùng あまり 上手じゃ ありません hoặc まだまだです). Khi nói về bản thân, nên khiêm tốn.",
+      "en": "上手 (skillful) and 下手 (unskillful) evaluate ability. Do NOT use 上手 about yourself (use あまり 上手じゃ ありません or まだまだです instead). Be modest when talking about yourself.",
+      "ja": "「上手」と「下手」は能力を評価します。自分について「上手」を使うのは避けましょう。"
     },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
+    "usage": { "vi": "Đánh giá khả năng.", "en": "Evaluating ability.", "ja": "能力を評価する。" },
+    "formation": ["N + が + 上手です/下手です"],
     "examples": [
-      {
-        "ja": "私は文法2を勉強します。",
-        "reading": "わたしはぶんぽう2をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 2.",
-          "en": "I study grammar 2."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
-      }
+      { "ja": "ミラーさんは 日本語が 上手です。", "reading": "ミラーさんは にほんごが じょうずです。", "translation": { "vi": "Anh Miller giỏi tiếng Nhật.", "en": "Mr. Miller is good at Japanese." }, "highlightRange": { "start": 10, "end": 11 } }
     ],
     "jlptLevel": "N5"
   },
   {
-    "id": "g-09-003",
-    "lessonId": "lesson-09",
-    "pattern": "〜文法3",
-    "patternKana": "〜ぶんぽう3",
-    "title": {
-      "vi": "Ngữ pháp 3 (Bài 9)",
-      "en": "Grammar 3 (Lesson 9)"
-    },
+    "id": "g-09-003", "lessonId": "lesson-09",
+    "pattern": "N が わかります",
+    "patternKana": "N が わかります",
+    "title": { "vi": "Hiểu / Biết N", "en": "Understand N", "ja": "名詞が わかります" },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 3 bài 9",
-      "en": "Explanation for grammar 3 lesson 9"
+      "vi": "わかります nghĩa là 'hiểu, biết'. Đối tượng được đánh dấu bằng が (KHÔNG dùng を). Phủ định: わかりません.",
+      "en": "わかります means 'understand/know'. The object is marked with が (NOT を). Negative: わかりません.",
+      "ja": "「わかります」の対象は「が」で示します（「を」ではありません）。"
     },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
+    "usage": { "vi": "Nói về sự hiểu biết.", "en": "Expressing understanding.", "ja": "理解を表す。" },
+    "formation": ["N + が + わかります"],
     "examples": [
-      {
-        "ja": "私は文法3を勉強します。",
-        "reading": "わたしはぶんぽう3をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 3.",
-          "en": "I study grammar 3."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
-      }
+      { "ja": "日本語が わかります。", "reading": "にほんごが わかります。", "translation": { "vi": "Tôi hiểu tiếng Nhật.", "en": "I understand Japanese." }, "highlightRange": { "start": 4, "end": 5 } },
+      { "ja": "英語が わかりません。", "reading": "えいごが わかりません。", "translation": { "vi": "Tôi không hiểu tiếng Anh.", "en": "I don't understand English." }, "highlightRange": { "start": 3, "end": 4 } }
+    ],
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "g-09-004", "lessonId": "lesson-09",
+    "pattern": "N が あります",
+    "patternKana": "N が あります",
+    "title": { "vi": "Có N (sở hữu)", "en": "Have N", "ja": "名詞が あります (所有)" },
+    "explanation": {
+      "vi": "あります ngoài nghĩa 'tồn tại' (bài 10) còn có nghĩa 'có, sở hữu'. Dùng が để đánh dấu đối tượng sở hữu. Ví dụ: 約束があります = có hẹn, 時間があります = có thời gian.",
+      "en": "Besides 'exist' (Lesson 10), あります also means 'have'. Use が to mark what is possessed. Example: 約束があります = have an appointment, 時間があります = have time.",
+      "ja": "「あります」は「存在する」の他に「所有する」という意味もあります。"
+    },
+    "usage": { "vi": "Nói về sự sở hữu.", "en": "Expressing possession.", "ja": "所有を表す。" },
+    "formation": ["N + が + あります"],
+    "examples": [
+      { "ja": "約束が ありますから。", "reading": "やくそくが ありますから。", "translation": { "vi": "Vì tôi có hẹn.", "en": "Because I have an appointment." }, "highlightRange": { "start": 3, "end": 4 } }
+    ],
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "g-09-005", "lessonId": "lesson-09",
+    "pattern": "〜から",
+    "patternKana": "〜から",
+    "title": { "vi": "Vì ~ (lý do)", "en": "Because ~ (reason)", "ja": "〜から (理由)" },
+    "explanation": {
+      "vi": "から đặt cuối mệnh đề lý do. Câu lý do có thể đứng trước hoặc sau câu kết quả. Khi từ chối lời mời, thường dùng: すみません、ちょっと…(dùng để từ chối nhẹ nhàng, không cần nêu lý do cụ thể).",
+      "en": "から is placed at the end of the reason clause. The reason clause can come before or after the result clause. When declining an invitation, use: すみません、ちょっと… (polite refusal without specific reason).",
+      "ja": "「から」は理由を表す節の末尾に置きます。誘いを断るとき「すみません、ちょっと…」を使います。"
+    },
+    "usage": { "vi": "Nêu lý do.", "en": "Giving reasons.", "ja": "理由を述べる。" },
+    "formation": ["S1(理由) + から、S2(結果)"],
+    "examples": [
+      { "ja": "時間が ありませんから、朝ごはんを 食べません。", "reading": "じかんが ありませんから、あさごはんを たべません。", "translation": { "vi": "Vì không có thời gian nên tôi không ăn sáng.", "en": "I don't eat breakfast because I don't have time." }, "highlightRange": { "start": 9, "end": 12 } },
+      { "ja": "あした テストですから、今晩 勉強します。", "reading": "あした テストですから、こんばん べんきょうします。", "translation": { "vi": "Vì mai có bài kiểm tra nên tối nay tôi học bài.", "en": "I will study tonight because there is a test tomorrow." }, "highlightRange": { "start": 8, "end": 11 } }
+    ],
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "g-09-006", "lessonId": "lesson-09",
+    "pattern": "どうして",
+    "patternKana": "どうして",
+    "title": { "vi": "Tại sao?", "en": "Why?", "ja": "どうして" },
+    "explanation": {
+      "vi": "どうして dùng để hỏi lý do. Trả lời bằng 〜から. Có thể dùng なぜ (trang trọng hơn) thay cho どうして.",
+      "en": "どうして is used to ask for a reason. Answer with 〜から. なぜ (more formal) can be used instead of どうして.",
+      "ja": "「どうして」は理由を尋ねるときに使います。答えは「〜から」で返します。"
+    },
+    "usage": { "vi": "Hỏi lý do.", "en": "Asking for a reason.", "ja": "理由を尋ねる。" },
+    "formation": ["どうして + S + か。 …S + から(です)。"],
+    "examples": [
+      { "ja": "どうして 朝ごはんを 食べませんか。 …時間が ありませんから。", "reading": "どうして あさごはんを たべませんか。 …じかんが ありませんから。", "translation": { "vi": "Tại sao bạn không ăn sáng? …Vì không có thời gian.", "en": "Why don't you eat breakfast? …Because I don't have time." }, "highlightRange": { "start": 0, "end": 4 } }
     ],
     "jlptLevel": "N5"
   }

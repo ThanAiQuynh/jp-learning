@@ -1,117 +1,321 @@
 [
   {
-    "id": "v-06-001",
-    "lessonId": "lesson-06",
-    "kanji": "単語1",
-    "hiragana": "たんご1",
-    "romaji": "tango1",
-    "meaning": {
-      "vi": "Từ vựng 1 (Bài 6)",
-      "en": "Vocab 1 (Lesson 6)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語1です。",
-        "reading": "これはたんご1です。",
-        "translation": {
-          "vi": "Đây là từ vựng 1.",
-          "en": "This is vocab 1."
-        }
-      }
-    ]
+    "id": "v-06-001", "lessonId": "lesson-06",
+    "kanji": "食べます", "hiragana": "たべます", "romaji": "tabemasu",
+    "meaning": { "vi": "Ăn", "en": "Eat" },
+    "wordType": "verb", "jlptLevel": "N5",
+    "examples": [{ "ja": "朝ごはんを 食べます。", "reading": "あさごはんを たべます。", "translation": { "vi": "Tôi ăn sáng.", "en": "I eat breakfast." } }],
+    "relatedKanji": ["食"]
   },
   {
-    "id": "v-06-002",
-    "lessonId": "lesson-06",
-    "kanji": "単語2",
-    "hiragana": "たんご2",
-    "romaji": "tango2",
-    "meaning": {
-      "vi": "Từ vựng 2 (Bài 6)",
-      "en": "Vocab 2 (Lesson 6)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語2です。",
-        "reading": "これはたんご2です。",
-        "translation": {
-          "vi": "Đây là từ vựng 2.",
-          "en": "This is vocab 2."
-        }
-      }
-    ]
+    "id": "v-06-002", "lessonId": "lesson-06",
+    "kanji": "飲みます", "hiragana": "のみます", "romaji": "nomimasu",
+    "meaning": { "vi": "Uống", "en": "Drink" },
+    "wordType": "verb", "jlptLevel": "N5",
+    "examples": [{ "ja": "コーヒーを 飲みます。", "reading": "コーヒーを のみます。", "translation": { "vi": "Tôi uống cà phê.", "en": "I drink coffee." } }],
+    "relatedKanji": ["飲"]
   },
   {
-    "id": "v-06-003",
-    "lessonId": "lesson-06",
-    "kanji": "単語3",
-    "hiragana": "たんご3",
-    "romaji": "tango3",
-    "meaning": {
-      "vi": "Từ vựng 3 (Bài 6)",
-      "en": "Vocab 3 (Lesson 6)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語3です。",
-        "reading": "これはたんご3です。",
-        "translation": {
-          "vi": "Đây là từ vựng 3.",
-          "en": "This is vocab 3."
-        }
-      }
-    ]
+    "id": "v-06-003", "lessonId": "lesson-06",
+    "kanji": "吸います", "hiragana": "すいます", "romaji": "suimasu",
+    "meaning": { "vi": "Hút (thuốc)", "en": "Smoke, inhale" },
+    "wordType": "verb", "jlptLevel": "N5",
+    "examples": [{ "ja": "たばこを 吸います。", "reading": "たばこを すいます。", "translation": { "vi": "Tôi hút thuốc.", "en": "I smoke cigarettes." } }]
   },
   {
-    "id": "v-06-004",
-    "lessonId": "lesson-06",
-    "kanji": "単語4",
-    "hiragana": "たんご4",
-    "romaji": "tango4",
-    "meaning": {
-      "vi": "Từ vựng 4 (Bài 6)",
-      "en": "Vocab 4 (Lesson 6)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語4です。",
-        "reading": "これはたんご4です。",
-        "translation": {
-          "vi": "Đây là từ vựng 4.",
-          "en": "This is vocab 4."
-        }
-      }
-    ]
+    "id": "v-06-004", "lessonId": "lesson-06",
+    "kanji": "見ます", "hiragana": "みます", "romaji": "mimasu",
+    "meaning": { "vi": "Xem, nhìn", "en": "See, watch, look" },
+    "wordType": "verb", "jlptLevel": "N5",
+    "examples": [{ "ja": "テレビを 見ます。", "reading": "テレビを みます。", "translation": { "vi": "Tôi xem tivi.", "en": "I watch TV." } }],
+    "relatedKanji": ["見"]
   },
   {
-    "id": "v-06-005",
-    "lessonId": "lesson-06",
-    "kanji": "単語5",
-    "hiragana": "たんご5",
-    "romaji": "tango5",
-    "meaning": {
-      "vi": "Từ vựng 5 (Bài 6)",
-      "en": "Vocab 5 (Lesson 6)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語5です。",
-        "reading": "これはたんご5です。",
-        "translation": {
-          "vi": "Đây là từ vựng 5.",
-          "en": "This is vocab 5."
-        }
-      }
-    ]
+    "id": "v-06-005", "lessonId": "lesson-06",
+    "kanji": "聞きます", "hiragana": "ききます", "romaji": "kikimasu",
+    "meaning": { "vi": "Nghe, hỏi", "en": "Listen, hear, ask" },
+    "wordType": "verb", "jlptLevel": "N5",
+    "examples": [{ "ja": "音楽を 聞きます。", "reading": "おんがくを ききます。", "translation": { "vi": "Tôi nghe nhạc.", "en": "I listen to music." } }],
+    "relatedKanji": ["聞"]
+  },
+  {
+    "id": "v-06-006", "lessonId": "lesson-06",
+    "kanji": "読みます", "hiragana": "よみます", "romaji": "yomimasu",
+    "meaning": { "vi": "Đọc", "en": "Read" },
+    "wordType": "verb", "jlptLevel": "N5",
+    "examples": [{ "ja": "本を 読みます。", "reading": "ほんを よみます。", "translation": { "vi": "Tôi đọc sách.", "en": "I read a book." } }],
+    "relatedKanji": ["読"]
+  },
+  {
+    "id": "v-06-007", "lessonId": "lesson-06",
+    "kanji": "書きます", "hiragana": "かきます", "romaji": "kakimasu",
+    "meaning": { "vi": "Viết, vẽ", "en": "Write, draw" },
+    "wordType": "verb", "jlptLevel": "N5",
+    "examples": [{ "ja": "手紙を 書きます。", "reading": "てがみを かきます。", "translation": { "vi": "Tôi viết thư.", "en": "I write a letter." } }],
+    "relatedKanji": ["書"]
+  },
+  {
+    "id": "v-06-008", "lessonId": "lesson-06",
+    "kanji": "買います", "hiragana": "かいます", "romaji": "kaimasu",
+    "meaning": { "vi": "Mua", "en": "Buy" },
+    "wordType": "verb", "jlptLevel": "N5",
+    "examples": [{ "ja": "くつを 買います。", "reading": "くつを かいます。", "translation": { "vi": "Tôi mua giày.", "en": "I buy shoes." } }],
+    "relatedKanji": ["買"]
+  },
+  {
+    "id": "v-06-009", "lessonId": "lesson-06",
+    "kanji": "撮ります", "hiragana": "とります", "romaji": "torimasu",
+    "meaning": { "vi": "Chụp (ảnh)", "en": "Take (photos)" },
+    "wordType": "verb", "jlptLevel": "N5",
+    "examples": [{ "ja": "写真を 撮ります。", "reading": "しゃしんを とります。", "translation": { "vi": "Tôi chụp ảnh.", "en": "I take photos." } }]
+  },
+  {
+    "id": "v-06-010", "lessonId": "lesson-06",
+    "kanji": "", "hiragana": "します", "romaji": "shimasu",
+    "meaning": { "vi": "Làm", "en": "Do" },
+    "wordType": "verb", "jlptLevel": "N5",
+    "examples": [{ "ja": "宿題を します。", "reading": "しゅくだいを します。", "translation": { "vi": "Tôi làm bài tập.", "en": "I do homework." } }]
+  },
+  {
+    "id": "v-06-011", "lessonId": "lesson-06",
+    "kanji": "会います", "hiragana": "あいます", "romaji": "aimasu",
+    "meaning": { "vi": "Gặp", "en": "Meet" },
+    "wordType": "verb", "jlptLevel": "N5",
+    "examples": [{ "ja": "友達に 会います。", "reading": "ともだちに あいます。", "translation": { "vi": "Tôi gặp bạn.", "en": "I meet my friend." } }],
+    "relatedKanji": ["会"]
+  },
+  {
+    "id": "v-06-012", "lessonId": "lesson-06",
+    "kanji": "御飯", "hiragana": "ごはん", "romaji": "gohan",
+    "meaning": { "vi": "Cơm, bữa ăn", "en": "Cooked rice, meal" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-013", "lessonId": "lesson-06",
+    "kanji": "朝御飯", "hiragana": "あさごはん", "romaji": "asagohan",
+    "meaning": { "vi": "Bữa sáng", "en": "Breakfast" },
+    "wordType": "noun", "jlptLevel": "N5",
+    "relatedKanji": ["朝"]
+  },
+  {
+    "id": "v-06-014", "lessonId": "lesson-06",
+    "kanji": "昼御飯", "hiragana": "ひるごはん", "romaji": "hirugohan",
+    "meaning": { "vi": "Bữa trưa", "en": "Lunch" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-015", "lessonId": "lesson-06",
+    "kanji": "晩御飯", "hiragana": "ばんごはん", "romaji": "bangohan",
+    "meaning": { "vi": "Bữa tối", "en": "Dinner" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-016", "lessonId": "lesson-06",
+    "kanji": "", "hiragana": "パン", "romaji": "pan",
+    "meaning": { "vi": "Bánh mì", "en": "Bread" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-017", "lessonId": "lesson-06",
+    "kanji": "卵", "hiragana": "たまご", "romaji": "tamago",
+    "meaning": { "vi": "Trứng", "en": "Egg" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-018", "lessonId": "lesson-06",
+    "kanji": "肉", "hiragana": "にく", "romaji": "niku",
+    "meaning": { "vi": "Thịt", "en": "Meat" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-019", "lessonId": "lesson-06",
+    "kanji": "魚", "hiragana": "さかな", "romaji": "sakana",
+    "meaning": { "vi": "Cá", "en": "Fish" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-020", "lessonId": "lesson-06",
+    "kanji": "野菜", "hiragana": "やさい", "romaji": "yasai",
+    "meaning": { "vi": "Rau", "en": "Vegetables" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-021", "lessonId": "lesson-06",
+    "kanji": "果物", "hiragana": "くだもの", "romaji": "kudamono",
+    "meaning": { "vi": "Trái cây", "en": "Fruit" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-022", "lessonId": "lesson-06",
+    "kanji": "水", "hiragana": "みず", "romaji": "mizu",
+    "meaning": { "vi": "Nước", "en": "Water" },
+    "wordType": "noun", "jlptLevel": "N5",
+    "relatedKanji": ["水"]
+  },
+  {
+    "id": "v-06-023", "lessonId": "lesson-06",
+    "kanji": "", "hiragana": "お茶", "romaji": "ocha",
+    "meaning": { "vi": "Trà", "en": "Tea (green tea)" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-024", "lessonId": "lesson-06",
+    "kanji": "紅茶", "hiragana": "こうちゃ", "romaji": "koucha",
+    "meaning": { "vi": "Trà đen", "en": "Black tea" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-025", "lessonId": "lesson-06",
+    "kanji": "牛乳", "hiragana": "ぎゅうにゅう", "romaji": "gyuunyuu",
+    "meaning": { "vi": "Sữa bò", "en": "Milk" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-026", "lessonId": "lesson-06",
+    "kanji": "", "hiragana": "ジュース", "romaji": "juusu",
+    "meaning": { "vi": "Nước trái cây", "en": "Juice" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-027", "lessonId": "lesson-06",
+    "kanji": "", "hiragana": "ビール", "romaji": "biiru",
+    "meaning": { "vi": "Bia", "en": "Beer" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-028", "lessonId": "lesson-06",
+    "kanji": "お酒", "hiragana": "おさけ", "romaji": "osake",
+    "meaning": { "vi": "Rượu", "en": "Alcohol, sake" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-029", "lessonId": "lesson-06",
+    "kanji": "映画", "hiragana": "えいが", "romaji": "eiga",
+    "meaning": { "vi": "Phim", "en": "Movie, film" },
+    "wordType": "noun", "jlptLevel": "N5",
+    "relatedKanji": ["映"]
+  },
+  {
+    "id": "v-06-030", "lessonId": "lesson-06",
+    "kanji": "手紙", "hiragana": "てがみ", "romaji": "tegami",
+    "meaning": { "vi": "Thư", "en": "Letter" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-031", "lessonId": "lesson-06",
+    "kanji": "", "hiragana": "レポート", "romaji": "repooto",
+    "meaning": { "vi": "Báo cáo", "en": "Report" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-032", "lessonId": "lesson-06",
+    "kanji": "写真", "hiragana": "しゃしん", "romaji": "shashin",
+    "meaning": { "vi": "Ảnh, hình", "en": "Photo, picture" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-033", "lessonId": "lesson-06",
+    "kanji": "店", "hiragana": "みせ", "romaji": "mise",
+    "meaning": { "vi": "Cửa hàng, tiệm", "en": "Shop, store" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-034", "lessonId": "lesson-06",
+    "kanji": "", "hiragana": "レストラン", "romaji": "resutoran",
+    "meaning": { "vi": "Nhà hàng", "en": "Restaurant" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-035", "lessonId": "lesson-06",
+    "kanji": "庭", "hiragana": "にわ", "romaji": "niwa",
+    "meaning": { "vi": "Sân vườn", "en": "Garden, yard" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-036", "lessonId": "lesson-06",
+    "kanji": "宿題", "hiragana": "しゅくだい", "romaji": "shukudai",
+    "meaning": { "vi": "Bài tập về nhà", "en": "Homework" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-037", "lessonId": "lesson-06",
+    "kanji": "", "hiragana": "テニス", "romaji": "tenisu",
+    "meaning": { "vi": "Tennis", "en": "Tennis" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-038", "lessonId": "lesson-06",
+    "kanji": "", "hiragana": "サッカー", "romaji": "sakkaa",
+    "meaning": { "vi": "Bóng đá", "en": "Soccer, football" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-039", "lessonId": "lesson-06",
+    "kanji": "お花見", "hiragana": "おはなみ", "romaji": "ohanami",
+    "meaning": { "vi": "Ngắm hoa anh đào", "en": "Cherry blossom viewing" },
+    "wordType": "noun", "jlptLevel": "N5",
+    "relatedKanji": ["見"]
+  },
+  {
+    "id": "v-06-040", "lessonId": "lesson-06",
+    "kanji": "雑誌", "hiragana": "ざっし", "romaji": "zasshi",
+    "meaning": { "vi": "Tạp chí", "en": "Magazine" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-041", "lessonId": "lesson-06",
+    "kanji": "新聞", "hiragana": "しんぶん", "romaji": "shinbun",
+    "meaning": { "vi": "Báo", "en": "Newspaper" },
+    "wordType": "noun", "jlptLevel": "N5",
+    "relatedKanji": ["新", "聞"]
+  },
+  {
+    "id": "v-06-042", "lessonId": "lesson-06",
+    "kanji": "", "hiragana": "いっしょに", "romaji": "isshoni",
+    "meaning": { "vi": "Cùng nhau", "en": "Together" },
+    "wordType": "adverb", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-043", "lessonId": "lesson-06",
+    "kanji": "", "hiragana": "ちょっと", "romaji": "chotto",
+    "meaning": { "vi": "Một chút, một lát", "en": "A little, a moment" },
+    "wordType": "adverb", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-044", "lessonId": "lesson-06",
+    "kanji": "", "hiragana": "いつも", "romaji": "itsumo",
+    "meaning": { "vi": "Luôn luôn", "en": "Always" },
+    "wordType": "adverb", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-045", "lessonId": "lesson-06",
+    "kanji": "時々", "hiragana": "ときどき", "romaji": "tokidoki",
+    "meaning": { "vi": "Thỉnh thoảng", "en": "Sometimes" },
+    "wordType": "adverb", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-046", "lessonId": "lesson-06",
+    "kanji": "", "hiragana": "それから", "romaji": "sorekara",
+    "meaning": { "vi": "Sau đó, rồi", "en": "And then, after that" },
+    "wordType": "conjunction", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-047", "lessonId": "lesson-06",
+    "kanji": "", "hiragana": "ええ", "romaji": "ee",
+    "meaning": { "vi": "Vâng, ừ (thân mật hơn はい)", "en": "Yes (casual, softer than はい)" },
+    "wordType": "expression", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-048", "lessonId": "lesson-06",
+    "kanji": "", "hiragana": "いいですね", "romaji": "ii desu ne",
+    "meaning": { "vi": "Hay nhỉ, tốt nhỉ", "en": "That's nice, that sounds good" },
+    "wordType": "expression", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-06-049", "lessonId": "lesson-06",
+    "kanji": "", "hiragana": "何", "romaji": "nani",
+    "meaning": { "vi": "Cái gì", "en": "What" },
+    "wordType": "pronoun", "jlptLevel": "N5",
+    "relatedKanji": ["何"]
   }
 ]

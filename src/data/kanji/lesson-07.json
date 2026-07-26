@@ -1,157 +1,72 @@
 [
   {
-    "id": "k-07-001",
-    "lessonId": "lesson-07",
-    "character": "漢1",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 1 (Bài 7)",
-      "en": "Kanji 1 (Lesson 7)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "id": "k-07-001", "lessonId": "lesson-07",
+    "character": "花", "onReadings": ["カ"], "kunReadings": ["はな"],
+    "meaning": { "vi": "Hoa", "en": "Flower" }, "strokeCount": 7,
+    "radicals": ["艹"], "primaryRadical": "艹", "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字1",
-        "reading": "かんじ1",
-        "meaning": {
-          "vi": "Từ ghép 1",
-          "en": "Compound 1"
-        }
-      }
+      { "word": "花", "reading": "はな", "meaning": { "vi": "Hoa", "en": "Flower" } },
+      { "word": "花見", "reading": "はなみ", "meaning": { "vi": "Ngắm hoa", "en": "Cherry blossom viewing" } }
     ]
   },
   {
-    "id": "k-07-002",
-    "lessonId": "lesson-07",
-    "character": "漢2",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 2 (Bài 7)",
-      "en": "Kanji 2 (Lesson 7)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "id": "k-07-002", "lessonId": "lesson-07",
+    "character": "紙", "onReadings": ["シ"], "kunReadings": ["かみ"],
+    "meaning": { "vi": "Giấy", "en": "Paper" }, "strokeCount": 10,
+    "radicals": ["糸"], "primaryRadical": "糸", "jlptLevel": "N4",
     "compounds": [
-      {
-        "word": "漢字2",
-        "reading": "かんじ2",
-        "meaning": {
-          "vi": "Từ ghép 2",
-          "en": "Compound 2"
-        }
-      }
+      { "word": "紙", "reading": "かみ", "meaning": { "vi": "Giấy", "en": "Paper" } },
+      { "word": "手紙", "reading": "てがみ", "meaning": { "vi": "Thư", "en": "Letter" } }
     ]
   },
   {
-    "id": "k-07-003",
-    "lessonId": "lesson-07",
-    "character": "漢3",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 3 (Bài 7)",
-      "en": "Kanji 3 (Lesson 7)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "id": "k-07-003", "lessonId": "lesson-07",
+    "character": "金", "onReadings": ["キン", "コン"], "kunReadings": ["かね", "かな"],
+    "meaning": { "vi": "Vàng, tiền", "en": "Gold, money" }, "strokeCount": 8,
+    "radicals": ["金"], "primaryRadical": "金", "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字3",
-        "reading": "かんじ3",
-        "meaning": {
-          "vi": "Từ ghép 3",
-          "en": "Compound 3"
-        }
-      }
+      { "word": "お金", "reading": "おかね", "meaning": { "vi": "Tiền", "en": "Money" } },
+      { "word": "金曜日", "reading": "きんようび", "meaning": { "vi": "Thứ Sáu", "en": "Friday" } }
     ]
   },
   {
-    "id": "k-07-004",
-    "lessonId": "lesson-07",
-    "character": "漢4",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 4 (Bài 7)",
-      "en": "Kanji 4 (Lesson 7)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "id": "k-07-004", "lessonId": "lesson-07",
+    "character": "父", "onReadings": ["フ"], "kunReadings": ["ちち"],
+    "meaning": { "vi": "Cha, bố", "en": "Father" }, "strokeCount": 4,
+    "radicals": ["父"], "primaryRadical": "父", "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字4",
-        "reading": "かんじ4",
-        "meaning": {
-          "vi": "Từ ghép 4",
-          "en": "Compound 4"
-        }
-      }
+      { "word": "父", "reading": "ちち", "meaning": { "vi": "Bố (mình)", "en": "My father" } },
+      { "word": "お父さん", "reading": "おとうさん", "meaning": { "vi": "Bố (người khác)", "en": "Father (polite)" } }
     ]
   },
   {
-    "id": "k-07-005",
-    "lessonId": "lesson-07",
-    "character": "漢5",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 5 (Bài 7)",
-      "en": "Kanji 5 (Lesson 7)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "id": "k-07-005", "lessonId": "lesson-07",
+    "character": "母", "onReadings": ["ボ"], "kunReadings": ["はは"],
+    "meaning": { "vi": "Mẹ", "en": "Mother" }, "strokeCount": 5,
+    "radicals": ["母"], "primaryRadical": "母", "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字5",
-        "reading": "かんじ5",
-        "meaning": {
-          "vi": "Từ ghép 5",
-          "en": "Compound 5"
-        }
-      }
+      { "word": "母", "reading": "はは", "meaning": { "vi": "Mẹ (mình)", "en": "My mother" } },
+      { "word": "お母さん", "reading": "おかあさん", "meaning": { "vi": "Mẹ (người khác)", "en": "Mother (polite)" } }
+    ]
+  },
+  {
+    "id": "k-07-006", "lessonId": "lesson-07",
+    "character": "切", "onReadings": ["セツ", "サイ"], "kunReadings": ["き・る", "き・れる"],
+    "meaning": { "vi": "Cắt", "en": "Cut" }, "strokeCount": 4,
+    "radicals": ["刀"], "primaryRadical": "刀", "jlptLevel": "N4",
+    "compounds": [
+      { "word": "切ります", "reading": "きります", "meaning": { "vi": "Cắt", "en": "Cut" } },
+      { "word": "切符", "reading": "きっぷ", "meaning": { "vi": "Vé", "en": "Ticket" } }
+    ]
+  },
+  {
+    "id": "k-07-007", "lessonId": "lesson-07",
+    "character": "教", "onReadings": ["キョウ"], "kunReadings": ["おし・える", "おそ・わる"],
+    "meaning": { "vi": "Dạy, giáo dục", "en": "Teach" }, "strokeCount": 11,
+    "radicals": ["攵"], "primaryRadical": "攵", "jlptLevel": "N4",
+    "compounds": [
+      { "word": "教えます", "reading": "おしえます", "meaning": { "vi": "Dạy", "en": "Teach" } },
+      { "word": "教室", "reading": "きょうしつ", "meaning": { "vi": "Lớp học", "en": "Classroom" } }
     ]
   }
 ]

@@ -2,34 +2,37 @@
   {
     "id": "g-24-001",
     "lessonId": "lesson-24",
-    "pattern": "〜文法1",
-    "patternKana": "〜ぶんぽう1",
+    "pattern": "〜が V(て形)くれます",
+    "patternKana": "〜が V(て形)くれます",
     "title": {
-      "vi": "Ngữ pháp 1 (Bài 24)",
-      "en": "Grammar 1 (Lesson 24)"
+      "vi": "~ làm V cho tôi",
+      "en": "~ V for me",
+      "ja": "〜が 動詞(て形)くれます"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 1 bài 24",
-      "en": "Explanation for grammar 1 lesson 24"
+      "vi": "Nhận sự giúp đỡ.",
+      "en": "Receive favor.",
+      "ja": "恩恵を受ける。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xem giải thích.",
+      "en": "See explanation.",
+      "ja": "説明を参照。"
     },
     "formation": [
-      "N + 文法"
+      "〜が V(て形)くれます"
     ],
     "examples": [
       {
-        "ja": "私は文法1を勉強します。",
-        "reading": "わたしはぶんぽう1をべんきょうします。",
+        "ja": "例文 (〜が V(て形)くれます)",
+        "reading": "れいぶん",
         "translation": {
-          "vi": "Tôi học ngữ pháp 1.",
-          "en": "I study grammar 1."
+          "vi": "Ví dụ cho 〜が V(て形)くれます",
+          "en": "Example for 〜が V(て形)くれます"
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
         }
       }
     ],
@@ -38,34 +41,37 @@
   {
     "id": "g-24-002",
     "lessonId": "lesson-24",
-    "pattern": "〜文法2",
-    "patternKana": "〜ぶんぽう2",
+    "pattern": "V(て形)あげます",
+    "patternKana": "V(て形)あげます",
     "title": {
-      "vi": "Ngữ pháp 2 (Bài 24)",
-      "en": "Grammar 2 (Lesson 24)"
+      "vi": "Làm V cho ~",
+      "en": "V for ~",
+      "ja": "動詞(て形)あげます"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 2 bài 24",
-      "en": "Explanation for grammar 2 lesson 24"
+      "vi": "Giúp người khác.",
+      "en": "Do for someone.",
+      "ja": "親切を行う。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xem giải thích.",
+      "en": "See explanation.",
+      "ja": "説明を参照。"
     },
     "formation": [
-      "N + 文法"
+      "V(て形)あげます"
     ],
     "examples": [
       {
-        "ja": "私は文法2を勉強します。",
-        "reading": "わたしはぶんぽう2をべんきょうします。",
+        "ja": "例文 (V(て形)あげます)",
+        "reading": "れいぶん",
         "translation": {
-          "vi": "Tôi học ngữ pháp 2.",
-          "en": "I study grammar 2."
+          "vi": "Ví dụ cho V(て形)あげます",
+          "en": "Example for V(て形)あげます"
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
         }
       }
     ],
@@ -74,34 +80,37 @@
   {
     "id": "g-24-003",
     "lessonId": "lesson-24",
-    "pattern": "〜文法3",
-    "patternKana": "〜ぶんぽう3",
+    "pattern": "V(て形)もらいます",
+    "patternKana": "V(て形)もらいます",
     "title": {
-      "vi": "Ngữ pháp 3 (Bài 24)",
-      "en": "Grammar 3 (Lesson 24)"
+      "vi": "Được ~ làm V cho",
+      "en": "Have ~ V for me",
+      "ja": "動詞(て形)もらいます"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 3 bài 24",
-      "en": "Explanation for grammar 3 lesson 24"
+      "vi": "Nhờ người khác làm.",
+      "en": "Get someone to do.",
+      "ja": "依頼・恩恵。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xem giải thích.",
+      "en": "See explanation.",
+      "ja": "説明を参照。"
     },
     "formation": [
-      "N + 文法"
+      "V(て形)もらいます"
     ],
     "examples": [
       {
-        "ja": "私は文法3を勉強します。",
-        "reading": "わたしはぶんぽう3をべんきょうします。",
+        "ja": "例文 (V(て形)もらいます)",
+        "reading": "れいぶん",
         "translation": {
-          "vi": "Tôi học ngữ pháp 3.",
-          "en": "I study grammar 3."
+          "vi": "Ví dụ cho V(て形)もらいます",
+          "en": "Example for V(て形)もらいます"
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
         }
       }
     ],

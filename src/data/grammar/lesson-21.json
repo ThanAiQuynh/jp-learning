@@ -2,34 +2,37 @@
   {
     "id": "g-21-001",
     "lessonId": "lesson-21",
-    "pattern": "〜文法1",
-    "patternKana": "〜ぶんぽう1",
+    "pattern": "普通形 と思います",
+    "patternKana": "普通形 と思います",
     "title": {
-      "vi": "Ngữ pháp 1 (Bài 21)",
-      "en": "Grammar 1 (Lesson 21)"
+      "vi": "Tôi nghĩ rằng ~",
+      "en": "I think ~",
+      "ja": "普通形と思います"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 1 bài 21",
-      "en": "Explanation for grammar 1 lesson 21"
+      "vi": "Dùng để nói ý kiến.",
+      "en": "Used to express opinion.",
+      "ja": "意見を述べる。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xem giải thích.",
+      "en": "See explanation.",
+      "ja": "説明を参照。"
     },
     "formation": [
-      "N + 文法"
+      "普通形 と思います"
     ],
     "examples": [
       {
-        "ja": "私は文法1を勉強します。",
-        "reading": "わたしはぶんぽう1をべんきょうします。",
+        "ja": "例文 (普通形 と思います)",
+        "reading": "れいぶん",
         "translation": {
-          "vi": "Tôi học ngữ pháp 1.",
-          "en": "I study grammar 1."
+          "vi": "Ví dụ cho 普通形 と思います",
+          "en": "Example for 普通形 と思います"
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
         }
       }
     ],
@@ -38,34 +41,37 @@
   {
     "id": "g-21-002",
     "lessonId": "lesson-21",
-    "pattern": "〜文法2",
-    "patternKana": "〜ぶんぽう2",
+    "pattern": "普通形 と言います",
+    "patternKana": "普通形 と言います",
     "title": {
-      "vi": "Ngữ pháp 2 (Bài 21)",
-      "en": "Grammar 2 (Lesson 21)"
+      "vi": "Nói rằng ~",
+      "en": "Say that ~",
+      "ja": "普通形と言います"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 2 bài 21",
-      "en": "Explanation for grammar 2 lesson 21"
+      "vi": "Dùng để truyền đạt lời nói.",
+      "en": "Used to quote speech.",
+      "ja": "発言を伝える。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xem giải thích.",
+      "en": "See explanation.",
+      "ja": "説明を参照。"
     },
     "formation": [
-      "N + 文法"
+      "普通形 と言います"
     ],
     "examples": [
       {
-        "ja": "私は文法2を勉強します。",
-        "reading": "わたしはぶんぽう2をべんきょうします。",
+        "ja": "例文 (普通形 と言います)",
+        "reading": "れいぶん",
         "translation": {
-          "vi": "Tôi học ngữ pháp 2.",
-          "en": "I study grammar 2."
+          "vi": "Ví dụ cho 普通形 と言います",
+          "en": "Example for 普通形 と言います"
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
         }
       }
     ],
@@ -74,34 +80,37 @@
   {
     "id": "g-21-003",
     "lessonId": "lesson-21",
-    "pattern": "〜文法3",
-    "patternKana": "〜ぶんぽう3",
+    "pattern": "V普通形 でしょう？",
+    "patternKana": "V普通形 でしょう？",
     "title": {
-      "vi": "Ngữ pháp 3 (Bài 21)",
-      "en": "Grammar 3 (Lesson 21)"
+      "vi": "~ đúng không?",
+      "en": "~ right?",
+      "ja": "普通形 でしょう？"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 3 bài 21",
-      "en": "Explanation for grammar 3 lesson 21"
+      "vi": "Dùng để xác nhận.",
+      "en": "Used to confirm.",
+      "ja": "確認する。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xem giải thích.",
+      "en": "See explanation.",
+      "ja": "説明を参照。"
     },
     "formation": [
-      "N + 文法"
+      "V普通形 でしょう？"
     ],
     "examples": [
       {
-        "ja": "私は文法3を勉強します。",
-        "reading": "わたしはぶんぽう3をべんきょうします。",
+        "ja": "例文 (V普通形 でしょう？)",
+        "reading": "れいぶん",
         "translation": {
-          "vi": "Tôi học ngữ pháp 3.",
-          "en": "I study grammar 3."
+          "vi": "Ví dụ cho V普通形 でしょう？",
+          "en": "Example for V普通形 でしょう？"
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
         }
       }
     ],

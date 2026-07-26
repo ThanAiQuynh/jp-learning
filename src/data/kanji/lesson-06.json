@@ -2,156 +2,145 @@
   {
     "id": "k-06-001",
     "lessonId": "lesson-06",
-    "character": "漢1",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 1 (Bài 6)",
-      "en": "Kanji 1 (Lesson 6)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
+    "character": "食",
+    "onReadings": ["ショク"],
+    "kunReadings": ["た・べる", "く・う"],
+    "meaning": { "vi": "Ăn, thực phẩm", "en": "Eat, food" },
+    "strokeCount": 9,
+    "radicals": ["食"],
+    "primaryRadical": "食",
     "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字1",
-        "reading": "かんじ1",
-        "meaning": {
-          "vi": "Từ ghép 1",
-          "en": "Compound 1"
-        }
-      }
+      { "word": "食べます", "reading": "たべます", "meaning": { "vi": "Ăn", "en": "Eat" } },
+      { "word": "食堂", "reading": "しょくどう", "meaning": { "vi": "Nhà ăn, căng tin", "en": "Cafeteria" } }
     ]
   },
   {
     "id": "k-06-002",
     "lessonId": "lesson-06",
-    "character": "漢2",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 2 (Bài 6)",
-      "en": "Kanji 2 (Lesson 6)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
+    "character": "飲",
+    "onReadings": ["イン"],
+    "kunReadings": ["の・む"],
+    "meaning": { "vi": "Uống", "en": "Drink" },
+    "strokeCount": 12,
+    "radicals": ["食"],
+    "primaryRadical": "食",
     "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字2",
-        "reading": "かんじ2",
-        "meaning": {
-          "vi": "Từ ghép 2",
-          "en": "Compound 2"
-        }
-      }
+      { "word": "飲みます", "reading": "のみます", "meaning": { "vi": "Uống", "en": "Drink" } },
+      { "word": "飲み物", "reading": "のみもの", "meaning": { "vi": "Đồ uống", "en": "Beverage" } }
     ]
   },
   {
     "id": "k-06-003",
     "lessonId": "lesson-06",
-    "character": "漢3",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 3 (Bài 6)",
-      "en": "Kanji 3 (Lesson 6)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
+    "character": "見",
+    "onReadings": ["ケン"],
+    "kunReadings": ["み・る", "み・える", "み・せる"],
+    "meaning": { "vi": "Xem, nhìn", "en": "See, look" },
+    "strokeCount": 7,
+    "radicals": ["見"],
+    "primaryRadical": "見",
     "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字3",
-        "reading": "かんじ3",
-        "meaning": {
-          "vi": "Từ ghép 3",
-          "en": "Compound 3"
-        }
-      }
+      { "word": "見ます", "reading": "みます", "meaning": { "vi": "Xem", "en": "Watch, see" } },
+      { "word": "花見", "reading": "はなみ", "meaning": { "vi": "Ngắm hoa", "en": "Cherry blossom viewing" } }
     ]
   },
   {
     "id": "k-06-004",
     "lessonId": "lesson-06",
-    "character": "漢4",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 4 (Bài 6)",
-      "en": "Kanji 4 (Lesson 6)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
+    "character": "聞",
+    "onReadings": ["ブン", "モン"],
+    "kunReadings": ["き・く", "き・こえる"],
+    "meaning": { "vi": "Nghe, hỏi", "en": "Hear, ask, listen" },
+    "strokeCount": 14,
+    "radicals": ["耳"],
+    "primaryRadical": "耳",
     "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字4",
-        "reading": "かんじ4",
-        "meaning": {
-          "vi": "Từ ghép 4",
-          "en": "Compound 4"
-        }
-      }
+      { "word": "聞きます", "reading": "ききます", "meaning": { "vi": "Nghe, hỏi", "en": "Listen, ask" } },
+      { "word": "新聞", "reading": "しんぶん", "meaning": { "vi": "Báo", "en": "Newspaper" } }
     ]
   },
   {
     "id": "k-06-005",
     "lessonId": "lesson-06",
-    "character": "漢5",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 5 (Bài 6)",
-      "en": "Kanji 5 (Lesson 6)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
+    "character": "読",
+    "onReadings": ["ドク", "トク"],
+    "kunReadings": ["よ・む"],
+    "meaning": { "vi": "Đọc", "en": "Read" },
+    "strokeCount": 14,
+    "radicals": ["言"],
+    "primaryRadical": "言",
     "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字5",
-        "reading": "かんじ5",
-        "meaning": {
-          "vi": "Từ ghép 5",
-          "en": "Compound 5"
-        }
-      }
+      { "word": "読みます", "reading": "よみます", "meaning": { "vi": "Đọc", "en": "Read" } },
+      { "word": "読書", "reading": "どくしょ", "meaning": { "vi": "Đọc sách", "en": "Reading" } }
+    ]
+  },
+  {
+    "id": "k-06-006",
+    "lessonId": "lesson-06",
+    "character": "書",
+    "onReadings": ["ショ"],
+    "kunReadings": ["か・く"],
+    "meaning": { "vi": "Viết, sách", "en": "Write, book" },
+    "strokeCount": 10,
+    "radicals": ["聿"],
+    "primaryRadical": "聿",
+    "jlptLevel": "N5",
+    "compounds": [
+      { "word": "書きます", "reading": "かきます", "meaning": { "vi": "Viết", "en": "Write" } },
+      { "word": "図書館", "reading": "としょかん", "meaning": { "vi": "Thư viện", "en": "Library" } }
+    ]
+  },
+  {
+    "id": "k-06-007",
+    "lessonId": "lesson-06",
+    "character": "買",
+    "onReadings": ["バイ"],
+    "kunReadings": ["か・う"],
+    "meaning": { "vi": "Mua", "en": "Buy" },
+    "strokeCount": 12,
+    "radicals": ["貝"],
+    "primaryRadical": "貝",
+    "jlptLevel": "N5",
+    "compounds": [
+      { "word": "買います", "reading": "かいます", "meaning": { "vi": "Mua", "en": "Buy" } },
+      { "word": "買い物", "reading": "かいもの", "meaning": { "vi": "Mua sắm", "en": "Shopping" } }
+    ]
+  },
+  {
+    "id": "k-06-008",
+    "lessonId": "lesson-06",
+    "character": "映",
+    "onReadings": ["エイ"],
+    "kunReadings": ["うつ・る", "うつ・す"],
+    "meaning": { "vi": "Chiếu, phản chiếu", "en": "Reflect, project" },
+    "strokeCount": 9,
+    "radicals": ["日"],
+    "primaryRadical": "日",
+    "jlptLevel": "N4",
+    "compounds": [
+      { "word": "映画", "reading": "えいが", "meaning": { "vi": "Phim", "en": "Movie" } },
+      { "word": "映画館", "reading": "えいがかん", "meaning": { "vi": "Rạp chiếu phim", "en": "Movie theater" } }
+    ]
+  },
+  {
+    "id": "k-06-009",
+    "lessonId": "lesson-06",
+    "character": "新",
+    "onReadings": ["シン"],
+    "kunReadings": ["あたら・しい", "あら・た"],
+    "meaning": { "vi": "Mới", "en": "New" },
+    "strokeCount": 13,
+    "radicals": ["斤"],
+    "primaryRadical": "斤",
+    "jlptLevel": "N5",
+    "compounds": [
+      { "word": "新聞", "reading": "しんぶん", "meaning": { "vi": "Báo", "en": "Newspaper" } },
+      { "word": "新しい", "reading": "あたらしい", "meaning": { "vi": "Mới", "en": "New" } }
     ]
   }
 ]

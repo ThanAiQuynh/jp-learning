@@ -2,34 +2,37 @@
   {
     "id": "g-25-001",
     "lessonId": "lesson-25",
-    "pattern": "〜文法1",
-    "patternKana": "〜ぶんぽう1",
+    "pattern": "〜たら",
+    "patternKana": "〜たら",
     "title": {
-      "vi": "Ngữ pháp 1 (Bài 25)",
-      "en": "Grammar 1 (Lesson 25)"
+      "vi": "Nếu / Khi ~",
+      "en": "If / When ~",
+      "ja": "〜たら"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 1 bài 25",
-      "en": "Explanation for grammar 1 lesson 25"
+      "vi": "Giả định / Điều kiện.",
+      "en": "Condition.",
+      "ja": "仮定・条件。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xem giải thích.",
+      "en": "See explanation.",
+      "ja": "説明を参照。"
     },
     "formation": [
-      "N + 文法"
+      "〜たら"
     ],
     "examples": [
       {
-        "ja": "私は文法1を勉強します。",
-        "reading": "わたしはぶんぽう1をべんきょうします。",
+        "ja": "例文 (〜たら)",
+        "reading": "れいぶん",
         "translation": {
-          "vi": "Tôi học ngữ pháp 1.",
-          "en": "I study grammar 1."
+          "vi": "Ví dụ cho 〜たら",
+          "en": "Example for 〜たら"
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
         }
       }
     ],
@@ -38,70 +41,37 @@
   {
     "id": "g-25-002",
     "lessonId": "lesson-25",
-    "pattern": "〜文法2",
-    "patternKana": "〜ぶんぽう2",
+    "pattern": "V(て形)も",
+    "patternKana": "V(て形)も",
     "title": {
-      "vi": "Ngữ pháp 2 (Bài 25)",
-      "en": "Grammar 2 (Lesson 25)"
+      "vi": "Dù V ~",
+      "en": "Even if V",
+      "ja": "動詞(て形)も"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 2 bài 25",
-      "en": "Explanation for grammar 2 lesson 25"
+      "vi": "Cho dù có xảy ra.",
+      "en": "Even though.",
+      "ja": "逆説仮定。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xem giải thích.",
+      "en": "See explanation.",
+      "ja": "説明を参照。"
     },
     "formation": [
-      "N + 文法"
+      "V(て形)も"
     ],
     "examples": [
       {
-        "ja": "私は文法2を勉強します。",
-        "reading": "わたしはぶんぽう2をべんきょうします。",
+        "ja": "例文 (V(て形)も)",
+        "reading": "れいぶん",
         "translation": {
-          "vi": "Tôi học ngữ pháp 2.",
-          "en": "I study grammar 2."
+          "vi": "Ví dụ cho V(て形)も",
+          "en": "Example for V(て形)も"
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
-      }
-    ],
-    "jlptLevel": "N5"
-  },
-  {
-    "id": "g-25-003",
-    "lessonId": "lesson-25",
-    "pattern": "〜文法3",
-    "patternKana": "〜ぶんぽう3",
-    "title": {
-      "vi": "Ngữ pháp 3 (Bài 25)",
-      "en": "Grammar 3 (Lesson 25)"
-    },
-    "explanation": {
-      "vi": "Giải thích ngữ pháp 3 bài 25",
-      "en": "Explanation for grammar 3 lesson 25"
-    },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
-    "examples": [
-      {
-        "ja": "私は文法3を勉強します。",
-        "reading": "わたしはぶんぽう3をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 3.",
-          "en": "I study grammar 3."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
         }
       }
     ],

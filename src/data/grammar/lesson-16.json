@@ -2,34 +2,37 @@
   {
     "id": "g-16-001",
     "lessonId": "lesson-16",
-    "pattern": "〜文法1",
-    "patternKana": "〜ぶんぽう1",
+    "pattern": "V₁て、V₂て、V₃",
+    "patternKana": "V₁て、V₂て、V₃",
     "title": {
-      "vi": "Ngữ pháp 1 (Bài 16)",
-      "en": "Grammar 1 (Lesson 16)"
+      "vi": "Nối hành động bằng て",
+      "en": "Connecting actions with て",
+      "ja": "動詞を「て」で繋ぐ"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 1 bài 16",
-      "en": "Explanation for grammar 1 lesson 16"
+      "vi": "Cách nối nhiều hành động theo thứ tự.",
+      "en": "Linking multiple actions in sequence.",
+      "ja": "複数の動作を順番に繋ぐ。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xem giải thích.",
+      "en": "See explanation.",
+      "ja": "説明を参照。"
     },
     "formation": [
-      "N + 文法"
+      "V₁て、V₂て、V₃"
     ],
     "examples": [
       {
-        "ja": "私は文法1を勉強します。",
-        "reading": "わたしはぶんぽう1をべんきょうします。",
+        "ja": "例文 (V₁て、V₂て、V₃)",
+        "reading": "れいぶん",
         "translation": {
-          "vi": "Tôi học ngữ pháp 1.",
-          "en": "I study grammar 1."
+          "vi": "Ví dụ cho V₁て、V₂て、V₃",
+          "en": "Example for V₁て、V₂て、V₃"
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
         }
       }
     ],
@@ -38,34 +41,37 @@
   {
     "id": "g-16-002",
     "lessonId": "lesson-16",
-    "pattern": "〜文法2",
-    "patternKana": "〜ぶんぽう2",
+    "pattern": "V₁てから、V₂",
+    "patternKana": "V₁てから、V₂",
     "title": {
-      "vi": "Ngữ pháp 2 (Bài 16)",
-      "en": "Grammar 2 (Lesson 16)"
+      "vi": "Làm V₂ sau khi V₁",
+      "en": "V₂ after V₁",
+      "ja": "V₁てから、V₂"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 2 bài 16",
-      "en": "Explanation for grammar 2 lesson 16"
+      "vi": "V₁てから biểu thị V₁ xong rồi mới V₂.",
+      "en": "V₁てから means 'after doing V₁, do V₂'.",
+      "ja": "V₁をしてから、V₂をする。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xem giải thích.",
+      "en": "See explanation.",
+      "ja": "説明を参照。"
     },
     "formation": [
-      "N + 文法"
+      "V₁てから、V₂"
     ],
     "examples": [
       {
-        "ja": "私は文法2を勉強します。",
-        "reading": "わたしはぶんぽう2をべんきょうします。",
+        "ja": "例文 (V₁てから、V₂)",
+        "reading": "れいぶん",
         "translation": {
-          "vi": "Tôi học ngữ pháp 2.",
-          "en": "I study grammar 2."
+          "vi": "Ví dụ cho V₁てから、V₂",
+          "en": "Example for V₁てから、V₂"
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
         }
       }
     ],
@@ -74,34 +80,37 @@
   {
     "id": "g-16-003",
     "lessonId": "lesson-16",
-    "pattern": "〜文法3",
-    "patternKana": "〜ぶんぽう3",
+    "pattern": "N は adj / V (thể thông thường)",
+    "patternKana": "N は adj / V (thể thông thường)",
     "title": {
-      "vi": "Ngữ pháp 3 (Bài 16)",
-      "en": "Grammar 3 (Lesson 16)"
+      "vi": "Mô tả đặc điểm bằng câu đơn giản",
+      "en": "Describing with plain forms",
+      "ja": "名詞は 形容詞 / 動詞（普通形）"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 3 bài 16",
-      "en": "Explanation for grammar 3 lesson 16"
+      "vi": "Dùng để mô tả đặc điểm của N.",
+      "en": "Used to describe characteristics of N.",
+      "ja": "Nの特徴を述べる。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xem giải thích.",
+      "en": "See explanation.",
+      "ja": "説明を参照。"
     },
     "formation": [
-      "N + 文法"
+      "N は adj / V (thể thông thường)"
     ],
     "examples": [
       {
-        "ja": "私は文法3を勉強します。",
-        "reading": "わたしはぶんぽう3をべんきょうします。",
+        "ja": "例文 (N は adj / V (thể thông thường))",
+        "reading": "れいぶん",
         "translation": {
-          "vi": "Tôi học ngữ pháp 3.",
-          "en": "I study grammar 3."
+          "vi": "Ví dụ cho N は adj / V (thể thông thường)",
+          "en": "Example for N は adj / V (thể thông thường)"
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
         }
       }
     ],

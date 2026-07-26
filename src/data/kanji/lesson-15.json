@@ -2,30 +2,38 @@
   {
     "id": "k-15-001",
     "lessonId": "lesson-15",
-    "character": "漢1",
+    "character": "住",
     "onReadings": [
-      "カン"
+      "ジュウ"
     ],
     "kunReadings": [
-      "かん"
+      "す・む"
     ],
     "meaning": {
-      "vi": "Hán tự 1 (Bài 15)",
-      "en": "Kanji 1 (Lesson 15)"
+      "vi": "Sống, ở",
+      "en": "Live, reside"
     },
-    "strokeCount": 5,
+    "strokeCount": 7,
     "radicals": [
-      "水"
+      "人"
     ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "primaryRadical": "人",
+    "jlptLevel": "N4",
     "compounds": [
       {
-        "word": "漢字1",
-        "reading": "かんじ1",
+        "word": "住みます",
+        "reading": "すみます",
         "meaning": {
-          "vi": "Từ ghép 1",
-          "en": "Compound 1"
+          "vi": "Sống, ở",
+          "en": "Live"
+        }
+      },
+      {
+        "word": "住所",
+        "reading": "じゅうしょ",
+        "meaning": {
+          "vi": "Địa chỉ",
+          "en": "Address"
         }
       }
     ]
@@ -33,30 +41,30 @@
   {
     "id": "k-15-002",
     "lessonId": "lesson-15",
-    "character": "漢2",
+    "character": "売",
     "onReadings": [
-      "カン"
+      "バイ"
     ],
     "kunReadings": [
-      "かん"
+      "う・る"
     ],
     "meaning": {
-      "vi": "Hán tự 2 (Bài 15)",
-      "en": "Kanji 2 (Lesson 15)"
+      "vi": "Bán",
+      "en": "Sell"
     },
-    "strokeCount": 5,
+    "strokeCount": 7,
     "radicals": [
-      "水"
+      "士"
     ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "primaryRadical": "士",
+    "jlptLevel": "N4",
     "compounds": [
       {
-        "word": "漢字2",
-        "reading": "かんじ2",
+        "word": "売ります",
+        "reading": "うります",
         "meaning": {
-          "vi": "Từ ghép 2",
-          "en": "Compound 2"
+          "vi": "Bán",
+          "en": "Sell"
         }
       }
     ]
@@ -64,30 +72,31 @@
   {
     "id": "k-15-003",
     "lessonId": "lesson-15",
-    "character": "漢3",
+    "character": "作",
     "onReadings": [
-      "カン"
+      "サク",
+      "サ"
     ],
     "kunReadings": [
-      "かん"
+      "つく・る"
     ],
     "meaning": {
-      "vi": "Hán tự 3 (Bài 15)",
-      "en": "Kanji 3 (Lesson 15)"
+      "vi": "Làm, chế tạo",
+      "en": "Make"
     },
-    "strokeCount": 5,
+    "strokeCount": 7,
     "radicals": [
-      "水"
+      "人"
     ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "primaryRadical": "人",
+    "jlptLevel": "N4",
     "compounds": [
       {
-        "word": "漢字3",
-        "reading": "かんじ3",
+        "word": "作ります",
+        "reading": "つくります",
         "meaning": {
-          "vi": "Từ ghép 3",
-          "en": "Compound 3"
+          "vi": "Làm",
+          "en": "Make"
         }
       }
     ]
@@ -95,30 +104,30 @@
   {
     "id": "k-15-004",
     "lessonId": "lesson-15",
-    "character": "漢4",
+    "character": "知",
     "onReadings": [
-      "カン"
+      "チ"
     ],
     "kunReadings": [
-      "かん"
+      "し・る"
     ],
     "meaning": {
-      "vi": "Hán tự 4 (Bài 15)",
-      "en": "Kanji 4 (Lesson 15)"
+      "vi": "Biết",
+      "en": "Know"
     },
-    "strokeCount": 5,
+    "strokeCount": 8,
     "radicals": [
-      "水"
+      "矢"
     ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "primaryRadical": "矢",
+    "jlptLevel": "N4",
     "compounds": [
       {
-        "word": "漢字4",
-        "reading": "かんじ4",
+        "word": "知ります",
+        "reading": "しります",
         "meaning": {
-          "vi": "Từ ghép 4",
-          "en": "Compound 4"
+          "vi": "Biết",
+          "en": "Know"
         }
       }
     ]
@@ -126,30 +135,71 @@
   {
     "id": "k-15-005",
     "lessonId": "lesson-15",
-    "character": "漢5",
+    "character": "子",
     "onReadings": [
-      "カン"
+      "シ",
+      "ス"
     ],
     "kunReadings": [
-      "かん"
+      "こ"
     ],
     "meaning": {
-      "vi": "Hán tự 5 (Bài 15)",
-      "en": "Kanji 5 (Lesson 15)"
+      "vi": "Con, trẻ",
+      "en": "Child"
     },
-    "strokeCount": 5,
+    "strokeCount": 3,
     "radicals": [
-      "水"
+      "子"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "子",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字5",
-        "reading": "かんじ5",
+        "word": "子供",
+        "reading": "こども",
         "meaning": {
-          "vi": "Từ ghép 5",
-          "en": "Compound 5"
+          "vi": "Trẻ em",
+          "en": "Child"
+        }
+      }
+    ]
+  },
+  {
+    "id": "k-15-006",
+    "lessonId": "lesson-15",
+    "character": "兄",
+    "onReadings": [
+      "ケイ",
+      "キョウ"
+    ],
+    "kunReadings": [
+      "あに"
+    ],
+    "meaning": {
+      "vi": "Anh trai",
+      "en": "Older brother"
+    },
+    "strokeCount": 5,
+    "radicals": [
+      "儿"
+    ],
+    "primaryRadical": "儿",
+    "jlptLevel": "N4",
+    "compounds": [
+      {
+        "word": "兄",
+        "reading": "あに",
+        "meaning": {
+          "vi": "Anh trai",
+          "en": "Older brother"
+        }
+      },
+      {
+        "word": "お兄さん",
+        "reading": "おにいさん",
+        "meaning": {
+          "vi": "Anh trai (lịch sự)",
+          "en": "Older brother (polite)"
         }
       }
     ]

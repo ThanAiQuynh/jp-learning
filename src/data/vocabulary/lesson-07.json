@@ -1,117 +1,240 @@
 [
   {
-    "id": "v-07-001",
-    "lessonId": "lesson-07",
-    "kanji": "単語1",
-    "hiragana": "たんご1",
-    "romaji": "tango1",
-    "meaning": {
-      "vi": "Từ vựng 1 (Bài 7)",
-      "en": "Vocab 1 (Lesson 7)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語1です。",
-        "reading": "これはたんご1です。",
-        "translation": {
-          "vi": "Đây là từ vựng 1.",
-          "en": "This is vocab 1."
-        }
-      }
-    ]
+    "id": "v-07-001", "lessonId": "lesson-07",
+    "kanji": "切ります", "hiragana": "きります", "romaji": "kirimasu",
+    "meaning": { "vi": "Cắt", "en": "Cut" },
+    "wordType": "verb", "jlptLevel": "N5",
+    "examples": [{ "ja": "はさみで 紙を 切ります。", "reading": "はさみで かみを きります。", "translation": { "vi": "Tôi cắt giấy bằng kéo.", "en": "I cut paper with scissors." } }]
   },
   {
-    "id": "v-07-002",
-    "lessonId": "lesson-07",
-    "kanji": "単語2",
-    "hiragana": "たんご2",
-    "romaji": "tango2",
-    "meaning": {
-      "vi": "Từ vựng 2 (Bài 7)",
-      "en": "Vocab 2 (Lesson 7)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語2です。",
-        "reading": "これはたんご2です。",
-        "translation": {
-          "vi": "Đây là từ vựng 2.",
-          "en": "This is vocab 2."
-        }
-      }
-    ]
+    "id": "v-07-002", "lessonId": "lesson-07",
+    "kanji": "送ります", "hiragana": "おくります", "romaji": "okurimasu",
+    "meaning": { "vi": "Gửi", "en": "Send" },
+    "wordType": "verb", "jlptLevel": "N5",
+    "examples": [{ "ja": "荷物を 送ります。", "reading": "にもつを おくります。", "translation": { "vi": "Tôi gửi hành lý.", "en": "I send the luggage." } }]
   },
   {
-    "id": "v-07-003",
-    "lessonId": "lesson-07",
-    "kanji": "単語3",
-    "hiragana": "たんご3",
-    "romaji": "tango3",
-    "meaning": {
-      "vi": "Từ vựng 3 (Bài 7)",
-      "en": "Vocab 3 (Lesson 7)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語3です。",
-        "reading": "これはたんご3です。",
-        "translation": {
-          "vi": "Đây là từ vựng 3.",
-          "en": "This is vocab 3."
-        }
-      }
-    ]
+    "id": "v-07-003", "lessonId": "lesson-07",
+    "kanji": "あげます", "hiragana": "あげます", "romaji": "agemasu",
+    "meaning": { "vi": "Cho, tặng", "en": "Give" },
+    "wordType": "verb", "jlptLevel": "N5",
+    "examples": [{ "ja": "友達に プレゼントを あげます。", "reading": "ともだちに プレゼントを あげます。", "translation": { "vi": "Tôi tặng quà cho bạn.", "en": "I give a present to my friend." } }]
   },
   {
-    "id": "v-07-004",
-    "lessonId": "lesson-07",
-    "kanji": "単語4",
-    "hiragana": "たんご4",
-    "romaji": "tango4",
-    "meaning": {
-      "vi": "Từ vựng 4 (Bài 7)",
-      "en": "Vocab 4 (Lesson 7)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語4です。",
-        "reading": "これはたんご4です。",
-        "translation": {
-          "vi": "Đây là từ vựng 4.",
-          "en": "This is vocab 4."
-        }
-      }
-    ]
+    "id": "v-07-004", "lessonId": "lesson-07",
+    "kanji": "もらいます", "hiragana": "もらいます", "romaji": "moraimasu",
+    "meaning": { "vi": "Nhận", "en": "Receive" },
+    "wordType": "verb", "jlptLevel": "N5",
+    "examples": [{ "ja": "母に セーターを もらいました。", "reading": "ははに セーターを もらいました。", "translation": { "vi": "Tôi đã nhận áo len từ mẹ.", "en": "I received a sweater from my mother." } }]
   },
   {
-    "id": "v-07-005",
-    "lessonId": "lesson-07",
-    "kanji": "単語5",
-    "hiragana": "たんご5",
-    "romaji": "tango5",
-    "meaning": {
-      "vi": "Từ vựng 5 (Bài 7)",
-      "en": "Vocab 5 (Lesson 7)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語5です。",
-        "reading": "これはたんご5です。",
-        "translation": {
-          "vi": "Đây là từ vựng 5.",
-          "en": "This is vocab 5."
-        }
-      }
-    ]
+    "id": "v-07-005", "lessonId": "lesson-07",
+    "kanji": "貸します", "hiragana": "かします", "romaji": "kashimasu",
+    "meaning": { "vi": "Cho mượn", "en": "Lend" },
+    "wordType": "verb", "jlptLevel": "N5",
+    "examples": [{ "ja": "本を 貸します。", "reading": "ほんを かします。", "translation": { "vi": "Tôi cho mượn sách.", "en": "I lend a book." } }]
+  },
+  {
+    "id": "v-07-006", "lessonId": "lesson-07",
+    "kanji": "借ります", "hiragana": "かります", "romaji": "karimasu",
+    "meaning": { "vi": "Mượn", "en": "Borrow" },
+    "wordType": "verb", "jlptLevel": "N5",
+    "examples": [{ "ja": "図書館で 本を 借ります。", "reading": "としょかんで ほんを かります。", "translation": { "vi": "Tôi mượn sách ở thư viện.", "en": "I borrow a book from the library." } }]
+  },
+  {
+    "id": "v-07-007", "lessonId": "lesson-07",
+    "kanji": "教えます", "hiragana": "おしえます", "romaji": "oshiemasu",
+    "meaning": { "vi": "Dạy, chỉ cho biết", "en": "Teach, tell" },
+    "wordType": "verb", "jlptLevel": "N5",
+    "examples": [{ "ja": "英語を 教えます。", "reading": "えいごを おしえます。", "translation": { "vi": "Tôi dạy tiếng Anh.", "en": "I teach English." } }]
+  },
+  {
+    "id": "v-07-008", "lessonId": "lesson-07",
+    "kanji": "習います", "hiragana": "ならいます", "romaji": "naraimasu",
+    "meaning": { "vi": "Học (từ ai đó)", "en": "Learn (from someone)" },
+    "wordType": "verb", "jlptLevel": "N5",
+    "examples": [{ "ja": "日本語を 習います。", "reading": "にほんごを ならいます。", "translation": { "vi": "Tôi học tiếng Nhật.", "en": "I learn Japanese." } }]
+  },
+  {
+    "id": "v-07-009", "lessonId": "lesson-07",
+    "kanji": "掛けます", "hiragana": "かけます", "romaji": "kakemasu",
+    "meaning": { "vi": "Gọi (điện thoại)", "en": "Make (a phone call)" },
+    "wordType": "verb", "jlptLevel": "N5",
+    "examples": [{ "ja": "電話を かけます。", "reading": "でんわを かけます。", "translation": { "vi": "Tôi gọi điện thoại.", "en": "I make a phone call." } }]
+  },
+  {
+    "id": "v-07-010", "lessonId": "lesson-07",
+    "kanji": "", "hiragana": "はし", "romaji": "hashi",
+    "meaning": { "vi": "Đũa", "en": "Chopsticks" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-011", "lessonId": "lesson-07",
+    "kanji": "", "hiragana": "スプーン", "romaji": "supuun",
+    "meaning": { "vi": "Thìa", "en": "Spoon" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-012", "lessonId": "lesson-07",
+    "kanji": "", "hiragana": "ナイフ", "romaji": "naifu",
+    "meaning": { "vi": "Dao", "en": "Knife" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-013", "lessonId": "lesson-07",
+    "kanji": "", "hiragana": "フォーク", "romaji": "fooku",
+    "meaning": { "vi": "Nĩa", "en": "Fork" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-014", "lessonId": "lesson-07",
+    "kanji": "", "hiragana": "はさみ", "romaji": "hasami",
+    "meaning": { "vi": "Kéo", "en": "Scissors" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-015", "lessonId": "lesson-07",
+    "kanji": "", "hiragana": "パソコン", "romaji": "pasokon",
+    "meaning": { "vi": "Máy tính cá nhân", "en": "Personal computer" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-016", "lessonId": "lesson-07",
+    "kanji": "携帯電話", "hiragana": "けいたいでんわ", "romaji": "keitai denwa",
+    "meaning": { "vi": "Điện thoại di động", "en": "Mobile phone" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-017", "lessonId": "lesson-07",
+    "kanji": "", "hiragana": "メール", "romaji": "meeru",
+    "meaning": { "vi": "Email, tin nhắn", "en": "Email, message" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-018", "lessonId": "lesson-07",
+    "kanji": "年賀状", "hiragana": "ねんがじょう", "romaji": "nengajou",
+    "meaning": { "vi": "Thiệp chúc mừng năm mới", "en": "New Year's card" },
+    "wordType": "noun", "jlptLevel": "N4"
+  },
+  {
+    "id": "v-07-019", "lessonId": "lesson-07",
+    "kanji": "", "hiragana": "パンチ", "romaji": "panchi",
+    "meaning": { "vi": "Dụng cụ đục lỗ", "en": "Hole punch" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-020", "lessonId": "lesson-07",
+    "kanji": "", "hiragana": "ホッチキス", "romaji": "hotchikisu",
+    "meaning": { "vi": "Dập ghim", "en": "Stapler" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-021", "lessonId": "lesson-07",
+    "kanji": "", "hiragana": "セロテープ", "romaji": "seroteepu",
+    "meaning": { "vi": "Băng dính", "en": "Scotch tape" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-022", "lessonId": "lesson-07",
+    "kanji": "消しゴム", "hiragana": "けしゴム", "romaji": "keshigomu",
+    "meaning": { "vi": "Cục tẩy", "en": "Eraser" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-023", "lessonId": "lesson-07",
+    "kanji": "紙", "hiragana": "かみ", "romaji": "kami",
+    "meaning": { "vi": "Giấy", "en": "Paper" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-024", "lessonId": "lesson-07",
+    "kanji": "花", "hiragana": "はな", "romaji": "hana",
+    "meaning": { "vi": "Hoa", "en": "Flower" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-025", "lessonId": "lesson-07",
+    "kanji": "", "hiragana": "シャツ", "romaji": "shatsu",
+    "meaning": { "vi": "Áo sơ mi", "en": "Shirt" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-026", "lessonId": "lesson-07",
+    "kanji": "", "hiragana": "プレゼント", "romaji": "purezento",
+    "meaning": { "vi": "Quà tặng", "en": "Present, gift" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-027", "lessonId": "lesson-07",
+    "kanji": "荷物", "hiragana": "にもつ", "romaji": "nimotsu",
+    "meaning": { "vi": "Hành lý, đồ đạc", "en": "Luggage, baggage" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-028", "lessonId": "lesson-07",
+    "kanji": "お金", "hiragana": "おかね", "romaji": "okane",
+    "meaning": { "vi": "Tiền", "en": "Money" },
+    "wordType": "noun", "jlptLevel": "N5",
+    "relatedKanji": ["金"]
+  },
+  {
+    "id": "v-07-029", "lessonId": "lesson-07",
+    "kanji": "切符", "hiragana": "きっぷ", "romaji": "kippu",
+    "meaning": { "vi": "Vé", "en": "Ticket" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-030", "lessonId": "lesson-07",
+    "kanji": "", "hiragana": "クリスマス", "romaji": "kurisumasu",
+    "meaning": { "vi": "Giáng sinh", "en": "Christmas" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-031", "lessonId": "lesson-07",
+    "kanji": "父", "hiragana": "ちち", "romaji": "chichi",
+    "meaning": { "vi": "Bố (nói về bố mình)", "en": "Father (humble)" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-032", "lessonId": "lesson-07",
+    "kanji": "母", "hiragana": "はは", "romaji": "haha",
+    "meaning": { "vi": "Mẹ (nói về mẹ mình)", "en": "Mother (humble)" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-033", "lessonId": "lesson-07",
+    "kanji": "お父さん", "hiragana": "おとうさん", "romaji": "otousan",
+    "meaning": { "vi": "Bố (nói với/về bố người khác)", "en": "Father (polite)" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-034", "lessonId": "lesson-07",
+    "kanji": "お母さん", "hiragana": "おかあさん", "romaji": "okaasan",
+    "meaning": { "vi": "Mẹ (nói với/về mẹ người khác)", "en": "Mother (polite)" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-035", "lessonId": "lesson-07",
+    "kanji": "", "hiragana": "もう", "romaji": "mou",
+    "meaning": { "vi": "Đã, rồi", "en": "Already" },
+    "wordType": "adverb", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-036", "lessonId": "lesson-07",
+    "kanji": "", "hiragana": "まだ", "romaji": "mada",
+    "meaning": { "vi": "Chưa, vẫn còn", "en": "Not yet, still" },
+    "wordType": "adverb", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-037", "lessonId": "lesson-07",
+    "kanji": "英語", "hiragana": "えいご", "romaji": "eigo",
+    "meaning": { "vi": "Tiếng Anh", "en": "English language" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-07-038", "lessonId": "lesson-07",
+    "kanji": "", "hiragana": "これから お世話に なります", "romaji": "korekara osewa ni narimasu",
+    "meaning": { "vi": "Từ nay xin được nhờ vả (dùng khi mới quen)", "en": "I look forward to your assistance (greeting)" },
+    "wordType": "greeting", "jlptLevel": "N5"
   }
 ]

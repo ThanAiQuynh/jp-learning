@@ -2,116 +2,209 @@
   {
     "id": "v-18-001",
     "lessonId": "lesson-18",
-    "kanji": "単語1",
-    "hiragana": "たんご1",
-    "romaji": "tango1",
+    "kanji": "弾きます",
+    "hiragana": "ひきます",
+    "romaji": "18001",
     "meaning": {
-      "vi": "Từ vựng 1 (Bài 18)",
-      "en": "Vocab 1 (Lesson 18)"
+      "vi": "Chơi (đàn)",
+      "en": "Play (instrument)"
     },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語1です。",
-        "reading": "これはたんご1です。",
-        "translation": {
-          "vi": "Đây là từ vựng 1.",
-          "en": "This is vocab 1."
-        }
-      }
-    ]
+    "wordType": "verb",
+    "jlptLevel": "N5"
   },
   {
     "id": "v-18-002",
     "lessonId": "lesson-18",
-    "kanji": "単語2",
-    "hiragana": "たんご2",
-    "romaji": "tango2",
+    "kanji": "歌います",
+    "hiragana": "うたいます",
+    "romaji": "18002",
     "meaning": {
-      "vi": "Từ vựng 2 (Bài 18)",
-      "en": "Vocab 2 (Lesson 18)"
+      "vi": "Hát",
+      "en": "Sing"
     },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語2です。",
-        "reading": "これはたんご2です。",
-        "translation": {
-          "vi": "Đây là từ vựng 2.",
-          "en": "This is vocab 2."
-        }
-      }
-    ]
+    "wordType": "verb",
+    "jlptLevel": "N5"
   },
   {
     "id": "v-18-003",
     "lessonId": "lesson-18",
-    "kanji": "単語3",
-    "hiragana": "たんご3",
-    "romaji": "tango3",
+    "kanji": "集めます",
+    "hiragana": "あつめます",
+    "romaji": "18003",
     "meaning": {
-      "vi": "Từ vựng 3 (Bài 18)",
-      "en": "Vocab 3 (Lesson 18)"
+      "vi": "Thu thập, sưu tầm",
+      "en": "Collect"
     },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語3です。",
-        "reading": "これはたんご3です。",
-        "translation": {
-          "vi": "Đây là từ vựng 3.",
-          "en": "This is vocab 3."
-        }
-      }
-    ]
+    "wordType": "verb",
+    "jlptLevel": "N5"
   },
   {
     "id": "v-18-004",
     "lessonId": "lesson-18",
-    "kanji": "単語4",
-    "hiragana": "たんご4",
-    "romaji": "tango4",
+    "kanji": "捨てます",
+    "hiragana": "すてます",
+    "romaji": "18004",
     "meaning": {
-      "vi": "Từ vựng 4 (Bài 18)",
-      "en": "Vocab 4 (Lesson 18)"
+      "vi": "Vứt, bỏ",
+      "en": "Throw away"
     },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語4です。",
-        "reading": "これはたんご4です。",
-        "translation": {
-          "vi": "Đây là từ vựng 4.",
-          "en": "This is vocab 4."
-        }
-      }
-    ]
+    "wordType": "verb",
+    "jlptLevel": "N5"
   },
   {
     "id": "v-18-005",
     "lessonId": "lesson-18",
-    "kanji": "単語5",
-    "hiragana": "たんご5",
-    "romaji": "tango5",
+    "kanji": "換えます",
+    "hiragana": "かえます",
+    "romaji": "18005",
     "meaning": {
-      "vi": "Từ vựng 5 (Bài 18)",
-      "en": "Vocab 5 (Lesson 18)"
+      "vi": "Đổi",
+      "en": "Exchange"
+    },
+    "wordType": "verb",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-18-006",
+    "lessonId": "lesson-18",
+    "kanji": "運転します",
+    "hiragana": "うんてんします",
+    "romaji": "18006",
+    "meaning": {
+      "vi": "Lái (xe)",
+      "en": "Drive"
+    },
+    "wordType": "verb",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-18-007",
+    "lessonId": "lesson-18",
+    "kanji": "予約します",
+    "hiragana": "よやくします",
+    "romaji": "18007",
+    "meaning": {
+      "vi": "Đặt trước",
+      "en": "Reserve"
+    },
+    "wordType": "verb",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-18-008",
+    "lessonId": "lesson-18",
+    "kanji": "見学します",
+    "hiragana": "けんがくします",
+    "romaji": "18008",
+    "meaning": {
+      "vi": "Tham quan, học hỏi",
+      "en": "Visit (to learn)"
+    },
+    "wordType": "verb",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-18-009",
+    "lessonId": "lesson-18",
+    "kanji": "趣味",
+    "hiragana": "しゅみ",
+    "romaji": "18009",
+    "meaning": {
+      "vi": "Sở thích",
+      "en": "Hobby"
     },
     "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語5です。",
-        "reading": "これはたんご5です。",
-        "translation": {
-          "vi": "Đây là từ vựng 5.",
-          "en": "This is vocab 5."
-        }
-      }
-    ]
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-18-010",
+    "lessonId": "lesson-18",
+    "kanji": "日記",
+    "hiragana": "にっき",
+    "romaji": "18010",
+    "meaning": {
+      "vi": "Nhật ký",
+      "en": "Diary"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-18-011",
+    "lessonId": "lesson-18",
+    "kanji": "",
+    "hiragana": "ピアノ",
+    "romaji": "18011",
+    "meaning": {
+      "vi": "Đàn piano",
+      "en": "Piano"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-18-012",
+    "lessonId": "lesson-18",
+    "kanji": "",
+    "hiragana": "ギター",
+    "romaji": "18012",
+    "meaning": {
+      "vi": "Đàn guitar",
+      "en": "Guitar"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-18-013",
+    "lessonId": "lesson-18",
+    "kanji": "切符売り場",
+    "hiragana": "きっぷうりば",
+    "romaji": "18013",
+    "meaning": {
+      "vi": "Quầy bán vé",
+      "en": "Ticket counter"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-18-014",
+    "lessonId": "lesson-18",
+    "kanji": "旅館",
+    "hiragana": "りょかん",
+    "romaji": "18014",
+    "meaning": {
+      "vi": "Nhà trọ kiểu Nhật",
+      "en": "Japanese inn"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-18-015",
+    "lessonId": "lesson-18",
+    "kanji": "",
+    "hiragana": "なかなか",
+    "romaji": "18015",
+    "meaning": {
+      "vi": "Khá là, khó mà",
+      "en": "Quite, not easily"
+    },
+    "wordType": "adverb",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-18-016",
+    "lessonId": "lesson-18",
+    "kanji": "",
+    "hiragana": "ぜひ",
+    "romaji": "18016",
+    "meaning": {
+      "vi": "Nhất định, nhất thiết",
+      "en": "By all means"
+    },
+    "wordType": "adverb",
+    "jlptLevel": "N5"
   }
 ]

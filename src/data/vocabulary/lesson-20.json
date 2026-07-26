@@ -2,116 +2,105 @@
   {
     "id": "v-20-001",
     "lessonId": "lesson-20",
-    "kanji": "単語1",
-    "hiragana": "たんご1",
-    "romaji": "tango1",
+    "kanji": "要ります",
+    "hiragana": "いります",
+    "romaji": "20001",
     "meaning": {
-      "vi": "Từ vựng 1 (Bài 20)",
-      "en": "Vocab 1 (Lesson 20)"
+      "vi": "Cần",
+      "en": "Need"
     },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語1です。",
-        "reading": "これはたんご1です。",
-        "translation": {
-          "vi": "Đây là từ vựng 1.",
-          "en": "This is vocab 1."
-        }
-      }
-    ]
+    "wordType": "verb",
+    "jlptLevel": "N5"
   },
   {
     "id": "v-20-002",
     "lessonId": "lesson-20",
-    "kanji": "単語2",
-    "hiragana": "たんご2",
-    "romaji": "tango2",
+    "kanji": "調べます",
+    "hiragana": "しらべます",
+    "romaji": "20002",
     "meaning": {
-      "vi": "Từ vựng 2 (Bài 20)",
-      "en": "Vocab 2 (Lesson 20)"
+      "vi": "Tra cứu",
+      "en": "Look up"
     },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語2です。",
-        "reading": "これはたんご2です。",
-        "translation": {
-          "vi": "Đây là từ vựng 2.",
-          "en": "This is vocab 2."
-        }
-      }
-    ]
+    "wordType": "verb",
+    "jlptLevel": "N5"
   },
   {
     "id": "v-20-003",
     "lessonId": "lesson-20",
-    "kanji": "単語3",
-    "hiragana": "たんご3",
-    "romaji": "tango3",
+    "kanji": "直します",
+    "hiragana": "なおします",
+    "romaji": "20003",
     "meaning": {
-      "vi": "Từ vựng 3 (Bài 20)",
-      "en": "Vocab 3 (Lesson 20)"
+      "vi": "Sửa chữa",
+      "en": "Fix"
     },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語3です。",
-        "reading": "これはたんご3です。",
-        "translation": {
-          "vi": "Đây là từ vựng 3.",
-          "en": "This is vocab 3."
-        }
-      }
-    ]
+    "wordType": "verb",
+    "jlptLevel": "N5"
   },
   {
     "id": "v-20-004",
     "lessonId": "lesson-20",
-    "kanji": "単語4",
-    "hiragana": "たんご4",
-    "romaji": "tango4",
+    "kanji": "修理します",
+    "hiragana": "しゅうりします",
+    "romaji": "20004",
     "meaning": {
-      "vi": "Từ vựng 4 (Bài 20)",
-      "en": "Vocab 4 (Lesson 20)"
+      "vi": "Sửa chữa",
+      "en": "Repair"
     },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語4です。",
-        "reading": "これはたんご4です。",
-        "translation": {
-          "vi": "Đây là từ vựng 4.",
-          "en": "This is vocab 4."
-        }
-      }
-    ]
+    "wordType": "verb",
+    "jlptLevel": "N5"
   },
   {
     "id": "v-20-005",
     "lessonId": "lesson-20",
-    "kanji": "単語5",
-    "hiragana": "たんご5",
-    "romaji": "tango5",
+    "kanji": "僕",
+    "hiragana": "ぼく",
+    "romaji": "20005",
     "meaning": {
-      "vi": "Từ vựng 5 (Bài 20)",
-      "en": "Vocab 5 (Lesson 20)"
+      "vi": "Tôi (nam)",
+      "en": "I (male)"
     },
     "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語5です。",
-        "reading": "これはたんご5です。",
-        "translation": {
-          "vi": "Đây là từ vựng 5.",
-          "en": "This is vocab 5."
-        }
-      }
-    ]
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-20-006",
+    "lessonId": "lesson-20",
+    "kanji": "君",
+    "hiragana": "きみ",
+    "romaji": "20006",
+    "meaning": {
+      "vi": "Bạn",
+      "en": "You"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-20-007",
+    "lessonId": "lesson-20",
+    "kanji": "うん",
+    "hiragana": "うん",
+    "romaji": "20007",
+    "meaning": {
+      "vi": "Ừ",
+      "en": "Yeah"
+    },
+    "wordType": "expression",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-20-008",
+    "lessonId": "lesson-20",
+    "kanji": "ううん",
+    "hiragana": "ううん",
+    "romaji": "20008",
+    "meaning": {
+      "vi": "Không",
+      "en": "Nah"
+    },
+    "wordType": "expression",
+    "jlptLevel": "N5"
   }
 ]

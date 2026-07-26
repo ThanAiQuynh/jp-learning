@@ -2,30 +2,31 @@
   {
     "id": "k-19-001",
     "lessonId": "lesson-19",
-    "character": "漢1",
+    "character": "登",
     "onReadings": [
-      "カン"
+      "トウ",
+      "ト"
     ],
     "kunReadings": [
-      "かん"
+      "のぼ・る"
     ],
     "meaning": {
-      "vi": "Hán tự 1 (Bài 19)",
-      "en": "Kanji 1 (Lesson 19)"
+      "vi": "Leo",
+      "en": "Climb"
     },
-    "strokeCount": 5,
+    "strokeCount": 12,
     "radicals": [
-      "水"
+      "癶"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "癶",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字1",
-        "reading": "かんじ1",
+        "word": "登",
+        "reading": "のぼる",
         "meaning": {
-          "vi": "Từ ghép 1",
-          "en": "Compound 1"
+          "vi": "Leo",
+          "en": "Climb"
         }
       }
     ]
@@ -33,18 +34,18 @@
   {
     "id": "k-19-002",
     "lessonId": "lesson-19",
-    "character": "漢2",
+    "character": "泊",
     "onReadings": [
-      "カン"
+      "ハク"
     ],
     "kunReadings": [
-      "かん"
+      "と・まる"
     ],
     "meaning": {
-      "vi": "Hán tự 2 (Bài 19)",
-      "en": "Kanji 2 (Lesson 19)"
+      "vi": "Ở trọ",
+      "en": "Stay"
     },
-    "strokeCount": 5,
+    "strokeCount": 8,
     "radicals": [
       "水"
     ],
@@ -52,11 +53,11 @@
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字2",
-        "reading": "かんじ2",
+        "word": "泊",
+        "reading": "とまる",
         "meaning": {
-          "vi": "Từ ghép 2",
-          "en": "Compound 2"
+          "vi": "Ở trọ",
+          "en": "Stay"
         }
       }
     ]
@@ -64,30 +65,30 @@
   {
     "id": "k-19-003",
     "lessonId": "lesson-19",
-    "character": "漢3",
+    "character": "練",
     "onReadings": [
-      "カン"
+      "レン"
     ],
     "kunReadings": [
-      "かん"
+      "ね・る"
     ],
     "meaning": {
-      "vi": "Hán tự 3 (Bài 19)",
-      "en": "Kanji 3 (Lesson 19)"
+      "vi": "Luyện",
+      "en": "Practice"
     },
-    "strokeCount": 5,
+    "strokeCount": 14,
     "radicals": [
-      "水"
+      "糸"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "糸",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字3",
-        "reading": "かんじ3",
+        "word": "練",
+        "reading": "ねる",
         "meaning": {
-          "vi": "Từ ghép 3",
-          "en": "Compound 3"
+          "vi": "Luyện",
+          "en": "Practice"
         }
       }
     ]
@@ -95,61 +96,30 @@
   {
     "id": "k-19-004",
     "lessonId": "lesson-19",
-    "character": "漢4",
+    "character": "習",
     "onReadings": [
-      "カン"
+      "シュウ"
     ],
     "kunReadings": [
-      "かん"
+      "なら・う"
     ],
     "meaning": {
-      "vi": "Hán tự 4 (Bài 19)",
-      "en": "Kanji 4 (Lesson 19)"
+      "vi": "Học",
+      "en": "Learn"
     },
-    "strokeCount": 5,
+    "strokeCount": 11,
     "radicals": [
-      "水"
+      "羽"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "羽",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字4",
-        "reading": "かんじ4",
+        "word": "習",
+        "reading": "ならう",
         "meaning": {
-          "vi": "Từ ghép 4",
-          "en": "Compound 4"
-        }
-      }
-    ]
-  },
-  {
-    "id": "k-19-005",
-    "lessonId": "lesson-19",
-    "character": "漢5",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 5 (Bài 19)",
-      "en": "Kanji 5 (Lesson 19)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
-    "compounds": [
-      {
-        "word": "漢字5",
-        "reading": "かんじ5",
-        "meaning": {
-          "vi": "Từ ghép 5",
-          "en": "Compound 5"
+          "vi": "Học",
+          "en": "Learn"
         }
       }
     ]

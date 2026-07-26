@@ -1,117 +1,28 @@
 [
-  {
-    "id": "v-13-001",
-    "lessonId": "lesson-13",
-    "kanji": "単語1",
-    "hiragana": "たんご1",
-    "romaji": "tango1",
-    "meaning": {
-      "vi": "Từ vựng 1 (Bài 13)",
-      "en": "Vocab 1 (Lesson 13)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語1です。",
-        "reading": "これはたんご1です。",
-        "translation": {
-          "vi": "Đây là từ vựng 1.",
-          "en": "This is vocab 1."
-        }
-      }
-    ]
-  },
-  {
-    "id": "v-13-002",
-    "lessonId": "lesson-13",
-    "kanji": "単語2",
-    "hiragana": "たんご2",
-    "romaji": "tango2",
-    "meaning": {
-      "vi": "Từ vựng 2 (Bài 13)",
-      "en": "Vocab 2 (Lesson 13)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語2です。",
-        "reading": "これはたんご2です。",
-        "translation": {
-          "vi": "Đây là từ vựng 2.",
-          "en": "This is vocab 2."
-        }
-      }
-    ]
-  },
-  {
-    "id": "v-13-003",
-    "lessonId": "lesson-13",
-    "kanji": "単語3",
-    "hiragana": "たんご3",
-    "romaji": "tango3",
-    "meaning": {
-      "vi": "Từ vựng 3 (Bài 13)",
-      "en": "Vocab 3 (Lesson 13)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語3です。",
-        "reading": "これはたんご3です。",
-        "translation": {
-          "vi": "Đây là từ vựng 3.",
-          "en": "This is vocab 3."
-        }
-      }
-    ]
-  },
-  {
-    "id": "v-13-004",
-    "lessonId": "lesson-13",
-    "kanji": "単語4",
-    "hiragana": "たんご4",
-    "romaji": "tango4",
-    "meaning": {
-      "vi": "Từ vựng 4 (Bài 13)",
-      "en": "Vocab 4 (Lesson 13)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語4です。",
-        "reading": "これはたんご4です。",
-        "translation": {
-          "vi": "Đây là từ vựng 4.",
-          "en": "This is vocab 4."
-        }
-      }
-    ]
-  },
-  {
-    "id": "v-13-005",
-    "lessonId": "lesson-13",
-    "kanji": "単語5",
-    "hiragana": "たんご5",
-    "romaji": "tango5",
-    "meaning": {
-      "vi": "Từ vựng 5 (Bài 13)",
-      "en": "Vocab 5 (Lesson 13)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語5です。",
-        "reading": "これはたんご5です。",
-        "translation": {
-          "vi": "Đây là từ vựng 5.",
-          "en": "This is vocab 5."
-        }
-      }
-    ]
-  }
+  { "id": "v-13-001", "lessonId": "lesson-13", "kanji": "遊びます", "hiragana": "あそびます", "romaji": "asobimasu", "meaning": { "vi": "Chơi, vui chơi", "en": "Play, have fun" }, "wordType": "verb", "jlptLevel": "N5" },
+  { "id": "v-13-002", "lessonId": "lesson-13", "kanji": "泳ぎます", "hiragana": "およぎます", "romaji": "oyogimasu", "meaning": { "vi": "Bơi", "en": "Swim" }, "wordType": "verb", "jlptLevel": "N5" },
+  { "id": "v-13-003", "lessonId": "lesson-13", "kanji": "迎えに行きます", "hiragana": "むかえにいきます", "romaji": "mukae ni ikimasu", "meaning": { "vi": "Đi đón", "en": "Go to pick up" }, "wordType": "verb", "jlptLevel": "N5" },
+  { "id": "v-13-004", "lessonId": "lesson-13", "kanji": "", "hiragana": "ほしい", "romaji": "hoshii", "meaning": { "vi": "Muốn (có vật gì)", "en": "Want (something)" }, "wordType": "i-adjective", "jlptLevel": "N5" },
+  { "id": "v-13-005", "lessonId": "lesson-13", "kanji": "寂しい", "hiragana": "さびしい", "romaji": "sabishii", "meaning": { "vi": "Cô đơn, buồn", "en": "Lonely" }, "wordType": "i-adjective", "jlptLevel": "N5" },
+  { "id": "v-13-006", "lessonId": "lesson-13", "kanji": "広い", "hiragana": "ひろい", "romaji": "hiroi", "meaning": { "vi": "Rộng", "en": "Wide, spacious" }, "wordType": "i-adjective", "jlptLevel": "N5" },
+  { "id": "v-13-007", "lessonId": "lesson-13", "kanji": "狭い", "hiragana": "せまい", "romaji": "semai", "meaning": { "vi": "Hẹp, chật", "en": "Narrow" }, "wordType": "i-adjective", "jlptLevel": "N5" },
+  { "id": "v-13-008", "lessonId": "lesson-13", "kanji": "", "hiragana": "デパート", "romaji": "depaato", "meaning": { "vi": "Cửa hàng bách hóa", "en": "Department store" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-13-009", "lessonId": "lesson-13", "kanji": "動物園", "hiragana": "どうぶつえん", "romaji": "doubutsuen", "meaning": { "vi": "Vườn thú", "en": "Zoo" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-13-010", "lessonId": "lesson-13", "kanji": "遊園地", "hiragana": "ゆうえんち", "romaji": "yuuenchi", "meaning": { "vi": "Công viên giải trí", "en": "Amusement park" }, "wordType": "noun", "jlptLevel": "N4" },
+  { "id": "v-13-011", "lessonId": "lesson-13", "kanji": "万博", "hiragana": "ばんぱく", "romaji": "banpaku", "meaning": { "vi": "Hội chợ triển lãm", "en": "Exposition, world fair" }, "wordType": "noun", "jlptLevel": "N4" },
+  { "id": "v-13-012", "lessonId": "lesson-13", "kanji": "美術館", "hiragana": "びじゅつかん", "romaji": "bijutsukan", "meaning": { "vi": "Bảo tàng mỹ thuật", "en": "Art museum" }, "wordType": "noun", "jlptLevel": "N4" },
+  { "id": "v-13-013", "lessonId": "lesson-13", "kanji": "お城", "hiragana": "おしろ", "romaji": "oshiro", "meaning": { "vi": "Lâu đài", "en": "Castle" }, "wordType": "noun", "jlptLevel": "N4" },
+  { "id": "v-13-014", "lessonId": "lesson-13", "kanji": "お寺", "hiragana": "おてら", "romaji": "otera", "meaning": { "vi": "Chùa", "en": "Temple (Buddhist)" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-13-015", "lessonId": "lesson-13", "kanji": "神社", "hiragana": "じんじゃ", "romaji": "jinja", "meaning": { "vi": "Đền (Thần đạo)", "en": "Shrine (Shinto)" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-13-016", "lessonId": "lesson-13", "kanji": "", "hiragana": "プール", "romaji": "puuru", "meaning": { "vi": "Hồ bơi", "en": "Swimming pool" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-13-017", "lessonId": "lesson-13", "kanji": "川", "hiragana": "かわ", "romaji": "kawa", "meaning": { "vi": "Sông", "en": "River" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-13-018", "lessonId": "lesson-13", "kanji": "経済", "hiragana": "けいざい", "romaji": "keizai", "meaning": { "vi": "Kinh tế", "en": "Economy" }, "wordType": "noun", "jlptLevel": "N4" },
+  { "id": "v-13-019", "lessonId": "lesson-13", "kanji": "美術", "hiragana": "びじゅつ", "romaji": "bijutsu", "meaning": { "vi": "Mỹ thuật", "en": "Art" }, "wordType": "noun", "jlptLevel": "N4" },
+  { "id": "v-13-020", "lessonId": "lesson-13", "kanji": "釣り", "hiragana": "つり", "romaji": "tsuri", "meaning": { "vi": "Câu cá", "en": "Fishing" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-13-021", "lessonId": "lesson-13", "kanji": "", "hiragana": "スキー", "romaji": "sukii", "meaning": { "vi": "Trượt tuyết", "en": "Skiing" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-13-022", "lessonId": "lesson-13", "kanji": "食事", "hiragana": "しょくじ", "romaji": "shokuji", "meaning": { "vi": "Bữa ăn", "en": "Meal" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-13-023", "lessonId": "lesson-13", "kanji": "買い物", "hiragana": "かいもの", "romaji": "kaimono", "meaning": { "vi": "Mua sắm", "en": "Shopping" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-13-024", "lessonId": "lesson-13", "kanji": "散歩", "hiragana": "さんぽ", "romaji": "sanpo", "meaning": { "vi": "Đi dạo", "en": "Walk, stroll" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-13-025", "lessonId": "lesson-13", "kanji": "", "hiragana": "別々に", "romaji": "betsubetsu ni", "meaning": { "vi": "Riêng, tách riêng", "en": "Separately" }, "wordType": "adverb", "jlptLevel": "N4" },
+  { "id": "v-13-026", "lessonId": "lesson-13", "kanji": "", "hiragana": "ご注文は？", "romaji": "gochuumon wa?", "meaning": { "vi": "Bạn muốn gọi món gì? (nhà hàng)", "en": "May I take your order?" }, "wordType": "expression", "jlptLevel": "N5" }
 ]

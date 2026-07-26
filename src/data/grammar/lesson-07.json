@@ -1,109 +1,88 @@
 [
   {
-    "id": "g-07-001",
-    "lessonId": "lesson-07",
-    "pattern": "〜文法1",
-    "patternKana": "〜ぶんぽう1",
-    "title": {
-      "vi": "Ngữ pháp 1 (Bài 7)",
-      "en": "Grammar 1 (Lesson 7)"
-    },
+    "id": "g-07-001", "lessonId": "lesson-07",
+    "pattern": "N (道具) で V",
+    "patternKana": "N (どうぐ) で V",
+    "title": { "vi": "Làm V bằng N (dụng cụ/phương tiện)", "en": "Do V with/by N (tool/means)", "ja": "名詞(道具)で 動詞" },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 1 bài 7",
-      "en": "Explanation for grammar 1 lesson 7"
+      "vi": "Trợ từ で chỉ phương tiện, dụng cụ, công cụ dùng để thực hiện hành động. Ví dụ: はしで = bằng đũa, 日本語で = bằng tiếng Nhật.",
+      "en": "The particle で indicates the tool, instrument, or means used to perform an action. For example: はしで = with chopsticks, 日本語で = in Japanese.",
+      "ja": "助詞「で」は動作を行うための道具・手段を示します。"
     },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
+    "usage": { "vi": "Chỉ dụng cụ, phương tiện thực hiện.", "en": "Indicating tool or means.", "ja": "道具・手段を示す。" },
+    "formation": ["N(道具/手段) + で + V(ます)"],
     "examples": [
-      {
-        "ja": "私は文法1を勉強します。",
-        "reading": "わたしはぶんぽう1をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 1.",
-          "en": "I study grammar 1."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
-      }
+      { "ja": "はしで 食べます。", "reading": "はしで たべます。", "translation": { "vi": "Tôi ăn bằng đũa.", "en": "I eat with chopsticks." }, "highlightRange": { "start": 2, "end": 3 } },
+      { "ja": "日本語で レポートを 書きます。", "reading": "にほんごで レポートを かきます。", "translation": { "vi": "Tôi viết báo cáo bằng tiếng Nhật.", "en": "I write a report in Japanese." }, "highlightRange": { "start": 4, "end": 5 } }
     ],
     "jlptLevel": "N5"
   },
   {
-    "id": "g-07-002",
-    "lessonId": "lesson-07",
-    "pattern": "〜文法2",
-    "patternKana": "〜ぶんぽう2",
-    "title": {
-      "vi": "Ngữ pháp 2 (Bài 7)",
-      "en": "Grammar 2 (Lesson 7)"
-    },
+    "id": "g-07-002", "lessonId": "lesson-07",
+    "pattern": "N (人) に あげます",
+    "patternKana": "N (ひと) に あげます",
+    "title": { "vi": "Cho/tặng N (người)", "en": "Give to N (person)", "ja": "名詞(人)に あげます" },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 2 bài 7",
-      "en": "Explanation for grammar 2 lesson 7"
+      "vi": "あげます nghĩa là 'cho, tặng'. Trợ từ に chỉ người nhận. Người cho phải là người nói hoặc phía người nói. KHÔNG dùng あげます khi người nhận là 'tôi'.",
+      "en": "あげます means 'give'. The particle に indicates the receiver. The giver must be the speaker or the speaker's side. Do NOT use あげます when the receiver is 'I/me'.",
+      "ja": "「あげます」は「与える」という意味です。助詞「に」は受け取る人を示します。"
     },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
+    "usage": { "vi": "Cho, tặng ai cái gì.", "en": "Giving something to someone.", "ja": "誰かに何かを与える。" },
+    "formation": ["N(人) + に + N(もの) + を + あげます"],
     "examples": [
-      {
-        "ja": "私は文法2を勉強します。",
-        "reading": "わたしはぶんぽう2をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 2.",
-          "en": "I study grammar 2."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
-      }
+      { "ja": "わたしは 木村さんに 花を あげます。", "reading": "わたしは きむらさんに はなを あげます。", "translation": { "vi": "Tôi tặng hoa cho chị Kimura.", "en": "I give flowers to Ms. Kimura." }, "highlightRange": { "start": 8, "end": 9 } }
     ],
     "jlptLevel": "N5"
   },
   {
-    "id": "g-07-003",
-    "lessonId": "lesson-07",
-    "pattern": "〜文法3",
-    "patternKana": "〜ぶんぽう3",
-    "title": {
-      "vi": "Ngữ pháp 3 (Bài 7)",
-      "en": "Grammar 3 (Lesson 7)"
-    },
+    "id": "g-07-003", "lessonId": "lesson-07",
+    "pattern": "N (人) に もらいます",
+    "patternKana": "N (ひと) に もらいます",
+    "title": { "vi": "Nhận từ N (người)", "en": "Receive from N (person)", "ja": "名詞(人)に もらいます" },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 3 bài 7",
-      "en": "Explanation for grammar 3 lesson 7"
+      "vi": "もらいます nghĩa là 'nhận'. Trợ từ に (hoặc から) chỉ người cho. Chủ ngữ luôn là người nhận (thường là 'tôi' hoặc phía người nói).",
+      "en": "もらいます means 'receive'. The particle に (or から) indicates the giver. The subject is always the receiver (usually 'I' or the speaker's side).",
+      "ja": "「もらいます」は「受け取る」という意味です。助詞「に」(または「から」)は与える人を示します。"
     },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
+    "usage": { "vi": "Nhận cái gì từ ai.", "en": "Receiving something from someone.", "ja": "誰かから何かをもらう。" },
+    "formation": ["N(人) + に/から + N(もの) + を + もらいます"],
     "examples": [
-      {
-        "ja": "私は文法3を勉強します。",
-        "reading": "わたしはぶんぽう3をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 3.",
-          "en": "I study grammar 3."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
-      }
+      { "ja": "わたしは 山田さんに 本を もらいました。", "reading": "わたしは やまださんに ほんを もらいました。", "translation": { "vi": "Tôi đã nhận sách từ anh Yamada.", "en": "I received a book from Mr. Yamada." }, "highlightRange": { "start": 8, "end": 9 } }
+    ],
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "g-07-004", "lessonId": "lesson-07",
+    "pattern": "もう V ました",
+    "patternKana": "もう V ました",
+    "title": { "vi": "Đã V rồi", "en": "Already V-ed", "ja": "もう 動詞ました" },
+    "explanation": {
+      "vi": "もう + Vました diễn tả hành động đã hoàn thành. Trả lời phủ định: いいえ、まだです (Chưa ạ). Lưu ý: KHÔNG nói まだ Vませんでした.",
+      "en": "もう + Vました expresses a completed action. Negative answer: いいえ、まだです (Not yet). Note: Do NOT say まだ Vませんでした.",
+      "ja": "「もう＋Vました」は動作の完了を表します。否定の答え方は「いいえ、まだです」です。"
+    },
+    "usage": { "vi": "Hỏi/trả lời về hành động đã hoàn thành.", "en": "Asking/answering about completed actions.", "ja": "動作の完了について尋ねる/答える。" },
+    "formation": ["もう + V(ました)", "いいえ、まだです。"],
+    "examples": [
+      { "ja": "もう 昼ごはんを 食べましたか。 …はい、もう 食べました。", "reading": "もう ひるごはんを たべましたか。 …はい、もう たべました。", "translation": { "vi": "Bạn đã ăn trưa chưa? …Vâng, tôi ăn rồi.", "en": "Have you eaten lunch yet? …Yes, I already ate." }, "highlightRange": { "start": 0, "end": 2 } },
+      { "ja": "もう 荷物を 送りましたか。 …いいえ、まだです。", "reading": "もう にもつを おくりましたか。 …いいえ、まだです。", "translation": { "vi": "Bạn đã gửi hành lý chưa? …Chưa ạ.", "en": "Have you sent the luggage yet? …Not yet." }, "highlightRange": { "start": 0, "end": 2 } }
+    ],
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "g-07-005", "lessonId": "lesson-07",
+    "pattern": "「ことば」は ～語で 何ですか",
+    "patternKana": "「ことば」は ～ごで なんですか",
+    "title": { "vi": "「Từ」 trong tiếng ~ là gì?", "en": "What is 「word」 in ~ language?", "ja": "「言葉」は～語で何ですか" },
+    "explanation": {
+      "vi": "Mẫu câu dùng để hỏi một từ trong ngôn ngữ nào đó. ～語で = bằng tiếng ~. Dùng で để chỉ phương tiện ngôn ngữ.",
+      "en": "This pattern is used to ask for a word in a specific language. ～語で = in ~ language. で indicates the means (language).",
+      "ja": "特定の言語での言い方を尋ねるときに使います。"
+    },
+    "usage": { "vi": "Hỏi từ vựng bằng ngôn ngữ khác.", "en": "Asking vocabulary in another language.", "ja": "他の言語での言い方を尋ねる。" },
+    "formation": ["「ことば」+ は + ～語で + 何ですか"],
+    "examples": [
+      { "ja": "「ありがとう」は 英語で 何ですか。 …Thank you です。", "reading": "「ありがとう」は えいごで なんですか。 …Thank you です。", "translation": { "vi": "「ありがとう」 trong tiếng Anh là gì? …Là Thank you.", "en": "What is 'arigatou' in English? …It's 'Thank you'." }, "highlightRange": { "start": 8, "end": 13 } }
     ],
     "jlptLevel": "N5"
   }

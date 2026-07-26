@@ -2,34 +2,37 @@
   {
     "id": "g-23-001",
     "lessonId": "lesson-23",
-    "pattern": "〜文法1",
-    "patternKana": "〜ぶんぽう1",
+    "pattern": "V(辞書形)とき",
+    "patternKana": "V(辞書形)とき",
     "title": {
-      "vi": "Ngữ pháp 1 (Bài 23)",
-      "en": "Grammar 1 (Lesson 23)"
+      "vi": "Khi V",
+      "en": "When V",
+      "ja": "動詞 とき"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 1 bài 23",
-      "en": "Explanation for grammar 1 lesson 23"
+      "vi": "Thời điểm thực hiện.",
+      "en": "Point of time.",
+      "ja": "時点を表す。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xem giải thích.",
+      "en": "See explanation.",
+      "ja": "説明を参照。"
     },
     "formation": [
-      "N + 文法"
+      "V(辞書形)とき"
     ],
     "examples": [
       {
-        "ja": "私は文法1を勉強します。",
-        "reading": "わたしはぶんぽう1をべんきょうします。",
+        "ja": "例文 (V(辞書形)とき)",
+        "reading": "れいぶん",
         "translation": {
-          "vi": "Tôi học ngữ pháp 1.",
-          "en": "I study grammar 1."
+          "vi": "Ví dụ cho V(辞書形)とき",
+          "en": "Example for V(辞書形)とき"
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
         }
       }
     ],
@@ -38,70 +41,37 @@
   {
     "id": "g-23-002",
     "lessonId": "lesson-23",
-    "pattern": "〜文法2",
-    "patternKana": "〜ぶんぽう2",
+    "pattern": "V(辞書形)と、～",
+    "patternKana": "V(辞書形)と、～",
     "title": {
-      "vi": "Ngữ pháp 2 (Bài 23)",
-      "en": "Grammar 2 (Lesson 23)"
+      "vi": "Hễ V thì ~",
+      "en": "If V, ~ (natural result)",
+      "ja": "動詞辞書形と、～"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 2 bài 23",
-      "en": "Explanation for grammar 2 lesson 23"
+      "vi": "Kết quả tất yếu.",
+      "en": "Natural result.",
+      "ja": "必然的要件。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xem giải thích.",
+      "en": "See explanation.",
+      "ja": "説明を参照。"
     },
     "formation": [
-      "N + 文法"
+      "V(辞書形)と、～"
     ],
     "examples": [
       {
-        "ja": "私は文法2を勉強します。",
-        "reading": "わたしはぶんぽう2をべんきょうします。",
+        "ja": "例文 (V(辞書形)と、～)",
+        "reading": "れいぶん",
         "translation": {
-          "vi": "Tôi học ngữ pháp 2.",
-          "en": "I study grammar 2."
+          "vi": "Ví dụ cho V(辞書形)と、～",
+          "en": "Example for V(辞書形)と、～"
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
-      }
-    ],
-    "jlptLevel": "N5"
-  },
-  {
-    "id": "g-23-003",
-    "lessonId": "lesson-23",
-    "pattern": "〜文法3",
-    "patternKana": "〜ぶんぽう3",
-    "title": {
-      "vi": "Ngữ pháp 3 (Bài 23)",
-      "en": "Grammar 3 (Lesson 23)"
-    },
-    "explanation": {
-      "vi": "Giải thích ngữ pháp 3 bài 23",
-      "en": "Explanation for grammar 3 lesson 23"
-    },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
-    "examples": [
-      {
-        "ja": "私は文法3を勉強します。",
-        "reading": "わたしはぶんぽう3をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 3.",
-          "en": "I study grammar 3."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
         }
       }
     ],

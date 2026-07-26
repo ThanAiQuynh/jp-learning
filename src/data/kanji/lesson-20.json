@@ -2,30 +2,30 @@
   {
     "id": "k-20-001",
     "lessonId": "lesson-20",
-    "character": "漢1",
+    "character": "調",
     "onReadings": [
-      "カン"
+      "チョウ"
     ],
     "kunReadings": [
-      "かん"
+      "しら・べる"
     ],
     "meaning": {
-      "vi": "Hán tự 1 (Bài 20)",
-      "en": "Kanji 1 (Lesson 20)"
+      "vi": "Tra cứu",
+      "en": "Investigate"
     },
-    "strokeCount": 5,
+    "strokeCount": 15,
     "radicals": [
-      "水"
+      "言"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "言",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字1",
-        "reading": "かんじ1",
+        "word": "調",
+        "reading": "しらべる",
         "meaning": {
-          "vi": "Từ ghép 1",
-          "en": "Compound 1"
+          "vi": "Tra cứu",
+          "en": "Investigate"
         }
       }
     ]
@@ -33,30 +33,30 @@
   {
     "id": "k-20-002",
     "lessonId": "lesson-20",
-    "character": "漢2",
+    "character": "直",
     "onReadings": [
-      "カン"
+      "チョク"
     ],
     "kunReadings": [
-      "かん"
+      "なお・す"
     ],
     "meaning": {
-      "vi": "Hán tự 2 (Bài 20)",
-      "en": "Kanji 2 (Lesson 20)"
+      "vi": "Sửa",
+      "en": "Fix"
     },
-    "strokeCount": 5,
+    "strokeCount": 8,
     "radicals": [
-      "水"
+      "目"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "目",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字2",
-        "reading": "かんじ2",
+        "word": "直",
+        "reading": "なおす",
         "meaning": {
-          "vi": "Từ ghép 2",
-          "en": "Compound 2"
+          "vi": "Sửa",
+          "en": "Fix"
         }
       }
     ]
@@ -64,30 +64,28 @@
   {
     "id": "k-20-003",
     "lessonId": "lesson-20",
-    "character": "漢3",
+    "character": "電",
     "onReadings": [
-      "カン"
+      "デン"
     ],
-    "kunReadings": [
-      "かん"
-    ],
+    "kunReadings": [],
     "meaning": {
-      "vi": "Hán tự 3 (Bài 20)",
-      "en": "Kanji 3 (Lesson 20)"
+      "vi": "Điện",
+      "en": "Electricity"
     },
-    "strokeCount": 5,
+    "strokeCount": 13,
     "radicals": [
-      "水"
+      "雨"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "雨",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字3",
-        "reading": "かんじ3",
+        "word": "電",
+        "reading": "デン",
         "meaning": {
-          "vi": "Từ ghép 3",
-          "en": "Compound 3"
+          "vi": "Điện",
+          "en": "Electricity"
         }
       }
     ]
@@ -95,61 +93,30 @@
   {
     "id": "k-20-004",
     "lessonId": "lesson-20",
-    "character": "漢4",
+    "character": "休",
     "onReadings": [
-      "カン"
+      "キュウ"
     ],
     "kunReadings": [
-      "かん"
+      "やす・む"
     ],
     "meaning": {
-      "vi": "Hán tự 4 (Bài 20)",
-      "en": "Kanji 4 (Lesson 20)"
+      "vi": "Nghỉ",
+      "en": "Rest"
     },
-    "strokeCount": 5,
+    "strokeCount": 6,
     "radicals": [
-      "水"
+      "人"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "人",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字4",
-        "reading": "かんじ4",
+        "word": "休",
+        "reading": "やすむ",
         "meaning": {
-          "vi": "Từ ghép 4",
-          "en": "Compound 4"
-        }
-      }
-    ]
-  },
-  {
-    "id": "k-20-005",
-    "lessonId": "lesson-20",
-    "character": "漢5",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 5 (Bài 20)",
-      "en": "Kanji 5 (Lesson 20)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
-    "compounds": [
-      {
-        "word": "漢字5",
-        "reading": "かんじ5",
-        "meaning": {
-          "vi": "Từ ghép 5",
-          "en": "Compound 5"
+          "vi": "Nghỉ",
+          "en": "Rest"
         }
       }
     ]

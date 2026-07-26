@@ -1,109 +1,70 @@
 [
   {
-    "id": "g-11-001",
-    "lessonId": "lesson-11",
-    "pattern": "〜文法1",
-    "patternKana": "〜ぶんぽう1",
-    "title": {
-      "vi": "Ngữ pháp 1 (Bài 11)",
-      "en": "Grammar 1 (Lesson 11)"
-    },
+    "id": "g-11-001", "lessonId": "lesson-11",
+    "pattern": "〜つ / 〜個 / 〜人 (助数詞)",
+    "patternKana": "〜つ / 〜こ / 〜にん",
+    "title": { "vi": "Trợ số từ (đếm số lượng)", "en": "Counters (quantifiers)", "ja": "助数詞" },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 1 bài 11",
-      "en": "Explanation for grammar 1 lesson 11"
+      "vi": "Tiếng Nhật dùng trợ số từ khi đếm. 〜つ: đếm chung (ひとつ、ふたつ…とお). 〜個: đếm vật nhỏ. 〜人: đếm người (ひとり、ふたり、さんにん…). 〜台: đếm xe, máy. 〜枚: đếm vật mỏng phẳng. 〜回: đếm số lần.",
+      "en": "Japanese uses counters when counting. 〜つ: general counter (ひとつ, ふたつ…). 〜個: small objects. 〜人: people (ひとり, ふたり, さんにん…). 〜台: vehicles/machines. 〜枚: flat things. 〜回: times/occasions.",
+      "ja": "日本語では数を数えるとき助数詞を使います。"
     },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
+    "usage": { "vi": "Đếm số lượng.", "en": "Counting quantities.", "ja": "数量を数える。" },
+    "formation": ["数 + 助数詞"],
     "examples": [
-      {
-        "ja": "私は文法1を勉強します。",
-        "reading": "わたしはぶんぽう1をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 1.",
-          "en": "I study grammar 1."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
-      }
+      { "ja": "みかんを 5つ 買いました。", "reading": "みかんを いつつ かいました。", "translation": { "vi": "Tôi đã mua 5 quả quýt.", "en": "I bought five oranges." }, "highlightRange": { "start": 5, "end": 7 } },
+      { "ja": "外国人の 学生が 3人 います。", "reading": "がいこくじんの がくせいが さんにん います。", "translation": { "vi": "Có 3 sinh viên nước ngoài.", "en": "There are 3 foreign students." }, "highlightRange": { "start": 10, "end": 13 } }
     ],
     "jlptLevel": "N5"
   },
   {
-    "id": "g-11-002",
-    "lessonId": "lesson-11",
-    "pattern": "〜文法2",
-    "patternKana": "〜ぶんぽう2",
-    "title": {
-      "vi": "Ngữ pháp 2 (Bài 11)",
-      "en": "Grammar 2 (Lesson 11)"
-    },
+    "id": "g-11-002", "lessonId": "lesson-11",
+    "pattern": "Quantifier (期間) に 〜回 V",
+    "patternKana": "きかん に 〜かい V",
+    "title": { "vi": "Làm V ~ lần trong khoảng thời gian", "en": "V ~ times per period", "ja": "期間に〜回 動詞" },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 2 bài 11",
-      "en": "Explanation for grammar 2 lesson 11"
+      "vi": "に chỉ tần suất trong một khoảng thời gian. 1か月に 2回 = 2 lần trong 1 tháng. 1年に 3回 = 3 lần trong 1 năm.",
+      "en": "に indicates frequency within a period. 1か月に 2回 = twice a month. 1年に 3回 = 3 times a year.",
+      "ja": "「に」は一定期間における頻度を表します。"
     },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
+    "usage": { "vi": "Nói về tần suất.", "en": "Expressing frequency.", "ja": "頻度を表す。" },
+    "formation": ["期間 + に + 数+回 + V(ます)"],
     "examples": [
-      {
-        "ja": "私は文法2を勉強します。",
-        "reading": "わたしはぶんぽう2をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 2.",
-          "en": "I study grammar 2."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
-      }
+      { "ja": "1か月に 2回 映画を 見ます。", "reading": "いっかげつに にかい えいがを みます。", "translation": { "vi": "Tôi xem phim 2 lần một tháng.", "en": "I watch movies twice a month." }, "highlightRange": { "start": 4, "end": 7 } }
     ],
     "jlptLevel": "N5"
   },
   {
-    "id": "g-11-003",
-    "lessonId": "lesson-11",
-    "pattern": "〜文法3",
-    "patternKana": "〜ぶんぽう3",
-    "title": {
-      "vi": "Ngữ pháp 3 (Bài 11)",
-      "en": "Grammar 3 (Lesson 11)"
-    },
+    "id": "g-11-003", "lessonId": "lesson-11",
+    "pattern": "Quantifier (期間) V",
+    "patternKana": "きかん V",
+    "title": { "vi": "Làm V trong khoảng thời gian bao lâu", "en": "V for a duration", "ja": "期間 動詞" },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 3 bài 11",
-      "en": "Explanation for grammar 3 lesson 11"
+      "vi": "Đặt khoảng thời gian trước động từ, KHÔNG cần trợ từ. 3時間 勉強します = học 3 tiếng. 1年 日本に いました = ở Nhật 1 năm.",
+      "en": "Place the duration before the verb, NO particle needed. 3時間 勉強します = study for 3 hours. 1年 日本に いました = stayed in Japan for 1 year.",
+      "ja": "期間を動詞の前に置きます。助詞は不要です。"
     },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
+    "usage": { "vi": "Nói về thời lượng.", "en": "Expressing duration.", "ja": "時間の長さを表す。" },
+    "formation": ["期間 + V(ます)"],
     "examples": [
-      {
-        "ja": "私は文法3を勉強します。",
-        "reading": "わたしはぶんぽう3をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 3.",
-          "en": "I study grammar 3."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
-      }
+      { "ja": "毎日 3時間 勉強します。", "reading": "まいにち さんじかん べんきょうします。", "translation": { "vi": "Mỗi ngày tôi học 3 tiếng.", "en": "I study for 3 hours every day." }, "highlightRange": { "start": 4, "end": 7 } }
+    ],
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "g-11-004", "lessonId": "lesson-11",
+    "pattern": "N (数量) を お願いします",
+    "patternKana": "N を おねがいします",
+    "title": { "vi": "Cho tôi N (gọi món / mua)", "en": "N please (ordering)", "ja": "名詞を お願いします" },
+    "explanation": {
+      "vi": "Dùng khi gọi món ở nhà hàng hoặc mua hàng. お願いします = xin vui lòng, làm ơn cho tôi.",
+      "en": "Used when ordering at a restaurant or shopping. お願いします = please (give me).",
+      "ja": "レストランで注文するとき、買い物をするときに使います。"
+    },
+    "usage": { "vi": "Gọi món, mua hàng.", "en": "Ordering, purchasing.", "ja": "注文する、買い物をする。" },
+    "formation": ["N + (数量) + を + お願いします"],
+    "examples": [
+      { "ja": "コーヒーを 2つ お願いします。", "reading": "コーヒーを ふたつ おねがいします。", "translation": { "vi": "Cho tôi 2 ly cà phê.", "en": "Two coffees, please." }, "highlightRange": { "start": 7, "end": 12 } }
     ],
     "jlptLevel": "N5"
   }

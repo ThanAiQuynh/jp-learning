@@ -2,116 +2,118 @@
   {
     "id": "v-19-001",
     "lessonId": "lesson-19",
-    "kanji": "単語1",
-    "hiragana": "たんご1",
-    "romaji": "tango1",
+    "kanji": "登ります",
+    "hiragana": "のぼります",
+    "romaji": "19001",
     "meaning": {
-      "vi": "Từ vựng 1 (Bài 19)",
-      "en": "Vocab 1 (Lesson 19)"
+      "vi": "Leo, trèo",
+      "en": "Climb"
     },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語1です。",
-        "reading": "これはたんご1です。",
-        "translation": {
-          "vi": "Đây là từ vựng 1.",
-          "en": "This is vocab 1."
-        }
-      }
-    ]
+    "wordType": "verb",
+    "jlptLevel": "N5"
   },
   {
     "id": "v-19-002",
     "lessonId": "lesson-19",
-    "kanji": "単語2",
-    "hiragana": "たんご2",
-    "romaji": "tango2",
+    "kanji": "泊まります",
+    "hiragana": "とまります",
+    "romaji": "19002",
     "meaning": {
-      "vi": "Từ vựng 2 (Bài 19)",
-      "en": "Vocab 2 (Lesson 19)"
+      "vi": "Ở lại, trọ",
+      "en": "Stay (overnight)"
     },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語2です。",
-        "reading": "これはたんご2です。",
-        "translation": {
-          "vi": "Đây là từ vựng 2.",
-          "en": "This is vocab 2."
-        }
-      }
-    ]
+    "wordType": "verb",
+    "jlptLevel": "N5"
   },
   {
     "id": "v-19-003",
     "lessonId": "lesson-19",
-    "kanji": "単語3",
-    "hiragana": "たんご3",
-    "romaji": "tango3",
+    "kanji": "掃除します",
+    "hiragana": "そうじします",
+    "romaji": "19003",
     "meaning": {
-      "vi": "Từ vựng 3 (Bài 19)",
-      "en": "Vocab 3 (Lesson 19)"
+      "vi": "Dọn dẹp",
+      "en": "Clean"
     },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語3です。",
-        "reading": "これはたんご3です。",
-        "translation": {
-          "vi": "Đây là từ vựng 3.",
-          "en": "This is vocab 3."
-        }
-      }
-    ]
+    "wordType": "verb",
+    "jlptLevel": "N5"
   },
   {
     "id": "v-19-004",
     "lessonId": "lesson-19",
-    "kanji": "単語4",
-    "hiragana": "たんご4",
-    "romaji": "tango4",
+    "kanji": "洗濯します",
+    "hiragana": "せんたくします",
+    "romaji": "19004",
     "meaning": {
-      "vi": "Từ vựng 4 (Bài 19)",
-      "en": "Vocab 4 (Lesson 19)"
+      "vi": "Giặt đồ",
+      "en": "Do laundry"
     },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語4です。",
-        "reading": "これはたんご4です。",
-        "translation": {
-          "vi": "Đây là từ vựng 4.",
-          "en": "This is vocab 4."
-        }
-      }
-    ]
+    "wordType": "verb",
+    "jlptLevel": "N5"
   },
   {
     "id": "v-19-005",
     "lessonId": "lesson-19",
-    "kanji": "単語5",
-    "hiragana": "たんご5",
-    "romaji": "tango5",
+    "kanji": "練習します",
+    "hiragana": "れんしゅうします",
+    "romaji": "19005",
     "meaning": {
-      "vi": "Từ vựng 5 (Bài 19)",
-      "en": "Vocab 5 (Lesson 19)"
+      "vi": "Luyện tập",
+      "en": "Practice"
+    },
+    "wordType": "verb",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-19-006",
+    "lessonId": "lesson-19",
+    "kanji": "",
+    "hiragana": "ダイエット",
+    "romaji": "19006",
+    "meaning": {
+      "vi": "Giảm cân",
+      "en": "Diet"
     },
     "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語5です。",
-        "reading": "これはたんご5です。",
-        "translation": {
-          "vi": "Đây là từ vựng 5.",
-          "en": "This is vocab 5."
-        }
-      }
-    ]
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-19-007",
+    "lessonId": "lesson-19",
+    "kanji": "一度",
+    "hiragana": "いちど",
+    "romaji": "19007",
+    "meaning": {
+      "vi": "Một lần",
+      "en": "Once"
+    },
+    "wordType": "adverb",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-19-008",
+    "lessonId": "lesson-19",
+    "kanji": "一度も",
+    "hiragana": "いちども",
+    "romaji": "19008",
+    "meaning": {
+      "vi": "Chưa bao giờ",
+      "en": "Never"
+    },
+    "wordType": "adverb",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-19-009",
+    "lessonId": "lesson-19",
+    "kanji": "お正月",
+    "hiragana": "おしょうがつ",
+    "romaji": "19009",
+    "meaning": {
+      "vi": "Tết Nhật",
+      "en": "New Year"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
   }
 ]

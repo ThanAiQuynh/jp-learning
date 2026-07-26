@@ -1,117 +1,310 @@
 [
   {
-    "id": "v-08-001",
-    "lessonId": "lesson-08",
-    "kanji": "単語1",
-    "hiragana": "たんご1",
-    "romaji": "tango1",
-    "meaning": {
-      "vi": "Từ vựng 1 (Bài 8)",
-      "en": "Vocab 1 (Lesson 8)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語1です。",
-        "reading": "これはたんご1です。",
-        "translation": {
-          "vi": "Đây là từ vựng 1.",
-          "en": "This is vocab 1."
-        }
-      }
-    ]
+    "id": "v-08-001", "lessonId": "lesson-08",
+    "kanji": "", "hiragana": "ハンサム[な]", "romaji": "hansamu [na]",
+    "meaning": { "vi": "Đẹp trai", "en": "Handsome" },
+    "wordType": "na-adjective", "jlptLevel": "N5"
   },
   {
-    "id": "v-08-002",
-    "lessonId": "lesson-08",
-    "kanji": "単語2",
-    "hiragana": "たんご2",
-    "romaji": "tango2",
-    "meaning": {
-      "vi": "Từ vựng 2 (Bài 8)",
-      "en": "Vocab 2 (Lesson 8)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語2です。",
-        "reading": "これはたんご2です。",
-        "translation": {
-          "vi": "Đây là từ vựng 2.",
-          "en": "This is vocab 2."
-        }
-      }
-    ]
+    "id": "v-08-002", "lessonId": "lesson-08",
+    "kanji": "", "hiragana": "きれい[な]", "romaji": "kirei [na]",
+    "meaning": { "vi": "Đẹp, sạch sẽ", "en": "Beautiful, clean" },
+    "wordType": "na-adjective", "jlptLevel": "N5"
   },
   {
-    "id": "v-08-003",
-    "lessonId": "lesson-08",
-    "kanji": "単語3",
-    "hiragana": "たんご3",
-    "romaji": "tango3",
-    "meaning": {
-      "vi": "Từ vựng 3 (Bài 8)",
-      "en": "Vocab 3 (Lesson 8)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語3です。",
-        "reading": "これはたんご3です。",
-        "translation": {
-          "vi": "Đây là từ vựng 3.",
-          "en": "This is vocab 3."
-        }
-      }
-    ]
+    "id": "v-08-003", "lessonId": "lesson-08",
+    "kanji": "静か[な]", "hiragana": "しずか[な]", "romaji": "shizuka [na]",
+    "meaning": { "vi": "Yên tĩnh", "en": "Quiet" },
+    "wordType": "na-adjective", "jlptLevel": "N5"
   },
   {
-    "id": "v-08-004",
-    "lessonId": "lesson-08",
-    "kanji": "単語4",
-    "hiragana": "たんご4",
-    "romaji": "tango4",
-    "meaning": {
-      "vi": "Từ vựng 4 (Bài 8)",
-      "en": "Vocab 4 (Lesson 8)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語4です。",
-        "reading": "これはたんご4です。",
-        "translation": {
-          "vi": "Đây là từ vựng 4.",
-          "en": "This is vocab 4."
-        }
-      }
-    ]
+    "id": "v-08-004", "lessonId": "lesson-08",
+    "kanji": "にぎやか[な]", "hiragana": "にぎやか[な]", "romaji": "nigiyaka [na]",
+    "meaning": { "vi": "Nhộn nhịp, sầm uất", "en": "Lively, bustling" },
+    "wordType": "na-adjective", "jlptLevel": "N5"
   },
   {
-    "id": "v-08-005",
-    "lessonId": "lesson-08",
-    "kanji": "単語5",
-    "hiragana": "たんご5",
-    "romaji": "tango5",
-    "meaning": {
-      "vi": "Từ vựng 5 (Bài 8)",
-      "en": "Vocab 5 (Lesson 8)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語5です。",
-        "reading": "これはたんご5です。",
-        "translation": {
-          "vi": "Đây là từ vựng 5.",
-          "en": "This is vocab 5."
-        }
-      }
-    ]
+    "id": "v-08-005", "lessonId": "lesson-08",
+    "kanji": "有名[な]", "hiragana": "ゆうめい[な]", "romaji": "yuumei [na]",
+    "meaning": { "vi": "Nổi tiếng", "en": "Famous" },
+    "wordType": "na-adjective", "jlptLevel": "N5",
+    "relatedKanji": ["有", "名"]
+  },
+  {
+    "id": "v-08-006", "lessonId": "lesson-08",
+    "kanji": "親切[な]", "hiragana": "しんせつ[な]", "romaji": "shinsetsu [na]",
+    "meaning": { "vi": "Tốt bụng, tử tế", "en": "Kind" },
+    "wordType": "na-adjective", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-007", "lessonId": "lesson-08",
+    "kanji": "元気[な]", "hiragana": "げんき[な]", "romaji": "genki [na]",
+    "meaning": { "vi": "Khỏe mạnh, vui vẻ", "en": "Healthy, energetic" },
+    "wordType": "na-adjective", "jlptLevel": "N5",
+    "relatedKanji": ["元", "気"]
+  },
+  {
+    "id": "v-08-008", "lessonId": "lesson-08",
+    "kanji": "暇[な]", "hiragana": "ひま[な]", "romaji": "hima [na]",
+    "meaning": { "vi": "Rảnh rỗi", "en": "Free (time), not busy" },
+    "wordType": "na-adjective", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-009", "lessonId": "lesson-08",
+    "kanji": "便利[な]", "hiragana": "べんり[な]", "romaji": "benri [na]",
+    "meaning": { "vi": "Tiện lợi", "en": "Convenient" },
+    "wordType": "na-adjective", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-010", "lessonId": "lesson-08",
+    "kanji": "", "hiragana": "すてき[な]", "romaji": "suteki [na]",
+    "meaning": { "vi": "Tuyệt vời, đáng yêu", "en": "Lovely, wonderful" },
+    "wordType": "na-adjective", "jlptLevel": "N4"
+  },
+  {
+    "id": "v-08-011", "lessonId": "lesson-08",
+    "kanji": "大きい", "hiragana": "おおきい", "romaji": "ookii",
+    "meaning": { "vi": "To, lớn", "en": "Big, large" },
+    "wordType": "i-adjective", "jlptLevel": "N5",
+    "relatedKanji": ["大"]
+  },
+  {
+    "id": "v-08-012", "lessonId": "lesson-08",
+    "kanji": "小さい", "hiragana": "ちいさい", "romaji": "chiisai",
+    "meaning": { "vi": "Nhỏ, bé", "en": "Small, little" },
+    "wordType": "i-adjective", "jlptLevel": "N5",
+    "relatedKanji": ["小"]
+  },
+  {
+    "id": "v-08-013", "lessonId": "lesson-08",
+    "kanji": "新しい", "hiragana": "あたらしい", "romaji": "atarashii",
+    "meaning": { "vi": "Mới", "en": "New" },
+    "wordType": "i-adjective", "jlptLevel": "N5",
+    "relatedKanji": ["新"]
+  },
+  {
+    "id": "v-08-014", "lessonId": "lesson-08",
+    "kanji": "古い", "hiragana": "ふるい", "romaji": "furui",
+    "meaning": { "vi": "Cũ", "en": "Old (things)" },
+    "wordType": "i-adjective", "jlptLevel": "N5",
+    "relatedKanji": ["古"]
+  },
+  {
+    "id": "v-08-015", "lessonId": "lesson-08",
+    "kanji": "", "hiragana": "いい", "romaji": "ii",
+    "meaning": { "vi": "Tốt, hay", "en": "Good" },
+    "wordType": "i-adjective", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-016", "lessonId": "lesson-08",
+    "kanji": "悪い", "hiragana": "わるい", "romaji": "warui",
+    "meaning": { "vi": "Xấu, tệ", "en": "Bad" },
+    "wordType": "i-adjective", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-017", "lessonId": "lesson-08",
+    "kanji": "暑い", "hiragana": "あつい", "romaji": "atsui",
+    "meaning": { "vi": "Nóng (thời tiết)", "en": "Hot (weather)" },
+    "wordType": "i-adjective", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-018", "lessonId": "lesson-08",
+    "kanji": "寒い", "hiragana": "さむい", "romaji": "samui",
+    "meaning": { "vi": "Lạnh (thời tiết)", "en": "Cold (weather)" },
+    "wordType": "i-adjective", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-019", "lessonId": "lesson-08",
+    "kanji": "熱い", "hiragana": "あつい", "romaji": "atsui",
+    "meaning": { "vi": "Nóng (đồ vật, đồ uống)", "en": "Hot (things, drinks)" },
+    "wordType": "i-adjective", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-020", "lessonId": "lesson-08",
+    "kanji": "冷たい", "hiragana": "つめたい", "romaji": "tsumetai",
+    "meaning": { "vi": "Lạnh (đồ vật, đồ uống)", "en": "Cold (things, drinks)" },
+    "wordType": "i-adjective", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-021", "lessonId": "lesson-08",
+    "kanji": "難しい", "hiragana": "むずかしい", "romaji": "muzukashii",
+    "meaning": { "vi": "Khó", "en": "Difficult" },
+    "wordType": "i-adjective", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-022", "lessonId": "lesson-08",
+    "kanji": "易しい", "hiragana": "やさしい", "romaji": "yasashii",
+    "meaning": { "vi": "Dễ", "en": "Easy" },
+    "wordType": "i-adjective", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-023", "lessonId": "lesson-08",
+    "kanji": "高い", "hiragana": "たかい", "romaji": "takai",
+    "meaning": { "vi": "Cao, đắt", "en": "High, expensive" },
+    "wordType": "i-adjective", "jlptLevel": "N5",
+    "relatedKanji": ["高"]
+  },
+  {
+    "id": "v-08-024", "lessonId": "lesson-08",
+    "kanji": "安い", "hiragana": "やすい", "romaji": "yasui",
+    "meaning": { "vi": "Rẻ", "en": "Cheap, inexpensive" },
+    "wordType": "i-adjective", "jlptLevel": "N5",
+    "relatedKanji": ["安"]
+  },
+  {
+    "id": "v-08-025", "lessonId": "lesson-08",
+    "kanji": "低い", "hiragana": "ひくい", "romaji": "hikui",
+    "meaning": { "vi": "Thấp", "en": "Low, short" },
+    "wordType": "i-adjective", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-026", "lessonId": "lesson-08",
+    "kanji": "", "hiragana": "おもしろい", "romaji": "omoshiroi",
+    "meaning": { "vi": "Thú vị, hay", "en": "Interesting, funny" },
+    "wordType": "i-adjective", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-027", "lessonId": "lesson-08",
+    "kanji": "", "hiragana": "おいしい", "romaji": "oishii",
+    "meaning": { "vi": "Ngon", "en": "Delicious" },
+    "wordType": "i-adjective", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-028", "lessonId": "lesson-08",
+    "kanji": "忙しい", "hiragana": "いそがしい", "romaji": "isogashii",
+    "meaning": { "vi": "Bận rộn", "en": "Busy" },
+    "wordType": "i-adjective", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-029", "lessonId": "lesson-08",
+    "kanji": "楽しい", "hiragana": "たのしい", "romaji": "tanoshii",
+    "meaning": { "vi": "Vui", "en": "Fun, enjoyable" },
+    "wordType": "i-adjective", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-030", "lessonId": "lesson-08",
+    "kanji": "白い", "hiragana": "しろい", "romaji": "shiroi",
+    "meaning": { "vi": "Trắng", "en": "White" },
+    "wordType": "i-adjective", "jlptLevel": "N5",
+    "relatedKanji": ["白"]
+  },
+  {
+    "id": "v-08-031", "lessonId": "lesson-08",
+    "kanji": "黒い", "hiragana": "くろい", "romaji": "kuroi",
+    "meaning": { "vi": "Đen", "en": "Black" },
+    "wordType": "i-adjective", "jlptLevel": "N5",
+    "relatedKanji": ["黒"]
+  },
+  {
+    "id": "v-08-032", "lessonId": "lesson-08",
+    "kanji": "赤い", "hiragana": "あかい", "romaji": "akai",
+    "meaning": { "vi": "Đỏ", "en": "Red" },
+    "wordType": "i-adjective", "jlptLevel": "N5",
+    "relatedKanji": ["赤"]
+  },
+  {
+    "id": "v-08-033", "lessonId": "lesson-08",
+    "kanji": "青い", "hiragana": "あおい", "romaji": "aoi",
+    "meaning": { "vi": "Xanh (dương/lá)", "en": "Blue, green" },
+    "wordType": "i-adjective", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-034", "lessonId": "lesson-08",
+    "kanji": "", "hiragana": "さくら", "romaji": "sakura",
+    "meaning": { "vi": "Hoa anh đào", "en": "Cherry blossom" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-035", "lessonId": "lesson-08",
+    "kanji": "山", "hiragana": "やま", "romaji": "yama",
+    "meaning": { "vi": "Núi", "en": "Mountain" },
+    "wordType": "noun", "jlptLevel": "N5",
+    "relatedKanji": ["山"]
+  },
+  {
+    "id": "v-08-036", "lessonId": "lesson-08",
+    "kanji": "町", "hiragana": "まち", "romaji": "machi",
+    "meaning": { "vi": "Thành phố, thị trấn", "en": "Town, city" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-037", "lessonId": "lesson-08",
+    "kanji": "食べ物", "hiragana": "たべもの", "romaji": "tabemono",
+    "meaning": { "vi": "Đồ ăn", "en": "Food" },
+    "wordType": "noun", "jlptLevel": "N5",
+    "relatedKanji": ["食"]
+  },
+  {
+    "id": "v-08-038", "lessonId": "lesson-08",
+    "kanji": "所", "hiragana": "ところ", "romaji": "tokoro",
+    "meaning": { "vi": "Nơi, chỗ", "en": "Place" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-039", "lessonId": "lesson-08",
+    "kanji": "料理", "hiragana": "りょうり", "romaji": "ryouri",
+    "meaning": { "vi": "Món ăn, nấu ăn", "en": "Cooking, cuisine" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-040", "lessonId": "lesson-08",
+    "kanji": "生活", "hiragana": "せいかつ", "romaji": "seikatsu",
+    "meaning": { "vi": "Cuộc sống", "en": "Life, living" },
+    "wordType": "noun", "jlptLevel": "N5",
+    "relatedKanji": ["生"]
+  },
+  {
+    "id": "v-08-041", "lessonId": "lesson-08",
+    "kanji": "仕事", "hiragana": "しごと", "romaji": "shigoto",
+    "meaning": { "vi": "Công việc", "en": "Work, job" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-042", "lessonId": "lesson-08",
+    "kanji": "", "hiragana": "とても", "romaji": "totemo",
+    "meaning": { "vi": "Rất", "en": "Very" },
+    "wordType": "adverb", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-043", "lessonId": "lesson-08",
+    "kanji": "", "hiragana": "あまり", "romaji": "amari",
+    "meaning": { "vi": "Không ~ lắm (dùng với phủ định)", "en": "Not very (used with negatives)" },
+    "wordType": "adverb", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-044", "lessonId": "lesson-08",
+    "kanji": "", "hiragana": "そして", "romaji": "soshite",
+    "meaning": { "vi": "Và, rồi", "en": "And, and then" },
+    "wordType": "conjunction", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-045", "lessonId": "lesson-08",
+    "kanji": "", "hiragana": "しかし", "romaji": "shikashi",
+    "meaning": { "vi": "Nhưng, tuy nhiên", "en": "But, however" },
+    "wordType": "conjunction", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-046", "lessonId": "lesson-08",
+    "kanji": "", "hiragana": "お元気ですか", "romaji": "ogenki desu ka",
+    "meaning": { "vi": "Bạn khỏe không?", "en": "How are you?" },
+    "wordType": "greeting", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-047", "lessonId": "lesson-08",
+    "kanji": "", "hiragana": "そろそろ 失礼します", "romaji": "sorosoro shitsurei shimasu",
+    "meaning": { "vi": "Xin phép tôi về (khi cáo từ)", "en": "I must be going now (leaving politely)" },
+    "wordType": "expression", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-048", "lessonId": "lesson-08",
+    "kanji": "", "hiragana": "どう", "romaji": "dou",
+    "meaning": { "vi": "Thế nào", "en": "How" },
+    "wordType": "adverb", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-08-049", "lessonId": "lesson-08",
+    "kanji": "", "hiragana": "どんな", "romaji": "donna",
+    "meaning": { "vi": "~ như thế nào (trước danh từ)", "en": "What kind of" },
+    "wordType": "adverb", "jlptLevel": "N5"
   }
 ]

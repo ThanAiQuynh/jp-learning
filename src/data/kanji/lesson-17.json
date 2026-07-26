@@ -2,30 +2,30 @@
   {
     "id": "k-17-001",
     "lessonId": "lesson-17",
-    "character": "漢1",
+    "character": "忘",
     "onReadings": [
-      "カン"
+      "ボウ"
     ],
     "kunReadings": [
-      "かん"
+      "わす・れる"
     ],
     "meaning": {
-      "vi": "Hán tự 1 (Bài 17)",
-      "en": "Kanji 1 (Lesson 17)"
+      "vi": "Quên",
+      "en": "Forget"
     },
-    "strokeCount": 5,
+    "strokeCount": 7,
     "radicals": [
-      "水"
+      "心"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "心",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字1",
-        "reading": "かんじ1",
+        "word": "忘",
+        "reading": "わす・れる",
         "meaning": {
-          "vi": "Từ ghép 1",
-          "en": "Compound 1"
+          "vi": "Quên",
+          "en": "Forget"
         }
       }
     ]
@@ -33,30 +33,30 @@
   {
     "id": "k-17-002",
     "lessonId": "lesson-17",
-    "character": "漢2",
+    "character": "払",
     "onReadings": [
-      "カン"
+      "フツ"
     ],
     "kunReadings": [
-      "かん"
+      "はら・う"
     ],
     "meaning": {
-      "vi": "Hán tự 2 (Bài 17)",
-      "en": "Kanji 2 (Lesson 17)"
+      "vi": "Trả tiền",
+      "en": "Pay"
     },
     "strokeCount": 5,
     "radicals": [
-      "水"
+      "手"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "手",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字2",
-        "reading": "かんじ2",
+        "word": "払",
+        "reading": "はら・う",
         "meaning": {
-          "vi": "Từ ghép 2",
-          "en": "Compound 2"
+          "vi": "Trả tiền",
+          "en": "Pay"
         }
       }
     ]
@@ -64,30 +64,30 @@
   {
     "id": "k-17-003",
     "lessonId": "lesson-17",
-    "character": "漢3",
+    "character": "返",
     "onReadings": [
-      "カン"
+      "ヘン"
     ],
     "kunReadings": [
-      "かん"
+      "かえ・す"
     ],
     "meaning": {
-      "vi": "Hán tự 3 (Bài 17)",
-      "en": "Kanji 3 (Lesson 17)"
+      "vi": "Trả lại",
+      "en": "Return"
     },
-    "strokeCount": 5,
+    "strokeCount": 7,
     "radicals": [
-      "水"
+      "辶"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "辶",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字3",
-        "reading": "かんじ3",
+        "word": "返",
+        "reading": "かえ・す",
         "meaning": {
-          "vi": "Từ ghép 3",
-          "en": "Compound 3"
+          "vi": "Trả lại",
+          "en": "Return"
         }
       }
     ]
@@ -95,30 +95,30 @@
   {
     "id": "k-17-004",
     "lessonId": "lesson-17",
-    "character": "漢4",
+    "character": "持",
     "onReadings": [
-      "カン"
+      "ジ"
     ],
     "kunReadings": [
-      "かん"
+      "も・つ"
     ],
     "meaning": {
-      "vi": "Hán tự 4 (Bài 17)",
-      "en": "Kanji 4 (Lesson 17)"
+      "vi": "Cầm, giữ",
+      "en": "Hold"
     },
-    "strokeCount": 5,
+    "strokeCount": 9,
     "radicals": [
-      "水"
+      "手"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "手",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字4",
-        "reading": "かんじ4",
+        "word": "持",
+        "reading": "も・つ",
         "meaning": {
-          "vi": "Từ ghép 4",
-          "en": "Compound 4"
+          "vi": "Cầm, giữ",
+          "en": "Hold"
         }
       }
     ]
@@ -126,30 +126,62 @@
   {
     "id": "k-17-005",
     "lessonId": "lesson-17",
-    "character": "漢5",
+    "character": "薬",
     "onReadings": [
-      "カン"
+      "ヤク"
     ],
     "kunReadings": [
-      "かん"
+      "くすり"
     ],
     "meaning": {
-      "vi": "Hán tự 5 (Bài 17)",
-      "en": "Kanji 5 (Lesson 17)"
+      "vi": "Thuốc",
+      "en": "Medicine"
     },
-    "strokeCount": 5,
+    "strokeCount": 16,
     "radicals": [
-      "水"
+      "艹"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "艹",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字5",
-        "reading": "かんじ5",
+        "word": "薬",
+        "reading": "くすり",
         "meaning": {
-          "vi": "Từ ghép 5",
-          "en": "Compound 5"
+          "vi": "Thuốc",
+          "en": "Medicine"
+        }
+      }
+    ]
+  },
+  {
+    "id": "k-17-006",
+    "lessonId": "lesson-17",
+    "character": "病",
+    "onReadings": [
+      "ビョウ"
+    ],
+    "kunReadings": [
+      "やまい",
+      "や・む"
+    ],
+    "meaning": {
+      "vi": "Bệnh",
+      "en": "Illness"
+    },
+    "strokeCount": 10,
+    "radicals": [
+      "疒"
+    ],
+    "primaryRadical": "疒",
+    "jlptLevel": "N5",
+    "compounds": [
+      {
+        "word": "病",
+        "reading": "やまい",
+        "meaning": {
+          "vi": "Bệnh",
+          "en": "Illness"
         }
       }
     ]

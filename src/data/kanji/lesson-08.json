@@ -1,157 +1,81 @@
 [
   {
-    "id": "k-08-001",
-    "lessonId": "lesson-08",
-    "character": "漢1",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 1 (Bài 8)",
-      "en": "Kanji 1 (Lesson 8)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "id": "k-08-001", "lessonId": "lesson-08",
+    "character": "大", "onReadings": ["ダイ", "タイ"], "kunReadings": ["おお・きい"],
+    "meaning": { "vi": "Lớn, to", "en": "Big, large" }, "strokeCount": 3,
+    "radicals": ["大"], "primaryRadical": "大", "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字1",
-        "reading": "かんじ1",
-        "meaning": {
-          "vi": "Từ ghép 1",
-          "en": "Compound 1"
-        }
-      }
+      { "word": "大きい", "reading": "おおきい", "meaning": { "vi": "To, lớn", "en": "Big" } },
+      { "word": "大学", "reading": "だいがく", "meaning": { "vi": "Đại học", "en": "University" } }
     ]
   },
   {
-    "id": "k-08-002",
-    "lessonId": "lesson-08",
-    "character": "漢2",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 2 (Bài 8)",
-      "en": "Kanji 2 (Lesson 8)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "id": "k-08-002", "lessonId": "lesson-08",
+    "character": "小", "onReadings": ["ショウ"], "kunReadings": ["ちい・さい", "こ", "お"],
+    "meaning": { "vi": "Nhỏ, bé", "en": "Small, little" }, "strokeCount": 3,
+    "radicals": ["小"], "primaryRadical": "小", "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字2",
-        "reading": "かんじ2",
-        "meaning": {
-          "vi": "Từ ghép 2",
-          "en": "Compound 2"
-        }
-      }
+      { "word": "小さい", "reading": "ちいさい", "meaning": { "vi": "Nhỏ", "en": "Small" } },
+      { "word": "小学校", "reading": "しょうがっこう", "meaning": { "vi": "Trường tiểu học", "en": "Elementary school" } }
     ]
   },
   {
-    "id": "k-08-003",
-    "lessonId": "lesson-08",
-    "character": "漢3",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 3 (Bài 8)",
-      "en": "Kanji 3 (Lesson 8)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "id": "k-08-003", "lessonId": "lesson-08",
+    "character": "高", "onReadings": ["コウ"], "kunReadings": ["たか・い"],
+    "meaning": { "vi": "Cao, đắt", "en": "High, expensive" }, "strokeCount": 10,
+    "radicals": ["高"], "primaryRadical": "高", "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字3",
-        "reading": "かんじ3",
-        "meaning": {
-          "vi": "Từ ghép 3",
-          "en": "Compound 3"
-        }
-      }
+      { "word": "高い", "reading": "たかい", "meaning": { "vi": "Cao, đắt", "en": "High, expensive" } },
+      { "word": "高校", "reading": "こうこう", "meaning": { "vi": "Trường cấp 3", "en": "High school" } }
     ]
   },
   {
-    "id": "k-08-004",
-    "lessonId": "lesson-08",
-    "character": "漢4",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 4 (Bài 8)",
-      "en": "Kanji 4 (Lesson 8)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "id": "k-08-004", "lessonId": "lesson-08",
+    "character": "安", "onReadings": ["アン"], "kunReadings": ["やす・い"],
+    "meaning": { "vi": "Rẻ, an toàn", "en": "Cheap, safe" }, "strokeCount": 6,
+    "radicals": ["宀"], "primaryRadical": "宀", "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字4",
-        "reading": "かんじ4",
-        "meaning": {
-          "vi": "Từ ghép 4",
-          "en": "Compound 4"
-        }
-      }
+      { "word": "安い", "reading": "やすい", "meaning": { "vi": "Rẻ", "en": "Cheap" } },
+      { "word": "安全", "reading": "あんぜん", "meaning": { "vi": "An toàn", "en": "Safety" } }
     ]
   },
   {
-    "id": "k-08-005",
-    "lessonId": "lesson-08",
-    "character": "漢5",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 5 (Bài 8)",
-      "en": "Kanji 5 (Lesson 8)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "id": "k-08-005", "lessonId": "lesson-08",
+    "character": "白", "onReadings": ["ハク", "ビャク"], "kunReadings": ["しろ", "しろ・い"],
+    "meaning": { "vi": "Trắng", "en": "White" }, "strokeCount": 5,
+    "radicals": ["白"], "primaryRadical": "白", "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字5",
-        "reading": "かんじ5",
-        "meaning": {
-          "vi": "Từ ghép 5",
-          "en": "Compound 5"
-        }
-      }
+      { "word": "白い", "reading": "しろい", "meaning": { "vi": "Trắng", "en": "White" } }
+    ]
+  },
+  {
+    "id": "k-08-006", "lessonId": "lesson-08",
+    "character": "古", "onReadings": ["コ"], "kunReadings": ["ふる・い"],
+    "meaning": { "vi": "Cũ", "en": "Old (things)" }, "strokeCount": 5,
+    "radicals": ["口"], "primaryRadical": "口", "jlptLevel": "N5",
+    "compounds": [
+      { "word": "古い", "reading": "ふるい", "meaning": { "vi": "Cũ", "en": "Old" } },
+      { "word": "中古", "reading": "ちゅうこ", "meaning": { "vi": "Đã qua sử dụng", "en": "Secondhand" } }
+    ]
+  },
+  {
+    "id": "k-08-007", "lessonId": "lesson-08",
+    "character": "名", "onReadings": ["メイ", "ミョウ"], "kunReadings": ["な"],
+    "meaning": { "vi": "Tên", "en": "Name" }, "strokeCount": 6,
+    "radicals": ["口"], "primaryRadical": "口", "jlptLevel": "N5",
+    "compounds": [
+      { "word": "名前", "reading": "なまえ", "meaning": { "vi": "Tên", "en": "Name" } },
+      { "word": "有名", "reading": "ゆうめい", "meaning": { "vi": "Nổi tiếng", "en": "Famous" } }
+    ]
+  },
+  {
+    "id": "k-08-008", "lessonId": "lesson-08",
+    "character": "山", "onReadings": ["サン", "ザン"], "kunReadings": ["やま"],
+    "meaning": { "vi": "Núi", "en": "Mountain" }, "strokeCount": 3,
+    "radicals": ["山"], "primaryRadical": "山", "jlptLevel": "N5",
+    "compounds": [
+      { "word": "山", "reading": "やま", "meaning": { "vi": "Núi", "en": "Mountain" } },
+      { "word": "富士山", "reading": "ふじさん", "meaning": { "vi": "Núi Phú Sĩ", "en": "Mt. Fuji" } }
     ]
   }
 ]

@@ -1,117 +1,264 @@
 [
   {
-    "id": "v-10-001",
-    "lessonId": "lesson-10",
-    "kanji": "単語1",
-    "hiragana": "たんご1",
-    "romaji": "tango1",
-    "meaning": {
-      "vi": "Từ vựng 1 (Bài 10)",
-      "en": "Vocab 1 (Lesson 10)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語1です。",
-        "reading": "これはたんご1です。",
-        "translation": {
-          "vi": "Đây là từ vựng 1.",
-          "en": "This is vocab 1."
-        }
-      }
-    ]
+    "id": "v-10-001", "lessonId": "lesson-10",
+    "kanji": "", "hiragana": "あります", "romaji": "arimasu",
+    "meaning": { "vi": "Có, tồn tại (vật vô sinh)", "en": "There is, exist (inanimate)" },
+    "wordType": "verb", "jlptLevel": "N5"
   },
   {
-    "id": "v-10-002",
-    "lessonId": "lesson-10",
-    "kanji": "単語2",
-    "hiragana": "たんご2",
-    "romaji": "tango2",
-    "meaning": {
-      "vi": "Từ vựng 2 (Bài 10)",
-      "en": "Vocab 2 (Lesson 10)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語2です。",
-        "reading": "これはたんご2です。",
-        "translation": {
-          "vi": "Đây là từ vựng 2.",
-          "en": "This is vocab 2."
-        }
-      }
-    ]
+    "id": "v-10-002", "lessonId": "lesson-10",
+    "kanji": "", "hiragana": "います", "romaji": "imasu",
+    "meaning": { "vi": "Có, tồn tại (vật hữu sinh)", "en": "There is, exist (animate)" },
+    "wordType": "verb", "jlptLevel": "N5"
   },
   {
-    "id": "v-10-003",
-    "lessonId": "lesson-10",
-    "kanji": "単語3",
-    "hiragana": "たんご3",
-    "romaji": "tango3",
-    "meaning": {
-      "vi": "Từ vựng 3 (Bài 10)",
-      "en": "Vocab 3 (Lesson 10)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語3です。",
-        "reading": "これはたんご3です。",
-        "translation": {
-          "vi": "Đây là từ vựng 3.",
-          "en": "This is vocab 3."
-        }
-      }
-    ]
+    "id": "v-10-003", "lessonId": "lesson-10",
+    "kanji": "", "hiragana": "いろいろ[な]", "romaji": "iroiro [na]",
+    "meaning": { "vi": "Nhiều loại, đa dạng", "en": "Various" },
+    "wordType": "na-adjective", "jlptLevel": "N5"
   },
   {
-    "id": "v-10-004",
-    "lessonId": "lesson-10",
-    "kanji": "単語4",
-    "hiragana": "たんご4",
-    "romaji": "tango4",
-    "meaning": {
-      "vi": "Từ vựng 4 (Bài 10)",
-      "en": "Vocab 4 (Lesson 10)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語4です。",
-        "reading": "これはたんご4です。",
-        "translation": {
-          "vi": "Đây là từ vựng 4.",
-          "en": "This is vocab 4."
-        }
-      }
-    ]
+    "id": "v-10-004", "lessonId": "lesson-10",
+    "kanji": "男の人", "hiragana": "おとこのひと", "romaji": "otoko no hito",
+    "meaning": { "vi": "Đàn ông", "en": "Man" },
+    "wordType": "noun", "jlptLevel": "N5",
+    "relatedKanji": ["男"]
   },
   {
-    "id": "v-10-005",
-    "lessonId": "lesson-10",
-    "kanji": "単語5",
-    "hiragana": "たんご5",
-    "romaji": "tango5",
-    "meaning": {
-      "vi": "Từ vựng 5 (Bài 10)",
-      "en": "Vocab 5 (Lesson 10)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語5です。",
-        "reading": "これはたんご5です。",
-        "translation": {
-          "vi": "Đây là từ vựng 5.",
-          "en": "This is vocab 5."
-        }
-      }
-    ]
+    "id": "v-10-005", "lessonId": "lesson-10",
+    "kanji": "女の人", "hiragana": "おんなのひと", "romaji": "onna no hito",
+    "meaning": { "vi": "Phụ nữ", "en": "Woman" },
+    "wordType": "noun", "jlptLevel": "N5",
+    "relatedKanji": ["女"]
+  },
+  {
+    "id": "v-10-006", "lessonId": "lesson-10",
+    "kanji": "男の子", "hiragana": "おとこのこ", "romaji": "otoko no ko",
+    "meaning": { "vi": "Con trai", "en": "Boy" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-007", "lessonId": "lesson-10",
+    "kanji": "女の子", "hiragana": "おんなのこ", "romaji": "onna no ko",
+    "meaning": { "vi": "Con gái", "en": "Girl" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-008", "lessonId": "lesson-10",
+    "kanji": "犬", "hiragana": "いぬ", "romaji": "inu",
+    "meaning": { "vi": "Chó", "en": "Dog" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-009", "lessonId": "lesson-10",
+    "kanji": "猫", "hiragana": "ねこ", "romaji": "neko",
+    "meaning": { "vi": "Mèo", "en": "Cat" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-010", "lessonId": "lesson-10",
+    "kanji": "木", "hiragana": "き", "romaji": "ki",
+    "meaning": { "vi": "Cây", "en": "Tree" },
+    "wordType": "noun", "jlptLevel": "N5",
+    "relatedKanji": ["木"]
+  },
+  {
+    "id": "v-10-011", "lessonId": "lesson-10",
+    "kanji": "物", "hiragana": "もの", "romaji": "mono",
+    "meaning": { "vi": "Đồ vật, thứ", "en": "Thing, object" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-012", "lessonId": "lesson-10",
+    "kanji": "電池", "hiragana": "でんち", "romaji": "denchi",
+    "meaning": { "vi": "Pin", "en": "Battery" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-013", "lessonId": "lesson-10",
+    "kanji": "箱", "hiragana": "はこ", "romaji": "hako",
+    "meaning": { "vi": "Hộp", "en": "Box" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-014", "lessonId": "lesson-10",
+    "kanji": "", "hiragana": "スーパー", "romaji": "suupaa",
+    "meaning": { "vi": "Siêu thị", "en": "Supermarket" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-015", "lessonId": "lesson-10",
+    "kanji": "", "hiragana": "コンビニ", "romaji": "konbini",
+    "meaning": { "vi": "Cửa hàng tiện lợi", "en": "Convenience store" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-016", "lessonId": "lesson-10",
+    "kanji": "公園", "hiragana": "こうえん", "romaji": "kouen",
+    "meaning": { "vi": "Công viên", "en": "Park" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-017", "lessonId": "lesson-10",
+    "kanji": "喫茶店", "hiragana": "きっさてん", "romaji": "kissaten",
+    "meaning": { "vi": "Quán cà phê", "en": "Coffee shop" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-018", "lessonId": "lesson-10",
+    "kanji": "本屋", "hiragana": "ほんや", "romaji": "honya",
+    "meaning": { "vi": "Hiệu sách", "en": "Bookstore" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-019", "lessonId": "lesson-10",
+    "kanji": "〜屋", "hiragana": "〜や", "romaji": "~ya",
+    "meaning": { "vi": "Tiệm ~, cửa hàng ~", "en": "~ shop, ~ store" },
+    "wordType": "suffix", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-020", "lessonId": "lesson-10",
+    "kanji": "乗り場", "hiragana": "のりば", "romaji": "noriba",
+    "meaning": { "vi": "Bến xe, nơi lên xe", "en": "Bus/taxi stop, boarding area" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-021", "lessonId": "lesson-10",
+    "kanji": "県", "hiragana": "けん", "romaji": "ken",
+    "meaning": { "vi": "Tỉnh (đơn vị hành chính)", "en": "Prefecture" },
+    "wordType": "noun", "jlptLevel": "N4"
+  },
+  {
+    "id": "v-10-022", "lessonId": "lesson-10",
+    "kanji": "上", "hiragana": "うえ", "romaji": "ue",
+    "meaning": { "vi": "Trên, phía trên", "en": "On, above" },
+    "wordType": "noun", "jlptLevel": "N5",
+    "relatedKanji": ["上"]
+  },
+  {
+    "id": "v-10-023", "lessonId": "lesson-10",
+    "kanji": "下", "hiragana": "した", "romaji": "shita",
+    "meaning": { "vi": "Dưới, phía dưới", "en": "Under, below" },
+    "wordType": "noun", "jlptLevel": "N5",
+    "relatedKanji": ["下"]
+  },
+  {
+    "id": "v-10-024", "lessonId": "lesson-10",
+    "kanji": "前", "hiragana": "まえ", "romaji": "mae",
+    "meaning": { "vi": "Trước, phía trước", "en": "Front, before" },
+    "wordType": "noun", "jlptLevel": "N5",
+    "relatedKanji": ["前"]
+  },
+  {
+    "id": "v-10-025", "lessonId": "lesson-10",
+    "kanji": "後ろ", "hiragana": "うしろ", "romaji": "ushiro",
+    "meaning": { "vi": "Sau, phía sau", "en": "Behind, back" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-026", "lessonId": "lesson-10",
+    "kanji": "右", "hiragana": "みぎ", "romaji": "migi",
+    "meaning": { "vi": "Phải, bên phải", "en": "Right" },
+    "wordType": "noun", "jlptLevel": "N5",
+    "relatedKanji": ["右"]
+  },
+  {
+    "id": "v-10-027", "lessonId": "lesson-10",
+    "kanji": "左", "hiragana": "ひだり", "romaji": "hidari",
+    "meaning": { "vi": "Trái, bên trái", "en": "Left" },
+    "wordType": "noun", "jlptLevel": "N5",
+    "relatedKanji": ["左"]
+  },
+  {
+    "id": "v-10-028", "lessonId": "lesson-10",
+    "kanji": "中", "hiragana": "なか", "romaji": "naka",
+    "meaning": { "vi": "Trong, bên trong", "en": "Inside" },
+    "wordType": "noun", "jlptLevel": "N5",
+    "relatedKanji": ["中"]
+  },
+  {
+    "id": "v-10-029", "lessonId": "lesson-10",
+    "kanji": "外", "hiragana": "そと", "romaji": "soto",
+    "meaning": { "vi": "Ngoài, bên ngoài", "en": "Outside" },
+    "wordType": "noun", "jlptLevel": "N5",
+    "relatedKanji": ["外"]
+  },
+  {
+    "id": "v-10-030", "lessonId": "lesson-10",
+    "kanji": "隣", "hiragana": "となり", "romaji": "tonari",
+    "meaning": { "vi": "Bên cạnh", "en": "Next to, neighboring" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-031", "lessonId": "lesson-10",
+    "kanji": "近く", "hiragana": "ちかく", "romaji": "chikaku",
+    "meaning": { "vi": "Gần", "en": "Near, nearby" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-032", "lessonId": "lesson-10",
+    "kanji": "間", "hiragana": "あいだ", "romaji": "aida",
+    "meaning": { "vi": "Giữa", "en": "Between" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-033", "lessonId": "lesson-10",
+    "kanji": "", "hiragana": "〜や", "romaji": "~ya",
+    "meaning": { "vi": "~ và ~ (liệt kê không đầy đủ)", "en": "~ and ~ (non-exhaustive)" },
+    "wordType": "particle", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-034", "lessonId": "lesson-10",
+    "kanji": "", "hiragana": "など", "romaji": "nado",
+    "meaning": { "vi": "Vân vân, v.v.", "en": "Etc., and so on" },
+    "wordType": "particle", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-035", "lessonId": "lesson-10",
+    "kanji": "郵便局", "hiragana": "ゆうびんきょく", "romaji": "yuubinkyoku",
+    "meaning": { "vi": "Bưu điện", "en": "Post office" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-036", "lessonId": "lesson-10",
+    "kanji": "銀行", "hiragana": "ぎんこう", "romaji": "ginkou",
+    "meaning": { "vi": "Ngân hàng", "en": "Bank" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-037", "lessonId": "lesson-10",
+    "kanji": "部屋", "hiragana": "へや", "romaji": "heya",
+    "meaning": { "vi": "Phòng", "en": "Room" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-038", "lessonId": "lesson-10",
+    "kanji": "机", "hiragana": "つくえ", "romaji": "tsukue",
+    "meaning": { "vi": "Bàn (học/làm việc)", "en": "Desk" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-039", "lessonId": "lesson-10",
+    "kanji": "", "hiragana": "ベッド", "romaji": "beddo",
+    "meaning": { "vi": "Giường", "en": "Bed" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-040", "lessonId": "lesson-10",
+    "kanji": "棚", "hiragana": "たな", "romaji": "tana",
+    "meaning": { "vi": "Kệ", "en": "Shelf" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-041", "lessonId": "lesson-10",
+    "kanji": "事務所", "hiragana": "じむしょ", "romaji": "jimusho",
+    "meaning": { "vi": "Văn phòng", "en": "Office" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-10-042", "lessonId": "lesson-10",
+    "kanji": "", "hiragana": "どこ", "romaji": "doko",
+    "meaning": { "vi": "Ở đâu", "en": "Where" },
+    "wordType": "pronoun", "jlptLevel": "N5"
   }
 ]

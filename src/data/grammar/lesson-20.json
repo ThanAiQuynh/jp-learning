@@ -2,34 +2,37 @@
   {
     "id": "g-20-001",
     "lessonId": "lesson-20",
-    "pattern": "〜文法1",
-    "patternKana": "〜ぶんぽう1",
+    "pattern": "普通形 (丁寧形→普通形)",
+    "patternKana": "普通形 (丁寧形→普通形)",
     "title": {
-      "vi": "Ngữ pháp 1 (Bài 20)",
-      "en": "Grammar 1 (Lesson 20)"
+      "vi": "Thể thông thường",
+      "en": "Plain form",
+      "ja": "普通形"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 1 bài 20",
-      "en": "Explanation for grammar 1 lesson 20"
+      "vi": "Chuyển từ lịch sự sang thông thường.",
+      "en": "Convert from polite to plain.",
+      "ja": "丁寧形から普通形への変換。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xem giải thích.",
+      "en": "See explanation.",
+      "ja": "説明を参照。"
     },
     "formation": [
-      "N + 文法"
+      "普通形 (丁寧形→普通形)"
     ],
     "examples": [
       {
-        "ja": "私は文法1を勉強します。",
-        "reading": "わたしはぶんぽう1をべんきょうします。",
+        "ja": "例文 (普通形 (丁寧形→普通形))",
+        "reading": "れいぶん",
         "translation": {
-          "vi": "Tôi học ngữ pháp 1.",
-          "en": "I study grammar 1."
+          "vi": "Ví dụ cho 普通形 (丁寧形→普通形)",
+          "en": "Example for 普通形 (丁寧形→普通形)"
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
         }
       }
     ],
@@ -38,70 +41,37 @@
   {
     "id": "g-20-002",
     "lessonId": "lesson-20",
-    "pattern": "〜文法2",
-    "patternKana": "〜ぶんぽう2",
+    "pattern": "普通形を使った会話",
+    "patternKana": "普通形を使った会話",
     "title": {
-      "vi": "Ngữ pháp 2 (Bài 20)",
-      "en": "Grammar 2 (Lesson 20)"
+      "vi": "Hội thoại dùng thể thông thường",
+      "en": "Plain form conversation",
+      "ja": "普通形を使った会話"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 2 bài 20",
-      "en": "Explanation for grammar 2 lesson 20"
+      "vi": "Giữa bạn bè, gia đình dùng thể thông thường.",
+      "en": "Used among friends and family.",
+      "ja": "友達や家族の間で使う。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xem giải thích.",
+      "en": "See explanation.",
+      "ja": "説明を参照。"
     },
     "formation": [
-      "N + 文法"
+      "普通形を使った会話"
     ],
     "examples": [
       {
-        "ja": "私は文法2を勉強します。",
-        "reading": "わたしはぶんぽう2をべんきょうします。",
+        "ja": "例文 (普通形を使った会話)",
+        "reading": "れいぶん",
         "translation": {
-          "vi": "Tôi học ngữ pháp 2.",
-          "en": "I study grammar 2."
+          "vi": "Ví dụ cho 普通形を使った会話",
+          "en": "Example for 普通形を使った会話"
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
-      }
-    ],
-    "jlptLevel": "N5"
-  },
-  {
-    "id": "g-20-003",
-    "lessonId": "lesson-20",
-    "pattern": "〜文法3",
-    "patternKana": "〜ぶんぽう3",
-    "title": {
-      "vi": "Ngữ pháp 3 (Bài 20)",
-      "en": "Grammar 3 (Lesson 20)"
-    },
-    "explanation": {
-      "vi": "Giải thích ngữ pháp 3 bài 20",
-      "en": "Explanation for grammar 3 lesson 20"
-    },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
-    "examples": [
-      {
-        "ja": "私は文法3を勉強します。",
-        "reading": "わたしはぶんぽう3をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 3.",
-          "en": "I study grammar 3."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
         }
       }
     ],

@@ -1,109 +1,90 @@
 [
   {
-    "id": "g-08-001",
-    "lessonId": "lesson-08",
-    "pattern": "〜文法1",
-    "patternKana": "〜ぶんぽう1",
-    "title": {
-      "vi": "Ngữ pháp 1 (Bài 8)",
-      "en": "Grammar 1 (Lesson 8)"
-    },
+    "id": "g-08-001", "lessonId": "lesson-08",
+    "pattern": "N は な-adj です / N は い-adj です",
+    "patternKana": "N は な-adj です / N は い-adj です",
+    "title": { "vi": "N thì tính từ (mô tả)", "en": "N is adjective (description)", "ja": "名詞は な形容詞です / い形容詞です" },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 1 bài 8",
-      "en": "Explanation for grammar 1 lesson 8"
+      "vi": "Tính từ đuôi な (na-adj) kết hợp với です: きれいです, しずかです. Tính từ đuôi い (i-adj) cũng dùng です nhưng giữ nguyên đuôi い: 大きいです, おもしろいです. Lưu ý: きれい, 有名 là な-adj dù có đuôi い/い.",
+      "en": "な-adjectives combine with です: きれいです, しずかです. い-adjectives keep い before です: 大きいです, おもしろいです. Note: きれい and 有名 are な-adjectives despite ending in い.",
+      "ja": "な形容詞は「です」と組み合わせます。い形容詞は「い」を保ったまま「です」をつけます。"
     },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
+    "usage": { "vi": "Mô tả tính chất, đặc điểm.", "en": "Describing qualities and characteristics.", "ja": "性質・特徴を述べる。" },
+    "formation": ["N + は + な-adj + です", "N + は + い-adj + です"],
     "examples": [
-      {
-        "ja": "私は文法1を勉強します。",
-        "reading": "わたしはぶんぽう1をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 1.",
-          "en": "I study grammar 1."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
-      }
+      { "ja": "奈良は 静かな 町です。", "reading": "ならは しずかな まちです。", "translation": { "vi": "Nara là thành phố yên tĩnh.", "en": "Nara is a quiet city." }, "highlightRange": { "start": 4, "end": 7 } },
+      { "ja": "この本は おもしろいです。", "reading": "このほんは おもしろいです。", "translation": { "vi": "Cuốn sách này thú vị.", "en": "This book is interesting." }, "highlightRange": { "start": 5, "end": 10 } }
     ],
     "jlptLevel": "N5"
   },
   {
-    "id": "g-08-002",
-    "lessonId": "lesson-08",
-    "pattern": "〜文法2",
-    "patternKana": "〜ぶんぽう2",
-    "title": {
-      "vi": "Ngữ pháp 2 (Bài 8)",
-      "en": "Grammar 2 (Lesson 8)"
-    },
+    "id": "g-08-002", "lessonId": "lesson-08",
+    "pattern": "な-adj じゃ ありません / い-adj くないです",
+    "patternKana": "な-adj じゃ ありません / い-adj くないです",
+    "title": { "vi": "Phủ định tính từ", "en": "Negative adjectives", "ja": "形容詞の否定形" },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 2 bài 8",
-      "en": "Explanation for grammar 2 lesson 8"
+      "vi": "Phủ định な-adj: bỏ な, thêm じゃ ありません (静か → 静かじゃ ありません). Phủ định い-adj: bỏ い, thêm くないです (大きい → 大きくないです). Riêng いい → よくないです.",
+      "en": "Negative な-adj: drop な, add じゃ ありません. Negative い-adj: drop い, add くないです. Exception: いい → よくないです.",
+      "ja": "な形容詞の否定：「じゃありません」。い形容詞の否定：「い」を取って「くないです」。「いい」は「よくないです」。"
     },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
+    "usage": { "vi": "Phủ định tính chất.", "en": "Negating a quality.", "ja": "性質を否定する。" },
+    "formation": ["な-adj + じゃ ありません", "い-adj(bỏ い) + くないです"],
     "examples": [
-      {
-        "ja": "私は文法2を勉強します。",
-        "reading": "わたしはぶんぽう2をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 2.",
-          "en": "I study grammar 2."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
-      }
+      { "ja": "ここは 静かじゃ ありません。", "reading": "ここは しずかじゃ ありません。", "translation": { "vi": "Nơi đây không yên tĩnh.", "en": "This place is not quiet." }, "highlightRange": { "start": 4, "end": 11 } },
+      { "ja": "この映画は おもしろくないです。", "reading": "このえいがは おもしろくないです。", "translation": { "vi": "Bộ phim này không hay.", "en": "This movie is not interesting." }, "highlightRange": { "start": 6, "end": 12 } }
     ],
     "jlptLevel": "N5"
   },
   {
-    "id": "g-08-003",
-    "lessonId": "lesson-08",
-    "pattern": "〜文法3",
-    "patternKana": "〜ぶんぽう3",
-    "title": {
-      "vi": "Ngữ pháp 3 (Bài 8)",
-      "en": "Grammar 3 (Lesson 8)"
-    },
+    "id": "g-08-003", "lessonId": "lesson-08",
+    "pattern": "な-adj な N / い-adj N",
+    "patternKana": "な-adj な N / い-adj N",
+    "title": { "vi": "Tính từ bổ nghĩa cho danh từ", "en": "Adjective modifying noun", "ja": "形容詞＋名詞" },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 3 bài 8",
-      "en": "Explanation for grammar 3 lesson 8"
+      "vi": "Tính từ đặt trước danh từ để bổ nghĩa. な-adj thêm な trước danh từ: きれいな 花. い-adj giữ nguyên: 大きい かばん.",
+      "en": "Adjectives are placed before nouns to modify them. な-adj adds な: きれいな 花. い-adj stays unchanged: 大きい かばん.",
+      "ja": "形容詞は名詞の前に置いて修飾します。な形容詞は「な」を付け、い形容詞はそのままです。"
     },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
+    "usage": { "vi": "Bổ nghĩa cho danh từ.", "en": "Modifying nouns.", "ja": "名詞を修飾する。" },
+    "formation": ["な-adj + な + N", "い-adj + N"],
     "examples": [
-      {
-        "ja": "私は文法3を勉強します。",
-        "reading": "わたしはぶんぽう3をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 3.",
-          "en": "I study grammar 3."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
-      }
+      { "ja": "きれいな 花ですね。", "reading": "きれいな はなですね。", "translation": { "vi": "Bông hoa đẹp nhỉ.", "en": "What a beautiful flower." }, "highlightRange": { "start": 0, "end": 4 } },
+      { "ja": "大きい かばんですね。", "reading": "おおきい かばんですね。", "translation": { "vi": "Cái cặp lớn nhỉ.", "en": "What a big bag." }, "highlightRange": { "start": 0, "end": 3 } }
+    ],
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "g-08-004", "lessonId": "lesson-08",
+    "pattern": "とても / あまり",
+    "patternKana": "とても / あまり",
+    "title": { "vi": "Rất / Không ~ lắm", "en": "Very / Not very", "ja": "とても / あまり" },
+    "explanation": {
+      "vi": "とても dùng trong câu khẳng định, nghĩa là 'rất'. あまり dùng trong câu phủ định, nghĩa là 'không ~ lắm'. KHÔNG dùng あまり trong câu khẳng định.",
+      "en": "とても is used in affirmative sentences meaning 'very'. あまり is used in negative sentences meaning 'not very'. Do NOT use あまり in affirmative sentences.",
+      "ja": "「とても」は肯定文で「非常に」の意味。「あまり」は否定文で「それほど～ない」の意味。"
+    },
+    "usage": { "vi": "Chỉ mức độ.", "en": "Indicating degree.", "ja": "程度を表す。" },
+    "formation": ["とても + adj(肯定)", "あまり + adj(否定)"],
+    "examples": [
+      { "ja": "この料理は とても おいしいです。", "reading": "このりょうりは とても おいしいです。", "translation": { "vi": "Món này rất ngon.", "en": "This dish is very delicious." }, "highlightRange": { "start": 6, "end": 9 } },
+      { "ja": "この映画は あまり おもしろくないです。", "reading": "このえいがは あまり おもしろくないです。", "translation": { "vi": "Bộ phim này không hay lắm.", "en": "This movie is not very interesting." }, "highlightRange": { "start": 6, "end": 9 } }
+    ],
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "g-08-005", "lessonId": "lesson-08",
+    "pattern": "N は どうですか",
+    "patternKana": "N は どうですか",
+    "title": { "vi": "N thì thế nào?", "en": "How is N?", "ja": "名詞は どうですか" },
+    "explanation": {
+      "vi": "Dùng để hỏi ý kiến, cảm nhận, đánh giá của người nghe về N. Trả lời bằng tính từ.",
+      "en": "Used to ask for the listener's opinion, impression, or evaluation of N. Answer with adjectives.",
+      "ja": "相手の意見や感想を聞くときに使います。形容詞で答えます。"
+    },
+    "usage": { "vi": "Hỏi ý kiến, cảm nhận.", "en": "Asking for opinions/impressions.", "ja": "意見や感想を尋ねる。" },
+    "formation": ["N + は + どうですか"],
+    "examples": [
+      { "ja": "日本の 生活は どうですか。 …楽しいです。", "reading": "にほんの せいかつは どうですか。 …たのしいです。", "translation": { "vi": "Cuộc sống ở Nhật thế nào? …Vui.", "en": "How is life in Japan? …It's fun." }, "highlightRange": { "start": 7, "end": 11 } }
     ],
     "jlptLevel": "N5"
   }

@@ -1,117 +1,36 @@
 [
-  {
-    "id": "v-14-001",
-    "lessonId": "lesson-14",
-    "kanji": "単語1",
-    "hiragana": "たんご1",
-    "romaji": "tango1",
-    "meaning": {
-      "vi": "Từ vựng 1 (Bài 14)",
-      "en": "Vocab 1 (Lesson 14)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語1です。",
-        "reading": "これはたんご1です。",
-        "translation": {
-          "vi": "Đây là từ vựng 1.",
-          "en": "This is vocab 1."
-        }
-      }
-    ]
-  },
-  {
-    "id": "v-14-002",
-    "lessonId": "lesson-14",
-    "kanji": "単語2",
-    "hiragana": "たんご2",
-    "romaji": "tango2",
-    "meaning": {
-      "vi": "Từ vựng 2 (Bài 14)",
-      "en": "Vocab 2 (Lesson 14)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語2です。",
-        "reading": "これはたんご2です。",
-        "translation": {
-          "vi": "Đây là từ vựng 2.",
-          "en": "This is vocab 2."
-        }
-      }
-    ]
-  },
-  {
-    "id": "v-14-003",
-    "lessonId": "lesson-14",
-    "kanji": "単語3",
-    "hiragana": "たんご3",
-    "romaji": "tango3",
-    "meaning": {
-      "vi": "Từ vựng 3 (Bài 14)",
-      "en": "Vocab 3 (Lesson 14)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語3です。",
-        "reading": "これはたんご3です。",
-        "translation": {
-          "vi": "Đây là từ vựng 3.",
-          "en": "This is vocab 3."
-        }
-      }
-    ]
-  },
-  {
-    "id": "v-14-004",
-    "lessonId": "lesson-14",
-    "kanji": "単語4",
-    "hiragana": "たんご4",
-    "romaji": "tango4",
-    "meaning": {
-      "vi": "Từ vựng 4 (Bài 14)",
-      "en": "Vocab 4 (Lesson 14)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語4です。",
-        "reading": "これはたんご4です。",
-        "translation": {
-          "vi": "Đây là từ vựng 4.",
-          "en": "This is vocab 4."
-        }
-      }
-    ]
-  },
-  {
-    "id": "v-14-005",
-    "lessonId": "lesson-14",
-    "kanji": "単語5",
-    "hiragana": "たんご5",
-    "romaji": "tango5",
-    "meaning": {
-      "vi": "Từ vựng 5 (Bài 14)",
-      "en": "Vocab 5 (Lesson 14)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語5です。",
-        "reading": "これはたんご5です。",
-        "translation": {
-          "vi": "Đây là từ vựng 5.",
-          "en": "This is vocab 5."
-        }
-      }
-    ]
-  }
+  { "id": "v-14-001", "lessonId": "lesson-14", "kanji": "つけます", "hiragana": "つけます", "romaji": "tsukemasu", "meaning": { "vi": "Bật (điện, máy)", "en": "Turn on" }, "wordType": "verb", "jlptLevel": "N5" },
+  { "id": "v-14-002", "lessonId": "lesson-14", "kanji": "消します", "hiragana": "けします", "romaji": "keshimasu", "meaning": { "vi": "Tắt (điện, máy)", "en": "Turn off" }, "wordType": "verb", "jlptLevel": "N5" },
+  { "id": "v-14-003", "lessonId": "lesson-14", "kanji": "開けます", "hiragana": "あけます", "romaji": "akemasu", "meaning": { "vi": "Mở", "en": "Open" }, "wordType": "verb", "jlptLevel": "N5" },
+  { "id": "v-14-004", "lessonId": "lesson-14", "kanji": "閉めます", "hiragana": "しめます", "romaji": "shimemasu", "meaning": { "vi": "Đóng", "en": "Close" }, "wordType": "verb", "jlptLevel": "N5" },
+  { "id": "v-14-005", "lessonId": "lesson-14", "kanji": "急ぎます", "hiragana": "いそぎます", "romaji": "isogimasu", "meaning": { "vi": "Vội, gấp", "en": "Hurry" }, "wordType": "verb", "jlptLevel": "N5" },
+  { "id": "v-14-006", "lessonId": "lesson-14", "kanji": "待ちます", "hiragana": "まちます", "romaji": "machimasu", "meaning": { "vi": "Chờ, đợi", "en": "Wait" }, "wordType": "verb", "jlptLevel": "N5" },
+  { "id": "v-14-007", "lessonId": "lesson-14", "kanji": "止めます", "hiragana": "とめます", "romaji": "tomemasu", "meaning": { "vi": "Dừng, đậu (xe)", "en": "Stop, park" }, "wordType": "verb", "jlptLevel": "N5" },
+  { "id": "v-14-008", "lessonId": "lesson-14", "kanji": "曲がります", "hiragana": "まがります", "romaji": "magarimasu", "meaning": { "vi": "Rẽ, quẹo", "en": "Turn" }, "wordType": "verb", "jlptLevel": "N5" },
+  { "id": "v-14-009", "lessonId": "lesson-14", "kanji": "持ちます", "hiragana": "もちます", "romaji": "mochimasu", "meaning": { "vi": "Cầm, giữ", "en": "Hold, carry" }, "wordType": "verb", "jlptLevel": "N5" },
+  { "id": "v-14-010", "lessonId": "lesson-14", "kanji": "取ります", "hiragana": "とります", "romaji": "torimasu", "meaning": { "vi": "Lấy", "en": "Take" }, "wordType": "verb", "jlptLevel": "N5" },
+  { "id": "v-14-011", "lessonId": "lesson-14", "kanji": "手伝います", "hiragana": "てつだいます", "romaji": "tetsudaimasu", "meaning": { "vi": "Giúp đỡ", "en": "Help" }, "wordType": "verb", "jlptLevel": "N5" },
+  { "id": "v-14-012", "lessonId": "lesson-14", "kanji": "呼びます", "hiragana": "よびます", "romaji": "yobimasu", "meaning": { "vi": "Gọi", "en": "Call" }, "wordType": "verb", "jlptLevel": "N5" },
+  { "id": "v-14-013", "lessonId": "lesson-14", "kanji": "話します", "hiragana": "はなします", "romaji": "hanashimasu", "meaning": { "vi": "Nói chuyện", "en": "Talk, speak" }, "wordType": "verb", "jlptLevel": "N5" },
+  { "id": "v-14-014", "lessonId": "lesson-14", "kanji": "使います", "hiragana": "つかいます", "romaji": "tsukaimasu", "meaning": { "vi": "Sử dụng", "en": "Use" }, "wordType": "verb", "jlptLevel": "N5" },
+  { "id": "v-14-015", "lessonId": "lesson-14", "kanji": "座ります", "hiragana": "すわります", "romaji": "suwarimasu", "meaning": { "vi": "Ngồi", "en": "Sit" }, "wordType": "verb", "jlptLevel": "N5" },
+  { "id": "v-14-016", "lessonId": "lesson-14", "kanji": "立ちます", "hiragana": "たちます", "romaji": "tachimasu", "meaning": { "vi": "Đứng", "en": "Stand" }, "wordType": "verb", "jlptLevel": "N5" },
+  { "id": "v-14-017", "lessonId": "lesson-14", "kanji": "入ります", "hiragana": "はいります", "romaji": "hairimasu", "meaning": { "vi": "Vào", "en": "Enter" }, "wordType": "verb", "jlptLevel": "N5" },
+  { "id": "v-14-018", "lessonId": "lesson-14", "kanji": "出ます", "hiragana": "でます", "romaji": "demasu", "meaning": { "vi": "Ra", "en": "Go out, leave" }, "wordType": "verb", "jlptLevel": "N5" },
+  { "id": "v-14-019", "lessonId": "lesson-14", "kanji": "降ります", "hiragana": "おります", "romaji": "orimasu", "meaning": { "vi": "Xuống (xe)", "en": "Get off" }, "wordType": "verb", "jlptLevel": "N5" },
+  { "id": "v-14-020", "lessonId": "lesson-14", "kanji": "乗り換えます", "hiragana": "のりかえます", "romaji": "norikaemasu", "meaning": { "vi": "Chuyển (tàu, xe)", "en": "Transfer (vehicles)" }, "wordType": "verb", "jlptLevel": "N4" },
+  { "id": "v-14-021", "lessonId": "lesson-14", "kanji": "信号", "hiragana": "しんごう", "romaji": "shingou", "meaning": { "vi": "Đèn giao thông", "en": "Traffic light" }, "wordType": "noun", "jlptLevel": "N4" },
+  { "id": "v-14-022", "lessonId": "lesson-14", "kanji": "角", "hiragana": "かど", "romaji": "kado", "meaning": { "vi": "Góc (đường)", "en": "Corner" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-14-023", "lessonId": "lesson-14", "kanji": "交差点", "hiragana": "こうさてん", "romaji": "kousaten", "meaning": { "vi": "Ngã tư", "en": "Intersection" }, "wordType": "noun", "jlptLevel": "N4" },
+  { "id": "v-14-024", "lessonId": "lesson-14", "kanji": "道", "hiragana": "みち", "romaji": "michi", "meaning": { "vi": "Đường", "en": "Road, way" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-14-025", "lessonId": "lesson-14", "kanji": "橋", "hiragana": "はし", "romaji": "hashi", "meaning": { "vi": "Cầu", "en": "Bridge" }, "wordType": "noun", "jlptLevel": "N4" },
+  { "id": "v-14-026", "lessonId": "lesson-14", "kanji": "", "hiragana": "エレベーター", "romaji": "erebeetaa", "meaning": { "vi": "Thang máy", "en": "Elevator" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-14-027", "lessonId": "lesson-14", "kanji": "", "hiragana": "エスカレーター", "romaji": "esukareetaa", "meaning": { "vi": "Thang cuốn", "en": "Escalator" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-14-028", "lessonId": "lesson-14", "kanji": "電気", "hiragana": "でんき", "romaji": "denki", "meaning": { "vi": "Điện, đèn", "en": "Electricity, light" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-14-029", "lessonId": "lesson-14", "kanji": "窓", "hiragana": "まど", "romaji": "mado", "meaning": { "vi": "Cửa sổ", "en": "Window" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-14-030", "lessonId": "lesson-14", "kanji": "ドア", "hiragana": "ドア", "romaji": "doa", "meaning": { "vi": "Cửa", "en": "Door" }, "wordType": "noun", "jlptLevel": "N5" },
+  { "id": "v-14-031", "lessonId": "lesson-14", "kanji": "", "hiragana": "まっすぐ", "romaji": "massugu", "meaning": { "vi": "Thẳng", "en": "Straight" }, "wordType": "adverb", "jlptLevel": "N5" },
+  { "id": "v-14-032", "lessonId": "lesson-14", "kanji": "", "hiragana": "ゆっくり", "romaji": "yukkuri", "meaning": { "vi": "Chậm rãi", "en": "Slowly" }, "wordType": "adverb", "jlptLevel": "N5" },
+  { "id": "v-14-033", "lessonId": "lesson-14", "kanji": "", "hiragana": "すぐ", "romaji": "sugu", "meaning": { "vi": "Ngay lập tức", "en": "Immediately" }, "wordType": "adverb", "jlptLevel": "N5" },
+  { "id": "v-14-034", "lessonId": "lesson-14", "kanji": "", "hiragana": "みどり町", "romaji": "Midori-machi", "meaning": { "vi": "Khu Midori (tên trong sách)", "en": "Midori Town (textbook name)" }, "wordType": "proper-noun", "jlptLevel": "N5" }
 ]

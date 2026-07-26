@@ -1,117 +1,224 @@
 [
   {
-    "id": "v-11-001",
-    "lessonId": "lesson-11",
-    "kanji": "単語1",
-    "hiragana": "たんご1",
-    "romaji": "tango1",
-    "meaning": {
-      "vi": "Từ vựng 1 (Bài 11)",
-      "en": "Vocab 1 (Lesson 11)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語1です。",
-        "reading": "これはたんご1です。",
-        "translation": {
-          "vi": "Đây là từ vựng 1.",
-          "en": "This is vocab 1."
-        }
-      }
-    ]
+    "id": "v-11-001", "lessonId": "lesson-11",
+    "kanji": "", "hiragana": "かかります", "romaji": "kakarimasu",
+    "meaning": { "vi": "Tốn, mất (thời gian/tiền)", "en": "Take, cost (time/money)" },
+    "wordType": "verb", "jlptLevel": "N5"
   },
   {
-    "id": "v-11-002",
-    "lessonId": "lesson-11",
-    "kanji": "単語2",
-    "hiragana": "たんご2",
-    "romaji": "tango2",
-    "meaning": {
-      "vi": "Từ vựng 2 (Bài 11)",
-      "en": "Vocab 2 (Lesson 11)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語2です。",
-        "reading": "これはたんご2です。",
-        "translation": {
-          "vi": "Đây là từ vựng 2.",
-          "en": "This is vocab 2."
-        }
-      }
-    ]
+    "id": "v-11-002", "lessonId": "lesson-11",
+    "kanji": "休みます", "hiragana": "やすみます", "romaji": "yasumimasu",
+    "meaning": { "vi": "Nghỉ", "en": "Rest, take a day off" },
+    "wordType": "verb", "jlptLevel": "N5"
   },
   {
-    "id": "v-11-003",
-    "lessonId": "lesson-11",
-    "kanji": "単語3",
-    "hiragana": "たんご3",
-    "romaji": "tango3",
-    "meaning": {
-      "vi": "Từ vựng 3 (Bài 11)",
-      "en": "Vocab 3 (Lesson 11)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語3です。",
-        "reading": "これはたんご3です。",
-        "translation": {
-          "vi": "Đây là từ vựng 3.",
-          "en": "This is vocab 3."
-        }
-      }
-    ]
+    "id": "v-11-003", "lessonId": "lesson-11",
+    "kanji": "一つ", "hiragana": "ひとつ", "romaji": "hitotsu",
+    "meaning": { "vi": "Một (cái)", "en": "One (counter)" },
+    "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["一"]
   },
   {
-    "id": "v-11-004",
-    "lessonId": "lesson-11",
-    "kanji": "単語4",
-    "hiragana": "たんご4",
-    "romaji": "tango4",
-    "meaning": {
-      "vi": "Từ vựng 4 (Bài 11)",
-      "en": "Vocab 4 (Lesson 11)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語4です。",
-        "reading": "これはたんご4です。",
-        "translation": {
-          "vi": "Đây là từ vựng 4.",
-          "en": "This is vocab 4."
-        }
-      }
-    ]
+    "id": "v-11-004", "lessonId": "lesson-11",
+    "kanji": "二つ", "hiragana": "ふたつ", "romaji": "futatsu",
+    "meaning": { "vi": "Hai (cái)", "en": "Two (counter)" },
+    "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["二"]
   },
   {
-    "id": "v-11-005",
-    "lessonId": "lesson-11",
-    "kanji": "単語5",
-    "hiragana": "たんご5",
-    "romaji": "tango5",
-    "meaning": {
-      "vi": "Từ vựng 5 (Bài 11)",
-      "en": "Vocab 5 (Lesson 11)"
-    },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語5です。",
-        "reading": "これはたんご5です。",
-        "translation": {
-          "vi": "Đây là từ vựng 5.",
-          "en": "This is vocab 5."
-        }
-      }
-    ]
+    "id": "v-11-005", "lessonId": "lesson-11",
+    "kanji": "三つ", "hiragana": "みっつ", "romaji": "mittsu",
+    "meaning": { "vi": "Ba (cái)", "en": "Three (counter)" },
+    "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["三"]
+  },
+  {
+    "id": "v-11-006", "lessonId": "lesson-11",
+    "kanji": "四つ", "hiragana": "よっつ", "romaji": "yottsu",
+    "meaning": { "vi": "Bốn (cái)", "en": "Four (counter)" },
+    "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["四"]
+  },
+  {
+    "id": "v-11-007", "lessonId": "lesson-11",
+    "kanji": "五つ", "hiragana": "いつつ", "romaji": "itsutsu",
+    "meaning": { "vi": "Năm (cái)", "en": "Five (counter)" },
+    "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["五"]
+  },
+  {
+    "id": "v-11-008", "lessonId": "lesson-11",
+    "kanji": "六つ", "hiragana": "むっつ", "romaji": "muttsu",
+    "meaning": { "vi": "Sáu (cái)", "en": "Six (counter)" },
+    "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["六"]
+  },
+  {
+    "id": "v-11-009", "lessonId": "lesson-11",
+    "kanji": "七つ", "hiragana": "ななつ", "romaji": "nanatsu",
+    "meaning": { "vi": "Bảy (cái)", "en": "Seven (counter)" },
+    "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["七"]
+  },
+  {
+    "id": "v-11-010", "lessonId": "lesson-11",
+    "kanji": "八つ", "hiragana": "やっつ", "romaji": "yattsu",
+    "meaning": { "vi": "Tám (cái)", "en": "Eight (counter)" },
+    "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["八"]
+  },
+  {
+    "id": "v-11-011", "lessonId": "lesson-11",
+    "kanji": "九つ", "hiragana": "ここのつ", "romaji": "kokonotsu",
+    "meaning": { "vi": "Chín (cái)", "en": "Nine (counter)" },
+    "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["九"]
+  },
+  {
+    "id": "v-11-012", "lessonId": "lesson-11",
+    "kanji": "十", "hiragana": "とお", "romaji": "too",
+    "meaning": { "vi": "Mười (cái)", "en": "Ten (counter)" },
+    "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["十"]
+  },
+  {
+    "id": "v-11-013", "lessonId": "lesson-11",
+    "kanji": "いくつ", "hiragana": "いくつ", "romaji": "ikutsu",
+    "meaning": { "vi": "Bao nhiêu (cái)?", "en": "How many?" },
+    "wordType": "pronoun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-11-014", "lessonId": "lesson-11",
+    "kanji": "一人", "hiragana": "ひとり", "romaji": "hitori",
+    "meaning": { "vi": "Một người", "en": "One person" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-11-015", "lessonId": "lesson-11",
+    "kanji": "二人", "hiragana": "ふたり", "romaji": "futari",
+    "meaning": { "vi": "Hai người", "en": "Two people" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-11-016", "lessonId": "lesson-11",
+    "kanji": "〜台", "hiragana": "〜だい", "romaji": "~dai",
+    "meaning": { "vi": "~ chiếc (xe, máy)", "en": "Counter for vehicles/machines" },
+    "wordType": "suffix", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-11-017", "lessonId": "lesson-11",
+    "kanji": "〜枚", "hiragana": "〜まい", "romaji": "~mai",
+    "meaning": { "vi": "~ tờ, tấm (vật mỏng phẳng)", "en": "Counter for flat objects" },
+    "wordType": "suffix", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-11-018", "lessonId": "lesson-11",
+    "kanji": "〜回", "hiragana": "〜かい", "romaji": "~kai",
+    "meaning": { "vi": "~ lần", "en": "~ times" },
+    "wordType": "suffix", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-11-019", "lessonId": "lesson-11",
+    "kanji": "外国人", "hiragana": "がいこくじん", "romaji": "gaikokujin",
+    "meaning": { "vi": "Người nước ngoài", "en": "Foreigner" },
+    "wordType": "noun", "jlptLevel": "N5", "relatedKanji": ["外"]
+  },
+  {
+    "id": "v-11-020", "lessonId": "lesson-11",
+    "kanji": "〜時間", "hiragana": "〜じかん", "romaji": "~jikan",
+    "meaning": { "vi": "~ tiếng (thời lượng)", "en": "~ hours (duration)" },
+    "wordType": "suffix", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-11-021", "lessonId": "lesson-11",
+    "kanji": "〜週間", "hiragana": "〜しゅうかん", "romaji": "~shuukan",
+    "meaning": { "vi": "~ tuần", "en": "~ weeks" },
+    "wordType": "suffix", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-11-022", "lessonId": "lesson-11",
+    "kanji": "〜か月", "hiragana": "〜かげつ", "romaji": "~kagetsu",
+    "meaning": { "vi": "~ tháng (thời lượng)", "en": "~ months (duration)" },
+    "wordType": "suffix", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-11-023", "lessonId": "lesson-11",
+    "kanji": "〜年", "hiragana": "〜ねん", "romaji": "~nen",
+    "meaning": { "vi": "~ năm", "en": "~ years" },
+    "wordType": "suffix", "jlptLevel": "N5", "relatedKanji": ["年"]
+  },
+  {
+    "id": "v-11-024", "lessonId": "lesson-11",
+    "kanji": "", "hiragana": "りんご", "romaji": "ringo",
+    "meaning": { "vi": "Táo", "en": "Apple" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-11-025", "lessonId": "lesson-11",
+    "kanji": "", "hiragana": "みかん", "romaji": "mikan",
+    "meaning": { "vi": "Quýt", "en": "Mandarin orange" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-11-026", "lessonId": "lesson-11",
+    "kanji": "", "hiragana": "サンドイッチ", "romaji": "sandoicchi",
+    "meaning": { "vi": "Bánh sandwich", "en": "Sandwich" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-11-027", "lessonId": "lesson-11",
+    "kanji": "", "hiragana": "カレー", "romaji": "karee",
+    "meaning": { "vi": "Cà ri", "en": "Curry" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-11-028", "lessonId": "lesson-11",
+    "kanji": "", "hiragana": "アイスクリーム", "romaji": "aisukuriimu",
+    "meaning": { "vi": "Kem", "en": "Ice cream" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-11-029", "lessonId": "lesson-11",
+    "kanji": "切手", "hiragana": "きって", "romaji": "kitte",
+    "meaning": { "vi": "Tem", "en": "Stamp" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-11-030", "lessonId": "lesson-11",
+    "kanji": "封筒", "hiragana": "ふうとう", "romaji": "fuutou",
+    "meaning": { "vi": "Phong bì", "en": "Envelope" },
+    "wordType": "noun", "jlptLevel": "N4"
+  },
+  {
+    "id": "v-11-031", "lessonId": "lesson-11",
+    "kanji": "速達", "hiragana": "そくたつ", "romaji": "sokutatsu",
+    "meaning": { "vi": "Chuyển phát nhanh", "en": "Express mail" },
+    "wordType": "noun", "jlptLevel": "N4"
+  },
+  {
+    "id": "v-11-032", "lessonId": "lesson-11",
+    "kanji": "船便", "hiragana": "ふなびん", "romaji": "funabin",
+    "meaning": { "vi": "Gửi đường biển", "en": "Sea mail" },
+    "wordType": "noun", "jlptLevel": "N4"
+  },
+  {
+    "id": "v-11-033", "lessonId": "lesson-11",
+    "kanji": "航空便", "hiragana": "こうくうびん", "romaji": "koukuubin",
+    "meaning": { "vi": "Gửi đường hàng không", "en": "Air mail" },
+    "wordType": "noun", "jlptLevel": "N4"
+  },
+  {
+    "id": "v-11-034", "lessonId": "lesson-11",
+    "kanji": "家族", "hiragana": "かぞく", "romaji": "kazoku",
+    "meaning": { "vi": "Gia đình", "en": "Family" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-11-035", "lessonId": "lesson-11",
+    "kanji": "兄弟", "hiragana": "きょうだい", "romaji": "kyoudai",
+    "meaning": { "vi": "Anh chị em", "en": "Siblings" },
+    "wordType": "noun", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-11-036", "lessonId": "lesson-11",
+    "kanji": "", "hiragana": "どのくらい", "romaji": "donokurai",
+    "meaning": { "vi": "Bao lâu? Bao nhiêu?", "en": "How long? How much?" },
+    "wordType": "expression", "jlptLevel": "N5"
+  },
+  {
+    "id": "v-11-037", "lessonId": "lesson-11",
+    "kanji": "", "hiragana": "全部で", "romaji": "zenbu de",
+    "meaning": { "vi": "Tổng cộng", "en": "In total" },
+    "wordType": "expression", "jlptLevel": "N5"
   }
 ]

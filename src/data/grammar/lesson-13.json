@@ -1,110 +1,23 @@
 [
-  {
-    "id": "g-13-001",
-    "lessonId": "lesson-13",
-    "pattern": "〜文法1",
-    "patternKana": "〜ぶんぽう1",
-    "title": {
-      "vi": "Ngữ pháp 1 (Bài 13)",
-      "en": "Grammar 1 (Lesson 13)"
-    },
-    "explanation": {
-      "vi": "Giải thích ngữ pháp 1 bài 13",
-      "en": "Explanation for grammar 1 lesson 13"
-    },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
-    "examples": [
-      {
-        "ja": "私は文法1を勉強します。",
-        "reading": "わたしはぶんぽう1をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 1.",
-          "en": "I study grammar 1."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
-      }
-    ],
-    "jlptLevel": "N5"
+  { "id": "g-13-001", "lessonId": "lesson-13", "pattern": "N が ほしいです", "patternKana": "N が ほしいです",
+    "title": { "vi": "Muốn N", "en": "Want N", "ja": "名詞が ほしいです" },
+    "explanation": { "vi": "ほしい là い-adj, diễn tả 'muốn có cái gì'. Dùng が đánh dấu đối tượng muốn. KHÔNG dùng ほしい khi nói về người thứ 3.", "en": "ほしい is an い-adjective meaning 'want (something)'. Use が to mark what is wanted. Do NOT use ほしい for third person.", "ja": "「ほしい」は「何かが欲しい」という意味のい形容詞です。" },
+    "usage": { "vi": "Diễn tả mong muốn.", "en": "Expressing desire.", "ja": "欲求を表す。" },
+    "formation": ["N + が + ほしいです"], "jlptLevel": "N5",
+    "examples": [{ "ja": "新しい パソコンが ほしいです。", "reading": "あたらしい パソコンが ほしいです。", "translation": { "vi": "Tôi muốn có máy tính mới.", "en": "I want a new computer." }, "highlightRange": { "start": 9, "end": 10 } }]
   },
-  {
-    "id": "g-13-002",
-    "lessonId": "lesson-13",
-    "pattern": "〜文法2",
-    "patternKana": "〜ぶんぽう2",
-    "title": {
-      "vi": "Ngữ pháp 2 (Bài 13)",
-      "en": "Grammar 2 (Lesson 13)"
-    },
-    "explanation": {
-      "vi": "Giải thích ngữ pháp 2 bài 13",
-      "en": "Explanation for grammar 2 lesson 13"
-    },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
-    "examples": [
-      {
-        "ja": "私は文法2を勉強します。",
-        "reading": "わたしはぶんぽう2をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 2.",
-          "en": "I study grammar 2."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
-      }
-    ],
-    "jlptLevel": "N5"
+  { "id": "g-13-002", "lessonId": "lesson-13", "pattern": "V(ます形)たいです", "patternKana": "V たいです",
+    "title": { "vi": "Muốn làm V", "en": "Want to V", "ja": "動詞(ます形)たいです" },
+    "explanation": { "vi": "Bỏ ます, thêm たい để nói 'muốn làm gì'. たい biến đổi như い-adj. Đối tượng dùng が hoặc を đều được. KHÔNG dùng cho người thứ 3.", "en": "Drop ます, add たい to say 'want to do'. たい conjugates like い-adjective. Object uses が or を. Do NOT use for third person.", "ja": "ます形の「ます」を取って「たい」を付けます。い形容詞と同じ活用をします。" },
+    "usage": { "vi": "Nói về mong muốn hành động.", "en": "Expressing desire to act.", "ja": "行動の欲求を表す。" },
+    "formation": ["V(ます形 bỏ ます) + たいです"], "jlptLevel": "N5",
+    "examples": [{ "ja": "沖縄へ 行きたいです。", "reading": "おきなわへ いきたいです。", "translation": { "vi": "Tôi muốn đi Okinawa.", "en": "I want to go to Okinawa." }, "highlightRange": { "start": 5, "end": 9 } }]
   },
-  {
-    "id": "g-13-003",
-    "lessonId": "lesson-13",
-    "pattern": "〜文法3",
-    "patternKana": "〜ぶんぽう3",
-    "title": {
-      "vi": "Ngữ pháp 3 (Bài 13)",
-      "en": "Grammar 3 (Lesson 13)"
-    },
-    "explanation": {
-      "vi": "Giải thích ngữ pháp 3 bài 13",
-      "en": "Explanation for grammar 3 lesson 13"
-    },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
-    "examples": [
-      {
-        "ja": "私は文法3を勉強します。",
-        "reading": "わたしはぶんぽう3をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 3.",
-          "en": "I study grammar 3."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
-      }
-    ],
-    "jlptLevel": "N5"
+  { "id": "g-13-003", "lessonId": "lesson-13", "pattern": "N (場所) へ V(ます形)に 行きます/来ます", "patternKana": "N へ V に いきます/きます",
+    "title": { "vi": "Đi/Đến N để làm V", "en": "Go/Come to N to do V", "ja": "名詞(場所)へ 動詞(ます形)に 行きます/来ます" },
+    "explanation": { "vi": "Dùng để nói mục đích đi đâu đó. Bỏ ます, thêm に. Cũng dùng với danh từ: 買い物に行きます, 食事に行きます.", "en": "Used to express the purpose of going somewhere. Drop ます, add に. Also with nouns: 買い物に行きます, 食事に行きます.", "ja": "行く目的を表します。ます形の「ます」を取って「に」を付けます。" },
+    "usage": { "vi": "Nói mục đích di chuyển.", "en": "Expressing purpose of going.", "ja": "移動の目的を表す。" },
+    "formation": ["N(場所) + へ + V(ます形 bỏ ます) + に + 行きます/来ます"], "jlptLevel": "N5",
+    "examples": [{ "ja": "神戸へ インド料理を 食べに 行きます。", "reading": "こうべへ インドりょうりを たべに いきます。", "translation": { "vi": "Tôi đi Kobe để ăn món Ấn Độ.", "en": "I go to Kobe to eat Indian food." }, "highlightRange": { "start": 12, "end": 14 } }]
   }
 ]

@@ -2,34 +2,37 @@
   {
     "id": "g-17-001",
     "lessonId": "lesson-17",
-    "pattern": "〜文法1",
-    "patternKana": "〜ぶんぽう1",
+    "pattern": "Vない形",
+    "patternKana": "Vない形",
     "title": {
-      "vi": "Ngữ pháp 1 (Bài 17)",
-      "en": "Grammar 1 (Lesson 17)"
+      "vi": "Thể ない (phủ định thông thường)",
+      "en": "ない-form (plain negative)",
+      "ja": "動詞ない形"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 1 bài 17",
-      "en": "Explanation for grammar 1 lesson 17"
+      "vi": "Cách chia phủ định thông thường. Nhóm 1: bỏ ます, đổi い→あ+ない. Nhóm 2: bỏ ます+ない. Nhóm 3: しない, こない.",
+      "en": "How to form plain negative. Group 1: drop ます, change い→あ+ない. Group 2: drop ます+ない. Group 3: しない, こない.",
+      "ja": "普通形の否定の作り方。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xem giải thích.",
+      "en": "See explanation.",
+      "ja": "説明を参照。"
     },
     "formation": [
-      "N + 文法"
+      "Vない形"
     ],
     "examples": [
       {
-        "ja": "私は文法1を勉強します。",
-        "reading": "わたしはぶんぽう1をべんきょうします。",
+        "ja": "例文 (Vない形)",
+        "reading": "れいぶん",
         "translation": {
-          "vi": "Tôi học ngữ pháp 1.",
-          "en": "I study grammar 1."
+          "vi": "Ví dụ cho Vない形",
+          "en": "Example for Vない形"
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
         }
       }
     ],
@@ -38,34 +41,37 @@
   {
     "id": "g-17-002",
     "lessonId": "lesson-17",
-    "pattern": "〜文法2",
-    "patternKana": "〜ぶんぽう2",
+    "pattern": "Vないで ください",
+    "patternKana": "Vないで ください",
     "title": {
-      "vi": "Ngữ pháp 2 (Bài 17)",
-      "en": "Grammar 2 (Lesson 17)"
+      "vi": "Xin đừng làm V",
+      "en": "Please don't V",
+      "ja": "動詞ないで ください"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 2 bài 17",
-      "en": "Explanation for grammar 2 lesson 17"
+      "vi": "Dùng để yêu cầu không làm gì. Lịch sự hơn Vてはいけません.",
+      "en": "Used to request someone not to do something. More polite than Vてはいけません.",
+      "ja": "しないようにお願いするときに使います。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xem giải thích.",
+      "en": "See explanation.",
+      "ja": "説明を参照。"
     },
     "formation": [
-      "N + 文法"
+      "Vないで ください"
     ],
     "examples": [
       {
-        "ja": "私は文法2を勉強します。",
-        "reading": "わたしはぶんぽう2をべんきょうします。",
+        "ja": "例文 (Vないで ください)",
+        "reading": "れいぶん",
         "translation": {
-          "vi": "Tôi học ngữ pháp 2.",
-          "en": "I study grammar 2."
+          "vi": "Ví dụ cho Vないで ください",
+          "en": "Example for Vないで ください"
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
         }
       }
     ],
@@ -74,34 +80,76 @@
   {
     "id": "g-17-003",
     "lessonId": "lesson-17",
-    "pattern": "〜文法3",
-    "patternKana": "〜ぶんぽう3",
+    "pattern": "Vなければ なりません",
+    "patternKana": "Vなければ なりません",
     "title": {
-      "vi": "Ngữ pháp 3 (Bài 17)",
-      "en": "Grammar 3 (Lesson 17)"
+      "vi": "Phải làm V (bắt buộc)",
+      "en": "Must V (obligation)",
+      "ja": "動詞なければ なりません"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 3 bài 17",
-      "en": "Explanation for grammar 3 lesson 17"
+      "vi": "Diễn tả nghĩa vụ, bắt buộc. Bỏ ない, thêm なければなりません.",
+      "en": "Expresses obligation. Drop ない, add なければなりません.",
+      "ja": "義務を表します。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xem giải thích.",
+      "en": "See explanation.",
+      "ja": "説明を参照。"
     },
     "formation": [
-      "N + 文法"
+      "Vなければ なりません"
     ],
     "examples": [
       {
-        "ja": "私は文法3を勉強します。",
-        "reading": "わたしはぶんぽう3をべんきょうします。",
+        "ja": "例文 (Vなければ なりません)",
+        "reading": "れいぶん",
         "translation": {
-          "vi": "Tôi học ngữ pháp 3.",
-          "en": "I study grammar 3."
+          "vi": "Ví dụ cho Vなければ なりません",
+          "en": "Example for Vなければ なりません"
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
+        }
+      }
+    ],
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "g-17-004",
+    "lessonId": "lesson-17",
+    "pattern": "Vなくても いいです",
+    "patternKana": "Vなくても いいです",
+    "title": {
+      "vi": "Không cần làm V cũng được",
+      "en": "Don't have to V",
+      "ja": "動詞なくても いいです"
+    },
+    "explanation": {
+      "vi": "Diễn tả không cần thiết phải làm. Bỏ ない, thêm なくてもいいです.",
+      "en": "Expresses that something is not necessary. Drop ない, add なくてもいいです.",
+      "ja": "不必要を表します。"
+    },
+    "usage": {
+      "vi": "Xem giải thích.",
+      "en": "See explanation.",
+      "ja": "説明を参照。"
+    },
+    "formation": [
+      "Vなくても いいです"
+    ],
+    "examples": [
+      {
+        "ja": "例文 (Vなくても いいです)",
+        "reading": "れいぶん",
+        "translation": {
+          "vi": "Ví dụ cho Vなくても いいです",
+          "en": "Example for Vなくても いいです"
+        },
+        "highlightRange": {
+          "start": 0,
+          "end": 2
         }
       }
     ],

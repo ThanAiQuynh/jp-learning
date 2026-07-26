@@ -1,109 +1,72 @@
 [
   {
-    "id": "g-10-001",
-    "lessonId": "lesson-10",
-    "pattern": "〜文法1",
-    "patternKana": "〜ぶんぽう1",
-    "title": {
-      "vi": "Ngữ pháp 1 (Bài 10)",
-      "en": "Grammar 1 (Lesson 10)"
-    },
+    "id": "g-10-001", "lessonId": "lesson-10",
+    "pattern": "N (場所) に N (もの/人) が あります/います",
+    "patternKana": "N に N が あります/います",
+    "title": { "vi": "Ở N (nơi) có N (vật/người)", "en": "There is N at N (place)", "ja": "名詞(場所)に 名詞(もの/人)が あります/います" },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 1 bài 10",
-      "en": "Explanation for grammar 1 lesson 10"
+      "vi": "あります dùng cho vật vô sinh (bàn ghế, cây cối...). います dùng cho vật hữu sinh (người, động vật...). に chỉ nơi tồn tại. が đánh dấu chủ thể tồn tại.",
+      "en": "あります is for inanimate things (furniture, trees...). います is for animate beings (people, animals...). に marks the location. が marks the subject.",
+      "ja": "「あります」は無生物、「います」は生物に使います。「に」は存在場所、「が」は主体を示します。"
     },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
+    "usage": { "vi": "Nói về sự tồn tại.", "en": "Expressing existence.", "ja": "存在を表す。" },
+    "formation": ["N(場所) + に + N(もの) + が + あります", "N(場所) + に + N(生物) + が + います"],
     "examples": [
-      {
-        "ja": "私は文法1を勉強します。",
-        "reading": "わたしはぶんぽう1をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 1.",
-          "en": "I study grammar 1."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
-      }
+      { "ja": "部屋に 机が あります。", "reading": "へやに つくえが あります。", "translation": { "vi": "Trong phòng có cái bàn.", "en": "There is a desk in the room." }, "highlightRange": { "start": 6, "end": 10 } },
+      { "ja": "庭に 猫が います。", "reading": "にわに ねこが います。", "translation": { "vi": "Trong vườn có con mèo.", "en": "There is a cat in the garden." }, "highlightRange": { "start": 5, "end": 8 } }
     ],
     "jlptLevel": "N5"
   },
   {
-    "id": "g-10-002",
-    "lessonId": "lesson-10",
-    "pattern": "〜文法2",
-    "patternKana": "〜ぶんぽう2",
-    "title": {
-      "vi": "Ngữ pháp 2 (Bài 10)",
-      "en": "Grammar 2 (Lesson 10)"
-    },
+    "id": "g-10-002", "lessonId": "lesson-10",
+    "pattern": "N (もの/人) は N (場所) に あります/います",
+    "patternKana": "N は N に あります/います",
+    "title": { "vi": "N (vật/người) ở N (nơi)", "en": "N is at N (place)", "ja": "名詞(もの/人)は 名詞(場所)に あります/います" },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 2 bài 10",
-      "en": "Explanation for grammar 2 lesson 10"
+      "vi": "Khi chủ thể đã được biết, dùng は thay cho が. Câu này trả lời cho câu hỏi 'N はどこに ありますか/いますか' (N ở đâu?).",
+      "en": "When the subject is already known, は is used instead of が. This pattern answers 'Nは どこに ありますか/いますか' (Where is N?).",
+      "ja": "主体が既知の場合、「が」の代わりに「は」を使います。"
     },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
+    "usage": { "vi": "Nói về vị trí.", "en": "Stating location.", "ja": "位置を述べる。" },
+    "formation": ["N(もの/人) + は + N(場所) + に + あります/います"],
     "examples": [
-      {
-        "ja": "私は文法2を勉強します。",
-        "reading": "わたしはぶんぽう2をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 2.",
-          "en": "I study grammar 2."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
-      }
+      { "ja": "銀行は 駅の 近くに あります。", "reading": "ぎんこうは えきの ちかくに あります。", "translation": { "vi": "Ngân hàng ở gần ga.", "en": "The bank is near the station." }, "highlightRange": { "start": 7, "end": 8 } },
+      { "ja": "ミラーさんは 事務所に います。", "reading": "ミラーさんは じむしょに います。", "translation": { "vi": "Anh Miller ở văn phòng.", "en": "Mr. Miller is in the office." }, "highlightRange": { "start": 9, "end": 10 } }
     ],
     "jlptLevel": "N5"
   },
   {
-    "id": "g-10-003",
-    "lessonId": "lesson-10",
-    "pattern": "〜文法3",
-    "patternKana": "〜ぶんぽう3",
-    "title": {
-      "vi": "Ngữ pháp 3 (Bài 10)",
-      "en": "Grammar 3 (Lesson 10)"
-    },
+    "id": "g-10-003", "lessonId": "lesson-10",
+    "pattern": "N1 の N2 (位置詞)",
+    "patternKana": "N1 の N2",
+    "title": { "vi": "Từ chỉ vị trí: trên, dưới, trong, trước, sau...", "en": "Position words: above, below, inside, front, back...", "ja": "位置を表す言葉" },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 3 bài 10",
-      "en": "Explanation for grammar 3 lesson 10"
+      "vi": "Các từ chỉ vị trí: 上 (うえ - trên), 下 (した - dưới), 前 (まえ - trước), 後ろ (うしろ - sau), 右 (みぎ - phải), 左 (ひだり - trái), 中 (なか - trong), 外 (そと - ngoài), 近く (ちかく - gần), 隣 (となり - bên cạnh), 間 (あいだ - giữa). Kết hợp: N1 の N2 (N2 của N1).",
+      "en": "Position words: 上 (above), 下 (below), 前 (front), 後ろ (behind), 右 (right), 左 (left), 中 (inside), 外 (outside), 近く (near), 隣 (next to), 間 (between). Combined: N1 の N2.",
+      "ja": "位置を表す言葉：上、下、前、後ろ、右、左、中、外、近く、隣、間。"
     },
-    "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
-    },
-    "formation": [
-      "N + 文法"
-    ],
+    "usage": { "vi": "Mô tả vị trí.", "en": "Describing positions.", "ja": "位置を述べる。" },
+    "formation": ["N1 + の + 上/下/前/後ろ/右/左/中/近く/隣/間"],
     "examples": [
-      {
-        "ja": "私は文法3を勉強します。",
-        "reading": "わたしはぶんぽう3をべんきょうします。",
-        "translation": {
-          "vi": "Tôi học ngữ pháp 3.",
-          "en": "I study grammar 3."
-        },
-        "highlightRange": {
-          "start": 3,
-          "end": 6
-        }
-      }
+      { "ja": "机の上に 本が あります。", "reading": "つくえのうえに ほんが あります。", "translation": { "vi": "Trên bàn có cuốn sách.", "en": "There is a book on the desk." }, "highlightRange": { "start": 1, "end": 4 } },
+      { "ja": "本屋は 銀行と 郵便局の 間に あります。", "reading": "ほんやは ぎんこうと ゆうびんきょくの あいだに あります。", "translation": { "vi": "Hiệu sách ở giữa ngân hàng và bưu điện.", "en": "The bookstore is between the bank and the post office." }, "highlightRange": { "start": 11, "end": 13 } }
+    ],
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "g-10-004", "lessonId": "lesson-10",
+    "pattern": "N1 や N2 (など)",
+    "patternKana": "N1 や N2",
+    "title": { "vi": "N1 và N2 (v.v.)", "en": "N1 and N2 (etc.)", "ja": "名詞1 や 名詞2 (など)" },
+    "explanation": {
+      "vi": "や dùng để liệt kê ví dụ (không liệt kê hết). Khác với と (liệt kê hết). Có thể thêm など (vv.) ở cuối để nhấn mạnh còn nhiều thứ khác.",
+      "en": "や is used to list examples (not exhaustive). Unlike と (exhaustive listing). など (etc.) can be added at the end to emphasize there are more.",
+      "ja": "「や」は例を挙げるときに使います（全てを挙げない）。「と」は全てを挙げます。"
+    },
+    "usage": { "vi": "Liệt kê không đầy đủ.", "en": "Non-exhaustive listing.", "ja": "例を挙げる。" },
+    "formation": ["N1 + や + N2 (+など)"],
+    "examples": [
+      { "ja": "箱の中に 手紙や 写真が あります。", "reading": "はこのなかに てがみや しゃしんが あります。", "translation": { "vi": "Trong hộp có thư, ảnh, v.v.", "en": "There are letters, photos, etc. in the box." }, "highlightRange": { "start": 8, "end": 9 } }
     ],
     "jlptLevel": "N5"
   }

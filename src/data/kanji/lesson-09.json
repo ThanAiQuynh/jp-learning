@@ -1,157 +1,71 @@
 [
   {
-    "id": "k-09-001",
-    "lessonId": "lesson-09",
-    "character": "漢1",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 1 (Bài 9)",
-      "en": "Kanji 1 (Lesson 9)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "id": "k-09-001", "lessonId": "lesson-09",
+    "character": "好", "onReadings": ["コウ"], "kunReadings": ["す・き", "この・む"],
+    "meaning": { "vi": "Thích", "en": "Like" }, "strokeCount": 6,
+    "radicals": ["女"], "primaryRadical": "女", "jlptLevel": "N4",
     "compounds": [
-      {
-        "word": "漢字1",
-        "reading": "かんじ1",
-        "meaning": {
-          "vi": "Từ ghép 1",
-          "en": "Compound 1"
-        }
-      }
+      { "word": "好き", "reading": "すき", "meaning": { "vi": "Thích", "en": "Like" } },
+      { "word": "大好き", "reading": "だいすき", "meaning": { "vi": "Rất thích", "en": "Love" } }
     ]
   },
   {
-    "id": "k-09-002",
-    "lessonId": "lesson-09",
-    "character": "漢2",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 2 (Bài 9)",
-      "en": "Kanji 2 (Lesson 9)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "id": "k-09-002", "lessonId": "lesson-09",
+    "character": "上", "onReadings": ["ジョウ", "ショウ"], "kunReadings": ["うえ", "あ・がる", "のぼ・る"],
+    "meaning": { "vi": "Trên", "en": "Up, above" }, "strokeCount": 3,
+    "radicals": ["一"], "primaryRadical": "一", "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字2",
-        "reading": "かんじ2",
-        "meaning": {
-          "vi": "Từ ghép 2",
-          "en": "Compound 2"
-        }
-      }
+      { "word": "上手", "reading": "じょうず", "meaning": { "vi": "Giỏi", "en": "Skillful" } },
+      { "word": "上", "reading": "うえ", "meaning": { "vi": "Phía trên", "en": "Above" } }
     ]
   },
   {
-    "id": "k-09-003",
-    "lessonId": "lesson-09",
-    "character": "漢3",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 3 (Bài 9)",
-      "en": "Kanji 3 (Lesson 9)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "id": "k-09-003", "lessonId": "lesson-09",
+    "character": "下", "onReadings": ["カ", "ゲ"], "kunReadings": ["した", "さ・がる", "くだ・る"],
+    "meaning": { "vi": "Dưới", "en": "Down, below" }, "strokeCount": 3,
+    "radicals": ["一"], "primaryRadical": "一", "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字3",
-        "reading": "かんじ3",
-        "meaning": {
-          "vi": "Từ ghép 3",
-          "en": "Compound 3"
-        }
-      }
+      { "word": "下手", "reading": "へた", "meaning": { "vi": "Kém, vụng", "en": "Unskillful" } },
+      { "word": "下", "reading": "した", "meaning": { "vi": "Phía dưới", "en": "Below" } }
     ]
   },
   {
-    "id": "k-09-004",
-    "lessonId": "lesson-09",
-    "character": "漢4",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 4 (Bài 9)",
-      "en": "Kanji 4 (Lesson 9)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "id": "k-09-004", "lessonId": "lesson-09",
+    "character": "手", "onReadings": ["シュ"], "kunReadings": ["て"],
+    "meaning": { "vi": "Tay", "en": "Hand" }, "strokeCount": 4,
+    "radicals": ["手"], "primaryRadical": "手", "jlptLevel": "N5",
     "compounds": [
-      {
-        "word": "漢字4",
-        "reading": "かんじ4",
-        "meaning": {
-          "vi": "Từ ghép 4",
-          "en": "Compound 4"
-        }
-      }
+      { "word": "上手", "reading": "じょうず", "meaning": { "vi": "Giỏi", "en": "Skillful" } },
+      { "word": "手紙", "reading": "てがみ", "meaning": { "vi": "Thư", "en": "Letter" } }
     ]
   },
   {
-    "id": "k-09-005",
-    "lessonId": "lesson-09",
-    "character": "漢5",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 5 (Bài 9)",
-      "en": "Kanji 5 (Lesson 9)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
+    "id": "k-09-005", "lessonId": "lesson-09",
+    "character": "音", "onReadings": ["オン", "イン"], "kunReadings": ["おと", "ね"],
+    "meaning": { "vi": "Âm thanh", "en": "Sound" }, "strokeCount": 9,
+    "radicals": ["音"], "primaryRadical": "音", "jlptLevel": "N4",
     "compounds": [
-      {
-        "word": "漢字5",
-        "reading": "かんじ5",
-        "meaning": {
-          "vi": "Từ ghép 5",
-          "en": "Compound 5"
-        }
-      }
+      { "word": "音楽", "reading": "おんがく", "meaning": { "vi": "Âm nhạc", "en": "Music" } }
+    ]
+  },
+  {
+    "id": "k-09-006", "lessonId": "lesson-09",
+    "character": "楽", "onReadings": ["ガク", "ラク"], "kunReadings": ["たの・しい"],
+    "meaning": { "vi": "Vui, nhạc", "en": "Fun, music" }, "strokeCount": 13,
+    "radicals": ["木"], "primaryRadical": "木", "jlptLevel": "N4",
+    "compounds": [
+      { "word": "音楽", "reading": "おんがく", "meaning": { "vi": "Âm nhạc", "en": "Music" } },
+      { "word": "楽しい", "reading": "たのしい", "meaning": { "vi": "Vui", "en": "Fun" } }
+    ]
+  },
+  {
+    "id": "k-09-007", "lessonId": "lesson-09",
+    "character": "少", "onReadings": ["ショウ"], "kunReadings": ["すく・ない", "すこ・し"],
+    "meaning": { "vi": "Ít", "en": "Few, little" }, "strokeCount": 4,
+    "radicals": ["小"], "primaryRadical": "小", "jlptLevel": "N5",
+    "compounds": [
+      { "word": "少し", "reading": "すこし", "meaning": { "vi": "Một chút", "en": "A little" } },
+      { "word": "少ない", "reading": "すくない", "meaning": { "vi": "Ít", "en": "Few" } }
     ]
   }
 ]

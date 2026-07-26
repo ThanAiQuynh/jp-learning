@@ -2,109 +2,118 @@
   {
     "id": "g-15-001",
     "lessonId": "lesson-15",
-    "pattern": "〜文法1",
-    "patternKana": "〜ぶんぽう1",
+    "pattern": "Vても いいです",
+    "patternKana": "Vても いいです",
     "title": {
-      "vi": "Ngữ pháp 1 (Bài 15)",
-      "en": "Grammar 1 (Lesson 15)"
+      "vi": "Được phép làm V",
+      "en": "May V / It's okay to V",
+      "ja": "動詞ても いいです"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 1 bài 15",
-      "en": "Explanation for grammar 1 lesson 15"
+      "vi": "Dùng để xin phép hoặc cho phép. Vて + も + いいです. Phủ định: いけません.",
+      "en": "Used for asking/giving permission. Vて + も + いいです. Negative: いけません.",
+      "ja": "許可を求める・与えるときに使います。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xin phép, cho phép.",
+      "en": "Asking/giving permission.",
+      "ja": "許可を求める・与える。"
     },
     "formation": [
-      "N + 文法"
+      "V(て形) + も + いいです"
     ],
+    "jlptLevel": "N5",
     "examples": [
       {
-        "ja": "私は文法1を勉強します。",
-        "reading": "わたしはぶんぽう1をべんきょうします。",
+        "ja": "ここで 写真を 撮っても いいですか。",
+        "reading": "ここで しゃしんを とっても いいですか。",
         "translation": {
-          "vi": "Tôi học ngữ pháp 1.",
-          "en": "I study grammar 1."
+          "vi": "Tôi chụp ảnh ở đây được không?",
+          "en": "May I take photos here?"
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 9,
+          "end": 14
         }
       }
-    ],
-    "jlptLevel": "N5"
+    ]
   },
   {
     "id": "g-15-002",
     "lessonId": "lesson-15",
-    "pattern": "〜文法2",
-    "patternKana": "〜ぶんぽう2",
+    "pattern": "Vては いけません",
+    "patternKana": "Vては いけません",
     "title": {
-      "vi": "Ngữ pháp 2 (Bài 15)",
-      "en": "Grammar 2 (Lesson 15)"
+      "vi": "Không được làm V (cấm)",
+      "en": "Must not V (prohibition)",
+      "ja": "動詞ては いけません"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 2 bài 15",
-      "en": "Explanation for grammar 2 lesson 15"
+      "vi": "Dùng để cấm đoán. Vて + は + いけません. Thường dùng khi trả lời câu hỏi ～てもいいですか.",
+      "en": "Used for prohibition. Vて + は + いけません. Often used to answer ～てもいいですか.",
+      "ja": "禁止を表します。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Cấm, không cho phép.",
+      "en": "Prohibiting.",
+      "ja": "禁止する。"
     },
     "formation": [
-      "N + 文法"
+      "V(て形) + は + いけません"
     ],
+    "jlptLevel": "N5",
     "examples": [
       {
-        "ja": "私は文法2を勉強します。",
-        "reading": "わたしはぶんぽう2をべんきょうします。",
+        "ja": "ここで たばこを 吸っては いけません。",
+        "reading": "ここで たばこを すっては いけません。",
         "translation": {
-          "vi": "Tôi học ngữ pháp 2.",
-          "en": "I study grammar 2."
+          "vi": "Không được hút thuốc ở đây.",
+          "en": "You must not smoke here."
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 10,
+          "end": 16
         }
       }
-    ],
-    "jlptLevel": "N5"
+    ]
   },
   {
     "id": "g-15-003",
     "lessonId": "lesson-15",
-    "pattern": "〜文法3",
-    "patternKana": "〜ぶんぽう3",
+    "pattern": "Vて いますか (状態)",
+    "patternKana": "Vて いますか",
     "title": {
-      "vi": "Ngữ pháp 3 (Bài 15)",
-      "en": "Grammar 3 (Lesson 15)"
+      "vi": "Đang ở trạng thái V",
+      "en": "State resulting from V",
+      "ja": "動詞て います（状態）"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 3 bài 15",
-      "en": "Explanation for grammar 3 lesson 15"
+      "vi": "Vています cũng diễn tả trạng thái kết quả. 結婚しています = Đã kết hôn. 住んでいます = Đang sống. 知っています = Biết.",
+      "en": "Vています also expresses resulting state. 結婚しています = Is married. 住んでいます = Lives. 知っています = Know.",
+      "ja": "「Vています」は結果の状態も表します。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Mô tả trạng thái.",
+      "en": "Describing states.",
+      "ja": "状態を述べる。"
     },
     "formation": [
-      "N + 文法"
+      "V(て形) + います"
     ],
+    "jlptLevel": "N5",
     "examples": [
       {
-        "ja": "私は文法3を勉強します。",
-        "reading": "わたしはぶんぽう3をべんきょうします。",
+        "ja": "わたしは 大阪に 住んで います。",
+        "reading": "わたしは おおさかに すんで います。",
         "translation": {
-          "vi": "Tôi học ngữ pháp 3.",
-          "en": "I study grammar 3."
+          "vi": "Tôi đang sống ở Osaka.",
+          "en": "I live in Osaka."
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 8,
+          "end": 12
         }
       }
-    ],
-    "jlptLevel": "N5"
+    ]
   }
 ]

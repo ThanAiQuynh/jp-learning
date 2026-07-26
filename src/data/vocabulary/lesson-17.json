@@ -2,116 +2,300 @@
   {
     "id": "v-17-001",
     "lessonId": "lesson-17",
-    "kanji": "単語1",
-    "hiragana": "たんご1",
-    "romaji": "tango1",
+    "kanji": "覚えます",
+    "hiragana": "おぼえます",
+    "romaji": "17001",
     "meaning": {
-      "vi": "Từ vựng 1 (Bài 17)",
-      "en": "Vocab 1 (Lesson 17)"
+      "vi": "Nhớ, ghi nhớ",
+      "en": "Remember, memorize"
     },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語1です。",
-        "reading": "これはたんご1です。",
-        "translation": {
-          "vi": "Đây là từ vựng 1.",
-          "en": "This is vocab 1."
-        }
-      }
-    ]
+    "wordType": "verb",
+    "jlptLevel": "N5"
   },
   {
     "id": "v-17-002",
     "lessonId": "lesson-17",
-    "kanji": "単語2",
-    "hiragana": "たんご2",
-    "romaji": "tango2",
+    "kanji": "忘れます",
+    "hiragana": "わすれます",
+    "romaji": "17002",
     "meaning": {
-      "vi": "Từ vựng 2 (Bài 17)",
-      "en": "Vocab 2 (Lesson 17)"
+      "vi": "Quên",
+      "en": "Forget"
     },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語2です。",
-        "reading": "これはたんご2です。",
-        "translation": {
-          "vi": "Đây là từ vựng 2.",
-          "en": "This is vocab 2."
-        }
-      }
-    ]
+    "wordType": "verb",
+    "jlptLevel": "N5"
   },
   {
     "id": "v-17-003",
     "lessonId": "lesson-17",
-    "kanji": "単語3",
-    "hiragana": "たんご3",
-    "romaji": "tango3",
+    "kanji": "なくします",
+    "hiragana": "なくします",
+    "romaji": "17003",
     "meaning": {
-      "vi": "Từ vựng 3 (Bài 17)",
-      "en": "Vocab 3 (Lesson 17)"
+      "vi": "Làm mất",
+      "en": "Lose"
     },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語3です。",
-        "reading": "これはたんご3です。",
-        "translation": {
-          "vi": "Đây là từ vựng 3.",
-          "en": "This is vocab 3."
-        }
-      }
-    ]
+    "wordType": "verb",
+    "jlptLevel": "N5"
   },
   {
     "id": "v-17-004",
     "lessonId": "lesson-17",
-    "kanji": "単語4",
-    "hiragana": "たんご4",
-    "romaji": "tango4",
+    "kanji": "払います",
+    "hiragana": "はらいます",
+    "romaji": "17004",
     "meaning": {
-      "vi": "Từ vựng 4 (Bài 17)",
-      "en": "Vocab 4 (Lesson 17)"
+      "vi": "Trả tiền",
+      "en": "Pay"
     },
-    "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語4です。",
-        "reading": "これはたんご4です。",
-        "translation": {
-          "vi": "Đây là từ vựng 4.",
-          "en": "This is vocab 4."
-        }
-      }
-    ]
+    "wordType": "verb",
+    "jlptLevel": "N5"
   },
   {
     "id": "v-17-005",
     "lessonId": "lesson-17",
-    "kanji": "単語5",
-    "hiragana": "たんご5",
-    "romaji": "tango5",
+    "kanji": "返します",
+    "hiragana": "かえします",
+    "romaji": "17005",
     "meaning": {
-      "vi": "Từ vựng 5 (Bài 17)",
-      "en": "Vocab 5 (Lesson 17)"
+      "vi": "Trả lại",
+      "en": "Return, give back"
+    },
+    "wordType": "verb",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-17-006",
+    "lessonId": "lesson-17",
+    "kanji": "出かけます",
+    "hiragana": "でかけます",
+    "romaji": "17006",
+    "meaning": {
+      "vi": "Đi ra ngoài",
+      "en": "Go out"
+    },
+    "wordType": "verb",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-17-007",
+    "lessonId": "lesson-17",
+    "kanji": "脱ぎます",
+    "hiragana": "ぬぎます",
+    "romaji": "17007",
+    "meaning": {
+      "vi": "Cởi (quần áo)",
+      "en": "Take off (clothes)"
+    },
+    "wordType": "verb",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-17-008",
+    "lessonId": "lesson-17",
+    "kanji": "持って行きます",
+    "hiragana": "もっていきます",
+    "romaji": "17008",
+    "meaning": {
+      "vi": "Mang đi",
+      "en": "Take, bring"
+    },
+    "wordType": "verb",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-17-009",
+    "lessonId": "lesson-17",
+    "kanji": "持って来ます",
+    "hiragana": "もってきます",
+    "romaji": "17009",
+    "meaning": {
+      "vi": "Mang đến",
+      "en": "Bring"
+    },
+    "wordType": "verb",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-17-010",
+    "lessonId": "lesson-17",
+    "kanji": "心配します",
+    "hiragana": "しんぱいします",
+    "romaji": "17010",
+    "meaning": {
+      "vi": "Lo lắng",
+      "en": "Worry"
+    },
+    "wordType": "verb",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-17-011",
+    "lessonId": "lesson-17",
+    "kanji": "残業します",
+    "hiragana": "ざんぎょうします",
+    "romaji": "17011",
+    "meaning": {
+      "vi": "Làm thêm giờ",
+      "en": "Overtime work"
+    },
+    "wordType": "verb",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-17-012",
+    "lessonId": "lesson-17",
+    "kanji": "出張します",
+    "hiragana": "しゅっちょうします",
+    "romaji": "17012",
+    "meaning": {
+      "vi": "Đi công tác",
+      "en": "Business trip"
+    },
+    "wordType": "verb",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-17-013",
+    "lessonId": "lesson-17",
+    "kanji": "薬を飲みます",
+    "hiragana": "くすりをのみます",
+    "romaji": "17013",
+    "meaning": {
+      "vi": "Uống thuốc",
+      "en": "Take medicine"
+    },
+    "wordType": "verb",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-17-014",
+    "lessonId": "lesson-17",
+    "kanji": "薬",
+    "hiragana": "くすり",
+    "romaji": "17014",
+    "meaning": {
+      "vi": "Thuốc",
+      "en": "Medicine"
     },
     "wordType": "noun",
-    "jlptLevel": "N5",
-    "examples": [
-      {
-        "ja": "これは単語5です。",
-        "reading": "これはたんご5です。",
-        "translation": {
-          "vi": "Đây là từ vựng 5.",
-          "en": "This is vocab 5."
-        }
-      }
-    ]
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-17-015",
+    "lessonId": "lesson-17",
+    "kanji": "熱",
+    "hiragana": "ねつ",
+    "romaji": "17015",
+    "meaning": {
+      "vi": "Sốt",
+      "en": "Fever"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-17-016",
+    "lessonId": "lesson-17",
+    "kanji": "病気",
+    "hiragana": "びょうき",
+    "romaji": "17016",
+    "meaning": {
+      "vi": "Bệnh",
+      "en": "Illness"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-17-017",
+    "lessonId": "lesson-17",
+    "kanji": "風邪",
+    "hiragana": "かぜ",
+    "romaji": "17017",
+    "meaning": {
+      "vi": "Cảm lạnh",
+      "en": "Cold (illness)"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-17-018",
+    "lessonId": "lesson-17",
+    "kanji": "お風呂",
+    "hiragana": "おふろ",
+    "romaji": "17018",
+    "meaning": {
+      "vi": "Bồn tắm",
+      "en": "Bath"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-17-019",
+    "lessonId": "lesson-17",
+    "kanji": "上着",
+    "hiragana": "うわぎ",
+    "romaji": "17019",
+    "meaning": {
+      "vi": "Áo khoác",
+      "en": "Jacket, coat"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-17-020",
+    "lessonId": "lesson-17",
+    "kanji": "下着",
+    "hiragana": "したぎ",
+    "romaji": "17020",
+    "meaning": {
+      "vi": "Đồ lót",
+      "en": "Underwear"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-17-021",
+    "lessonId": "lesson-17",
+    "kanji": "",
+    "hiragana": "どう しましたか",
+    "romaji": "17021",
+    "meaning": {
+      "vi": "Bạn bị sao? Có chuyện gì?",
+      "en": "What's the matter?"
+    },
+    "wordType": "expression",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-17-022",
+    "lessonId": "lesson-17",
+    "kanji": "",
+    "hiragana": "のど",
+    "romaji": "17022",
+    "meaning": {
+      "vi": "Cổ họng",
+      "en": "Throat"
+    },
+    "wordType": "noun",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "v-17-023",
+    "lessonId": "lesson-17",
+    "kanji": "",
+    "hiragana": "お大事に",
+    "romaji": "17023",
+    "meaning": {
+      "vi": "Chúc sớm khỏe (cho người ốm)",
+      "en": "Get well soon"
+    },
+    "wordType": "expression",
+    "jlptLevel": "N5"
   }
 ]

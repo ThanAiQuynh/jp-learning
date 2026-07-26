@@ -2,30 +2,30 @@
   {
     "id": "k-21-001",
     "lessonId": "lesson-21",
-    "character": "漢1",
+    "character": "思",
     "onReadings": [
-      "カン"
+      "シ"
     ],
     "kunReadings": [
-      "かん"
+      "おも・う"
     ],
     "meaning": {
-      "vi": "Hán tự 1 (Bài 21)",
-      "en": "Kanji 1 (Lesson 21)"
+      "vi": "Nghĩ",
+      "en": "Think"
     },
-    "strokeCount": 5,
+    "strokeCount": 9,
     "radicals": [
-      "水"
+      "心"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "心",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字1",
-        "reading": "かんじ1",
+        "word": "思",
+        "reading": "おもう",
         "meaning": {
-          "vi": "Từ ghép 1",
-          "en": "Compound 1"
+          "vi": "Nghĩ",
+          "en": "Think"
         }
       }
     ]
@@ -33,30 +33,30 @@
   {
     "id": "k-21-002",
     "lessonId": "lesson-21",
-    "character": "漢2",
+    "character": "言",
     "onReadings": [
-      "カン"
+      "ゲン"
     ],
     "kunReadings": [
-      "かん"
+      "い・う"
     ],
     "meaning": {
-      "vi": "Hán tự 2 (Bài 21)",
-      "en": "Kanji 2 (Lesson 21)"
+      "vi": "Nói",
+      "en": "Say"
     },
-    "strokeCount": 5,
+    "strokeCount": 7,
     "radicals": [
-      "水"
+      "言"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "言",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字2",
-        "reading": "かんじ2",
+        "word": "言",
+        "reading": "いう",
         "meaning": {
-          "vi": "Từ ghép 2",
-          "en": "Compound 2"
+          "vi": "Nói",
+          "en": "Say"
         }
       }
     ]
@@ -64,30 +64,30 @@
   {
     "id": "k-21-003",
     "lessonId": "lesson-21",
-    "character": "漢3",
+    "character": "勝",
     "onReadings": [
-      "カン"
+      "ショウ"
     ],
     "kunReadings": [
-      "かん"
+      "か・つ"
     ],
     "meaning": {
-      "vi": "Hán tự 3 (Bài 21)",
-      "en": "Kanji 3 (Lesson 21)"
+      "vi": "Thắng",
+      "en": "Win"
     },
-    "strokeCount": 5,
+    "strokeCount": 12,
     "radicals": [
-      "水"
+      "力"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "力",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字3",
-        "reading": "かんじ3",
+        "word": "勝",
+        "reading": "かつ",
         "meaning": {
-          "vi": "Từ ghép 3",
-          "en": "Compound 3"
+          "vi": "Thắng",
+          "en": "Win"
         }
       }
     ]
@@ -95,61 +95,30 @@
   {
     "id": "k-21-004",
     "lessonId": "lesson-21",
-    "character": "漢4",
+    "character": "負",
     "onReadings": [
-      "カン"
+      "フ"
     ],
     "kunReadings": [
-      "かん"
+      "ま・ける"
     ],
     "meaning": {
-      "vi": "Hán tự 4 (Bài 21)",
-      "en": "Kanji 4 (Lesson 21)"
+      "vi": "Thua",
+      "en": "Lose"
     },
-    "strokeCount": 5,
+    "strokeCount": 9,
     "radicals": [
-      "水"
+      "貝"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "貝",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字4",
-        "reading": "かんじ4",
+        "word": "負",
+        "reading": "まける",
         "meaning": {
-          "vi": "Từ ghép 4",
-          "en": "Compound 4"
-        }
-      }
-    ]
-  },
-  {
-    "id": "k-21-005",
-    "lessonId": "lesson-21",
-    "character": "漢5",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 5 (Bài 21)",
-      "en": "Kanji 5 (Lesson 21)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
-    "compounds": [
-      {
-        "word": "漢字5",
-        "reading": "かんじ5",
-        "meaning": {
-          "vi": "Từ ghép 5",
-          "en": "Compound 5"
+          "vi": "Thua",
+          "en": "Lose"
         }
       }
     ]

@@ -2,34 +2,37 @@
   {
     "id": "g-19-001",
     "lessonId": "lesson-19",
-    "pattern": "〜文法1",
-    "patternKana": "〜ぶんぽう1",
+    "pattern": "Vた形",
+    "patternKana": "Vた形",
     "title": {
-      "vi": "Ngữ pháp 1 (Bài 19)",
-      "en": "Grammar 1 (Lesson 19)"
+      "vi": "Thể た (quá khứ thông thường)",
+      "en": "た-form (plain past)",
+      "ja": "動詞た形"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 1 bài 19",
-      "en": "Explanation for grammar 1 lesson 19"
+      "vi": "Chia giống thể て nhưng thay て→た, で→だ.",
+      "en": "Conjugated like て-form but replace て→た, で→だ.",
+      "ja": "て形と同じ活用で、て→た、で→だに変えます。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xem giải thích.",
+      "en": "See explanation.",
+      "ja": "説明を参照。"
     },
     "formation": [
-      "N + 文法"
+      "Vた形"
     ],
     "examples": [
       {
-        "ja": "私は文法1を勉強します。",
-        "reading": "わたしはぶんぽう1をべんきょうします。",
+        "ja": "例文 (Vた形)",
+        "reading": "れいぶん",
         "translation": {
-          "vi": "Tôi học ngữ pháp 1.",
-          "en": "I study grammar 1."
+          "vi": "Ví dụ cho Vた形",
+          "en": "Example for Vた形"
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
         }
       }
     ],
@@ -38,34 +41,37 @@
   {
     "id": "g-19-002",
     "lessonId": "lesson-19",
-    "pattern": "〜文法2",
-    "patternKana": "〜ぶんぽう2",
+    "pattern": "Vたことが あります",
+    "patternKana": "Vたことが あります",
     "title": {
-      "vi": "Ngữ pháp 2 (Bài 19)",
-      "en": "Grammar 2 (Lesson 19)"
+      "vi": "Đã từng làm V (kinh nghiệm)",
+      "en": "Have V-ed before (experience)",
+      "ja": "動詞たことが あります"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 2 bài 19",
-      "en": "Explanation for grammar 2 lesson 19"
+      "vi": "Diễn tả kinh nghiệm đã từng có.",
+      "en": "Expresses past experience.",
+      "ja": "過去の経験を表します。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xem giải thích.",
+      "en": "See explanation.",
+      "ja": "説明を参照。"
     },
     "formation": [
-      "N + 文法"
+      "Vたことが あります"
     ],
     "examples": [
       {
-        "ja": "私は文法2を勉強します。",
-        "reading": "わたしはぶんぽう2をべんきょうします。",
+        "ja": "例文 (Vたことが あります)",
+        "reading": "れいぶん",
         "translation": {
-          "vi": "Tôi học ngữ pháp 2.",
-          "en": "I study grammar 2."
+          "vi": "Ví dụ cho Vたことが あります",
+          "en": "Example for Vたことが あります"
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
         }
       }
     ],
@@ -74,34 +80,37 @@
   {
     "id": "g-19-003",
     "lessonId": "lesson-19",
-    "pattern": "〜文法3",
-    "patternKana": "〜ぶんぽう3",
+    "pattern": "Vたり Vたり します",
+    "patternKana": "Vたり Vたり します",
     "title": {
-      "vi": "Ngữ pháp 3 (Bài 19)",
-      "en": "Grammar 3 (Lesson 19)"
+      "vi": "Làm V và V (liệt kê hành động)",
+      "en": "Do things like V and V",
+      "ja": "Vたり Vたり します"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 3 bài 19",
-      "en": "Explanation for grammar 3 lesson 19"
+      "vi": "Liệt kê một số hành động đại diện.",
+      "en": "Lists representative actions.",
+      "ja": "代表的な動作を挙げます。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xem giải thích.",
+      "en": "See explanation.",
+      "ja": "説明を参照。"
     },
     "formation": [
-      "N + 文法"
+      "Vたり Vたり します"
     ],
     "examples": [
       {
-        "ja": "私は文法3を勉強します。",
-        "reading": "わたしはぶんぽう3をべんきょうします。",
+        "ja": "例文 (Vたり Vたり します)",
+        "reading": "れいぶん",
         "translation": {
-          "vi": "Tôi học ngữ pháp 3.",
-          "en": "I study grammar 3."
+          "vi": "Ví dụ cho Vたり Vたり します",
+          "en": "Example for Vたり Vたり します"
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
         }
       }
     ],

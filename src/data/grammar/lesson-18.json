@@ -2,34 +2,37 @@
   {
     "id": "g-18-001",
     "lessonId": "lesson-18",
-    "pattern": "〜文法1",
-    "patternKana": "〜ぶんぽう1",
+    "pattern": "V辞書形 ことが できます",
+    "patternKana": "V辞書形 ことが できます",
     "title": {
-      "vi": "Ngữ pháp 1 (Bài 18)",
-      "en": "Grammar 1 (Lesson 18)"
+      "vi": "Có thể làm V",
+      "en": "Can V / Be able to V",
+      "ja": "動詞辞書形 ことが できます"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 1 bài 18",
-      "en": "Explanation for grammar 1 lesson 18"
+      "vi": "Diễn tả khả năng. Chia động từ sang thể từ điển + ことができます.",
+      "en": "Expresses ability. Dictionary form + ことができます.",
+      "ja": "能力を表します。辞書形＋ことができます。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xem giải thích.",
+      "en": "See explanation.",
+      "ja": "説明を参照。"
     },
     "formation": [
-      "N + 文法"
+      "V辞書形 ことが できます"
     ],
     "examples": [
       {
-        "ja": "私は文法1を勉強します。",
-        "reading": "わたしはぶんぽう1をべんきょうします。",
+        "ja": "例文 (V辞書形 ことが できます)",
+        "reading": "れいぶん",
         "translation": {
-          "vi": "Tôi học ngữ pháp 1.",
-          "en": "I study grammar 1."
+          "vi": "Ví dụ cho V辞書形 ことが できます",
+          "en": "Example for V辞書形 ことが できます"
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
         }
       }
     ],
@@ -38,34 +41,37 @@
   {
     "id": "g-18-002",
     "lessonId": "lesson-18",
-    "pattern": "〜文法2",
-    "patternKana": "〜ぶんぽう2",
+    "pattern": "V辞書形 / N の 前に、V₂",
+    "patternKana": "V辞書形 / N の 前に、V₂",
     "title": {
-      "vi": "Ngữ pháp 2 (Bài 18)",
-      "en": "Grammar 2 (Lesson 18)"
+      "vi": "Trước khi V / N, thì V₂",
+      "en": "Before V/N, V₂",
+      "ja": "動詞辞書形 / 名詞の 前に、V₂"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 2 bài 18",
-      "en": "Explanation for grammar 2 lesson 18"
+      "vi": "前に = trước khi. Dùng thể từ điển trước 前に với động từ.",
+      "en": "前に = before. Use dictionary form before 前に with verbs.",
+      "ja": "「前に」は「～する前に」を表します。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xem giải thích.",
+      "en": "See explanation.",
+      "ja": "説明を参照。"
     },
     "formation": [
-      "N + 文法"
+      "V辞書形 / N の 前に、V₂"
     ],
     "examples": [
       {
-        "ja": "私は文法2を勉強します。",
-        "reading": "わたしはぶんぽう2をべんきょうします。",
+        "ja": "例文 (V辞書形 / N の 前に、V₂)",
+        "reading": "れいぶん",
         "translation": {
-          "vi": "Tôi học ngữ pháp 2.",
-          "en": "I study grammar 2."
+          "vi": "Ví dụ cho V辞書形 / N の 前に、V₂",
+          "en": "Example for V辞書形 / N の 前に、V₂"
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
         }
       }
     ],
@@ -74,34 +80,37 @@
   {
     "id": "g-18-003",
     "lessonId": "lesson-18",
-    "pattern": "〜文法3",
-    "patternKana": "〜ぶんぽう3",
+    "pattern": "趣味は N / V辞書形 ことです",
+    "patternKana": "趣味は N / V辞書形 ことです",
     "title": {
-      "vi": "Ngữ pháp 3 (Bài 18)",
-      "en": "Grammar 3 (Lesson 18)"
+      "vi": "Sở thích là N / V",
+      "en": "My hobby is N / V-ing",
+      "ja": "趣味は 名詞 / 動詞辞書形 ことです"
     },
     "explanation": {
-      "vi": "Giải thích ngữ pháp 3 bài 18",
-      "en": "Explanation for grammar 3 lesson 18"
+      "vi": "Dùng để nói về sở thích. Động từ dùng thể từ điển + こと để danh từ hóa.",
+      "en": "Used to talk about hobbies. Verb uses dictionary form + こと to nominalize.",
+      "ja": "趣味について述べる。動詞は辞書形＋ことで名詞化。"
     },
     "usage": {
-      "vi": "Cách dùng",
-      "en": "Usage"
+      "vi": "Xem giải thích.",
+      "en": "See explanation.",
+      "ja": "説明を参照。"
     },
     "formation": [
-      "N + 文法"
+      "趣味は N / V辞書形 ことです"
     ],
     "examples": [
       {
-        "ja": "私は文法3を勉強します。",
-        "reading": "わたしはぶんぽう3をべんきょうします。",
+        "ja": "例文 (趣味は N / V辞書形 ことです)",
+        "reading": "れいぶん",
         "translation": {
-          "vi": "Tôi học ngữ pháp 3.",
-          "en": "I study grammar 3."
+          "vi": "Ví dụ cho 趣味は N / V辞書形 ことです",
+          "en": "Example for 趣味は N / V辞書形 ことです"
         },
         "highlightRange": {
-          "start": 3,
-          "end": 6
+          "start": 0,
+          "end": 2
         }
       }
     ],

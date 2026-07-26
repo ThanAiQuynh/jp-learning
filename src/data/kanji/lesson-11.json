@@ -1,157 +1,52 @@
 [
   {
-    "id": "k-11-001",
-    "lessonId": "lesson-11",
-    "character": "漢1",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 1 (Bài 11)",
-      "en": "Kanji 1 (Lesson 11)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
-    "compounds": [
-      {
-        "word": "漢字1",
-        "reading": "かんじ1",
-        "meaning": {
-          "vi": "Từ ghép 1",
-          "en": "Compound 1"
-        }
-      }
-    ]
+    "id": "k-11-001", "lessonId": "lesson-11", "character": "一", "onReadings": ["イチ"], "kunReadings": ["ひと・つ"],
+    "meaning": { "vi": "Một", "en": "One" }, "strokeCount": 1, "radicals": ["一"], "primaryRadical": "一", "jlptLevel": "N5",
+    "compounds": [{ "word": "一つ", "reading": "ひとつ", "meaning": { "vi": "Một cái", "en": "One" } }, { "word": "一人", "reading": "ひとり", "meaning": { "vi": "Một người", "en": "One person" } }]
   },
   {
-    "id": "k-11-002",
-    "lessonId": "lesson-11",
-    "character": "漢2",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 2 (Bài 11)",
-      "en": "Kanji 2 (Lesson 11)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
-    "compounds": [
-      {
-        "word": "漢字2",
-        "reading": "かんじ2",
-        "meaning": {
-          "vi": "Từ ghép 2",
-          "en": "Compound 2"
-        }
-      }
-    ]
+    "id": "k-11-002", "lessonId": "lesson-11", "character": "二", "onReadings": ["ニ"], "kunReadings": ["ふた・つ"],
+    "meaning": { "vi": "Hai", "en": "Two" }, "strokeCount": 2, "radicals": ["一"], "primaryRadical": "一", "jlptLevel": "N5",
+    "compounds": [{ "word": "二つ", "reading": "ふたつ", "meaning": { "vi": "Hai cái", "en": "Two" } }, { "word": "二人", "reading": "ふたり", "meaning": { "vi": "Hai người", "en": "Two people" } }]
   },
   {
-    "id": "k-11-003",
-    "lessonId": "lesson-11",
-    "character": "漢3",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 3 (Bài 11)",
-      "en": "Kanji 3 (Lesson 11)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
-    "compounds": [
-      {
-        "word": "漢字3",
-        "reading": "かんじ3",
-        "meaning": {
-          "vi": "Từ ghép 3",
-          "en": "Compound 3"
-        }
-      }
-    ]
+    "id": "k-11-003", "lessonId": "lesson-11", "character": "三", "onReadings": ["サン"], "kunReadings": ["みっ・つ"],
+    "meaning": { "vi": "Ba", "en": "Three" }, "strokeCount": 3, "radicals": ["一"], "primaryRadical": "一", "jlptLevel": "N5",
+    "compounds": [{ "word": "三つ", "reading": "みっつ", "meaning": { "vi": "Ba cái", "en": "Three" } }]
   },
   {
-    "id": "k-11-004",
-    "lessonId": "lesson-11",
-    "character": "漢4",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 4 (Bài 11)",
-      "en": "Kanji 4 (Lesson 11)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
-    "compounds": [
-      {
-        "word": "漢字4",
-        "reading": "かんじ4",
-        "meaning": {
-          "vi": "Từ ghép 4",
-          "en": "Compound 4"
-        }
-      }
-    ]
+    "id": "k-11-004", "lessonId": "lesson-11", "character": "四", "onReadings": ["シ"], "kunReadings": ["よ・つ", "よん"],
+    "meaning": { "vi": "Bốn", "en": "Four" }, "strokeCount": 5, "radicals": ["囗"], "primaryRadical": "囗", "jlptLevel": "N5",
+    "compounds": [{ "word": "四つ", "reading": "よっつ", "meaning": { "vi": "Bốn cái", "en": "Four" } }]
   },
   {
-    "id": "k-11-005",
-    "lessonId": "lesson-11",
-    "character": "漢5",
-    "onReadings": [
-      "カン"
-    ],
-    "kunReadings": [
-      "かん"
-    ],
-    "meaning": {
-      "vi": "Hán tự 5 (Bài 11)",
-      "en": "Kanji 5 (Lesson 11)"
-    },
-    "strokeCount": 5,
-    "radicals": [
-      "水"
-    ],
-    "primaryRadical": "水",
-    "jlptLevel": "N5",
-    "compounds": [
-      {
-        "word": "漢字5",
-        "reading": "かんじ5",
-        "meaning": {
-          "vi": "Từ ghép 5",
-          "en": "Compound 5"
-        }
-      }
-    ]
+    "id": "k-11-005", "lessonId": "lesson-11", "character": "五", "onReadings": ["ゴ"], "kunReadings": ["いつ・つ"],
+    "meaning": { "vi": "Năm", "en": "Five" }, "strokeCount": 4, "radicals": ["二"], "primaryRadical": "二", "jlptLevel": "N5",
+    "compounds": [{ "word": "五つ", "reading": "いつつ", "meaning": { "vi": "Năm cái", "en": "Five" } }]
+  },
+  {
+    "id": "k-11-006", "lessonId": "lesson-11", "character": "六", "onReadings": ["ロク"], "kunReadings": ["むっ・つ"],
+    "meaning": { "vi": "Sáu", "en": "Six" }, "strokeCount": 4, "radicals": ["八"], "primaryRadical": "八", "jlptLevel": "N5",
+    "compounds": [{ "word": "六つ", "reading": "むっつ", "meaning": { "vi": "Sáu cái", "en": "Six" } }]
+  },
+  {
+    "id": "k-11-007", "lessonId": "lesson-11", "character": "七", "onReadings": ["シチ"], "kunReadings": ["なな・つ", "なな"],
+    "meaning": { "vi": "Bảy", "en": "Seven" }, "strokeCount": 2, "radicals": ["一"], "primaryRadical": "一", "jlptLevel": "N5",
+    "compounds": [{ "word": "七つ", "reading": "ななつ", "meaning": { "vi": "Bảy cái", "en": "Seven" } }]
+  },
+  {
+    "id": "k-11-008", "lessonId": "lesson-11", "character": "八", "onReadings": ["ハチ"], "kunReadings": ["やっ・つ", "や"],
+    "meaning": { "vi": "Tám", "en": "Eight" }, "strokeCount": 2, "radicals": ["八"], "primaryRadical": "八", "jlptLevel": "N5",
+    "compounds": [{ "word": "八つ", "reading": "やっつ", "meaning": { "vi": "Tám cái", "en": "Eight" } }]
+  },
+  {
+    "id": "k-11-009", "lessonId": "lesson-11", "character": "九", "onReadings": ["キュウ", "ク"], "kunReadings": ["ここの・つ"],
+    "meaning": { "vi": "Chín", "en": "Nine" }, "strokeCount": 2, "radicals": ["乙"], "primaryRadical": "乙", "jlptLevel": "N5",
+    "compounds": [{ "word": "九つ", "reading": "ここのつ", "meaning": { "vi": "Chín cái", "en": "Nine" } }]
+  },
+  {
+    "id": "k-11-010", "lessonId": "lesson-11", "character": "十", "onReadings": ["ジュウ"], "kunReadings": ["とお"],
+    "meaning": { "vi": "Mười", "en": "Ten" }, "strokeCount": 2, "radicals": ["十"], "primaryRadical": "十", "jlptLevel": "N5",
+    "compounds": [{ "word": "十", "reading": "とお", "meaning": { "vi": "Mười", "en": "Ten" } }]
   }
 ]

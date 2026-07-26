@@ -2,30 +2,30 @@
   {
     "id": "k-16-001",
     "lessonId": "lesson-16",
-    "character": "漢1",
+    "character": "体",
     "onReadings": [
-      "カン"
+      "タイ"
     ],
     "kunReadings": [
-      "かん"
+      "からだ"
     ],
     "meaning": {
-      "vi": "Hán tự 1 (Bài 16)",
-      "en": "Kanji 1 (Lesson 16)"
+      "vi": "Thể, thân thể",
+      "en": "Body"
     },
-    "strokeCount": 5,
+    "strokeCount": 7,
     "radicals": [
-      "水"
+      "人"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "人",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字1",
-        "reading": "かんじ1",
+        "word": "体",
+        "reading": "からだ",
         "meaning": {
-          "vi": "Từ ghép 1",
-          "en": "Compound 1"
+          "vi": "Thể, thân thể",
+          "en": "Body"
         }
       }
     ]
@@ -33,30 +33,31 @@
   {
     "id": "k-16-002",
     "lessonId": "lesson-16",
-    "character": "漢2",
+    "character": "目",
     "onReadings": [
-      "カン"
+      "モク",
+      "ボク"
     ],
     "kunReadings": [
-      "かん"
+      "め"
     ],
     "meaning": {
-      "vi": "Hán tự 2 (Bài 16)",
-      "en": "Kanji 2 (Lesson 16)"
+      "vi": "Mắt",
+      "en": "Eye"
     },
     "strokeCount": 5,
     "radicals": [
-      "水"
+      "目"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "目",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字2",
-        "reading": "かんじ2",
+        "word": "目",
+        "reading": "め",
         "meaning": {
-          "vi": "Từ ghép 2",
-          "en": "Compound 2"
+          "vi": "Mắt",
+          "en": "Eye"
         }
       }
     ]
@@ -64,30 +65,31 @@
   {
     "id": "k-16-003",
     "lessonId": "lesson-16",
-    "character": "漢3",
+    "character": "口",
     "onReadings": [
-      "カン"
+      "コウ",
+      "ク"
     ],
     "kunReadings": [
-      "かん"
+      "くち"
     ],
     "meaning": {
-      "vi": "Hán tự 3 (Bài 16)",
-      "en": "Kanji 3 (Lesson 16)"
+      "vi": "Miệng",
+      "en": "Mouth"
     },
-    "strokeCount": 5,
+    "strokeCount": 3,
     "radicals": [
-      "水"
+      "口"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "口",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字3",
-        "reading": "かんじ3",
+        "word": "口",
+        "reading": "くち",
         "meaning": {
-          "vi": "Từ ghép 3",
-          "en": "Compound 3"
+          "vi": "Miệng",
+          "en": "Mouth"
         }
       }
     ]
@@ -95,30 +97,30 @@
   {
     "id": "k-16-004",
     "lessonId": "lesson-16",
-    "character": "漢4",
+    "character": "耳",
     "onReadings": [
-      "カン"
+      "ジ"
     ],
     "kunReadings": [
-      "かん"
+      "みみ"
     ],
     "meaning": {
-      "vi": "Hán tự 4 (Bài 16)",
-      "en": "Kanji 4 (Lesson 16)"
+      "vi": "Tai",
+      "en": "Ear"
     },
-    "strokeCount": 5,
+    "strokeCount": 6,
     "radicals": [
-      "水"
+      "耳"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "耳",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字4",
-        "reading": "かんじ4",
+        "word": "耳",
+        "reading": "みみ",
         "meaning": {
-          "vi": "Từ ghép 4",
-          "en": "Compound 4"
+          "vi": "Tai",
+          "en": "Ear"
         }
       }
     ]
@@ -126,30 +128,62 @@
   {
     "id": "k-16-005",
     "lessonId": "lesson-16",
-    "character": "漢5",
+    "character": "足",
     "onReadings": [
-      "カン"
+      "ソク"
     ],
     "kunReadings": [
-      "かん"
+      "あし",
+      "た・りる"
     ],
     "meaning": {
-      "vi": "Hán tự 5 (Bài 16)",
-      "en": "Kanji 5 (Lesson 16)"
+      "vi": "Chân",
+      "en": "Foot, leg"
     },
-    "strokeCount": 5,
+    "strokeCount": 7,
     "radicals": [
-      "水"
+      "足"
     ],
-    "primaryRadical": "水",
+    "primaryRadical": "足",
     "jlptLevel": "N5",
     "compounds": [
       {
-        "word": "漢字5",
-        "reading": "かんじ5",
+        "word": "足",
+        "reading": "あし",
         "meaning": {
-          "vi": "Từ ghép 5",
-          "en": "Compound 5"
+          "vi": "Chân",
+          "en": "Foot, leg"
+        }
+      }
+    ]
+  },
+  {
+    "id": "k-16-006",
+    "lessonId": "lesson-16",
+    "character": "長",
+    "onReadings": [
+      "チョウ"
+    ],
+    "kunReadings": [
+      "なが・い"
+    ],
+    "meaning": {
+      "vi": "Dài",
+      "en": "Long"
+    },
+    "strokeCount": 8,
+    "radicals": [
+      "長"
+    ],
+    "primaryRadical": "長",
+    "jlptLevel": "N5",
+    "compounds": [
+      {
+        "word": "長",
+        "reading": "なが・い",
+        "meaning": {
+          "vi": "Dài",
+          "en": "Long"
         }
       }
     ]
