@@ -12,7 +12,7 @@ export interface PageHeaderProps {
 
 export const PageHeader: FC<PageHeaderProps> = ({ title, subtitle, breadcrumbItems, action, marginBottom = '24px' }) => {
   return (
-    <div style={{ marginBottom }}>
+    <div style={{ marginBottom, flexShrink: 0 }}>
       {breadcrumbItems && breadcrumbItems.length > 0 && <AppBreadcrumb items={breadcrumbItems} />}
       
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '16px' }}>

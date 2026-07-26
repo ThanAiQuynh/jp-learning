@@ -78,6 +78,8 @@
   flex-direction: column;
   flex: 1;
   min-width: 0; // Prevent flex item from overflowing
+  min-height: 0;
+  height: 100%;
 }
 
 .header {
@@ -88,6 +90,7 @@
   padding: 0 $spacing-md;
   border-bottom: 1px solid var(--colorNeutralStroke1);
   background: var(--colorNeutralBackground1);
+  flex-shrink: 0;
 
   @include respond-to('lg') {
     height: $header-height-desktop;
@@ -118,7 +121,10 @@
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
   flex: 1;
+  min-height: 0;
   overflow-y: auto;
   padding: $spacing-md;
   
@@ -135,6 +141,7 @@
   background: var(--colorNeutralBackground1);
   align-items: center;
   justify-content: space-around;
+  flex-shrink: 0;
   
   @include respond-to('lg') {
     display: none; // Hidden on desktop

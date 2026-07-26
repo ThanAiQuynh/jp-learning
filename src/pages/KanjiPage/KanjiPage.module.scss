@@ -4,14 +4,9 @@
 .root {
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 100px);
-  height: calc(100dvh - 100px);
-  padding: 0 $spacing-md;
+  flex: 1;
+  min-height: 0;
   overflow: hidden;
-
-  @include respond-to('md') {
-    padding: 0 $spacing-lg;
-  }
 }
 
 .filterBar {
