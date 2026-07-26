@@ -4,7 +4,7 @@
     "lessonId": "lesson-20",
     "kanji": "要ります",
     "hiragana": "いります",
-    "romaji": "20001",
+    "romaji": "irimasu",
     "meaning": {
       "vi": "Cần",
       "en": "Need"
@@ -17,7 +17,7 @@
     "lessonId": "lesson-20",
     "kanji": "調べます",
     "hiragana": "しらべます",
-    "romaji": "20002",
+    "romaji": "shirabemasu",
     "meaning": {
       "vi": "Tra cứu",
       "en": "Look up"
@@ -30,7 +30,7 @@
     "lessonId": "lesson-20",
     "kanji": "直します",
     "hiragana": "なおします",
-    "romaji": "20003",
+    "romaji": "naoshimasu",
     "meaning": {
       "vi": "Sửa chữa",
       "en": "Fix"
@@ -43,7 +43,7 @@
     "lessonId": "lesson-20",
     "kanji": "修理します",
     "hiragana": "しゅうりします",
-    "romaji": "20004",
+    "romaji": "shuurishimasu",
     "meaning": {
       "vi": "Sửa chữa",
       "en": "Repair"
@@ -56,7 +56,7 @@
     "lessonId": "lesson-20",
     "kanji": "僕",
     "hiragana": "ぼく",
-    "romaji": "20005",
+    "romaji": "boku",
     "meaning": {
       "vi": "Tôi (nam)",
       "en": "I (male)"
@@ -69,7 +69,7 @@
     "lessonId": "lesson-20",
     "kanji": "君",
     "hiragana": "きみ",
-    "romaji": "20006",
+    "romaji": "kimi",
     "meaning": {
       "vi": "Bạn",
       "en": "You"
@@ -82,7 +82,7 @@
     "lessonId": "lesson-20",
     "kanji": "うん",
     "hiragana": "うん",
-    "romaji": "20007",
+    "romaji": "un",
     "meaning": {
       "vi": "Ừ",
       "en": "Yeah"
@@ -95,7 +95,7 @@
     "lessonId": "lesson-20",
     "kanji": "ううん",
     "hiragana": "ううん",
-    "romaji": "20008",
+    "romaji": "uun",
     "meaning": {
       "vi": "Không",
       "en": "Nah"

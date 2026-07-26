@@ -4,7 +4,7 @@
     "lessonId": "lesson-17",
     "kanji": "覚えます",
     "hiragana": "おぼえます",
-    "romaji": "17001",
+    "romaji": "oboemasu",
     "meaning": {
       "vi": "Nhớ, ghi nhớ",
       "en": "Remember, memorize"
@@ -17,7 +17,7 @@
     "lessonId": "lesson-17",
     "kanji": "忘れます",
     "hiragana": "わすれます",
-    "romaji": "17002",
+    "romaji": "wasuremasu",
     "meaning": {
       "vi": "Quên",
       "en": "Forget"
@@ -30,7 +30,7 @@
     "lessonId": "lesson-17",
     "kanji": "なくします",
     "hiragana": "なくします",
-    "romaji": "17003",
+    "romaji": "nakushimasu",
     "meaning": {
       "vi": "Làm mất",
       "en": "Lose"
@@ -43,7 +43,7 @@
     "lessonId": "lesson-17",
     "kanji": "払います",
     "hiragana": "はらいます",
-    "romaji": "17004",
+    "romaji": "haraimasu",
     "meaning": {
       "vi": "Trả tiền",
       "en": "Pay"
@@ -56,7 +56,7 @@
     "lessonId": "lesson-17",
     "kanji": "返します",
     "hiragana": "かえします",
-    "romaji": "17005",
+    "romaji": "kaeshimasu",
     "meaning": {
       "vi": "Trả lại",
       "en": "Return, give back"
@@ -69,7 +69,7 @@
     "lessonId": "lesson-17",
     "kanji": "出かけます",
     "hiragana": "でかけます",
-    "romaji": "17006",
+    "romaji": "dekakemasu",
     "meaning": {
       "vi": "Đi ra ngoài",
       "en": "Go out"
@@ -82,7 +82,7 @@
     "lessonId": "lesson-17",
     "kanji": "脱ぎます",
     "hiragana": "ぬぎます",
-    "romaji": "17007",
+    "romaji": "nugimasu",
     "meaning": {
       "vi": "Cởi (quần áo)",
       "en": "Take off (clothes)"
@@ -95,7 +95,7 @@
     "lessonId": "lesson-17",
     "kanji": "持って行きます",
     "hiragana": "もっていきます",
-    "romaji": "17008",
+    "romaji": "motteikimasu",
     "meaning": {
       "vi": "Mang đi",
       "en": "Take, bring"
@@ -108,7 +108,7 @@
     "lessonId": "lesson-17",
     "kanji": "持って来ます",
     "hiragana": "もってきます",
-    "romaji": "17009",
+    "romaji": "mottekimasu",
     "meaning": {
       "vi": "Mang đến",
       "en": "Bring"
@@ -121,7 +121,7 @@
     "lessonId": "lesson-17",
     "kanji": "心配します",
     "hiragana": "しんぱいします",
-    "romaji": "17010",
+    "romaji": "shinpaishimasu",
     "meaning": {
       "vi": "Lo lắng",
       "en": "Worry"
@@ -134,7 +134,7 @@
     "lessonId": "lesson-17",
     "kanji": "残業します",
     "hiragana": "ざんぎょうします",
-    "romaji": "17011",
+    "romaji": "zangyoushimasu",
     "meaning": {
       "vi": "Làm thêm giờ",
       "en": "Overtime work"
@@ -147,7 +147,7 @@
     "lessonId": "lesson-17",
     "kanji": "出張します",
     "hiragana": "しゅっちょうします",
-    "romaji": "17012",
+    "romaji": "shucchoushimasu",
     "meaning": {
       "vi": "Đi công tác",
       "en": "Business trip"
@@ -160,7 +160,7 @@
     "lessonId": "lesson-17",
     "kanji": "薬を飲みます",
     "hiragana": "くすりをのみます",
-    "romaji": "17013",
+    "romaji": "kusuriwonomimasu",
     "meaning": {
       "vi": "Uống thuốc",
       "en": "Take medicine"
@@ -173,7 +173,7 @@
     "lessonId": "lesson-17",
     "kanji": "薬",
     "hiragana": "くすり",
-    "romaji": "17014",
+    "romaji": "kusuri",
     "meaning": {
       "vi": "Thuốc",
       "en": "Medicine"
@@ -186,7 +186,7 @@
     "lessonId": "lesson-17",
     "kanji": "熱",
     "hiragana": "ねつ",
-    "romaji": "17015",
+    "romaji": "netsu",
     "meaning": {
       "vi": "Sốt",
       "en": "Fever"
@@ -199,7 +199,7 @@
     "lessonId": "lesson-17",
     "kanji": "病気",
     "hiragana": "びょうき",
-    "romaji": "17016",
+    "romaji": "byouki",
     "meaning": {
       "vi": "Bệnh",
       "en": "Illness"
@@ -212,7 +212,7 @@
     "lessonId": "lesson-17",
     "kanji": "風邪",
     "hiragana": "かぜ",
-    "romaji": "17017",
+    "romaji": "kaze",
     "meaning": {
       "vi": "Cảm lạnh",
       "en": "Cold (illness)"
@@ -225,7 +225,7 @@
     "lessonId": "lesson-17",
     "kanji": "お風呂",
     "hiragana": "おふろ",
-    "romaji": "17018",
+    "romaji": "ofuro",
     "meaning": {
       "vi": "Bồn tắm",
       "en": "Bath"
@@ -238,7 +238,7 @@
     "lessonId": "lesson-17",
     "kanji": "上着",
     "hiragana": "うわぎ",
-    "romaji": "17019",
+    "romaji": "uwagi",
     "meaning": {
       "vi": "Áo khoác",
       "en": "Jacket, coat"
@@ -251,7 +251,7 @@
     "lessonId": "lesson-17",
     "kanji": "下着",
     "hiragana": "したぎ",
-    "romaji": "17020",
+    "romaji": "shitagi",
     "meaning": {
       "vi": "Đồ lót",
       "en": "Underwear"
@@ -264,7 +264,7 @@
     "lessonId": "lesson-17",
     "kanji": "",
     "hiragana": "どう しましたか",
-    "romaji": "17021",
+    "romaji": "dou shimashitaka",
     "meaning": {
       "vi": "Bạn bị sao? Có chuyện gì?",
       "en": "What's the matter?"
@@ -277,7 +277,7 @@
     "lessonId": "lesson-17",
     "kanji": "",
     "hiragana": "のど",
-    "romaji": "17022",
+    "romaji": "nodo",
     "meaning": {
       "vi": "Cổ họng",
       "en": "Throat"
@@ -290,7 +290,7 @@
     "lessonId": "lesson-17",
     "kanji": "",
     "hiragana": "お大事に",
-    "romaji": "17023",
+    "romaji": "o大事ni",
     "meaning": {
       "vi": "Chúc sớm khỏe (cho người ốm)",
       "en": "Get well soon"

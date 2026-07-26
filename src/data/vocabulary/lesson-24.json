@@ -4,7 +4,7 @@
     "lessonId": "lesson-24",
     "kanji": "送ります",
     "hiragana": "おくります",
-    "romaji": "24001",
+    "romaji": "okurimasu",
     "meaning": {
       "vi": "Gửi, tiễn",
       "en": "Send"
@@ -17,7 +17,7 @@
     "lessonId": "lesson-24",
     "kanji": "案内します",
     "hiragana": "あんないします",
-    "romaji": "24002",
+    "romaji": "annaishimasu",
     "meaning": {
       "vi": "Hướng dẫn",
       "en": "Guide"
@@ -30,7 +30,7 @@
     "lessonId": "lesson-24",
     "kanji": "説明します",
     "hiragana": "せつめいします",
-    "romaji": "24003",
+    "romaji": "setsumeishimasu",
     "meaning": {
       "vi": "Giải thích",
       "en": "Explain"
@@ -43,7 +43,7 @@
     "lessonId": "lesson-24",
     "kanji": "紹介します",
     "hiragana": "しょうかいします",
-    "romaji": "24004",
+    "romaji": "shoukaishimasu",
     "meaning": {
       "vi": "Giới thiệu",
       "en": "Introduce"

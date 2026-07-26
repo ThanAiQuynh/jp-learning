@@ -4,7 +4,7 @@
     "lessonId": "lesson-16",
     "kanji": "乗ります",
     "hiragana": "のります",
-    "romaji": "16001",
+    "romaji": "norimasu",
     "meaning": {
       "vi": "Lên (xe)",
       "en": "Ride, get on"
@@ -17,7 +17,7 @@
     "lessonId": "lesson-16",
     "kanji": "洗います",
     "hiragana": "あらいます",
-    "romaji": "16002",
+    "romaji": "araimasu",
     "meaning": {
       "vi": "Rửa, giặt",
       "en": "Wash"
@@ -30,7 +30,7 @@
     "lessonId": "lesson-16",
     "kanji": "遊びます",
     "hiragana": "あそびます",
-    "romaji": "16003",
+    "romaji": "asobimasu",
     "meaning": {
       "vi": "Chơi",
       "en": "Play"
@@ -43,7 +43,7 @@
     "lessonId": "lesson-16",
     "kanji": "働きます",
     "hiragana": "はたらきます",
-    "romaji": "16004",
+    "romaji": "hatarakimasu",
     "meaning": {
       "vi": "Làm việc",
       "en": "Work"
@@ -56,7 +56,7 @@
     "lessonId": "lesson-16",
     "kanji": "歩きます",
     "hiragana": "あるきます",
-    "romaji": "16005",
+    "romaji": "arukimasu",
     "meaning": {
       "vi": "Đi bộ",
       "en": "Walk"
@@ -69,7 +69,7 @@
     "lessonId": "lesson-16",
     "kanji": "渡ります",
     "hiragana": "わたります",
-    "romaji": "16006",
+    "romaji": "watarimasu",
     "meaning": {
       "vi": "Băng qua",
       "en": "Cross"
@@ -82,7 +82,7 @@
     "lessonId": "lesson-16",
     "kanji": "押します",
     "hiragana": "おします",
-    "romaji": "16007",
+    "romaji": "oshimasu",
     "meaning": {
       "vi": "Nhấn, đẩy",
       "en": "Push, press"
@@ -95,7 +95,7 @@
     "lessonId": "lesson-16",
     "kanji": "引きます",
     "hiragana": "ひきます",
-    "romaji": "16008",
+    "romaji": "hikimasu",
     "meaning": {
       "vi": "Kéo",
       "en": "Pull"
@@ -108,7 +108,7 @@
     "lessonId": "lesson-16",
     "kanji": "変えます",
     "hiragana": "かえます",
-    "romaji": "16009",
+    "romaji": "kaemasu",
     "meaning": {
       "vi": "Đổi, thay đổi",
       "en": "Change"
@@ -121,7 +121,7 @@
     "lessonId": "lesson-16",
     "kanji": "浴びます",
     "hiragana": "あびます",
-    "romaji": "16010",
+    "romaji": "abimasu",
     "meaning": {
       "vi": "Tắm (vòi sen)",
       "en": "Take a shower"
@@ -134,7 +134,7 @@
     "lessonId": "lesson-16",
     "kanji": "入れます",
     "hiragana": "いれます",
-    "romaji": "16011",
+    "romaji": "iremasu",
     "meaning": {
       "vi": "Cho vào",
       "en": "Put in"
@@ -147,7 +147,7 @@
     "lessonId": "lesson-16",
     "kanji": "出します",
     "hiragana": "だします",
-    "romaji": "16012",
+    "romaji": "dashimasu",
     "meaning": {
       "vi": "Lấy ra, nộp",
       "en": "Take out, submit"
@@ -160,7 +160,7 @@
     "lessonId": "lesson-16",
     "kanji": "体",
     "hiragana": "からだ",
-    "romaji": "16013",
+    "romaji": "karada",
     "meaning": {
       "vi": "Cơ thể",
       "en": "Body"
@@ -173,7 +173,7 @@
     "lessonId": "lesson-16",
     "kanji": "頭",
     "hiragana": "あたま",
-    "romaji": "16014",
+    "romaji": "atama",
     "meaning": {
       "vi": "Đầu",
       "en": "Head"
@@ -186,7 +186,7 @@
     "lessonId": "lesson-16",
     "kanji": "髪",
     "hiragana": "かみ",
-    "romaji": "16015",
+    "romaji": "kami",
     "meaning": {
       "vi": "Tóc",
       "en": "Hair"
@@ -199,7 +199,7 @@
     "lessonId": "lesson-16",
     "kanji": "顔",
     "hiragana": "かお",
-    "romaji": "16016",
+    "romaji": "kao",
     "meaning": {
       "vi": "Mặt",
       "en": "Face"
@@ -212,7 +212,7 @@
     "lessonId": "lesson-16",
     "kanji": "目",
     "hiragana": "め",
-    "romaji": "16017",
+    "romaji": "me",
     "meaning": {
       "vi": "Mắt",
       "en": "Eye"
@@ -225,7 +225,7 @@
     "lessonId": "lesson-16",
     "kanji": "耳",
     "hiragana": "みみ",
-    "romaji": "16018",
+    "romaji": "mimi",
     "meaning": {
       "vi": "Tai",
       "en": "Ear"
@@ -238,7 +238,7 @@
     "lessonId": "lesson-16",
     "kanji": "口",
     "hiragana": "くち",
-    "romaji": "16019",
+    "romaji": "kuchi",
     "meaning": {
       "vi": "Miệng",
       "en": "Mouth"
@@ -251,7 +251,7 @@
     "lessonId": "lesson-16",
     "kanji": "歯",
     "hiragana": "は",
-    "romaji": "16020",
+    "romaji": "ha",
     "meaning": {
       "vi": "Răng",
       "en": "Teeth"
@@ -264,7 +264,7 @@
     "lessonId": "lesson-16",
     "kanji": "お腹",
     "hiragana": "おなか",
-    "romaji": "16021",
+    "romaji": "onaka",
     "meaning": {
       "vi": "Bụng",
       "en": "Stomach"
@@ -277,7 +277,7 @@
     "lessonId": "lesson-16",
     "kanji": "足",
     "hiragana": "あし",
-    "romaji": "16022",
+    "romaji": "ashi",
     "meaning": {
       "vi": "Chân",
       "en": "Leg, foot"
@@ -290,7 +290,7 @@
     "lessonId": "lesson-16",
     "kanji": "背",
     "hiragana": "せ",
-    "romaji": "16023",
+    "romaji": "se",
     "meaning": {
       "vi": "Lưng, chiều cao",
       "en": "Back, height"
@@ -303,7 +303,7 @@
     "lessonId": "lesson-16",
     "kanji": "",
     "hiragana": "サービス",
-    "romaji": "16024",
+    "romaji": "saabisu",
     "meaning": {
       "vi": "Dịch vụ, miễn phí",
       "en": "Service, free of charge"
@@ -316,7 +316,7 @@
     "lessonId": "lesson-16",
     "kanji": "若い",
     "hiragana": "わかい",
-    "romaji": "16025",
+    "romaji": "wakai",
     "meaning": {
       "vi": "Trẻ",
       "en": "Young"
@@ -329,7 +329,7 @@
     "lessonId": "lesson-16",
     "kanji": "長い",
     "hiragana": "ながい",
-    "romaji": "16026",
+    "romaji": "nagai",
     "meaning": {
       "vi": "Dài",
       "en": "Long"
@@ -342,7 +342,7 @@
     "lessonId": "lesson-16",
     "kanji": "短い",
     "hiragana": "みじかい",
-    "romaji": "16027",
+    "romaji": "mijikai",
     "meaning": {
       "vi": "Ngắn",
       "en": "Short"
@@ -355,7 +355,7 @@
     "lessonId": "lesson-16",
     "kanji": "明るい",
     "hiragana": "あかるい",
-    "romaji": "16028",
+    "romaji": "akarui",
     "meaning": {
       "vi": "Sáng",
       "en": "Bright"
@@ -368,7 +368,7 @@
     "lessonId": "lesson-16",
     "kanji": "暗い",
     "hiragana": "くらい",
-    "romaji": "16029",
+    "romaji": "kurai",
     "meaning": {
       "vi": "Tối",
       "en": "Dark"

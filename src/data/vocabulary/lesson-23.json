@@ -4,7 +4,7 @@
     "lessonId": "lesson-23",
     "kanji": "回します",
     "hiragana": "まわします",
-    "romaji": "23001",
+    "romaji": "mawashimasu",
     "meaning": {
       "vi": "Xoay",
       "en": "Turn"
@@ -17,7 +17,7 @@
     "lessonId": "lesson-23",
     "kanji": "触ります",
     "hiragana": "さわります",
-    "romaji": "23002",
+    "romaji": "sawarimasu",
     "meaning": {
       "vi": "Chạm",
       "en": "Touch"
@@ -30,7 +30,7 @@
     "lessonId": "lesson-23",
     "kanji": "動きます",
     "hiragana": "うごきます",
-    "romaji": "23003",
+    "romaji": "ugokimasu",
     "meaning": {
       "vi": "Cử động",
       "en": "Move"
@@ -43,7 +43,7 @@
     "lessonId": "lesson-23",
     "kanji": "ボタン",
     "hiragana": "ボタン",
-    "romaji": "23004",
+    "romaji": "botan",
     "meaning": {
       "vi": "Nút",
       "en": "Button"
@@ -56,7 +56,7 @@
     "lessonId": "lesson-23",
     "kanji": "故障",
     "hiragana": "こしょう",
-    "romaji": "23005",
+    "romaji": "koshou",
     "meaning": {
       "vi": "Hư hỏng",
       "en": "Breakdown"

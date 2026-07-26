@@ -4,7 +4,7 @@
     "lessonId": "lesson-21",
     "kanji": "思います",
     "hiragana": "おもいます",
-    "romaji": "21001",
+    "romaji": "omoimasu",
     "meaning": {
       "vi": "Nghĩ",
       "en": "Think"
@@ -17,7 +17,7 @@
     "lessonId": "lesson-21",
     "kanji": "言います",
     "hiragana": "いいます",
-    "romaji": "21002",
+    "romaji": "iimasu",
     "meaning": {
       "vi": "Nói",
       "en": "Say"
@@ -30,7 +30,7 @@
     "lessonId": "lesson-21",
     "kanji": "勝ちます",
     "hiragana": "かちます",
-    "romaji": "21003",
+    "romaji": "kachimasu",
     "meaning": {
       "vi": "Thắng",
       "en": "Win"
@@ -43,7 +43,7 @@
     "lessonId": "lesson-21",
     "kanji": "負けます",
     "hiragana": "まけます",
-    "romaji": "21004",
+    "romaji": "makemasu",
     "meaning": {
       "vi": "Thua",
       "en": "Lose"
@@ -56,7 +56,7 @@
     "lessonId": "lesson-21",
     "kanji": "試合",
     "hiragana": "しあい",
-    "romaji": "21005",
+    "romaji": "shiai",
     "meaning": {
       "vi": "Trận đấu",
       "en": "Match"
@@ -69,7 +69,7 @@
     "lessonId": "lesson-21",
     "kanji": "意見",
     "hiragana": "いけん",
-    "romaji": "21006",
+    "romaji": "iken",
     "meaning": {
       "vi": "Ý kiến",
       "en": "Opinion"
@@ -82,7 +82,7 @@
     "lessonId": "lesson-21",
     "kanji": "本当",
     "hiragana": "ほんとう",
-    "romaji": "21007",
+    "romaji": "hontou",
     "meaning": {
       "vi": "Sự thật",
       "en": "Truth"

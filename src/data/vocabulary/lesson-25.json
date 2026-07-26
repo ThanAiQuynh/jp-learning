@@ -4,7 +4,7 @@
     "lessonId": "lesson-25",
     "kanji": "考えます",
     "hiragana": "かんがえます",
-    "romaji": "25001",
+    "romaji": "kangaemasu",
     "meaning": {
       "vi": "Suy nghĩ",
       "en": "Think"
@@ -17,7 +17,7 @@
     "lessonId": "lesson-25",
     "kanji": "着きます",
     "hiragana": "つきます",
-    "romaji": "25002",
+    "romaji": "tsukimasu",
     "meaning": {
       "vi": "Đến nơi",
       "en": "Arrive"
@@ -30,7 +30,7 @@
     "lessonId": "lesson-25",
     "kanji": "留学します",
     "hiragana": "りゅうがくします",
-    "romaji": "25003",
+    "romaji": "ryuugakushimasu",
     "meaning": {
       "vi": "Du học",
       "en": "Study abroad"
@@ -43,7 +43,7 @@
     "lessonId": "lesson-25",
     "kanji": "問題",
     "hiragana": "もんだい",
-    "romaji": "25004",
+    "romaji": "mondai",
     "meaning": {
       "vi": "Vấn đề",
       "en": "Problem"
@@ -56,7 +56,7 @@
     "lessonId": "lesson-25",
     "kanji": "答え",
     "hiragana": "こたえ",
-    "romaji": "25005",
+    "romaji": "kotae",
     "meaning": {
       "vi": "Câu trả lời",
       "en": "Answer"

@@ -4,7 +4,7 @@
     "lessonId": "lesson-18",
     "kanji": "弾きます",
     "hiragana": "ひきます",
-    "romaji": "18001",
+    "romaji": "hikimasu",
     "meaning": {
       "vi": "Chơi (đàn)",
       "en": "Play (instrument)"
@@ -17,7 +17,7 @@
     "lessonId": "lesson-18",
     "kanji": "歌います",
     "hiragana": "うたいます",
-    "romaji": "18002",
+    "romaji": "utaimasu",
     "meaning": {
       "vi": "Hát",
       "en": "Sing"
@@ -30,7 +30,7 @@
     "lessonId": "lesson-18",
     "kanji": "集めます",
     "hiragana": "あつめます",
-    "romaji": "18003",
+    "romaji": "atsumemasu",
     "meaning": {
       "vi": "Thu thập, sưu tầm",
       "en": "Collect"
@@ -43,7 +43,7 @@
     "lessonId": "lesson-18",
     "kanji": "捨てます",
     "hiragana": "すてます",
-    "romaji": "18004",
+    "romaji": "sutemasu",
     "meaning": {
       "vi": "Vứt, bỏ",
       "en": "Throw away"
@@ -56,7 +56,7 @@
     "lessonId": "lesson-18",
     "kanji": "換えます",
     "hiragana": "かえます",
-    "romaji": "18005",
+    "romaji": "kaemasu",
     "meaning": {
       "vi": "Đổi",
       "en": "Exchange"
@@ -69,7 +69,7 @@
     "lessonId": "lesson-18",
     "kanji": "運転します",
     "hiragana": "うんてんします",
-    "romaji": "18006",
+    "romaji": "untenshimasu",
     "meaning": {
       "vi": "Lái (xe)",
       "en": "Drive"
@@ -82,7 +82,7 @@
     "lessonId": "lesson-18",
     "kanji": "予約します",
     "hiragana": "よやくします",
-    "romaji": "18007",
+    "romaji": "yoyakushimasu",
     "meaning": {
       "vi": "Đặt trước",
       "en": "Reserve"
@@ -95,7 +95,7 @@
     "lessonId": "lesson-18",
     "kanji": "見学します",
     "hiragana": "けんがくします",
-    "romaji": "18008",
+    "romaji": "kengakushimasu",
     "meaning": {
       "vi": "Tham quan, học hỏi",
       "en": "Visit (to learn)"
@@ -108,7 +108,7 @@
     "lessonId": "lesson-18",
     "kanji": "趣味",
     "hiragana": "しゅみ",
-    "romaji": "18009",
+    "romaji": "shumi",
     "meaning": {
       "vi": "Sở thích",
       "en": "Hobby"
@@ -121,7 +121,7 @@
     "lessonId": "lesson-18",
     "kanji": "日記",
     "hiragana": "にっき",
-    "romaji": "18010",
+    "romaji": "nikki",
     "meaning": {
       "vi": "Nhật ký",
       "en": "Diary"
@@ -134,7 +134,7 @@
     "lessonId": "lesson-18",
     "kanji": "",
     "hiragana": "ピアノ",
-    "romaji": "18011",
+    "romaji": "piano",
     "meaning": {
       "vi": "Đàn piano",
       "en": "Piano"
@@ -147,7 +147,7 @@
     "lessonId": "lesson-18",
     "kanji": "",
     "hiragana": "ギター",
-    "romaji": "18012",
+    "romaji": "gitaa",
     "meaning": {
       "vi": "Đàn guitar",
       "en": "Guitar"
@@ -160,7 +160,7 @@
     "lessonId": "lesson-18",
     "kanji": "切符売り場",
     "hiragana": "きっぷうりば",
-    "romaji": "18013",
+    "romaji": "kippuuriba",
     "meaning": {
       "vi": "Quầy bán vé",
       "en": "Ticket counter"
@@ -173,7 +173,7 @@
     "lessonId": "lesson-18",
     "kanji": "旅館",
     "hiragana": "りょかん",
-    "romaji": "18014",
+    "romaji": "ryokan",
     "meaning": {
       "vi": "Nhà trọ kiểu Nhật",
       "en": "Japanese inn"
@@ -186,7 +186,7 @@
     "lessonId": "lesson-18",
     "kanji": "",
     "hiragana": "なかなか",
-    "romaji": "18015",
+    "romaji": "nakanaka",
     "meaning": {
       "vi": "Khá là, khó mà",
       "en": "Quite, not easily"
@@ -199,7 +199,7 @@
     "lessonId": "lesson-18",
     "kanji": "",
     "hiragana": "ぜひ",
-    "romaji": "18016",
+    "romaji": "zehi",
     "meaning": {
       "vi": "Nhất định, nhất thiết",
       "en": "By all means"

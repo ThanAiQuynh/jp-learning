@@ -4,7 +4,7 @@
     "lessonId": "lesson-22",
     "kanji": "着ます",
     "hiragana": "きます",
-    "romaji": "22001",
+    "romaji": "kimasu",
     "meaning": {
       "vi": "Mặc",
       "en": "Wear"
@@ -17,7 +17,7 @@
     "lessonId": "lesson-22",
     "kanji": "はきます",
     "hiragana": "はきます",
-    "romaji": "22002",
+    "romaji": "hakimasu",
     "meaning": {
       "vi": "Mang (giày/quần)",
       "en": "Wear (bottom)"
@@ -30,7 +30,7 @@
     "lessonId": "lesson-22",
     "kanji": "かぶります",
     "hiragana": "かぶります",
-    "romaji": "22003",
+    "romaji": "kaburimasu",
     "meaning": {
       "vi": "Đội mũ",
       "en": "Wear hat"
@@ -43,7 +43,7 @@
     "lessonId": "lesson-22",
     "kanji": "コート",
     "hiragana": "コート",
-    "romaji": "22004",
+    "romaji": "kooto",
     "meaning": {
       "vi": "Áo khoác",
       "en": "Coat"
@@ -56,7 +56,7 @@
     "lessonId": "lesson-22",
     "kanji": "帽子",
     "hiragana": "ぼうし",
-    "romaji": "22005",
+    "romaji": "boushi",
     "meaning": {
       "vi": "Mũ",
       "en": "Hat"
@@ -69,7 +69,7 @@
     "lessonId": "lesson-22",
     "kanji": "眼鏡",
     "hiragana": "めがね",
-    "romaji": "22006",
+    "romaji": "megane",
     "meaning": {
       "vi": "Kính",
       "en": "Glasses"

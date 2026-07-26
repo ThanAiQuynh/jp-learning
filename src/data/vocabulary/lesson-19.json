@@ -4,7 +4,7 @@
     "lessonId": "lesson-19",
     "kanji": "登ります",
     "hiragana": "のぼります",
-    "romaji": "19001",
+    "romaji": "noborimasu",
     "meaning": {
       "vi": "Leo, trèo",
       "en": "Climb"
@@ -17,7 +17,7 @@
     "lessonId": "lesson-19",
     "kanji": "泊まります",
     "hiragana": "とまります",
-    "romaji": "19002",
+    "romaji": "tomarimasu",
     "meaning": {
       "vi": "Ở lại, trọ",
       "en": "Stay (overnight)"
@@ -30,7 +30,7 @@
     "lessonId": "lesson-19",
     "kanji": "掃除します",
     "hiragana": "そうじします",
-    "romaji": "19003",
+    "romaji": "soujishimasu",
     "meaning": {
       "vi": "Dọn dẹp",
       "en": "Clean"
@@ -43,7 +43,7 @@
     "lessonId": "lesson-19",
     "kanji": "洗濯します",
     "hiragana": "せんたくします",
-    "romaji": "19004",
+    "romaji": "sentakushimasu",
     "meaning": {
       "vi": "Giặt đồ",
       "en": "Do laundry"
@@ -56,7 +56,7 @@
     "lessonId": "lesson-19",
     "kanji": "練習します",
     "hiragana": "れんしゅうします",
-    "romaji": "19005",
+    "romaji": "renshuushimasu",
     "meaning": {
       "vi": "Luyện tập",
       "en": "Practice"
@@ -69,7 +69,7 @@
     "lessonId": "lesson-19",
     "kanji": "",
     "hiragana": "ダイエット",
-    "romaji": "19006",
+    "romaji": "daietto",
     "meaning": {
       "vi": "Giảm cân",
       "en": "Diet"
@@ -82,7 +82,7 @@
     "lessonId": "lesson-19",
     "kanji": "一度",
     "hiragana": "いちど",
-    "romaji": "19007",
+    "romaji": "ichido",
     "meaning": {
       "vi": "Một lần",
       "en": "Once"
@@ -95,7 +95,7 @@
     "lessonId": "lesson-19",
     "kanji": "一度も",
     "hiragana": "いちども",
-    "romaji": "19008",
+    "romaji": "ichidomo",
     "meaning": {
       "vi": "Chưa bao giờ",
       "en": "Never"
@@ -108,7 +108,7 @@
     "lessonId": "lesson-19",
     "kanji": "お正月",
     "hiragana": "おしょうがつ",
-    "romaji": "19009",
+    "romaji": "oshougatsu",
     "meaning": {
       "vi": "Tết Nhật",
       "en": "New Year"
