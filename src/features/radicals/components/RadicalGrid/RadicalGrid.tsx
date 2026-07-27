@@ -23,69 +23,79 @@ export const RadicalAudioButton: FC<RadicalAudioButtonProps> = ({ item, classNam
   const { t } = useTranslation('common');
   const [open, setOpen] = useState(false);
 
-  const readings = (item.name.ja || item.character)
+  if (!item) return null;
+
+  const readings = (item.name?.ja || item.character || '')
     .split('/')
     .map(r => r.trim())
     .filter(Boolean);
 
+  const handleContainerClick = (e: React.MouseEvent) => {
+    e.stopPropagation();
+  };
+
   if (readings.length <= 1) {
     return (
-      <Button
-        icon={<Speaker2Regular />}
-        appearance="transparent"
-        size="small"
-        className={className}
-        aria-label={t('common:audio.play_radical', { text: readings[0] || item.character })}
-        onClick={(e) => {
-          e.stopPropagation();
-          if (onPlayAudio) {
-            onPlayAudio(e, item);
-          } else {
-            playJapaneseSpeech(readings[0] || item.character);
-          }
-        }}
-      />
-    );
-  }
-
-  return (
-    <Popover 
-      open={open} 
-      onOpenChange={(_, data) => setOpen(data.open)}
-      withArrow 
-      positioning="above"
-    >
-      <PopoverTrigger disableButtonEnhancement>
+      <div onClick={handleContainerClick} style={{ display: 'inline-flex' }}>
         <Button
           icon={<Speaker2Regular />}
           appearance="transparent"
           size="small"
           className={className}
-          aria-label={t('common:audio.play_radical', { text: item.name.ja })}
-          onClick={(e) => e.stopPropagation()}
+          aria-label={t('common:audio.play_radical', { text: readings[0] || item.character, defaultValue: `Nghe ${readings[0] || item.character}` })}
+          onClick={(e) => {
+            e.stopPropagation();
+            if (onPlayAudio) {
+              onPlayAudio(e, item);
+            } else {
+              playJapaneseSpeech(readings[0] || item.character);
+            }
+          }}
         />
-      </PopoverTrigger>
-      <PopoverSurface 
-        onClick={(e) => e.stopPropagation()} 
-        style={{ padding: '6px', display: 'flex', flexDirection: 'column', gap: '4px', minWidth: '130px' }}
+      </div>
+    );
+  }
+
+  return (
+    <div onClick={handleContainerClick} style={{ display: 'inline-flex' }}>
+      <Popover 
+        open={open} 
+        onOpenChange={(_, data) => setOpen(data.open)}
+        withArrow 
+        positioning="above"
       >
-        {readings.map((reading, idx) => (
+        <PopoverTrigger disableButtonEnhancement>
           <Button
-            key={idx}
             icon={<Speaker2Regular />}
-            appearance="subtle"
+            appearance="transparent"
             size="small"
-            style={{ justifyContent: 'flex-start', width: '100%' }}
-            onClick={(e) => {
-              e.stopPropagation();
-              playJapaneseSpeech(reading);
-            }}
-          >
-            {reading}
-          </Button>
-        ))}
-      </PopoverSurface>
-    </Popover>
+            className={className}
+            aria-label={t('common:audio.play_radical', { text: item.name?.ja || item.character, defaultValue: `Nghe ${item.name?.ja || item.character}` })}
+          />
+        </PopoverTrigger>
+        <PopoverSurface 
+          onClick={(e) => e.stopPropagation()} 
+          style={{ padding: '6px', display: 'flex', flexDirection: 'column', gap: '4px', minWidth: '130px' }}
+        >
+          {readings.map((reading, idx) => (
+            <Button
+              key={idx}
+              icon={<Speaker2Regular />}
+              appearance="subtle"
+              size="small"
+              style={{ justifyContent: 'flex-start', width: '100%' }}
+              onClick={(e) => {
+                e.stopPropagation();
+                playJapaneseSpeech(reading);
+                setOpen(false);
+              }}
+            >
+              {reading}
+            </Button>
+          ))}
+        </PopoverSurface>
+      </Popover>
+    </div>
   );
 };
 
