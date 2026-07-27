@@ -1,9 +1,10 @@
 import { FC, useRef } from 'react';
-import { KanjiItem, Language } from '@types';
+import { KanjiItem } from '@types';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@fluentui/react-components';
 import { Speaker2Regular } from '@fluentui/react-icons';
 import { playJapaneseSpeech } from '@utils/audio';
+import { getLocalizedText } from '@utils/i18n';
 import { useVirtualizer } from '@tanstack/react-virtual';
 import { useContainerWidth } from '@utils/useContainerWidth';
 import styles from './KanjiGrid.module.scss';
@@ -16,7 +17,7 @@ export interface KanjiGridProps {
 
 export const KanjiGrid: FC<KanjiGridProps> = ({ items, onItemClick, onPlayAudio }) => {
   const { t, i18n } = useTranslation('common');
-  const currentLang = i18n.language as Language;
+  const currentLang = i18n.language;
   const parentRef = useRef<HTMLDivElement>(null);
 
   const containerWidth = useContainerWidth(parentRef);
@@ -86,7 +87,7 @@ export const KanjiGrid: FC<KanjiGridProps> = ({ items, onItemClick, onPlayAudio 
                     />
                     <div className={styles.character}>{item.character}</div>
                     <div className={styles.meaning}>
-                      {item.meaning[currentLang] || item.meaning.en}
+                      {getLocalizedText(item.meaning, currentLang)}
                     </div>
                   </div>
                 ))}

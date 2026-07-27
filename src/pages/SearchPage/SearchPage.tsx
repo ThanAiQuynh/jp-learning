@@ -77,8 +77,8 @@ export const SearchPage: FC = () => {
   return (
     <div className={styles.root}>
       <PageHeader 
-        title={t('search.title', 'Search Results')}
-        subtitle={t('search.subtitle', 'Results for "{{query}}"', { query: rawQuery })}
+        title={t('search.title')}
+        subtitle={t('search.subtitle', { query: rawQuery })}
       />
 
       <TabList selectedValue={activeTab} onTabSelect={onTabSelect} className={styles.tabList}>

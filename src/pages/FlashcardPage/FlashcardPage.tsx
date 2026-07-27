@@ -13,6 +13,7 @@ import { EmptyState } from '@components/EmptyState';
 import { Board24Regular, CheckmarkCircle24Regular } from '@fluentui/react-icons';
 import { VocabularyItem, GrammarPattern, KanjiItem } from '@types';
 import { formatGrammarPattern } from '@features/grammar/utils';
+import { getLocalizedText, getNormalizedLanguage } from '@utils/i18n';
 
 type FlashcardType = 'vocab' | 'grammar' | 'kanji' | 'mixed';
 
@@ -29,7 +30,7 @@ interface FlashcardEntry {
   sourceType: FlashcardType;
 }
 
-function buildVocabCards(items: VocabularyItem[], lang: Language): FlashcardEntry[] {
+function buildVocabCards(items: VocabularyItem[], lang: string): FlashcardEntry[] {
   return items.map(v => ({
     id: v.id,
     front: {
@@ -38,7 +39,7 @@ function buildVocabCards(items: VocabularyItem[], lang: Language): FlashcardEntr
       audioText: v.hiragana || v.kanji,
     },
     back: {
-      text: (v.meaning as any)[lang] || v.meaning.en,
+      text: getLocalizedText(v.meaning, lang),
       subtext: v.romaji,
       audioText: v.hiragana || v.kanji,
     },
@@ -46,24 +47,25 @@ function buildVocabCards(items: VocabularyItem[], lang: Language): FlashcardEntr
   }));
 }
 
-function buildGrammarCards(items: GrammarPattern[], lang: Language): FlashcardEntry[] {
+function buildGrammarCards(items: GrammarPattern[], lang: string): FlashcardEntry[] {
+  const norm = getNormalizedLanguage(lang);
   return items.map(g => ({
     id: g.id,
     front: {
-      text: formatGrammarPattern(g.pattern, lang),
-      subtext: g.patternKana !== g.pattern ? formatGrammarPattern(g.patternKana, lang) : undefined,
+      text: formatGrammarPattern(g.pattern, norm),
+      subtext: g.patternKana !== g.pattern ? formatGrammarPattern(g.patternKana, norm) : undefined,
       audioText: g.patternKana || g.pattern,
     },
     back: {
-      text: (g.title as any)[lang] || g.title.en,
-      subtext: (g.explanation as any)[lang] || g.explanation.en,
+      text: getLocalizedText(g.title, lang),
+      subtext: getLocalizedText(g.explanation, lang),
       audioText: g.patternKana || g.pattern,
     },
     sourceType: 'grammar' as const,
   }));
 }
 
-function buildKanjiCards(items: KanjiItem[], lang: Language): FlashcardEntry[] {
+function buildKanjiCards(items: KanjiItem[], lang: string): FlashcardEntry[] {
   return items.map(k => ({
     id: k.id,
     front: {
@@ -72,7 +74,7 @@ function buildKanjiCards(items: KanjiItem[], lang: Language): FlashcardEntry[] {
       audioText: k.kunReadings[0] || k.onReadings[0] || k.character,
     },
     back: {
-      text: (k.meaning as any)[lang] || k.meaning.en,
+      text: getLocalizedText(k.meaning, lang),
       subtext: k.compounds.length > 0 ? k.compounds.slice(0, 2).map(c => c.word).join('、') : undefined,
       audioText: k.character,
     },

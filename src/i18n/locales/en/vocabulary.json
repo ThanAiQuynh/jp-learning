@@ -1,8 +1,11 @@
 {
   "title": "Vocabulary",
-  "subtitle": "All Japanese vocabulary collection.",
+  "subtitle": "Comprehensive list of Japanese vocabulary.",
+  "no_vocab": "No vocabulary found",
+  "no_vocab_search": "No vocabulary matching your search query.",
+  "no_vocab_data": "No vocabulary data available.",
   "detail": {
-    "title": "Vocabulary Details",
+    "title": "Vocabulary Detail",
     "listen": "Listen",
     "meaning": "Meaning",
     "examples": "Examples",

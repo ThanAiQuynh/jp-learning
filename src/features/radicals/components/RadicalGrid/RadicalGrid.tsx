@@ -1,9 +1,10 @@
 import { FC } from 'react';
-import { Radical, Language } from '@types';
+import { Radical } from '@types';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@fluentui/react-components';
 import { Speaker2Regular } from '@fluentui/react-icons';
 import { playJapaneseSpeech } from '@utils/audio';
+import { getLocalizedText, getNormalizedLanguage } from '@utils/i18n';
 import styles from './RadicalGrid.module.scss';
 
 export interface RadicalGridProps {
@@ -13,8 +14,9 @@ export interface RadicalGridProps {
 }
 
 export const RadicalGrid: FC<RadicalGridProps> = ({ items, onItemClick, onPlayAudio }) => {
-  const { t, i18n } = useTranslation('common');
-  const currentLang = i18n.language as Language;
+  const { t, i18n } = useTranslation(['common', 'kanji']);
+  const currentLang = i18n.language;
+  const isVi = getNormalizedLanguage(currentLang) === 'vi';
 
   // Group radicals by stroke count
   const groupedRadicals = items.reduce((acc, item) => {
@@ -27,19 +29,28 @@ export const RadicalGrid: FC<RadicalGridProps> = ({ items, onItemClick, onPlayAu
 
   // Sort groups naturally (e.g. 1画, 2画, ...)
   const sortedGroups = Object.keys(groupedRadicals).sort((a, b) => {
-    const numA = parseInt(a);
-    const numB = parseInt(b);
+    const numA = parseInt(a, 10);
+    const numB = parseInt(b, 10);
     return numA - numB;
   });
+
+  const getGroupTitle = (group: string) => {
+    const strokeNum = parseInt(group, 10);
+    if (!isNaN(strokeNum)) {
+      return isVi ? `${strokeNum} nét` : `${strokeNum} ${strokeNum === 1 ? 'stroke' : 'strokes'}`;
+    }
+    return group;
+  };
 
   return (
     <div className={styles.root}>
       {sortedGroups.map(group => (
         <div key={group} className={styles.groupSection}>
-          <h3 className={styles.groupTitle}>{group} ({groupedRadicals[group].length})</h3>
+          <h3 className={styles.groupTitle}>{getGroupTitle(group)} ({groupedRadicals[group].length})</h3>
           <div className={styles.grid}>
             {groupedRadicals[group].map(item => {
-              const localizedName = item.name[currentLang] || item.name.vi || item.name.en;
+              const localizedName = getLocalizedText(item.name, currentLang);
+              const localizedMeaning = getLocalizedText(item.meaning, currentLang);
               return (
                 <div 
                   key={item.id} 
@@ -68,7 +79,7 @@ export const RadicalGrid: FC<RadicalGridProps> = ({ items, onItemClick, onPlayAu
                     )}
                   </div>
                   <div className={styles.meaning}>
-                    {item.meaning[currentLang] || item.meaning.en}
+                    {localizedMeaning}
                   </div>
                   <div className={styles.name}>
                     {localizedName} / {item.name.ja}

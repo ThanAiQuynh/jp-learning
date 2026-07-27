@@ -1,6 +1,9 @@
 {
   "title": "Chữ Kanji",
   "subtitle": "Tổng hợp tất cả Hán tự tiếng Nhật.",
+  "no_kanji": "Không tìm thấy Hán tự",
+  "no_kanji_search": "Không có chữ Kanji nào khớp với từ khóa tìm kiếm.",
+  "no_kanji_data": "Chưa có dữ liệu Kanji.",
   "detail": {
     "title": "Chi tiết Kanji",
     "stroke_count": "Số nét: {{count}}",

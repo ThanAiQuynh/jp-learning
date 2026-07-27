@@ -1,6 +1,9 @@
 {
   "title": "Ngữ pháp",
   "subtitle": "Tổng hợp tất cả các mẫu ngữ pháp tiếng Nhật.",
+  "no_grammar": "Không tìm thấy ngữ pháp",
+  "no_grammar_search": "Không có cấu trúc ngữ pháp nào khớp với từ khóa tìm kiếm.",
+  "no_grammar_data": "Chưa có dữ liệu ngữ pháp.",
   "list": {
     "view_detail": "Xem chi tiết"
   },

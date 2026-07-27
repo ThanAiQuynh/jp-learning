@@ -1,7 +1,8 @@
 {
   "hero": {
     "greeting": "Chào mừng trở lại!",
-    "message": "Hôm nay là một ngày tuyệt vời để học tiếng Nhật. Hãy tiếp tục cố gắng nhé!"
+    "message": "Hôm nay là một ngày tuyệt vời để học tiếng Nhật. Hãy tiếp tục cố gắng nhé!",
+    "resume_btn": "Tiếp tục Bài 1"
   },
   "progress": {
     "title": "Tiến độ học tập",

@@ -1,11 +1,12 @@
 import { FC } from 'react';
-import { VocabularyItem, Language } from '@types';
+import { VocabularyItem } from '@types';
 import { JapaneseText } from '@components/JapaneseText';
 import { JLPTBadge } from '@components/JLPTBadge';
 import { WordTypeBadge } from '@components/WordTypeBadge';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@fluentui/react-components';
 import { Speaker2Regular } from '@fluentui/react-icons';
+import { getLocalizedText } from '@utils/i18n';
 import styles from './VocabCard.module.scss';
 
 export interface VocabCardProps {
@@ -18,8 +19,7 @@ export const VocabCard: FC<VocabCardProps> = ({ item, onClick, onPlayAudio }) =>
   const { t, i18n } = useTranslation('common');
   
   // Safely get translation based on current language
-  const currentLang = i18n.language as Language;
-  const meaning = item.meaning[currentLang] || item.meaning.en;
+  const meaning = getLocalizedText(item.meaning, i18n.language);
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter' || e.key === ' ') {

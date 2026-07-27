@@ -3,9 +3,10 @@ import { useSearchParams, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ProgressBar, Button, Tab, TabList, SelectTabData, SelectTabEvent } from '@fluentui/react-components';
 import { Dismiss24Regular } from '@fluentui/react-icons';
-import { CategoryType, VocabularyItem, KanjiItem, GrammarPattern, Language } from '@types';
+import { CategoryType, VocabularyItem, KanjiItem, GrammarPattern } from '@types';
 import { getVocabForLesson, getKanjiForLesson, getGrammarForLesson } from '@data/index';
 import { formatGrammarPattern } from '@features/grammar/utils';
+import { getLocalizedText, getNormalizedLanguage } from '@utils/i18n';
 
 import { QuizQuestion, QuizQuestionData } from '@features/quiz/components/QuizQuestion';
 import { QuizSummary } from '@features/quiz/components/QuizSummary';
@@ -29,7 +30,8 @@ export const QuizPage: FC = () => {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
   const { t, i18n } = useTranslation('quiz');
-  const lang = i18n.language as 'en' | 'vi' | 'ja';
+  const lang = i18n.language;
+  const normLang = getNormalizedLanguage(lang);
   const lessonId = searchParams.get('lesson') || 'lesson-01';
 
   // Config state
@@ -76,8 +78,8 @@ export const QuizPage: FC = () => {
         const others = shuffle(vocabData.filter(x => x.id !== v.id)).slice(0, 3);
         if (others.length < 2) return;
         const options = shuffle([
-          { label: (v.meaning as any)[lang] || v.meaning.en, value: v.id, isCorrect: true },
-          ...others.map(o => ({ label: (o.meaning as any)[lang] || o.meaning.en, value: o.id, isCorrect: false }))
+          { label: getLocalizedText(v.meaning, lang), value: v.id, isCorrect: true },
+          ...others.map(o => ({ label: getLocalizedText(o.meaning, lang), value: o.id, isCorrect: false }))
         ]);
         const wordDisplay = (v.kanji && v.kanji !== v.hiragana) ? `${v.kanji} (${v.hiragana})` : v.hiragana;
         qs.push({ id: `v_${v.id}`, type: CategoryType.Vocabulary, questionText: t('questions.vocab_meaning', { word: wordDisplay }), options });
@@ -90,8 +92,8 @@ export const QuizPage: FC = () => {
         const others = shuffle(kanjiData.filter(x => x.id !== k.id)).slice(0, 3);
         if (others.length < 2) return;
         const options = shuffle([
-          { label: (k.meaning as any)[lang] || k.meaning.en, value: k.id, isCorrect: true },
-          ...others.map(o => ({ label: (o.meaning as any)[lang] || o.meaning.en, value: o.id, isCorrect: false }))
+          { label: getLocalizedText(k.meaning, lang), value: k.id, isCorrect: true },
+          ...others.map(o => ({ label: getLocalizedText(o.meaning, lang), value: o.id, isCorrect: false }))
         ]);
         const readings = [...k.kunReadings, ...k.onReadings].join(', ');
         const kanjiDisplay = readings ? `${k.character} (${readings})` : k.character;
@@ -105,20 +107,20 @@ export const QuizPage: FC = () => {
         const others = shuffle(grammarData.filter(x => x.id !== g.id)).slice(0, 3);
         if (others.length < 2) return;
         const options = shuffle([
-          { label: (g.title as any)[lang] || g.title.en, value: g.id, isCorrect: true },
-          ...others.map(o => ({ label: (o.title as any)[lang] || o.title.en, value: o.id, isCorrect: false }))
+          { label: getLocalizedText(g.title, lang), value: g.id, isCorrect: true },
+          ...others.map(o => ({ label: getLocalizedText(o.title, lang), value: o.id, isCorrect: false }))
         ]);
         // Show an example sentence as question
         const example = g.examples?.[0];
         const questionText = example
           ? t('questions.grammar_example', { example: example.ja })
-          : t('questions.grammar_meaning', { pattern: formatGrammarPattern(g.pattern, lang as Language) });
+          : t('questions.grammar_meaning', { pattern: formatGrammarPattern(g.pattern, normLang) });
         qs.push({ id: `g_${g.id}`, type: CategoryType.Grammar, questionText, options });
       });
     }
 
     return shuffle(qs).slice(0, 10);
-  }, [dataLoaded, category, vocabData, kanjiData, grammarData, t, lang]);
+  }, [dataLoaded, category, vocabData, kanjiData, grammarData, t, lang, normLang]);
 
   // ── Matching pairs ─────────────────────────────────────────────────────────
   const matchingPairs = useMemo((): MatchingPair[] => {
@@ -129,25 +131,25 @@ export const QuizPage: FC = () => {
       items.push(...vocabData.slice(0, 6).map(v => ({
         id: v.id,
         left: v.kanji || v.hiragana,
-        right: (v.meaning as any)[lang] || v.meaning.en,
+        right: getLocalizedText(v.meaning, lang),
       })));
     }
     if (category === 'kanji' || category === 'mixed') {
       items.push(...kanjiData.slice(0, 4).map(k => ({
         id: k.id,
         left: k.character,
-        right: (k.meaning as any)[lang] || k.meaning.en,
+        right: getLocalizedText(k.meaning, lang),
       })));
     }
     if (category === 'grammar' || category === 'mixed') {
       items.push(...grammarData.slice(0, 4).map(g => ({
         id: g.id,
-        left: formatGrammarPattern(g.pattern, lang as Language),
-        right: (g.title as any)[lang] || g.title.en,
+        left: formatGrammarPattern(g.pattern, normLang),
+        right: getLocalizedText(g.title, lang),
       })));
     }
     return shuffle(items).slice(0, 8);
-  }, [dataLoaded, category, vocabData, kanjiData, grammarData, lang]);
+  }, [dataLoaded, category, vocabData, kanjiData, grammarData, lang, normLang]);
 
   // ── Fill-blank questions ───────────────────────────────────────────────────
   const fillBlankQuestions = useMemo((): FillBlankQuestionData[] => {
@@ -165,7 +167,7 @@ export const QuizPage: FC = () => {
           sentenceWithBlank: ex.ja.replace(word, '___'),
           answer: word,
           hint: v.hiragana,
-          explanation: `${word}（${v.hiragana}）: ${(v.meaning as any)[lang] || v.meaning.en}`,
+          explanation: `${word}（${v.hiragana}）: ${getLocalizedText(v.meaning, lang)}`,
         });
       });
     }
@@ -174,14 +176,14 @@ export const QuizPage: FC = () => {
       grammarData.forEach(g => {
         g.examples?.forEach((ex, idx) => {
           // Try to blank out a key part in the example
-          const particle = g.pattern.match(/[はがをにでもとから]/)?.[0];
+          const particle = g.pattern.match(/[はがをに라도てもとから]/)?.[0];
           if (particle && ex.ja.includes(particle)) {
             qs.push({
               id: `fb_g_${g.id}_${idx}`,
               sentenceWithBlank: ex.ja.replace(particle, '___'),
               answer: particle,
-              hint: formatGrammarPattern(g.pattern, lang as Language),
-              explanation: `${formatGrammarPattern(g.pattern, lang as Language)}: ${(g.title as any)[lang] || g.title.en}`,
+              hint: formatGrammarPattern(g.pattern, normLang),
+              explanation: `${formatGrammarPattern(g.pattern, normLang)}: ${getLocalizedText(g.title, lang)}`,
             });
           }
         });
@@ -189,7 +191,7 @@ export const QuizPage: FC = () => {
     }
 
     return shuffle(qs).slice(0, 8);
-  }, [dataLoaded, category, vocabData, grammarData, lang]);
+  }, [dataLoaded, category, vocabData, grammarData, lang, normLang]);
 
   // ── Quiz engine ────────────────────────────────────────────────────────────
   const handleMcAnswer = (isCorrect: boolean) => {
@@ -204,8 +206,6 @@ export const QuizPage: FC = () => {
   const handleMatchingComplete = (correct: number, _total: number) => {
     setScore(correct);
     setIsCompleted(true);
-    // For matching, total is the pairs count
-    // We'll store it in a synthetic way
   };
 
   const handleFillBlankAnswer = (isCorrect: boolean) => {

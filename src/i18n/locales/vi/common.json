@@ -23,7 +23,16 @@
     "no_data": "Không có dữ liệu",
     "welcome": "Chào mừng đến với ứng dụng học tiếng Nhật!",
     "play_audio": "Nghe phát âm",
-    "play": "Nghe"
+    "play": "Nghe",
+    "search": "Tìm kiếm...",
+    "all_lessons": "Tất cả bài học",
+    "filter_by_lesson": "Lọc theo bài học"
+  },
+  "toggle": {
+    "show_furigana": "Hiện furigana",
+    "hide_furigana": "Ẩn furigana",
+    "show_romaji": "Hiện romaji",
+    "hide_romaji": "Ẩn romaji"
   },
   "audio": {
     "play": "Nghe",
@@ -59,5 +68,9 @@
     "kanji_count": "Kanji: {{count}}",
     "no_lessons": "Chưa có bài học nào.",
     "learning_modules": "Học phần"
+  },
+  "search": {
+    "title": "Kết quả tìm kiếm",
+    "subtitle": "Kết quả cho \"{{query}}\""
   }
 }

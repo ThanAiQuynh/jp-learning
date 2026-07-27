@@ -23,7 +23,16 @@
     "no_data": "No data available",
     "welcome": "Welcome to the Japanese Learning App!",
     "play_audio": "Play audio",
-    "play": "Listen"
+    "play": "Listen",
+    "search": "Search...",
+    "all_lessons": "All Lessons",
+    "filter_by_lesson": "Filter by lesson"
+  },
+  "toggle": {
+    "show_furigana": "Show furigana",
+    "hide_furigana": "Hide furigana",
+    "show_romaji": "Show romaji",
+    "hide_romaji": "Hide romaji"
   },
   "audio": {
     "play": "Listen",
@@ -59,5 +68,9 @@
     "kanji_count": "Kanji: {{count}}",
     "no_lessons": "No lessons available.",
     "learning_modules": "Learning Modules"
+  },
+  "search": {
+    "title": "Search Results",
+    "subtitle": "Results for \"{{query}}\""
   }
 }

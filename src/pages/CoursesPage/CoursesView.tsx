@@ -2,18 +2,18 @@ import { FC } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Card, CardHeader, Body1, Text } from '@fluentui/react-components';
 import { useTranslation } from 'react-i18next';
-import { Language } from '@types';
 import coursesData from '@data/courses/courses.json';
-import i18n from '@i18n/index';
 import { PageHeader } from '@components/PageHeader';
 import { CardGrid } from '@components/CardGrid';
 import { EmptyState } from '@components/EmptyState';
 import { Search24Regular } from '@fluentui/react-icons';
+import { getLocalizedText } from '@utils/i18n';
 
 export const CoursesView: FC = () => {
   const { level } = useParams();
   const navigate = useNavigate();
-  const { t } = useTranslation('common');
+  const { t, i18n } = useTranslation('common');
+  const lang = i18n.language;
   
   const courses = coursesData.filter(c => c.level.toLowerCase() === level);
 
@@ -30,9 +30,8 @@ export const CoursesView: FC = () => {
       {courses.length > 0 ? (
         <CardGrid minWidth={300}>
           {courses.map(course => {
-            const lang = i18n.language as Language;
-            const title = (course.title as any)[lang] || course.title.vi;
-            const desc = (course.description as any)[lang] || course.description.vi;
+            const title = getLocalizedText(course.title, lang);
+            const desc = getLocalizedText(course.description, lang);
             return (
               <Card key={course.id} onClick={() => navigate(`/courses/${level}/${course.id}`)} style={{ cursor: 'pointer' }}>
                 <CardHeader 

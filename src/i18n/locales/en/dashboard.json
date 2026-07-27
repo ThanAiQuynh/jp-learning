@@ -1,7 +1,8 @@
 {
   "hero": {
     "greeting": "Welcome back!",
-    "message": "Today is a great day to learn Japanese. Keep up the good work!"
+    "message": "Today is a great day to learn Japanese. Keep up the good work!",
+    "resume_btn": "Continue Lesson 1"
   },
   "progress": {
     "title": "Learning Progress",

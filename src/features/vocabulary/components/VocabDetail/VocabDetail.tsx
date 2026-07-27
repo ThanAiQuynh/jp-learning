@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { VocabularyItem, Language } from '@types';
+import { VocabularyItem } from '@types';
 import { Button } from '@fluentui/react-components';
 import { BookOpen24Regular, Speaker2Regular } from '@fluentui/react-icons';
 import { JapaneseText } from '@components/JapaneseText';
@@ -9,6 +9,7 @@ import { useTranslation } from 'react-i18next';
 import { DetailDrawer } from '@components/DetailDrawer';
 import { useAppSelector } from '@store/hooks';
 import { playJapaneseSpeech } from '@utils/audio';
+import { getLocalizedText } from '@utils/i18n';
 import styles from './VocabDetail.module.scss';
 
 export interface VocabDetailProps {
@@ -24,8 +25,9 @@ export const VocabDetail: FC<VocabDetailProps> = ({ isOpen, onClose, item }) => 
 
   if (!item) return null;
 
-  const currentLang = i18n.language as Language;
+  const currentLang = i18n.language;
   const wordText = item.kanji || item.hiragana;
+  const mainMeaning = getLocalizedText(item.meaning, currentLang);
 
   return (
     <DetailDrawer isOpen={isOpen} onClose={onClose} title={t('vocabulary:detail.title')}>
@@ -60,8 +62,12 @@ export const VocabDetail: FC<VocabDetailProps> = ({ isOpen, onClose, item }) => 
               {t('vocabulary:detail.meaning')}
             </div>
             <div>
-              {item.meaning.vi && <p><strong>VI:</strong> {item.meaning.vi}</p>}
-              {item.meaning.en && <p><strong>EN:</strong> {item.meaning.en}</p>}
+              <p style={{ fontSize: '1.1rem', fontWeight: 600, color: 'var(--colorNeutralForeground1)' }}>{mainMeaning}</p>
+              {item.meaning.vi && item.meaning.en && (
+                <p style={{ fontSize: '0.9rem', color: 'var(--colorNeutralForeground3)', marginTop: '4px' }}>
+                  {currentLang.startsWith('vi') ? `EN: ${item.meaning.en}` : `VI: ${item.meaning.vi}`}
+                </p>
+              )}
             </div>
           </div>
 
@@ -82,7 +88,7 @@ export const VocabDetail: FC<VocabDetailProps> = ({ isOpen, onClose, item }) => 
                     <Speaker2Regular style={{ fontSize: '14px', opacity: 0.7 }} />
                   </div>
                   <div className={styles.reading}>{ex.reading}</div>
-                  <div className={styles.translation}>{ex.translation[currentLang] || ex.translation.en}</div>
+                  <div className={styles.translation}>{getLocalizedText(ex.translation, currentLang)}</div>
                 </div>
               ))}
             </div>

@@ -32,6 +32,10 @@ i18n
       en: { common: enCommon, vocabulary: enVocabulary, grammar: enGrammar, kanji: enKanji, dashboard: enDashboard, flashcard: enFlashcard, quiz: enQuiz },
     },
     fallbackLng: 'en',
+    supportedLngs: ['vi', 'en'],
+    load: 'languageOnly',
+    nonExplicitSupportedLngs: true,
+    lowerCaseLng: true,
     defaultNS: 'common',
     interpolation: {
       escapeValue: false, // React already safes from xss

@@ -31,7 +31,7 @@ export const RadicalPage: FC = () => {
       <Title1 as="h1" className={styles.title}>{t('navigation.radicals')}</Title1>
       
       {loading ? (
-        <div>Loading...</div>
+        <div style={{ padding: '24px', textAlign: 'center' }}>{t('common.loading')}</div>
       ) : (
         <RadicalGrid items={radicals} />
       )}

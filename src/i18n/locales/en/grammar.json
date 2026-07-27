@@ -1,11 +1,14 @@
 {
   "title": "Grammar",
-  "subtitle": "All Japanese grammar patterns collection.",
+  "subtitle": "Comprehensive list of Japanese grammar patterns.",
+  "no_grammar": "No grammar pattern found",
+  "no_grammar_search": "No grammar pattern matching your search query.",
+  "no_grammar_data": "No grammar data available.",
   "list": {
-    "view_detail": "View Details"
+    "view_detail": "View Detail"
   },
   "detail": {
-    "title": "Grammar Details",
+    "title": "Grammar Detail",
     "explanation": "Explanation",
     "usage": "Usage: {{usage}}",
     "formation": "Formation",

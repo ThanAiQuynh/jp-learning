@@ -25,7 +25,7 @@ import {
   TextT24Regular,
 } from '@fluentui/react-icons';
 import { useAppDispatch, useAppSelector } from '@store/hooks';
-import { setTheme, toggleFurigana, toggleRomaji } from '@store/slices/progressSlice';
+import { setLanguage, setTheme, toggleFurigana, toggleRomaji } from '@store/slices/progressSlice';
 import { Language, Theme } from '@types';
 import styles from './AppShell.module.scss';
 
@@ -53,6 +53,7 @@ export const AppShell: FC<AppShellProps> = ({ children }) => {
 
   const changeLanguage = (lang: string) => {
     i18n.changeLanguage(lang);
+    dispatch(setLanguage(lang as Language));
   };
 
   const navItems: NavItemConfig[] = [

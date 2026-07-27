@@ -1,5 +1,5 @@
 import { FC, useRef } from 'react';
-import { GrammarPattern, Language } from '@types';
+import { GrammarPattern } from '@types';
 import { 
   Accordion, 
   AccordionItem, 
@@ -10,6 +10,7 @@ import {
 import { ChevronRightRegular } from '@fluentui/react-icons';
 import { useTranslation } from 'react-i18next';
 import { useVirtualizer } from '@tanstack/react-virtual';
+import { getLocalizedText, getNormalizedLanguage } from '@utils/i18n';
 import styles from './GrammarList.module.scss';
 import { formatGrammarPattern } from '../../utils';
 
@@ -20,7 +21,8 @@ export interface GrammarListProps {
 
 export const GrammarList: FC<GrammarListProps> = ({ items, onDetailClick }) => {
   const { t, i18n } = useTranslation(['grammar', 'common']);
-  const currentLang = i18n.language as Language;
+  const currentLang = i18n.language;
+  const normalizedLang = getNormalizedLanguage(currentLang);
   const parentRef = useRef<HTMLDivElement>(null);
 
   const virtualizer = useVirtualizer({
@@ -60,20 +62,20 @@ export const GrammarList: FC<GrammarListProps> = ({ items, onDetailClick }) => {
                 <Accordion collapsible>
                   <AccordionItem value={item.id} className={styles.item}>
                     <AccordionHeader size="large">
-                      <span className={styles.pattern}>{formatGrammarPattern(item.pattern, currentLang)}</span>
+                      <span className={styles.pattern}>{formatGrammarPattern(item.pattern, normalizedLang)}</span>
                       <span className={styles.title}>
-                        {item.title[currentLang] || item.title.en}
+                        {getLocalizedText(item.title, currentLang)}
                       </span>
                     </AccordionHeader>
                     <AccordionPanel className={styles.panel}>
-                      <p>{item.explanation[currentLang] || item.explanation.en}</p>
+                      <p>{getLocalizedText(item.explanation, currentLang)}</p>
                       
                       <div className={styles.examples}>
                         {item.examples.slice(0, 2).map((ex: any, idx: number) => (
                           <div key={idx} className={styles.exampleItem}>
                             <div className={styles.ja}>{ex.ja}</div>
                             <div className={styles.translation}>
-                              {ex.translation[currentLang] || ex.translation.en}
+                              {getLocalizedText(ex.translation, currentLang)}
                             </div>
                           </div>
                         ))}

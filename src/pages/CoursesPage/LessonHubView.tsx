@@ -7,18 +7,18 @@ import lessonsData from '@data/lessons/lessons.json';
 import coursesData from '@data/courses/courses.json';
 import { PageHeader } from '@components/PageHeader';
 import { CardGrid } from '@components/CardGrid';
-import { Language } from '@types';
+import { getLocalizedText } from '@utils/i18n';
 
 export const LessonHubView: FC = () => {
   const { level, courseId, lessonId } = useParams();
   const navigate = useNavigate();
   const { t, i18n } = useTranslation('common');
   const { t: dt } = useTranslation('dashboard');
-  const lang = i18n.language as Language;
+  const lang = i18n.language;
   
   const lesson = lessonsData.find(l => l.id === lessonId);
-  const title = lesson ? ((lesson.title as any)[lang] || lesson.title.ja) : '';
-  const desc = lesson ? (lesson.description[lang] || lesson.description.vi) : '';
+  const title = lesson ? getLocalizedText(lesson.title, lang) : '';
+  const desc = lesson ? getLocalizedText(lesson.description, lang) : '';
 
   const actions = [
     { title: dt('quick_access.vocabulary.title'), path: `/vocabulary?lesson=${lessonId}`, icon: <Book24Regular />, color: 'var(--colorPaletteGreenForeground1)', bg: 'var(--colorPaletteGreenBackground2)' },
@@ -29,13 +29,13 @@ export const LessonHubView: FC = () => {
   ];
 
   const course = coursesData.find(c => c.id === courseId);
-  const courseTitle = course ? ((course.title as any)[lang] || course.title.vi) : '';
+  const courseTitle = course ? getLocalizedText(course.title, lang) : '';
 
   return (
     <div>
       <PageHeader 
         title={t('courses_page.lesson_number', { number: lesson?.number })}
-        subtitle={`${title} - ${desc}`}
+        subtitle={title ? `${title}${desc ? ' - ' + desc : ''}` : ''}
         breadcrumbItems={[
           { label: t('navigation.courses'), path: '/courses' },
           { label: level?.toUpperCase() || '', path: `/courses/${level}` },

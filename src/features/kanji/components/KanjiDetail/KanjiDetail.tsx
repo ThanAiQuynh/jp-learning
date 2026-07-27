@@ -1,5 +1,5 @@
 import { FC, useEffect, useState } from 'react';
-import { KanjiItem, Language, Radical } from '@types';
+import { KanjiItem, Radical } from '@types';
 import { Badge, Button } from '@fluentui/react-components';
 import { TextSortAscending24Regular, SearchSquare24Regular, Lightbulb24Regular, Speaker2Regular } from '@fluentui/react-icons';
 import { JLPTBadge } from '@components/JLPTBadge';
@@ -9,6 +9,7 @@ import { getRadicalByCharacter } from '@data';
 import { useAppSelector } from '@store/hooks';
 import { JapaneseText } from '@components/JapaneseText';
 import { playJapaneseSpeech } from '@utils/audio';
+import { getLocalizedText } from '@utils/i18n';
 import styles from './KanjiDetail.module.scss';
 
 export interface KanjiDetailProps {
@@ -36,7 +37,8 @@ export const KanjiDetail: FC<KanjiDetailProps> = ({ isOpen, onClose, item }) => 
 
   if (!item) return null;
 
-  const currentLang = i18n.language as Language;
+  const currentLang = i18n.language;
+  const mnemonicText = getLocalizedText(item.mnemonic, currentLang);
   
   return (
     <DetailDrawer isOpen={isOpen} onClose={onClose} title={t('kanji:detail.title')}>
@@ -59,7 +61,7 @@ export const KanjiDetail: FC<KanjiDetailProps> = ({ isOpen, onClose, item }) => 
             </div>
             <div className={styles.kanjiInfo}>
               <div className={styles.meaning}>
-                {item.meaning[currentLang] || item.meaning.en}
+                {getLocalizedText(item.meaning, currentLang)}
               </div>
               <div>{t('kanji:detail.stroke_count', { count: item.strokeCount })}</div>
               <div style={{ display: 'flex', gap: '8px' }}>
@@ -69,14 +71,14 @@ export const KanjiDetail: FC<KanjiDetailProps> = ({ isOpen, onClose, item }) => 
           </div>
 
           {/* Mẹo nhớ (Mnemonic) */}
-          {item.mnemonic && (item.mnemonic[currentLang] || item.mnemonic.en) && (
+          {mnemonicText && (
             <div className={styles.section}>
               <div className={styles.sectionTitle}>
                 <Lightbulb24Regular />
                 {t('kanji:detail.mnemonic')}
               </div>
               <div className={styles.mnemonicBox}>
-                {item.mnemonic[currentLang] || item.mnemonic.en}
+                {mnemonicText}
               </div>
             </div>
           )}
@@ -137,7 +139,7 @@ export const KanjiDetail: FC<KanjiDetailProps> = ({ isOpen, onClose, item }) => 
               <div className={styles.radicalsList}>
                 {radicalDetails.map((r: Radical) => {
                   const isPrimary = r.character === item.primaryRadical || r.variants.includes(item.primaryRadical);
-                  const radName = r.name[currentLang] || r.name.vi || r.name.en;
+                  const radName = getLocalizedText(r.name, currentLang);
                   return (
                     <div key={r.id} className={styles.radicalItem}>
                       <Badge color={isPrimary ? "danger" : "brand"} appearance="outline" size="extra-large">
@@ -155,7 +157,7 @@ export const KanjiDetail: FC<KanjiDetailProps> = ({ isOpen, onClose, item }) => 
                           )}
                         </div>
                         <span className={styles.radicalMeaning}>
-                          {r.meaning[currentLang] || r.meaning.en}
+                          {getLocalizedText(r.meaning, currentLang)}
                         </span>
                         <div className={styles.radicalDetailsRow}>
                           <span>{t('kanji:detail.stroke_count_short', { count: r.strokeCount })}</span>
@@ -207,7 +209,7 @@ export const KanjiDetail: FC<KanjiDetailProps> = ({ isOpen, onClose, item }) => 
                       />
                     </div>
                     <div className={styles.meaning}>
-                      {c.meaning[currentLang] || c.meaning.en}
+                      {getLocalizedText(c.meaning, currentLang)}
                     </div>
                   </div>
                 ))}
