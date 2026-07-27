@@ -1,0 +1,102 @@
+@use '@styles/variables' as *;
+
+.root {
+  padding: $spacing-lg;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: $spacing-xl;
+  margin-bottom: $spacing-xl;
+  padding-bottom: $spacing-xl;
+  border-bottom: 1px solid var(--colorNeutralStroke1);
+}
+
+.charBoxWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $spacing-xs;
+}
+
+.charBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 110px;
+  border: 2px dashed var(--colorNeutralStroke2);
+  border-radius: $border-radius-md;
+  font-size: 4.5rem;
+  font-family: "Noto Sans JP", sans-serif;
+  color: var(--colorNeutralForeground1);
+  background: var(--colorNeutralBackground2);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+}
+
+.titleGroup {
+  display: flex;
+  align-items: baseline;
+  gap: $spacing-xs;
+}
+
+.name {
+  font-size: $font-size-2xl;
+  font-weight: 700;
+  color: var(--colorNeutralForeground1);
+}
+
+.jaName {
+  font-size: $font-size-md;
+  color: var(--colorNeutralForeground3);
+}
+
+.meaning {
+  font-size: $font-size-lg;
+  color: var(--colorNeutralForeground2);
+  margin-bottom: $spacing-xs;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-xs;
+}
+
+.section {
+  margin-bottom: $spacing-xl;
+}
+
+.sectionTitle {
+  font-weight: 600;
+  margin-bottom: $spacing-md;
+  color: var(--colorNeutralForeground1);
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+  font-size: $font-size-lg;
+}
+
+.variantsBox {
+  display: flex;
+  gap: $spacing-sm;
+}
+
+.kanjiGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(54px, 1fr));
+  gap: $spacing-sm;
+}
+
+.kanjiBtn {
+  font-size: $font-size-xl;
+  font-family: "Noto Sans JP", sans-serif;
+  min-width: 0;
+  height: 52px;
+}
