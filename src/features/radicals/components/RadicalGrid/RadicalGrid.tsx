@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { Radical } from '@types';
 import { useTranslation } from 'react-i18next';
-import { Button } from '@fluentui/react-components';
+import { Button, Badge } from '@fluentui/react-components';
 import { Speaker2Regular } from '@fluentui/react-icons';
 import { playJapaneseSpeech } from '@utils/audio';
 import { getLocalizedText, getNormalizedLanguage } from '@utils/i18n';
@@ -46,7 +46,10 @@ export const RadicalGrid: FC<RadicalGridProps> = ({ items, onItemClick, onPlayAu
     <div className={styles.root}>
       {sortedGroups.map(group => (
         <div key={group} className={styles.groupSection}>
-          <h3 className={styles.groupTitle}>{getGroupTitle(group)} ({groupedRadicals[group].length})</h3>
+          <div className={styles.groupHeader}>
+            <h3 className={styles.groupTitle}>{getGroupTitle(group)}</h3>
+            <Badge appearance="tint" color="informative">{groupedRadicals[group].length}</Badge>
+          </div>
           <div className={styles.grid}>
             {groupedRadicals[group].map(item => {
               const localizedName = getLocalizedText(item.name, currentLang);
@@ -72,17 +75,17 @@ export const RadicalGrid: FC<RadicalGridProps> = ({ items, onItemClick, onPlayAu
                       }
                     }}
                   />
-                  <div className={styles.character}>
-                    {item.character}
+                  <div className={styles.characterContainer}>
+                    <span className={styles.mainChar}>{item.character}</span>
                     {item.variants && item.variants.length > 0 && (
-                      <span className={styles.variants}> ({item.variants.join(', ')})</span>
+                      <span className={styles.variantText}>({item.variants.join(', ')})</span>
                     )}
                   </div>
-                  <div className={styles.meaning}>
+                  <div className={styles.meaning} title={localizedMeaning}>
                     {localizedMeaning}
                   </div>
-                  <div className={styles.name}>
-                    {localizedName} / {item.name.ja}
+                  <div className={styles.name} title={`${localizedName} / ${item.name.ja}`}>
+                    {localizedName} ({item.name.ja})
                   </div>
                 </div>
               );

@@ -2,15 +2,24 @@
 @use '@styles/mixins' as *;
 
 .root {
-  padding: 0 $spacing-md;
-  max-width: 1200px;
-  margin: 0 auto;
-
-  @include respond-to('md') {
-    padding: 0 $spacing-lg;
-  }
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
 }
 
-.title {
-  margin: $spacing-lg 0;
+.filterBar {
+  display: flex;
+  gap: $spacing-sm;
+  margin-bottom: $spacing-md;
+  flex-shrink: 0;
+}
+
+.searchBox {
+  flex: 1;
+}
+
+.strokeSelect {
+  min-width: 160px;
+  max-width: 220px;
 }

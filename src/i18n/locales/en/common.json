@@ -69,6 +69,14 @@
     "no_lessons": "No lessons available.",
     "learning_modules": "Learning Modules"
   },
+  "radicals_page": {
+    "subtitle": "List of 214 Japanese Kanji radicals.",
+    "all_strokes": "All stroke counts",
+    "filter_stroke": "{{count}} strokes",
+    "no_radicals": "No radicals found",
+    "no_radicals_search": "No radicals match your search query.",
+    "no_radicals_data": "No radical data available."
+  },
   "search": {
     "title": "Search Results",
     "subtitle": "Results for \"{{query}}\""

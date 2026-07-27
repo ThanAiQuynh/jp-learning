@@ -69,6 +69,14 @@
     "no_lessons": "Chưa có bài học nào.",
     "learning_modules": "Học phần"
   },
+  "radicals_page": {
+    "subtitle": "Danh sách 214 bộ thủ Hán tự tiếng Nhật.",
+    "all_strokes": "Tất cả số nét",
+    "filter_stroke": "{{count}} nét",
+    "no_radicals": "Không tìm thấy bộ thủ",
+    "no_radicals_search": "Không có bộ thủ nào khớp với từ khóa tìm kiếm.",
+    "no_radicals_data": "Chưa có dữ liệu bộ thủ."
+  },
   "search": {
     "title": "Kết quả tìm kiếm",
     "subtitle": "Kết quả cho \"{{query}}\""

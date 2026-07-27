@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   gap: $spacing-xl;
+  padding-bottom: $spacing-xl;
 }
 
 .groupSection {
@@ -11,17 +12,25 @@
   flex-direction: column;
 }
 
-.groupTitle {
-  font-size: $font-size-xl;
+.groupHeader {
+  display: flex;
+  align-items: center;
+  gap: $spacing-xs;
   margin-bottom: $spacing-md;
-  color: var(--colorNeutralForeground1);
   border-bottom: 1px solid var(--colorNeutralStroke2);
   padding-bottom: $spacing-xs;
 }
 
+.groupTitle {
+  font-size: $font-size-lg;
+  font-weight: 600;
+  color: var(--colorNeutralForeground1);
+  margin: 0;
+}
+
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
   gap: $spacing-md;
 }
 
@@ -30,55 +39,81 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: $spacing-md;
+  justify-content: flex-start;
+  padding: $spacing-md $spacing-xs $spacing-sm;
   background: var(--colorNeutralBackground1);
   border: 1px solid var(--colorNeutralStroke1);
   border-radius: $border-radius-md;
   cursor: pointer;
+  min-height: 120px;
+  box-sizing: border-box;
   transition: all $transition-fast;
   
   &:hover {
     transform: translateY(-2px);
     box-shadow: var(--shadow4);
     border-color: var(--colorBrandStroke1);
+
+    .audioBtn {
+      opacity: 1;
+    }
   }
 }
 
 .audioBtn {
   position: absolute;
-  top: 4px;
-  right: 4px;
-  opacity: 0.6;
-
-  &:hover {
-    opacity: 1;
-  }
+  top: 2px;
+  right: 2px;
+  opacity: 0.4;
+  z-index: 1;
+  transition: opacity $transition-fast;
 }
 
-.character {
-  font-size: $font-size-4xl;
-  line-height: 1.2;
+.characterContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: $spacing-xs;
   margin-bottom: $spacing-xs;
+}
+
+.mainChar {
+  font-size: $font-size-3xl;
+  font-weight: 700;
+  line-height: 1.1;
   font-family: "Noto Sans JP", sans-serif;
   color: var(--colorNeutralForeground1);
 }
 
-.variants {
-  font-size: $font-size-lg;
+.variantText {
+  font-size: $font-size-xs;
   color: var(--colorNeutralForeground3);
+  margin-top: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 110px;
 }
 
 .meaning {
-  font-size: $font-size-sm;
-  color: var(--colorNeutralForeground2);
+  font-size: $font-size-xs;
+  font-weight: 600;
+  color: var(--colorNeutralForeground1);
   text-align: center;
-  margin-bottom: $spacing-xs;
+  margin-bottom: 2px;
   line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .name {
-  font-size: $font-size-xs;
+  font-size: 11px;
   color: var(--colorNeutralForeground3);
   text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 115px;
 }

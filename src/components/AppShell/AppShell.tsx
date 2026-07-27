@@ -11,6 +11,7 @@ import {
   MenuItem,
   MenuPopover,
   Tooltip,
+  Badge,
 } from '@fluentui/react-components';
 import { 
   HomeRegular, HomeFilled, 
@@ -18,6 +19,7 @@ import {
   BookRegular, BookFilled,
   BoardRegular, BoardFilled,
   LocalLanguage24Regular,
+  Checkmark24Regular,
   ContactCardRegular, ContactCardFilled,
   WeatherMoonRegular, WeatherSunnyRegular,
   DocumentTextRegular, DocumentTextFilled,
@@ -132,12 +134,30 @@ export const AppShell: FC<AppShellProps> = ({ children }) => {
 
             <Menu>
               <MenuTrigger disableButtonEnhancement>
-                <Button icon={<LocalLanguage24Regular />} appearance="transparent" />
+                <Button 
+                  icon={<LocalLanguage24Regular />} 
+                  appearance="subtle"
+                  aria-label="Select language"
+                >
+                  <Badge color="brand" appearance="filled" size="small" style={{ marginLeft: '2px' }}>
+                    {i18n.language?.toUpperCase().startsWith('EN') ? 'EN' : 'VI'}
+                  </Badge>
+                </Button>
               </MenuTrigger>
               <MenuPopover>
                 <MenuList>
-                  <MenuItem onClick={() => changeLanguage(Language.VI)}>Tiếng Việt</MenuItem>
-                  <MenuItem onClick={() => changeLanguage(Language.EN)}>English</MenuItem>
+                  <MenuItem 
+                    icon={!i18n.language?.startsWith('en') ? <Checkmark24Regular /> : undefined}
+                    onClick={() => changeLanguage(Language.VI)}
+                  >
+                    Tiếng Việt (VI)
+                  </MenuItem>
+                  <MenuItem 
+                    icon={i18n.language?.startsWith('en') ? <Checkmark24Regular /> : undefined}
+                    onClick={() => changeLanguage(Language.EN)}
+                  >
+                    English (EN)
+                  </MenuItem>
                 </MenuList>
               </MenuPopover>
             </Menu>
