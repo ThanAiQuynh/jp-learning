@@ -1,19 +1,93 @@
-import { FC } from 'react';
+import { FC, useState } from 'react';
 import { Radical } from '@types';
 import { useTranslation } from 'react-i18next';
 import { 
   Button, 
   Badge,
-  Menu,
-  MenuTrigger,
-  MenuList,
-  MenuItem,
-  MenuPopover,
+  Popover,
+  PopoverTrigger,
+  PopoverSurface,
 } from '@fluentui/react-components';
 import { Speaker2Regular } from '@fluentui/react-icons';
 import { playJapaneseSpeech } from '@utils/audio';
 import { getLocalizedText, getNormalizedLanguage } from '@utils/i18n';
 import styles from './RadicalGrid.module.scss';
+
+export interface RadicalAudioButtonProps {
+  item: Radical;
+  className?: string;
+  onPlayAudio?: (e: React.MouseEvent, item: Radical) => void;
+}
+
+export const RadicalAudioButton: FC<RadicalAudioButtonProps> = ({ item, className, onPlayAudio }) => {
+  const { t } = useTranslation('common');
+  const [open, setOpen] = useState(false);
+
+  const readings = (item.name.ja || item.character)
+    .split('/')
+    .map(r => r.trim())
+    .filter(Boolean);
+
+  if (readings.length <= 1) {
+    return (
+      <Button
+        icon={<Speaker2Regular />}
+        appearance="transparent"
+        size="small"
+        className={className}
+        aria-label={t('common:audio.play_radical', { text: readings[0] || item.character })}
+        onClick={(e) => {
+          e.stopPropagation();
+          if (onPlayAudio) {
+            onPlayAudio(e, item);
+          } else {
+            playJapaneseSpeech(readings[0] || item.character);
+          }
+        }}
+      />
+    );
+  }
+
+  return (
+    <Popover 
+      open={open} 
+      onOpenChange={(_, data) => setOpen(data.open)}
+      withArrow 
+      positioning="above"
+    >
+      <PopoverTrigger disableButtonEnhancement>
+        <Button
+          icon={<Speaker2Regular />}
+          appearance="transparent"
+          size="small"
+          className={className}
+          aria-label={t('common:audio.play_radical', { text: item.name.ja })}
+          onClick={(e) => e.stopPropagation()}
+        />
+      </PopoverTrigger>
+      <PopoverSurface 
+        onClick={(e) => e.stopPropagation()} 
+        style={{ padding: '6px', display: 'flex', flexDirection: 'column', gap: '4px', minWidth: '130px' }}
+      >
+        {readings.map((reading, idx) => (
+          <Button
+            key={idx}
+            icon={<Speaker2Regular />}
+            appearance="subtle"
+            size="small"
+            style={{ justifyContent: 'flex-start', width: '100%' }}
+            onClick={(e) => {
+              e.stopPropagation();
+              playJapaneseSpeech(reading);
+            }}
+          >
+            {reading}
+          </Button>
+        ))}
+      </PopoverSurface>
+    </Popover>
+  );
+};
 
 export interface RadicalGridProps {
   items: Radical[];
@@ -22,7 +96,7 @@ export interface RadicalGridProps {
 }
 
 export const RadicalGrid: FC<RadicalGridProps> = ({ items, onItemClick, onPlayAudio }) => {
-  const { t, i18n } = useTranslation(['common', 'kanji']);
+  const { i18n } = useTranslation(['common', 'kanji']);
   const currentLang = i18n.language;
   const isVi = getNormalizedLanguage(currentLang) === 'vi';
 
@@ -50,64 +124,6 @@ export const RadicalGrid: FC<RadicalGridProps> = ({ items, onItemClick, onPlayAu
     return group;
   };
 
-  const renderAudioButton = (item: Radical) => {
-    const readings = (item.name.ja || item.character)
-      .split('/')
-      .map(r => r.trim())
-      .filter(Boolean);
-
-    if (readings.length <= 1) {
-      return (
-        <Button
-          icon={<Speaker2Regular />}
-          appearance="transparent"
-          size="small"
-          className={styles.audioBtn}
-          aria-label={t('common:audio.play_radical', { text: readings[0] || item.character })}
-          onClick={(e) => {
-            e.stopPropagation();
-            if (onPlayAudio) {
-              onPlayAudio(e, item);
-            } else {
-              playJapaneseSpeech(readings[0] || item.character);
-            }
-          }}
-        />
-      );
-    }
-
-    return (
-      <Menu>
-        <MenuTrigger disableButtonEnhancement>
-          <Button
-            icon={<Speaker2Regular />}
-            appearance="transparent"
-            size="small"
-            className={styles.audioBtn}
-            aria-label={t('common:audio.play_radical', { text: item.name.ja })}
-            onClick={(e) => e.stopPropagation()}
-          />
-        </MenuTrigger>
-        <MenuPopover onClick={(e) => e.stopPropagation()}>
-          <MenuList style={{ minWidth: '140px' }}>
-            {readings.map((reading, idx) => (
-              <MenuItem 
-                key={idx}
-                icon={<Speaker2Regular />}
-                onClick={(e) => {
-                  e.stopPropagation();
-                  playJapaneseSpeech(reading);
-                }}
-              >
-                {reading}
-              </MenuItem>
-            ))}
-          </MenuList>
-        </MenuPopover>
-      </Menu>
-    );
-  };
-
   return (
     <div className={styles.root}>
       {sortedGroups.map(group => (
@@ -126,7 +142,11 @@ export const RadicalGrid: FC<RadicalGridProps> = ({ items, onItemClick, onPlayAu
                   className={styles.card}
                   onClick={() => onItemClick?.(item)}
                 >
-                  {renderAudioButton(item)}
+                  <RadicalAudioButton 
+                    item={item} 
+                    className={styles.audioBtn} 
+                    onPlayAudio={onPlayAudio} 
+                  />
                   <div className={styles.characterContainer}>
                     <span className={styles.mainChar}>{item.character}</span>
                     {item.variants && item.variants.length > 0 && (

@@ -1,6 +1,6 @@
 import { FC, useEffect, useState } from 'react';
 import { KanjiItem, Radical } from '@types';
-import { Badge, Button, Menu, MenuTrigger, MenuList, MenuItem, MenuPopover } from '@fluentui/react-components';
+import { Badge, Button } from '@fluentui/react-components';
 import { TextSortAscending24Regular, SearchSquare24Regular, Lightbulb24Regular, Speaker2Regular } from '@fluentui/react-icons';
 import { JLPTBadge } from '@components/JLPTBadge';
 import { useTranslation } from 'react-i18next';
@@ -10,6 +10,7 @@ import { useAppSelector } from '@store/hooks';
 import { JapaneseText } from '@components/JapaneseText';
 import { playJapaneseSpeech } from '@utils/audio';
 import { getLocalizedText } from '@utils/i18n';
+import { RadicalAudioButton } from '@features/radicals/components/RadicalGrid/RadicalGrid';
 import styles from './KanjiDetail.module.scss';
 
 export interface KanjiDetailProps {
@@ -117,7 +118,7 @@ export const KanjiDetail: FC<KanjiDetailProps> = ({ isOpen, onClose, item }) => 
                         key={i} 
                         color="success" 
                         className={styles.clickableBadge}
-                        onClick={() => playJapaneseSpeech(r.replace(/[・.-]/g, ''))}
+                        onClick={() => playJapaneseSpeech(r.replace('-', ''))}
                         title={t('common:audio.listen_reading', { text: r })}
                       >
                         {r} <Speaker2Regular style={{ fontSize: '12px', marginLeft: '4px' }} />
@@ -169,45 +170,7 @@ export const KanjiDetail: FC<KanjiDetailProps> = ({ isOpen, onClose, item }) => 
                           )}
                         </div>
                       </div>
-                      {(() => {
-                        const readings = (r.name.ja || r.character).split('/').map(x => x.trim()).filter(Boolean);
-                        if (readings.length <= 1) {
-                          return (
-                            <Button 
-                              icon={<Speaker2Regular />} 
-                              appearance="transparent" 
-                              size="small"
-                              onClick={() => playJapaneseSpeech(readings[0] || r.character)}
-                              aria-label={t('common:audio.play_radical', { text: readings[0] || r.character })}
-                            />
-                          );
-                        }
-                        return (
-                          <Menu>
-                            <MenuTrigger disableButtonEnhancement>
-                              <Button 
-                                icon={<Speaker2Regular />} 
-                                appearance="transparent" 
-                                size="small"
-                                aria-label={t('common:audio.play_radical', { text: r.name.ja })}
-                              />
-                            </MenuTrigger>
-                            <MenuPopover>
-                              <MenuList style={{ minWidth: '140px' }}>
-                                {readings.map((rd, idx) => (
-                                  <MenuItem 
-                                    key={idx}
-                                    icon={<Speaker2Regular />}
-                                    onClick={() => playJapaneseSpeech(rd)}
-                                  >
-                                    {rd}
-                                  </MenuItem>
-                                ))}
-                              </MenuList>
-                            </MenuPopover>
-                          </Menu>
-                        );
-                      })()}
+                      <RadicalAudioButton item={r} />
                     </div>
                   );
                 })}
