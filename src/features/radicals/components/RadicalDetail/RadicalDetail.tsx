@@ -29,7 +29,7 @@ export const RadicalDetail: FC<RadicalDetailProps> = ({ isOpen, onClose, item })
           {/* Hero Section */}
           <div className={styles.hero}>
             <div className={styles.charBoxWrapper}>
-              <div className={styles.charBox}>
+              <div className={styles.charBox} lang="ja">
                 {item.character}
               </div>
               <RadicalAudioButton item={item} />
@@ -37,19 +37,19 @@ export const RadicalDetail: FC<RadicalDetailProps> = ({ isOpen, onClose, item })
             <div className={styles.info}>
               <div className={styles.titleGroup}>
                 <span className={styles.name}>{localizedName}</span>
-                {item.name?.ja && <span className={styles.jaName}>({item.name.ja})</span>}
+                {item.name?.ja && <span className={styles.jaName} lang="ja">({item.name.ja})</span>}
               </div>
               <div className={styles.meaning}>{localizedMeaning}</div>
               
               <div className={styles.badges}>
-                <Badge color="brand" appearance="tint" size="large">
+                <Badge color="brand" appearance="filled" size="large">
                   #{item.number}
                 </Badge>
-                <Badge color="informative" appearance="outline" size="large">
+                <Badge color="subtle" appearance="tint" size="large">
                   {t('kanji:detail.stroke_count_short', { count: item.strokeCount })}
                 </Badge>
                 {item.position && (
-                  <Badge color="warning" appearance="tint" size="large">
+                  <Badge color="informative" appearance="tint" size="large">
                     {t(`kanji:detail.position.${item.position}`, { defaultValue: item.position })}
                   </Badge>
                 )}
@@ -61,12 +61,12 @@ export const RadicalDetail: FC<RadicalDetailProps> = ({ isOpen, onClose, item })
           {item.variants && item.variants.length > 0 && (
             <div className={styles.section}>
               <div className={styles.sectionTitle}>
-                <DocumentText24Regular />
-                Biến thể
+                <DocumentText24Regular className={styles.sectionIcon} />
+                {t('kanji:detail.variants_title', { defaultValue: 'Biến thể' })}
               </div>
               <div className={styles.variantsBox}>
                 {item.variants.map((v, idx) => (
-                  <Badge key={idx} color="informative" appearance="filled" size="extra-large">
+                  <Badge key={idx} color="subtle" appearance="tint" size="extra-large" lang="ja">
                     {v}
                   </Badge>
                 ))}
@@ -78,8 +78,8 @@ export const RadicalDetail: FC<RadicalDetailProps> = ({ isOpen, onClose, item })
           {item.kanjiList && item.kanjiList.length > 0 && (
             <div className={styles.section}>
               <div className={styles.sectionTitle}>
-                <SearchSquare24Regular />
-                Kanji chứa bộ thủ này ({item.kanjiList.length})
+                <SearchSquare24Regular className={styles.sectionIcon} />
+                {t('kanji:detail.containing_kanji', { count: item.kanjiList.length, defaultValue: `Kanji chứa bộ thủ này (${item.kanjiList.length})` })}
               </div>
               <div className={styles.kanjiGrid}>
                 {item.kanjiList.map((kanji, idx) => (
@@ -89,7 +89,9 @@ export const RadicalDetail: FC<RadicalDetailProps> = ({ isOpen, onClose, item })
                     size="large"
                     className={styles.kanjiBtn}
                     onClick={() => playJapaneseSpeech(kanji)}
-                    title={`Nghe: ${kanji}`}
+                    aria-label={t('common:audio.listen_reading', { text: kanji, defaultValue: `Nghe ${kanji}` })}
+                    title={t('common:audio.listen_reading', { text: kanji, defaultValue: `Nghe ${kanji}` })}
+                    lang="ja"
                   >
                     {kanji}
                   </Button>

@@ -1,55 +1,90 @@
 @use '@styles/variables' as *;
 
 .root {
-  padding: $spacing-lg;
+  padding: $spacing-md;
+
+  @media (min-width: $breakpoint-sm) {
+    padding: $spacing-lg;
+  }
 }
 
 .hero {
   display: flex;
-  align-items: center;
-  gap: $spacing-xl;
-  margin-bottom: $spacing-xl;
-  padding-bottom: $spacing-xl;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: $spacing-md;
+  margin-bottom: $spacing-lg;
+  padding-bottom: $spacing-lg;
   border-bottom: 1px solid var(--colorNeutralStroke1);
+
+  @media (min-width: $breakpoint-sm) {
+    flex-direction: row;
+    align-items: center;
+    gap: $spacing-xl;
+    margin-bottom: $spacing-xl;
+    padding-bottom: $spacing-xl;
+  }
 }
 
 .charBoxWrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  gap: $spacing-xs;
+  gap: $spacing-md;
+
+  @media (min-width: $breakpoint-sm) {
+    flex-direction: column;
+    gap: $spacing-xs;
+  }
 }
 
 .charBox {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 110px;
-  height: 110px;
-  border: 2px dashed var(--colorNeutralStroke2);
+  width: 88px;
+  height: 88px;
+  border: 1px solid var(--colorNeutralStroke1);
   border-radius: $border-radius-md;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   font-family: "Noto Sans JP", sans-serif;
   color: var(--colorNeutralForeground1);
   background: var(--colorNeutralBackground2);
+
+  @media (min-width: $breakpoint-sm) {
+    width: 110px;
+    height: 110px;
+    font-size: 4.5rem;
+  }
 }
 
 .info {
   display: flex;
   flex-direction: column;
   gap: $spacing-xs;
+  min-width: 0;
+  width: 100%;
+  flex: 1;
 }
 
 .titleGroup {
   display: flex;
   align-items: baseline;
+  flex-wrap: wrap;
   gap: $spacing-xs;
+  min-width: 0;
 }
 
 .name {
-  font-size: $font-size-2xl;
+  font-size: $font-size-xl;
   font-weight: 700;
   color: var(--colorNeutralForeground1);
+  word-break: break-word;
+  overflow-wrap: break-word;
+
+  @media (min-width: $breakpoint-sm) {
+    font-size: $font-size-2xl;
+  }
 }
 
 .jaName {
@@ -58,9 +93,15 @@
 }
 
 .meaning {
-  font-size: $font-size-lg;
+  font-size: $font-size-md;
   color: var(--colorNeutralForeground2);
   margin-bottom: $spacing-xs;
+  word-break: break-word;
+  overflow-wrap: break-word;
+
+  @media (min-width: $breakpoint-sm) {
+    font-size: $font-size-lg;
+  }
 }
 
 .badges {
@@ -70,33 +111,81 @@
 }
 
 .section {
-  margin-bottom: $spacing-xl;
+  margin-bottom: $spacing-lg;
+
+  @media (min-width: $breakpoint-sm) {
+    margin-bottom: $spacing-xl;
+  }
 }
 
 .sectionTitle {
   font-weight: 600;
-  margin-bottom: $spacing-md;
+  margin-bottom: $spacing-sm;
   color: var(--colorNeutralForeground1);
   display: flex;
   align-items: center;
   gap: $spacing-sm;
-  font-size: $font-size-lg;
+  font-size: $font-size-md;
+
+  @media (min-width: $breakpoint-sm) {
+    font-size: $font-size-lg;
+    margin-bottom: $spacing-md;
+  }
+}
+
+.sectionIcon {
+  color: var(--colorBrandForeground1);
+  flex-shrink: 0;
 }
 
 .variantsBox {
   display: flex;
+  flex-wrap: wrap;
   gap: $spacing-sm;
 }
 
 .kanjiGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(54px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(48px, 1fr));
   gap: $spacing-sm;
+
+  @media (min-width: $breakpoint-sm) {
+    grid-template-columns: repeat(auto-fill, minmax(54px, 1fr));
+  }
 }
 
 .kanjiBtn {
-  font-size: $font-size-xl;
+  font-size: $font-size-lg;
   font-family: "Noto Sans JP", sans-serif;
   min-width: 0;
-  height: 52px;
+  height: 48px;
+  padding: 0;
+  transition: transform $transition-fast, border-color $transition-fast, box-shadow $transition-fast;
+
+  &:hover {
+    border-color: var(--colorBrandStroke1);
+    transform: translateY(-1px);
+    box-shadow: $shadow-sm;
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+
+  @media (min-width: $breakpoint-sm) {
+    font-size: $font-size-xl;
+    height: 52px;
+  }
+}
+
+@media (pointer: coarse) {
+  .kanjiBtn {
+    min-height: $touch-target-min;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .kanjiBtn {
+    transition: none;
+    transform: none !important;
+  }
 }

@@ -14,6 +14,8 @@
     "primary_radical": "Bộ chính",
     "stroke_count_short": "{{count}} nét",
     "variants": "Biến thể: {{variants}}",
+    "variants_title": "Biến thể",
+    "containing_kanji": "Kanji chứa bộ thủ này ({{count}})",
     "position": {
       "hen": "Bên trái",
       "tsukuri": "Bên phải",
